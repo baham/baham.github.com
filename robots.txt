@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /404.html
+Disallow: /404
+
+Sitemap: http://baham.co/sitemap.xml 

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ChromiumOS | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/chromiumos/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2014-05-04T14:51:00+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[试用ChromiumOS]]></title>
+    <link href="http://baham.co/04_17_shi-yong-chromiumos.html"/>
+    <updated>2013-04-17T16:54:00+00:00</updated>
+    <id>http://baham.co/shi-yong-chromiumos</id>
+    <content type="html"><![CDATA[<p>对于Chromium OS，是一直只闻其声，而为见其形。
+今天，下了一个编译配置好的hexxeh ChromiumOS。</p>
+
+<p>总体感觉不错，云端的操作系统，提供常用谷歌服务。Linux内核，轻量系统速度飞快。</p>
+
+<p>开机刚开始的配置界面，选择语言、键盘……（支持中文）。
+<img src="/images/chrstart.png" alt="Chromium OS start" /></p>
+
+<p> <!--more--></p>
+
+<p> 谷歌帐号登录界面。
+ <img src="/images/chlogin.png" alt="Chromium login" /></p>
+
+<p> 安装成功后。
+ <img src="/images/chsearch.png" alt="Chromium OS" /></p>
+
+<p> <a href="http://chromeos.hexxeh.net/">原站点</a>
+ <a href="http://chromeos.hexxeh.net/download/vanilla?version=4008.0.2013_04_16_1751-re22afc79&amp;type=virtualbox">Vbox虚拟机下载</a></p>
+]]></content>
+  </entry>
+  
+</feed>

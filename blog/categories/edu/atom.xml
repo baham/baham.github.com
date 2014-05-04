@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: EDU | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/edu/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2014-05-04T14:51:00+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[大师风范]]></title>
+    <link href="http://baham.co/06_25_da-shi-feng-fan.html"/>
+    <updated>2013-06-25T02:08:00+00:00</updated>
+    <id>http://baham.co/da-shi-feng-fan</id>
+    <content type="html"><![CDATA[<p>今天，参加了美国犹他大学 Melor教授的演讲，全名记不清了，演讲题目也记不清了，总之是关于浮选和X射线在选矿中的应用，听得不是很认真，抱歉。</p>
+
+<p>不过，从演讲中却得到了些许感悟。</p>
+
+<p>1 教授的裤子，和比尔盖茨的一样，那种极宽大的裤子，舒服但不修型那种;</p>
+
+<p>2 演讲中间的提问环节，教授的学生帮助听众翻译，Melor教授索性坐在了讲台上，毕竟年纪大了，站得久了会累，虽然很多人有吃惊的目光，但Melor教授却一点都不以为意;</p>
+
+<p>3 第一个主题讲完之后，提问之前，Melor教授对着后排的听众大声说到：“Hey Wake up!"</p>
+
+<p>由上，我得出了一点感悟：</p>
+
+<p>学术自由，对于高等教育极其重要;</p>
+
+<p>学术成就，和自己衣着无关;</p>
+
+<p>人人都需要有自己的个性，自己的爱好，而且不受外界影响。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[新交规经验分享]]></title>
+    <link href="http://baham.co/06_02_xin-jiao-gui-jing-yan-fen-xiang.html"/>
+    <updated>2013-06-02T18:29:00+00:00</updated>
+    <id>http://baham.co/xin-jiao-gui-jing-yan-fen-xiang</id>
+    <content type="html"><![CDATA[<p>2013年，新交规执行以来，对其吐槽此起彼伏，尤其是考试，难度提高岂知一点半点。</p>
+
+<ol>
+<li>上车绑好安全带并调好座椅;</li>
+<li>转向灯在转向时，一定不要忘;</li>
+<li>入库记住要学会调车;</li>
+<li>善于使用后视镜;</li>
+<li>心态平和，不要着急;</li>
+<li>保持信心。</li>
+</ol>
+
+
+<p>以上仅是个人经验分享，祝考试通过。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[跳汰过程物料分层经过]]></title>
+    <link href="http://baham.co/01_03_782.html"/>
+    <updated>2013-01-03T16:25:00+00:00</updated>
+    <id>http://baham.co/782</id>
+    <content type="html"><![CDATA[<p>被选物料给入跳汰机内落到筛板上，便形成一个密集的物料展。在给料的同时，从跳汰机下部周期性的给入上下交变的水流，垂直变速水流透过筛孔进入床层，物料就是在这种水流中经受跳汰的分选过程。</p>
+
+<p>1）当水流上升时，床层被冲起，呈现松散及悬浮的状态。此时，床层中的矿粒，按其自身的特性（密度、粒度和形状），彼此作相对运动，开始进行分层。</p>
+
+<p>2）在水流已停止上升，但还没有转为下降水流之前，由于惯性力的作用，矿粒仍在运动，床层继续松散、分层。</p>
+
+<p>3）水流转为下降，床层逐渐紧密，但分层仍在继续。当全部矿粒落回筛面，它们彼此之间已丧失相对运动的可能，则分层作用基本停止。此时，只有那些密度较高、粒度很细的矿粒，穿过床层中大块物料的间隙，仍在向下运动。</p>
+
+<p>4）下降水流结束，床层完全紧密，分层便暂告终止。在一个跳汰周期内，床层经历了从紧密到松散分层再紧密的过程，颗粒受到了分选作用。只有经过多个跳汰周期之后，分层才逐趋完善。最后，高密度矿粒集中在床层下部，低密度矿粒则聚集在上层。然后，从跳汰机分别排放出来，从而获得了两种密度不同，即质量不同的产物。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[想学脚本-就学python，想学python-必看这20本免费python电子书]]></title>
+    <link href="http://baham.co/12_30_771.html"/>
+    <updated>2012-12-30T23:49:05+00:00</updated>
+    <id>http://baham.co/771</id>
+    <content type="html"><![CDATA[<p>Think Python（貌似很多think系列都很贵）</p>
+
+<p>Invent Your Own Computer Games with Python</p>
+
+<p>Snake Wrangling for Kids</p>
+
+<p>Learn Python the Hard Way, 2nd Edition</p>
+
+<p>Natural Language Processing with Python</p>
+
+<p>Building Skills in Python</p>
+
+<p>……</p>
+
+<!-- more -->
+
+
+<p>原文地址  <a href="http://www.linuxlinks.com/article/20121228122411139/20oftheBestFreePythonBooks-Part2.html">http://www.linuxlinks.com/article/20121228122411139/20oftheBestFreePythonBooks-Part2.html</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[什么是泥炭化作用？]]></title>
+    <link href="http://baham.co/12_10_748.html"/>
+    <updated>2012-12-10T23:37:20+00:00</updated>
+    <id>http://baham.co/748</id>
+    <content type="html"><![CDATA[<p>泥炭化作用定义：植物物质经受生物化学分解及合成的复杂的过程且最终形成泥炭的作用</p>
+
+<p>条件:发生于覆水地区的水位以下，即与大气局部沟通的状态下。泥炭化作用的直接产物除了泥炭以外，分解出的气态产物有二氧化碳、水、沼气和少量氮。</p>
+]]></content>
+  </entry>
+  
+</feed>

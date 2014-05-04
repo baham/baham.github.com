@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2014-05-04T14:51:00+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Fix a bug to add an original link]]></title>
+    <link href="http://baham.co/05_01_21-24-octopress-orinal-link-bug-fix.html"/>
+    <updated>2014-05-01T13:24:00+00:00</updated>
+    <id>http://baham.co/21-24-octopress-orinal-link-bug-fix</id>
+    <content type="html"><![CDATA[<p>When you use the original post footer plugin, some bug will happen, I do not know the bug&rsquo;s detail, but I still find a way to fix it.</p>
+
+<p>Cause when the bug happend, this will show:</p>
+
+<p><img src="/images/octopress/plugin-bug.jpg" alt="post afer footer" /></p>
+
+<p>The code will show, when the article&rsquo;s end is a link or a picture.</p>
+
+<p>Why does this happen?</p>
+
+<!--more-->
+
+
+<p>  It is the crash of language&rsquo;s syntax. When you use the octopress to <code>generate</code> the posts, ruby&rsquo;s script run, and some html&rsquo;s commna code is not a common code. And the commit&rsquo;s symbol is different too.</p>
+
+<p>So I modify this plugin to avoid this bug.</p>
+
+<p>I just take place of <code>%Q{}</code> with <code>&lt;&lt;_here2start _here2start</code></p>
+
+<p>And now, the code after the article will not show, and just show the normal content.</p>
+
+<p>Like the below. And the source is here:  <a href="/04_29_octopress-seo.html">SEO tool to octopress</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Some Octopress tools: SEO, add the original link]]></title>
+    <link href="http://baham.co/04_29_octopress-seo.html"/>
+    <updated>2014-04-29T09:02:00+00:00</updated>
+    <id>http://baham.co/octopress-seo</id>
+    <content type="html"><![CDATA[<p>Octopress is a very cool blog system, you can generae posts by jeklly.</p>
+
+<p>And push your site to github.</p>
+
+<p>Since I found my blog get a pr 2, I always think how to SEO my blog. And thkans to Google, I found some tools.</p>
+
+<h2>Add Original Link after the Post</h2>
+
+<p>Mr Sunshine write an article about how to add space between Chinese Word and English Word.  Inspired by this, Kevin write a ruby plugin to add the <em>original link</em> after the octopress post. It is awesome.</p>
+
+<p>And Tiny change the plugin to add the keyword after the <em>octopress post</em> also. So I just read the source code and add edit it for myself.</p>
+
+<p>These are the source code for <em>octopress-add-original-link.rb</em></p>
+
+<!--more-->
+
+
+<p>``` ruby octopress-add-original-link  <a href="https://github.com/minghub/octopress-add-original-link/raw/master/octopress-add-original-link.rb">https://github.com/minghub/octopress-add-original-link/raw/master/octopress-add-original-link.rb</a></p>
+
+<h1>To change this license header, choose License Headers in Project Properties.</h1>
+
+<h1>To change this template file, choose Tools | Templates</h1>
+
+<h1>and open the template in the editor.</h1>
+
+<p>require &lsquo;./plugins/post_filters&rsquo;</p>
+
+<p>module AppendFooterFilter
+  def append(post)</p>
+
+<pre><code> author = post.site.config['author']
+ url = post.site.config['url']
+ pre = post.site.config['original_url_pre']
+ license = post.site.config['license_url']
+ lic_name = post.site.config['license_name']
+ post.content +  " "+ &lt;&lt;_here2start
+</code></pre>
+
+<p class='post-footer' style="font-size:70%;" >
+<br/>
+<br/>
+<br/>
+#{pre or "The Original Link:"}
+<a href='#{post.full_url}' rel="bookmark">#{post.full_url}</a><br/>
+If you want to reprint it, please do under the  <a href=#{license} >#{lic_name}</a>.    
+</p>
+
+
+<p>_here2start</p>
+
+<pre><code>        #&amp;nbsp;Posted at &lt;a href='#{url}'&gt;#{url}&lt;/a&gt;&lt;br/&gt;
+        #&amp;nbsp;Written by &lt;a href='#{url}'&gt;#{author}&lt;/a&gt;
+        #&amp;nbsp;Keywords : 
+</code></pre>
+
+<p>  end
+end</p>
+
+<p>module Jekyll
+  class AppendFooter &lt; PostFilter</p>
+
+<pre><code>include AppendFooterFilter
+def pre_render(post)
+  post.content = append(post) if post.is_post?
+end
+</code></pre>
+
+<p>  end
+end</p>
+
+<p>Liquid::Template.register_filter AppendFooterFilter
+```
+The file is here&mdash;<a href="https://github.com/minghub/octopress-add-original-link/raw/master/octopress-add-original-link.rb">octopress-add-original-link.rb</a></p>
+
+<p>And after I modified, It is only can show the post&rsquo;s original link.</p>
+
+<p>Before you use it, you need to edit your <code>_config.yml</code>, and add these.</p>
+
+<pre><code>original_url_pre: "The Original Link: "
+license_url: /license
+license_name: "CC BY-NC-SA 4.0"
+</code></pre>
+
+<p>The contents after <code>:</code> , you need edit them by yourself for your site.</p>
+
+<h2>Add Keywords and Description for the Post and the Page</h2>
+
+<p>It will look like this:</p>
+
+<p><img src="/images/baham/keywords.jpg" alt="keyword" /></p>
+
+<p>And what you need to do is just add <code>post.puts "keywords: "</code>  <code>post.puts "description: "</code> in your <code>Rakefile</code></p>
+
+<p>Like this</p>
+
+<pre><code>
+  puts "Creating new post: #{filename}"
+  open(filename, 'w') do |post|
+    post.puts "---"
+    post.puts "layout: post"
+    post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+    post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+    post.puts "comments: true"
+    post.puts "categories: "
+    post.puts "keywords: "
+    post.puts "description: "
+    post.puts "---"
+</code></pre>
+
+
+<p>Maybe you will need <code>CTRL+F</code>to find the <code>post.puts</code></p>
+
+<p>And it is the same as adding the <strong>keywords and description</strong> to the <code>page</code> in octopress.</p>
+
+<h2>Add the Keywords And Description to The Whole Octopress Site</h2>
+
+<p>It is more easy, just add</p>
+
+<pre><code>description: "Description for the website"
+keywords: "keywords, for, the, website"
+</code></pre>
+
+<p>in your octopress&rsquo;s <code>_config.yml</code> file, and modify the <code>source/_includes/head.html</code> after the author meta like this:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description.rb)</span> <a href='/files/code/add_keywords_and_description.rb'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'>	<span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">site</span><span class="o">.</span><span class="n">description</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
+</span><span class='line'>	<span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
+</span><span class='line'><span class="sr">	{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif site.keywords %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
+</span><span class='line'><span class="sr">	&lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>After the modifying, when you check the <code>keywords</code> and <code>Description</code>, they will show what you add in <code>_config.yml</code></p>
+
+<p><strong>I think you will like it, my octopressers.</strong></p>
+
+<p>Reference Articles:</p>
+
+<p><a href="http://codemacro.com/2012/07/26/post-footer-plugin-for-octopress/">Kevin Lynx&rsquo;s Blog</a></p>
+
+<p><a href="http://blog.tinyxd.me/blog/2013/01/16/add-article-info-footer/">Tiny</a></p>
+
+<p><a href="http://xit0.org/2013/05/seo-for-octopress-websites/">Irshad Pananilath</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress Easypost Tool]]></title>
+    <link href="http://baham.co/03_10_octopress-easypost-tool.html"/>
+    <updated>2014-03-10T07:16:00+00:00</updated>
+    <id>http://baham.co/octopress-easypost-tool</id>
+    <content type="html"><![CDATA[<p>When using octopress to write articles.
+You need run commands like this.
+1. rake new_post[&lsquo;name&rsquo;]     //to post an article
+2. rake generate        //to create the html files
+3. rake deploy      //to push your articles</p>
+
+<p>When I use Ubuntu 12.04, even I need add <code>bundle exec</code> to fix the gem version problem.</p>
+
+<p>Cause I am in China, to fix the TimeZone problem, I need to add <code>TZ=CCT</code></p>
+
+<p>So before you write your article, you have already write <code>TZ=CCT bundle exec rake new_post......</code></p>
+
+<p>And when change my os to <strong>Ubunt Gnome</strong>, I found an article about using octopress easily.</p>
+
+<!--more-->
+
+
+<p>Here is it.  An Chinese coder&rsquo;s <a href="http://my.oschina.net/u/160375/blog/160342">article</a> on oschina blog.</p>
+
+<p>This man write an shell script to write octopress articles more easily.</p>
+
+<p>I found it is really useful.</p>
+
+<p>Here is the code.</p>
+
+<pre><code>
+#!/bin/sh
+root=/my/blog/path
+scriptName=`basename $0`
+cd $root
+case $1 in
+    'blog')
+        name=`date +"%H-%M-%S"`
+        if [[ $2 ]]; then
+            name=`echo $2|sed 's/ /-/g'`
+        fi
+        path=`rake new_post[$name]|awk -F":" '{print $2}'`
+        vi $path
+        ;;
+    'page')
+        if [[ ! $2 ]]; then
+            echo 'need page name'
+            exit
+        fi
+        name=`echo $2|sed 's/ /-/g'`
+        echo $name
+        path=`rake new_page[$name]|awk -F":" '{print $2}'`
+        vi $path
+        ;;
+    'view')
+        rake preview
+        ;;
+    'publish')
+        rake gen_deploy
+        ;;
+    'build')
+        rake clean
+        rake generate
+        ;;
+    'open')
+        open $root
+        ;;
+    'edit')
+        vi $root
+        ;;
+    *)
+        echo "usage: $scriptName [blog|page|view|publish|build|open|edit]"
+        exit 1
+        ;;
+esac
+</code></pre>
+
+
+<p>Unfortunately, I found a bug when you write an article with article name.</p>
+
+<p>It showed <code>not found [[</code> or somethin \g like this.</p>
+
+<p>And this shell use <em>blog page build &hellip;</em> comands, it is more difficult than <strong>new_post new_page generate</strong></p>
+
+<p>So I changed the commands name to <code>post page preview deploy generate open edit</code></p>
+
+<p>And add 2 commands <code>gen_pre gen_dep</code></p>
+
+<p>And change generate to generate not <code>gen_deploy</code></p>
+
+<p>And this is <a href="https://github.com/minghub/octopress-easy-post-tool.git">github link</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress使用Disqus留言系统]]></title>
+    <link href="http://baham.co/01_16_octopressshi-yong-disqusliu-yan-xi-tong.html"/>
+    <updated>2013-01-16T13:10:00+00:00</updated>
+    <id>http://baham.co/octopressshi-yong-disqusliu-yan-xi-tong</id>
+    <content type="html"><![CDATA[<p>Octopress没有默认的留言系统，不过，可以使用Disqus。</p>
+
+<p>开启也Disqus留言系统也很简单，</p>
+
+<p>开启也Disqus留言系统也很简单，</p>
+
+<p>首先，需要一个Disqus帐号，<a href="http://disqus.com">注册地址</a>。Disqus功能强大，不仅提供独立的留言系统，还可以显示相关文章。如果你开启，相关文章的广告功能，
+甚至可以通过点击量赚钱。</p>
+
+<p>其次，在_config.yml文件中开启Disqus留言系统</p>
+
+<p>如下：</p>
+
+<p><img src="/images/disqus_%E8%AE%BE%E7%BD%AE.png" title="Disqus" alt="Disqus设置" /></p>
+
+<p>填入你的ID即可。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress如何安装插件]]></title>
+    <link href="http://baham.co/01_12_octopressru-he-an-zhuang-cha-jian.html"/>
+    <updated>2013-01-12T12:02:00+00:00</updated>
+    <id>http://baham.co/octopressru-he-an-zhuang-cha-jian</id>
+    <content type="html"><![CDATA[<p>Octopress有如下<strong>目录结构</strong>：
+<img src="/images/octopress%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png" alt="Octopress目录结构" /></p>
+
+<p>其中plugins就是插件存放地址，
+目录里是rb结尾的Ruby脚本，额就是Octopress的插件。</p>
+
+<p>由于插件不同，安装方法也不同，不过大同小异，以下具体说明：</p>
+
+<h3>1 插件只由html文件构成：</h3>
+
+<p>如<a href="01_12_octopressxiang-guan-wen-zhang-cha-jian.html">related-posts</a>,只需要将文件复制到对应asides目录，然后配置一下_config.yml即可。</p>
+
+<h3>2 插件由Ruby脚本构成：</h3>
+
+<p>多数Octopress插件都是如此，方法相似，只是多了一步，要把对应脚本复制到plugins目录下。</p>
+]]></content>
+  </entry>
+  
+</feed>
