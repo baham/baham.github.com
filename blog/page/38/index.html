@@ -53,12 +53,13 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">Baham's Blog</a></h1>
+	<h1><a href="/">Baham's Blog</a></h1>
   
-    <h2>Baham的个人博客</h2>
+	<h2>Baham的个人博客</h2>
   
 </hgroup>
-
+<!--<h1><a href="/">Baham's Blog</a></h1>
+<h2>Baham的个人博客</h2>-->
 </header>
   <nav role="navigation"><ul class="subscription" data-subscription="rss">
   <li><a href="/feeds/" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
@@ -88,6 +89,98 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/01_10_octopressru-he-zuo-seoyou-hua.html">Octopress如何做SEO优化</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-10T17:46:00+00:00" pubdate data-updated="true">Jan 10<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>对于Wordpress，SEO插件、教程，数不胜数。但是Octopress却几乎没有。
+以个人使用到现在的经验，给刚接触Octopress的新手们写些东西。</p>
+
+<h2>1 Robots.txt写法</h2>
+
+<p>Octopress的目录结构不同于Wordpress，也不同于国内的CMS，其中javascripts目录,完全没有必要让googlebot索引。
+以下为我的robots.txt</p>
+
+<figure class='code'><figcaption><span> (robots.txt)</span> <a href='/files/code/robots.txt'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'>---
+</span><span class='line'>layout: nil
+</span><span class='line'>---
+</span><span class='line'>User-agent: *
+</span><span class='line'>Disallow: /javascripts
+</span><span class='line'>
+</span><span class='line'>Sitemap: http://baham.co/sitemap.xml
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>仔细想了想，robots.txt也可以这样写-<a href="http://baham.co/01_11_octopress-robots-dot-txtxie-fa.html">robots.txt写法</a></p>
+
+<h2>2 Sitemap</h2>
+
+<p>还好Octopress默认自动生成Sitemap，所以这点不用担心。</p>
+
+<h2>3 控制垃圾留言</h2>
+
+<p>Octopress没有独立的留言系统，不过可以使用Disqus，垃圾信息就交给Disqus自己处理吧。</p>
+
+<h2>4 优化内链</h2>
+
+<p>在_include/custom下的footer.html 可以改变foot处的链接。
+使用<a href="01_12_octopressxiang-guan-wen-zhang-cha-jian.html">related_posts</a>插件:
+以及tag_cloud等插件。</p>
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link:
+<a href='http://baham.co/01_10_octopressru-he-zuo-seoyou-hua.html' rel="bookmark"><a href="http://baham.co/01_10_octopressru-he-zuo-seoyou-hua.html">http://baham.co/01_10_octopressru-he-zuo-seoyou-hua.html</a></a><br/>
+If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -348,71 +441,6 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/01_01_776.html">错配物总量的计算方法及错配物曲线的绘制方法</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-01-01T12:51:00+00:00" pubdate data-updated="true">Jan 1<span>st</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>计算方法：(3 步, 包含绘制曲线)</p>
-
-<blockquote><p>1 列表计算各密度级的错配物数量：</p></blockquote>
-
-
-
-
-<blockquote><p>2绘制错配物曲线：<br/>   a，根据表4，5栏和4，6栏数据绘制高密度分割错配物曲线：污染曲线和损失曲线</p><p>据表查值获取信息。<br/> b，根据表的10，11栏和10，12栏，分别绘制精煤、中煤的低密度分割错配物曲线<br/>据表查值获取信息。</p></blockquote>
-
-
-
-
-<blockquote><p>3获取数据指标后，填入重选设备工艺效果试验报告表</p><p>PS：&#8211;相关概念：<br/>错配物总量，是物料分选或分级时，混入各产品中非规定成分的物料。特鲁姆普(与英国车手同名)称之为迷路的矸石/迷路的精煤。<br/>总量-m0=mh+m1<br/>m0:错配物总量-%，精度取到小数点后一位<br/>mh:轻产品中大于分选密度的数量占原料的百分数，%<br/>m1:重产品中小于分选密度的数量占原料的百分数，%</p><p>一般，计算错配物总量分选密度采用分配密度δp或等误密度δe（两重产物中，错配物相等时的密度）。<br/>在日常检查可用产品百分数来表达，分选密度采用接近理论分选密度的数值，密度级差取0.05g/cm的立方。<br/>δe=δt-0.05</p></blockquote>
-
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link:
-<a href='http://baham.co/01_01_776.html' rel="bookmark"><a href="http://baham.co/01_01_776.html">http://baham.co/01_01_776.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/39/">&larr; Older</a>
@@ -442,11 +470,15 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
     <h2 class="panel-title">Tag Cloud</h2>
   </div>
 <div id="recent_posts" class="list-group">
-	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 118.0%'>Announcement(9)</a> <a href='/blog/categories/baham' style='font-size: 124.0%'>Baham(12)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 112.0%'>Blender(6)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 108.0%'>CUMT(4)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 134.0%'>Faith(17)</a> <a href='/blog/categories/fate' style='font-size: 102.0%'>Fate(1)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 114.0%'>Game(7)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 102.0%'>Google(1)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 104.0%'>Job(2)</a> <a href='/blog/categories/linux' style='font-size: 152.0%'>Linux(26)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 118.0%'>Memo(9)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 112.0%'>Mineral Processing(6)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 108.0%'>Movie(4)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 122.0%'>Octopress(11)</a> <a href='/blog/categories/ruby' style='font-size: 104.0%'>Ruby(2)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 110.0%'>SEO(5)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 108.0%'>Translation(4)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 110.0%'>Video(5)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
+	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 118.0%'>Announcement(9)</a> <a href='/blog/categories/baham' style='font-size: 124.0%'>Baham(12)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 112.0%'>Blender(6)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 108.0%'>CUMT(4)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 134.0%'>Faith(17)</a> <a href='/blog/categories/fate' style='font-size: 102.0%'>Fate(1)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 114.0%'>Game(7)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 102.0%'>Google(1)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 104.0%'>Job(2)</a> <a href='/blog/categories/linux' style='font-size: 152.0%'>Linux(26)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 118.0%'>Memo(9)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 112.0%'>Mineral Processing(6)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 122.0%'>Octopress(11)</a> <a href='/blog/categories/ruby' style='font-size: 104.0%'>Ruby(2)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 110.0%'>SEO(5)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 108.0%'>Translation(4)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 110.0%'>Video(5)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
 </div>
 </section><section>
   <h2>Recent Posts</h2>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/05_05_the-great-hypnotist.html">The Great Hypnotist Feedback</a>
+      </li>
     
       <li class="post">
         <a href="/05_02_church-meeting-in-worker-s-day.html">Labor Day&#8217;s Church Meeting</a>
@@ -522,10 +554,6 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
     
       <li class="post">
         <a href="/03_10_octopress-easypost-tool.html">Octopress Easypost Tool</a>
-      </li>
-    
-      <li class="post">
-        <a href="/02_23_what-will-happen-tomorrow.html">What will happen tomorrow?</a>
       </li>
     
   </ul>
