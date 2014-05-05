@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Linux | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2014-05-05T06:11:07+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Use Linux Mint 16]]></title>
+    <link href="http://baham.co/03_20_use-linuxmint16.html"/>
+    <updated>2014-03-20T11:09:00+00:00</updated>
+    <id>http://baham.co/use-linuxmint16</id>
+    <content type="html"><![CDATA[<p>Now I change my OS from ubuntu GNOME 13.10  to Linux Mint 16 with Cannamon.</p>
+
+<p>Why do this. CAose Gnome3 is really slow.</p>
+
+<p>And before now, with cinnamon I got one bug .</p>
+
+<p>And I already get fcitx libpinyin.</p>
+
+<p>Leave Gnome3! this is my advice.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Gnome3 hide window or always maxsize window]]></title>
+    <link href="http://baham.co/03_10_10-43-12.html"/>
+    <updated>2014-03-10T10:43:00+00:00</updated>
+    <id>http://baham.co/10-43-12</id>
+    <content type="html"><![CDATA[<p>Gnome3 is pretty cool.
+Though a lot of men do not like it.</p>
+
+<p>But finally I choose it after I try kde unity elightment gnome2.</p>
+
+<p>Why ?</p>
+
+<p>Cause I think a pc or laptop. The most important thing is easyuse.</p>
+
+<p>And Gnome3 dit it.</p>
+
+<p>Be not like gnome2, so old and out of fashion.</p>
+
+<p>Be not like kde, so big and so many config choices.</p>
+
+<p>Be not like unity, just belong to Ubuntu.</p>
+
+<p>So for now gnome3 is the best choice for me.</p>
+
+<!--more-->
+
+
+<p>I did not write articles a long time.</p>
+
+<p>Even dit not write golang everyday.</p>
+
+<p>When I use gnome3 ,I found this extension. So cool!</p>
+
+<p>It can let window be like this.
+<img src="/images/max_gnome3.jpg" alt="Max Gnome3 Picture" /></p>
+
+<p>And this extension called <strong>Pixel Saver</strong>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[I did a fool thing]]></title>
+    <link href="http://baham.co/10_28_i-did-a-fool-thing.html"/>
+    <updated>2013-10-28T07:44:00+00:00</updated>
+    <id>http://baham.co/i-did-a-fool-thing</id>
+    <content type="html"><![CDATA[<p>In octopress/source/_post .I run a command&mdash;</p>
+
+<pre><code>rm *.markdown*
+</code></pre>
+
+<p>I want to run</p>
+
+<pre><code>rm *.markdown~
+</code></pre>
+
+<p>to delete some old autobacked files.</p>
+
+<p>But I typed wrong word and run it immedittely.</p>
+
+<p>So all my markdown files is deleted.and <em>_post</em>is empty.</p>
+
+<p>You know <strong>rm</strong> command do not mv files to trash.</p>
+
+<p>So I find in trash to find old &ldquo;octopress folder&rdquo;.And I rewrite the newer articles from baham.co by hand.</p>
+
+<p>It waste my time.</p>
+
+<p>And it is a lesson.<!--more--></p>
+
+<p>And now I add <strong>_post</strong> to my deja-backup backing floder.</p>
+
+<p>And maybe I need use &ldquo;mv&rdquo; to replace &ldquo;rm&rdquo;.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Very Important thing--Usability of OS]]></title>
+    <link href="http://baham.co/09_25_a-very-important-thing-usability-of-os.html"/>
+    <updated>2013-09-25T23:00:00+00:00</updated>
+    <id>http://baham.co/a-very-important-thing-usability-of-os</id>
+    <content type="html"><![CDATA[<p> Alot of people said “Arch is fast !”,so I choose Chakra which is based on Arch and has a half-scroll feature dictribution. It is pretty cool,but after about 4~6 months, I found some bugs,when I smooth my mouse to up-left,kde will crack,It is very serious ,because kde is a GUI,and I use it everytime.</p>
+
+<p>but why,why before “pacman -Syu” is ok,but after kde is crack ,because the new version kde has bugs and Chakra Linux update very frequently.</p>
+
+<p>So I just want to say ,how to choose an os. you must concern more ,not only fast or not ,cool or not, there is another very important feature satble and easy of use.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Chakra Linux BundleSystem被Extra库取代]]></title>
+    <link href="http://baham.co/05_15_chakra-linux-bundlesystembei-extraku-qu-dai.html"/>
+    <updated>2013-05-15T17:32:00+00:00</updated>
+    <id>http://baham.co/chakra-linux-bundlesystembei-extraku-qu-dai</id>
+    <content type="html"><![CDATA[<p>Chakra Linux已经使用<strong>BundleSystem</strong>两年了，为了实现Chakra的Gtk-free，现在我们决定创造一个默认的不再依靠BundkeSystem的发行版。</p>
+
+<p>Chakra的多数软件包都是Gtk-free的，只有很少例外，比如，flash,gtk本身,pygtk。</p>
+
+<p>但是BundleSystem略显复杂，所以现在提供了一个新的解决方案，以实现同样的目的，但是却更简单、更符合<a href="https://en.wikipedia.org/wiki/KISS_principle">KISS原则</a>、并且更灵活。</p>
+
+<p>Extra库，是一个全新的层次，使用一系列配置文件让我们无需安装非KDE软件到文件系统结构中而享受GTK程序和一些其他的包。举例来讲，安装<a href="http://sourceforge.net/projects/amule/">amule</a>时，现在会安装Plasmoid和PlasmAmule到一个正常KDE程序的路径下，对于Flash插件，会安装对应的配置包在“系统设置”中。</p>
+
+<p>Extra库现在结暂时构是这样的：</p>
+
+<pre><code>/extra
+/extra/etc
+/extra/bin
+/extra/lib
+/extra/usr
+/extra/opt 
+</code></pre>
+
+<p>把这些包都安装到/extra下，会保证原本的文件系统完好，保证主要的库保持Gtk-free。现在extra库，在<a href="/05_05_chakra-linuxan-zhuang-shi-yong.html">Chakra安装</a>时会被默认启用。</p>
+
+<h2>如何使用</h2>
+
+<!--more-->
+
+
+<p>最简单的方法就是在 /etc/pacman.conf中，把extra库添加到末尾，testing库也要添加。
+像这样：</p>
+
+<p><img src="/images/chakraextra.png" alt="extra" /></p>
+
+<p>然后，  <code>sudo pacman -Sy filesystem-extra</code></p>
+
+<p>再然后，重启，就可以安装extra库中的包了。</p>
+
+<p>现在还处于测试阶段，所以别期望Gnome桌面环境或者Banshee，extra库的目的是用一种更灵活的方式取代bundlesystem，所以现在有的包可能和bundle一样多甚至更少。</p>
+
+<p>现在只有这些包：</p>
+
+<blockquote><p>Chromium, Gimp, Firefox-KDE, Inkscape, aMule, FileZilla, wxMaxima, Thuderbird, Bluegriffon, Ardour, Audacity, Gcompris, and Pidgin</p></blockquote>
+
+<pre><code>Chrome被Chromium取代了。
+</code></pre>
+
+<p>Chakra团队将来会添加bundle中那些不存在QT/KDE替代的包，Chakra的库中有VLC, CLementime, Amarok等，所以别寻找别的播放器了。Chakra团队会决定加入那些包到库中。</p>
+
+<p>[原文以及已知常见错误]<a href="http://chakra-project.org/bbs/viewtopic.php?id=10278">http://chakra-project.org/bbs/viewtopic.php?id=10278</a></p>
+
+<h2>PS：</h2>
+
+<p>如何安装原本bundle中的包，用pacman就可以了，所以说现在用起来笔bundle确实方便了。例如，firefox：</p>
+
+<pre><code>sudo pacman -S firefox
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>

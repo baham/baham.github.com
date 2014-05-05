@@ -1,0 +1,9 @@
+127.0.0.1       localhost
+127.0.0.1       bbs.114.vnet.cn
+127.0.0.1       114.sc.vnet.cn
+127.0.0.1       search.114.vnet.cn
+127.0.0.1       114.com.cn
+127.0.0.1       keyword.vnet.cn
+127.0.0.1       vnet.cn
+127.0.0.1       114.vnet.cn
+127.0.0.1       autosearch.gd.vnet.cn

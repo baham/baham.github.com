@@ -1,0 +1,56 @@
+import java.io.*;
+import java.util.*;
+public class Re    {
+	private static final String t="    ";
+	public static void main(String[] args) throws FileNotFoundException    {
+		Scanner in=new Scanner(System.in);
+		String name=null;
+		while (name==null)    {
+			System.out.println("The name of file?");
+			name=in.next();
+			File f=new File(name);
+			if(f.exists())    {
+				re(name);
+			}    
+			else    {
+				System.out.println("File doesnot exists.Tray Again.");
+				name=null;
+			}    
+		}    
+	}    
+	public static void re(String name)throws FileNotFoundException    {
+		String part=null;
+		PrintStream out=new PrintStream(new File(name+"Re"));
+		Scanner sc=new Scanner(new File(name));
+		while(sc.hasNextLine())    {
+			part=sc.nextLine();
+			part=analyticsLine(part);
+			out.println(part);
+		}    
+	}	
+	public static String analyticsLine(String part)    {
+			char ch=(char) part.charAt((part.length()-1));
+			if(ch=='{')    {
+				part=analyticsString(part);
+				return part;
+			}    
+			else if(ch=='}')    {
+				part=part+t;
+				return part;
+			}    
+			else    {
+				return part;
+			}	
+	}    
+	private static String analyticsString(String part)     {
+		int z=part.length();
+		int i;
+		char tmp;
+		String strtmp="";
+		for(i=0;i<z-1;i++)    {
+			tmp=part.charAt(i);
+			strtmp=strtmp+tmp;
+		}    
+		return strtmp+t+"{";
+	}    
+}    
