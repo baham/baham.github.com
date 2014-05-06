@@ -2,5 +2,6 @@ User-agent: *
 Disallow: /404.html
 Disallow: /404
 Disallow: /assets
+Disallow: /blog/page/
 
 Sitemap: http://baham.co/sitemap.xml 
