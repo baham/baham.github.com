@@ -8,14 +8,13 @@
   <title>Go语言-defer压后 - Baham's Blog</title>
   <meta name="author" content="Baham">
 
- 
+
+<meta name="description" content="defer压后的作用是使defer语句在所在函数返回后才执行。
+比如： func f() (result int){ defer func(){ result++ }() return 1
+}//本段代码来自《Go语言云动力》4.6 最终f将会2,而不是1,因为return 1之后,result &hellip;" />
 
 
-<meta name="description" content="This is a blog of Baham, but was built for whole Internet. In summary it is about collge life, internship in Coal Prepation Plant, Processing Program &hellip;" />
-
-
-<meta name="keywords" content="CUMT, Mineral Processing, Program, Fellowship, Mining, Golang, Ruby, Octopress, Processing Software" />
-
+<meta name="keywords" content="" />
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -62,7 +61,7 @@
 <h2>Baham的个人博客</h2>-->
 </header>
   <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/feeds/" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  <li><a href="/feeds/" rel="nofollow" title="subscribe via RSS">RSS</a></li>
   
 </ul>
   
