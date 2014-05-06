@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Sage | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/sage/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2014-05-06T13:40:27+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[What An Amazing Software]]></title>
+    <link href="http://baham.co/05_06_what-an-amazing-software.html"/>
+    <updated>2014-05-06T11:06:00+00:00</updated>
+    <id>http://baham.co/what-an-amazing-software</id>
+    <content type="html"><![CDATA[<p><strong>Sage</strong> I knew this software about 2 years ago. When I was on a cryptology calss. And the reacher notice this amazing math software. He showed it with virtual mechine. Cause he use windows as his os. But you know that time, I already started to use linux.</p>
+
+<p>And after that class, I installed sage, but nearlly not use it.</p>
+
+<p>Until in these days, I heard a friend talk about using <em>Matlab</em> to calculate something for his paper. And I decided to learn a math software seriously.</p>
+
+<p>Like him, I want to choose Matlab, but it is not free. Although my friend tell me matlab is easy to learn.</p>
+
+<!--more-->
+
+
+<p>Finally, I choose <em>sagemath</em>. Just because it is free.</p>
+
+<p>But when I read the sage&rsquo;s tutorial.</p>
+
+<p>I found an amazing thing:</p>
+
+<p><code>sudoku</code> function!!!</p>
+
+<p>```
+A = matrix(ZZ,9,[5,0,0, 0,8,0, 0,4,9, 0,0,0, 5,0,0,</p>
+
+<pre><code>0,3,0, 0,6,7, 3,0,0, 0,0,1, 1,5,0, 0,0,0, 0,0,0, 0,0,0, 2,0,8, 0,0,0,
+0,0,0, 0,0,0, 0,1,8, 7,0,0, 0,0,4, 1,5,0,   0,3,0, 0,0,2,
+0,0,0, 4,9,0, 0,5,0, 0,0,3])
+</code></pre>
+
+<p><code>
+Show the matrix:
+</code>
+A</p>
+
+<pre><code>     [5 0 0 0 8 0 0 4 9]
+    [0 0 0 5 0 0 0 3 0]
+    [0 6 7 3 0 0 0 0 1]
+    [1 5 0 0 0 0 0 0 0]
+    [0 0 0 2 0 8 0 0 0]
+    [0 0 0 0 0 0 0 1 8]
+    [7 0 0 0 0 4 1 5 0]
+    [0 3 0 0 0 2 0 0 0]
+    [4 9 0 0 5 0 0 0 3]
+</code></pre>
+
+<p>```</p>
+
+<p>And when you use <code>sudoku(A)</code></p>
+
+<p>The sudoku puzzle will be solved!</p>
+
+<p>```</p>
+
+<pre><code>    [5 1 3 6 8 7 2 4 9]
+    [8 4 9 5 2 1 6 3 7]
+    [2 6 7 3 4 9 5 8 1]
+    [1 5 8 4 6 3 9 7 2]
+    [9 7 4 2 1 8 3 6 5]
+    [3 2 6 7 9 5 4 1 8]
+    [7 8 2 9 3 4 1 5 6]
+    [6 3 5 1 7 2 8 9 4]
+    [4 9 1 8 5 6 7 2 3]
+</code></pre>
+
+<p>```</p>
+
+<p>What a math software!</p>
+]]></content>
+  </entry>
+  
+</feed>
