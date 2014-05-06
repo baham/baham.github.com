@@ -5,16 +5,16 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Baham's Blog</title>
+  <title>Ruby Multidimensional Arrays - Baham's Blog</title>
   <meta name="author" content="Baham">
 
  
 
 
-<meta name="description" content="This is a blog of Baham, but was built for whole Internet. In summary it is about collge life, internship in Coal Prepation Plant, Processing Program &hellip;" />
+<meta name="description" content="When use Two-dimensional array in ruby language, theres is a mistake." />
 
 
-<meta name="keywords" content="CUMT, Mineral Processing, Program, Fellowship, Mining, Golang, Ruby, Octopress, Processing Software" />
+<meta name="keywords" content="Ruby, Multidimensional Arrays, Tip, Two-dimensional array" />
 
 
   <!-- http://t.co/dKP3o1e -->
@@ -23,7 +23,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://baham.co/blog/page/52/index.html">
+  <link rel="canonical" href="http://baham.co/05_06_ruby-multidimensional-arrays.html">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/feeds/" rel="alternate" title="Baham's Blog" type="application/atom+xml">
@@ -87,15 +87,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/07_23_148.html">The Art and Science of Java/Java语言艺术与科学</a></h1>
+      <h1 class="entry-title">Ruby Multidimensional Arrays</h1>
     
     
       <p class="meta">
@@ -111,218 +108,99 @@
   
 
 
-<time datetime="2012-07-23T20:57:17+00:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2012</time>
+<time datetime="2014-05-06T06:19:00+00:00" pubdate data-updated="true">May 6<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p><img src="http://baham.co/wp-content/uploads/2012/07/SlimPDF-Reader-The-Art-and-Science-of-Java-250x300.png" alt="java的科学与艺术" /> java语言艺术与科学的图片</p>
+<div class="entry-content"><p>Today, when I use Two-dimensional array with ruby.</p>
 
-<p>成书于2006年，作者Eric S. Roberts<img src="http://news.stanford.edu/news/2007/march14/gifs/robertsaaaassr.jpg" alt="Eric S. Roberts  斯坦福大学" />。</p>
+<p>Like:</p>
 
-<p>该书是斯坦福大学CS106a 编程方法学课程的教材。</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">arr</span><span class="o">=[]</span>
+</span><span class='line'><span class="n">arr2</span><span class="o">=[]</span>
+</span><span class='line'><span class="mi">3</span><span class="o">.</span><span class="n">times</span>  <span class="p">{</span> <span class="n">arr2</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot;_&quot;</span> <span class="p">}</span>
+</span><span class='line'><span class="mi">3</span><span class="o">.</span><span class="n">time</span>   <span class="p">{</span><span class="n">arr</span> <span class="o">&lt;&lt;</span> <span class="n">arr2</span><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
 
-<p>还没看完，因为英语太差，看得有些吃力，分享出来给大家。</p>
 
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/07_23_148.html">Read on &rarr;</a>
-    </footer>
-  
+<p>And when I change the <code>arr[1][1] to "-"</code></p>
 
+<p>It will show:</p>
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/07_23_142.html">Java Zone简介</a></h1>
-    
-    
-      <p class="meta">
-        
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'> <span class="n">_</span> <span class="o">-</span> <span class="n">_</span>
+</span><span class='line'> <span class="n">_</span> <span class="o">-</span> <span class="n">_</span>
+</span><span class='line'> <span class="n">_</span> <span class="o">-</span> <span class="n">_</span>
+</span></code></pre></td></tr></table></div></figure>
 
 
+<!--more-->
 
 
+<p>But what I want is :</p>
 
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">_</span> <span class="n">_</span> <span class="n">_</span>
+</span><span class='line'><span class="n">_</span> <span class="o">-</span> <span class="n">_</span>
+</span><span class='line'><span class="n">_</span> <span class="n">_</span> <span class="n">_</span>
+</span></code></pre></td></tr></table></div></figure>
 
 
+<p>I did not know why this happened. So I search it by search engineer.</p>
 
-  
+<p>And I found a differen thing in ruby.</p>
 
+<p>If you want to output right image. Like above.</p>
 
-<time datetime="2012-07-23T20:20:17+00:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
+<p>You need init your array like this:</p>
 
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">arr</span><span class="o">=[[</span><span class="s2">&quot; _&quot;</span><span class="p">,</span><span class="s2">&quot; _&quot;</span><span class="p">,</span><span class="s2">&quot; _&quot;</span><span class="o">]</span><span class="p">,</span><span class="o">[</span><span class="s2">&quot; _&quot;</span><span class="p">,</span><span class="s2">&quot; _&quot;</span><span class="p">,</span><span class="s2">&quot; _&quot;</span><span class="o">]</span><span class="p">,</span><span class="o">[</span><span class="s2">&quot; _&quot;</span><span class="p">,</span><span class="s2">&quot; _&quot;</span><span class="p">,</span><span class="s2">&quot; _&quot;</span><span class="o">]]</span>
+</span></code></pre></td></tr></table></div></figure>
 
-  <div class="entry-content"><p><img src="http://baham.co/wp-content/uploads/2012/07/splashlogo-300x272.png" alt="javazone logo" /></p>
 
-<p><strong> Java Zone简介：</strong></p>
+<h2>The Reason</h2>
 
-<p>Java Zone是斯堪的纳维亚半岛上<strong>软件开发者</strong>最大会议场所，也是欧洲最重要的会议之一。</p>
+<p>When you use te first way to create a two-dimensinol array.</p>
 
-<p>Java Zone可以说是<strong>顶尖IT人士</strong>交流的高品质独立论坛。每年都有约2300张门票售出，今年是第11届，当然并非最后一届。</p>
+<p>The sub array point to the same object <code>arr2</code>.</p>
 
-<p>有超过三十个大中型公司是其合作伙伴，回忆期间会战时其产品及服务，还有100多次的演讲。</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">Array</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="nb">Array</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">))</span><span class="o">.</span><span class="n">each</span><span class="p">{</span><span class="o">|</span><span class="n">i</span><span class="o">|</span><span class="nb">p</span> <span class="n">i</span><span class="o">.</span><span class="n">object_id</span><span class="p">}</span>
+</span><span class='line'><span class="o">-</span><span class="mi">616182288</span>
+</span><span class='line'><span class="o">-</span><span class="mi">616182288</span>
+</span><span class='line'><span class="o">-</span><span class="mi">616182288</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">[[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="o">]</span><span class="p">,</span> <span class="o">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="o">]</span><span class="p">,</span> <span class="o">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="o">]].</span><span class="n">each</span><span class="p">{</span><span class="o">|</span><span class="n">i</span><span class="o">|</span><span class="nb">p</span> <span class="n">i</span><span class="o">.</span><span class="n">object_id</span><span class="p">}</span>
+</span><span class='line'><span class="o">-</span><span class="mi">616198918</span>
+</span><span class='line'><span class="o">-</span><span class="mi">616198928</span>
+</span><span class='line'><span class="o">-</span><span class="mi">616198938</span>
+</span></code></pre></td></tr></table></div></figure>
 
-<p>在两个会议室，有超过20000小时可以用来交流专业知识，也有很多其他地方可以作为非正式的交流场所，总之Java Zone是一个知识交流的巨大舞台。</p>
 
-<p>有如此多的软件开发者参加，意味着这也是一个重要的招聘会，通过展览，我们的合作伙伴利用此契机，拓展他们的业务、招聘新员工。总之，Java Zone不仅仅是一个会议，也是一个拓展人脉和社交的场所。</p>
+<p>Reference Article:</p>
 
-<p>很多志愿者的支持是Java Zone成功的关键因素之一，Java Zone既为软件开发商提供了平台，也从那里得到了支持，每年软件开发商都有成千上万小时的投入，以保证会议的成功。</p>
-
-<p>筹备委员会邀请了来自世界各地的演讲者，拥有专业知识的演讲人士，都知道相关的听众想听些什么，所以所有的演讲都极富<strong>针对性</strong>。遵循会议传统，演讲这<strong>没有商业报酬</strong>，大概一半的演讲语言是英语，另一半是斯堪的纳维亚语。</p>
-
-<p>Java Zone的<strong>非商业</strong>和<strong>非常规性</strong>极大地推动了它的普及。</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/07_23_142.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/07_23_139.html">奥数猛于虎</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-23T19:52:47+00:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://baham.co/wp-content/uploads/2012/07/%E7%A7%91%E5%AD%A6%E7%BD%91%E2%80%94%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E6%8A%A5%EF%BC%9A%E5%A5%A5%E6%95%B0%E4%B9%8B%E5%AE%B3%E7%8C%9B%E4%BA%8E%E6%AF%92%E5%93%81-Mozilla-Firefox_2012-07-23_19-37-30.png"><img src="http://baham.co/wp-content/uploads/2012/07/%E7%A7%91%E5%AD%A6%E7%BD%91%E2%80%94%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E6%8A%A5%EF%BC%9A%E5%A5%A5%E6%95%B0%E4%B9%8B%E5%AE%B3%E7%8C%9B%E4%BA%8E%E6%AF%92%E5%93%81-Mozilla-Firefox_2012-07-23_19-37-30.png" alt="奥数对国人的摧残-奥数猛于虎" /></a></p>
-
-<p>A（<em>一位善良的母亲</em>）；B（<em>某教育部门新来的校职员</em>）；C（<em>某领导</em>）。</p>
-
-<p>一日，B与领导等共同游山玩水，为避暑飞到了东北兴安岭。正待准备野营时，只见河边一位妇女哭哭啼啼，C对B说：“小B啊，你去看看！”B应声答道：“好，CXX。”</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/07_23_139.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/07_23_134.html">Java Zone 视频集锦</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-23T19:25:05+00:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h1>Java大盗(<strong>The Java Heist</strong>)</h1>
-
-<p><embed src="http://player.youku.com/player.php/Type/Folder/Fid/17905217/Ob/1/sid/XNDMwODk5Nzk2/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" allowFullScreen="true" mode="transparent" type="application/x-shockwave-flash"></embed></p>
-
-<p>Java Zone 2012</p>
-
-<p>&ldquo;No f<strong>king checking in on f</strong>cking facebook!&rdquo;</p>
-
-<p>&ldquo;With the java platform,we can do anything.&rdquo;</p>
-
-<p>&ldquo;This is f<strong>king brilliant.&#8221;全都是出自这里，3分58秒的视频中出现了15个f</strong>k  or f**king，如果不看到最后，真让人怀疑这是以java为主题的宣传片。</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/07_23_134.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/07_21_89.html">香港小学将从9月份开始试行国民教育课</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-21T20:23:46+00:00" pubdate data-updated="true">Jul 21<span>st</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>What I can say?</p>
-
-<p>Nothing!</p>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
+<p><a href="http://lgn21st.iteye.com/blog/173550">Lvguoning Blog</a>
+ <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
 
@@ -334,26 +212,85 @@
 
 
 <p>The Original Link:
-<a href='http://baham.co/07_21_89.html' rel="bookmark"><a href="http://baham.co/07_21_89.html">http://baham.co/07_21_89.html</a></a><br/>
+<a href='http://baham.co/05_06_ruby-multidimensional-arrays.html' rel="bookmark"><a href="http://baham.co/05_06_ruby-multidimensional-arrays.html">http://baham.co/05_06_ruby-multidimensional-arrays.html</a></a><br/>
 If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
 </p></p>
 </div>
+
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Baham</span></span>
+
+      
+
+
+
+
+
+
+
+
   
 
 
-    </article>
+<time datetime="2014-05-06T06:19:00+00:00" pubdate data-updated="true">May 6<span>th</span>, 2014</time>
+      
+
+<span class="categories">
   
-  <div class="pagination">
+    <a class='category' href='/blog/categories/ruby/'>Ruby</a>
+  
+</span>
+
+
+      <!--
+  <h3>Related posts</h3>
+  <ul class="posts">
+  
+    <li class="related">
+      <a href="/05_05_the-great-hypnotist.html">The Great Hypnotist Feedback</a>
+    </li>
+  
+    <li class="related">
+      <a href="/05_02_church-meeting-in-worker-s-day.html">Labor Day's Church Meeting</a>
+    </li>
+  
+    <li class="related">
+      <a href="/05_01_21-24-octopress-orinal-link-bug-fix.html">Fix a bug to add an original link</a>
+    </li>
+  
+  </ul>
+-->
+    </p>
     
-      <a class="prev" href="/blog/page/53/">&larr; Older</a>
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-    <a class="next" href="/blog/page/51/">Newer &rarr;</a>
-    
-  </div>
+      <div class="sharing">
+  
+  
+  
 </div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/05_05_the-great-hypnotist.html" title="Previous Post: The Great Hypnotist Feedback">&laquo; The Great Hypnotist Feedback</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -388,7 +325,7 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
       </li>
     
       <li class="post">
-        <a href="/05_02_church-meeting-in-worker-s-day.html">Labor Day&#8217;s Church Meeting</a>
+        <a href="/05_02_church-meeting-in-worker-s-day.html">Labor Day's Church Meeting</a>
       </li>
     
       <li class="post">
@@ -404,7 +341,7 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
       </li>
     
       <li class="post">
-        <a href="/04_28_ruby-multi-line.html">Ruby&#8217;s Multiline</a>
+        <a href="/04_28_ruby-multi-line.html">Ruby's Multiline</a>
       </li>
     
       <li class="post">
@@ -440,7 +377,7 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
       </li>
     
       <li class="post">
-        <a href="/04_20_21-29-52.html">The last day in Guangzhou &#8211; Easter Day </a>
+        <a href="/04_20_21-29-52.html">The last day in Guangzhou -- Easter Day </a>
       </li>
     
       <li class="post">
@@ -462,22 +399,6 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
   </ul>
 </section>
 <section class="panel panel-default">
-  <div class="panel-heading">
-    <h2 class="panel-title">Friendly Links</h2>
-  </div>
-<div  class="list-group">
-<a target="_blank" title="May Killer's Blog" rel="friend" href="http://maykiller.com/">May Killer</a>
-<br/>
-<br/>
-<br/>
-<li style="font-family:verdana;font-size:70%;float:right;"><a href="/friendly-links" rel="inside">Friendly Links</a></li>
-
-<!--p style="font-family:verdana;font-size:75%;float:right;">
-<li><a target="_blank" rel="friend" href="http://maykiller.com/">MayKiller</a></li>
-<i><a href="/verse">Read It</a></i>
-</p-->
-</div>
-</section><section class="panel panel-default">
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <div class="panel-heading">
     <h2 class="panel-title">Verse</h2>
@@ -499,6 +420,7 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -514,7 +436,10 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
       var disqus_shortname = 'baham';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://baham.co/05_06_ruby-multidimensional-arrays.html';
+        var disqus_url = 'http://baham.co/05_06_ruby-multidimensional-arrays.html';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-05-05T12:25:35+00:00</updated>
+  <updated>2014-05-06T06:49:28+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,114 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby Multidimensional Arrays]]></title>
+    <link href="http://baham.co/05_06_ruby-multidimensional-arrays.html"/>
+    <updated>2014-05-06T06:19:00+00:00</updated>
+    <id>http://baham.co/ruby-multidimensional-arrays</id>
+    <content type="html"><![CDATA[<p>Today, when I use Two-dimensional array with ruby.</p>
+
+<p>Like:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">arr</span><span class="o">=[]</span>
+</span><span class='line'><span class="n">arr2</span><span class="o">=[]</span>
+</span><span class='line'><span class="mi">3</span><span class="o">.</span><span class="n">times</span>  <span class="p">{</span> <span class="n">arr2</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot;_&quot;</span> <span class="p">}</span>
+</span><span class='line'><span class="mi">3</span><span class="o">.</span><span class="n">time</span>   <span class="p">{</span><span class="n">arr</span> <span class="o">&lt;&lt;</span> <span class="n">arr2</span><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And when I change the <code>arr[1][1] to "-"</code></p>
+
+<p>It will show:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'> <span class="n">_</span> <span class="o">-</span> <span class="n">_</span>
+</span><span class='line'> <span class="n">_</span> <span class="o">-</span> <span class="n">_</span>
+</span><span class='line'> <span class="n">_</span> <span class="o">-</span> <span class="n">_</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<!--more-->
+
+
+<p>But what I want is :</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">_</span> <span class="n">_</span> <span class="n">_</span>
+</span><span class='line'><span class="n">_</span> <span class="o">-</span> <span class="n">_</span>
+</span><span class='line'><span class="n">_</span> <span class="n">_</span> <span class="n">_</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I did not know why this happened. So I search it by search engineer.</p>
+
+<p>And I found a differen thing in ruby.</p>
+
+<p>If you want to output right image. Like above.</p>
+
+<p>You need init your array like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">arr</span><span class="o">=[[</span><span class="s2">&quot; _&quot;</span><span class="p">,</span><span class="s2">&quot; _&quot;</span><span class="p">,</span><span class="s2">&quot; _&quot;</span><span class="o">]</span><span class="p">,</span><span class="o">[</span><span class="s2">&quot; _&quot;</span><span class="p">,</span><span class="s2">&quot; _&quot;</span><span class="p">,</span><span class="s2">&quot; _&quot;</span><span class="o">]</span><span class="p">,</span><span class="o">[</span><span class="s2">&quot; _&quot;</span><span class="p">,</span><span class="s2">&quot; _&quot;</span><span class="p">,</span><span class="s2">&quot; _&quot;</span><span class="o">]]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>The Reason</h2>
+
+<p>When you use te first way to create a two-dimensinol array.</p>
+
+<p>The sub array point to the same object <code>arr2</code>.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">Array</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="nb">Array</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">))</span><span class="o">.</span><span class="n">each</span><span class="p">{</span><span class="o">|</span><span class="n">i</span><span class="o">|</span><span class="nb">p</span> <span class="n">i</span><span class="o">.</span><span class="n">object_id</span><span class="p">}</span>
+</span><span class='line'><span class="o">-</span><span class="mi">616182288</span>
+</span><span class='line'><span class="o">-</span><span class="mi">616182288</span>
+</span><span class='line'><span class="o">-</span><span class="mi">616182288</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">[[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="o">]</span><span class="p">,</span> <span class="o">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="o">]</span><span class="p">,</span> <span class="o">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="o">]].</span><span class="n">each</span><span class="p">{</span><span class="o">|</span><span class="n">i</span><span class="o">|</span><span class="nb">p</span> <span class="n">i</span><span class="o">.</span><span class="n">object_id</span><span class="p">}</span>
+</span><span class='line'><span class="o">-</span><span class="mi">616198918</span>
+</span><span class='line'><span class="o">-</span><span class="mi">616198928</span>
+</span><span class='line'><span class="o">-</span><span class="mi">616198938</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Reference Article:</p>
+
+<p><a href="http://lgn21st.iteye.com/blog/173550">Lvguoning Blog</a>
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link:
+<a href='http://baham.co/05_06_ruby-multidimensional-arrays.html' rel="bookmark"><a href="http://baham.co/05_06_ruby-multidimensional-arrays.html">http://baham.co/05_06_ruby-multidimensional-arrays.html</a></a><br/>
+If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Great Hypnotist Feedback]]></title>
@@ -1219,115 +1327,6 @@ Though a lot of men do not like it.</p>
 
 <p>The Original Link:
 <a href='http://baham.co/03_10_10-43-12.html' rel="bookmark"><a href="http://baham.co/03_10_10-43-12.html">http://baham.co/03_10_10-43-12.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Octopress Easypost Tool]]></title>
-    <link href="http://baham.co/03_10_octopress-easypost-tool.html"/>
-    <updated>2014-03-10T07:16:00+00:00</updated>
-    <id>http://baham.co/octopress-easypost-tool</id>
-    <content type="html"><![CDATA[<p>When using octopress to write articles.
-You need run commands like this.
-1. rake new_post[&lsquo;name&rsquo;]     //to post an article
-2. rake generate        //to create the html files
-3. rake deploy      //to push your articles</p>
-
-<p>When I use Ubuntu 12.04, even I need add <code>bundle exec</code> to fix the gem version problem.</p>
-
-<p>Cause I am in China, to fix the TimeZone problem, I need to add <code>TZ=CCT</code></p>
-
-<p>So before you write your article, you have already write <code>TZ=CCT bundle exec rake new_post......</code></p>
-
-<p>And when change my os to <strong>Ubunt Gnome</strong>, I found an article about using octopress easily.</p>
-
-<!--more-->
-
-
-<p>Here is it.  An Chinese coder&rsquo;s <a href="http://my.oschina.net/u/160375/blog/160342">article</a> on oschina blog.</p>
-
-<p>This man write an shell script to write octopress articles more easily.</p>
-
-<p>I found it is really useful.</p>
-
-<p>Here is the code.</p>
-
-<pre><code>
-#!/bin/sh
-root=/my/blog/path
-scriptName=`basename $0`
-cd $root
-case $1 in
-    'blog')
-        name=`date +"%H-%M-%S"`
-        if [[ $2 ]]; then
-            name=`echo $2|sed 's/ /-/g'`
-        fi
-        path=`rake new_post[$name]|awk -F":" '{print $2}'`
-        vi $path
-        ;;
-    'page')
-        if [[ ! $2 ]]; then
-            echo 'need page name'
-            exit
-        fi
-        name=`echo $2|sed 's/ /-/g'`
-        echo $name
-        path=`rake new_page[$name]|awk -F":" '{print $2}'`
-        vi $path
-        ;;
-    'view')
-        rake preview
-        ;;
-    'publish')
-        rake gen_deploy
-        ;;
-    'build')
-        rake clean
-        rake generate
-        ;;
-    'open')
-        open $root
-        ;;
-    'edit')
-        vi $root
-        ;;
-    *)
-        echo "usage: $scriptName [blog|page|view|publish|build|open|edit]"
-        exit 1
-        ;;
-esac
-</code></pre>
-
-
-<p>Unfortunately, I found a bug when you write an article with article name.</p>
-
-<p>It showed <code>not found [[</code> or somethin \g like this.</p>
-
-<p>And this shell use <em>blog page build &hellip;</em> comands, it is more difficult than <strong>new_post new_page generate</strong></p>
-
-<p>So I changed the commands name to <code>post page preview deploy generate open edit</code></p>
-
-<p>And add 2 commands <code>gen_pre gen_dep</code></p>
-
-<p>And change generate to generate not <code>gen_deploy</code></p>
-
-<p>And this is <a href="https://github.com/minghub/octopress-easy-post-tool.git">github link</a>
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link:
-<a href='http://baham.co/03_10_octopress-easypost-tool.html' rel="bookmark"><a href="http://baham.co/03_10_octopress-easypost-tool.html">http://baham.co/03_10_octopress-easypost-tool.html</a></a><br/>
 If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
 </p></p>
 ]]></content>

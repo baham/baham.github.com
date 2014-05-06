@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ruby | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-05-05T12:25:35+00:00</updated>
+  <updated>2014-05-06T06:49:28+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,89 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby Multidimensional Arrays]]></title>
+    <link href="http://baham.co/05_06_ruby-multidimensional-arrays.html"/>
+    <updated>2014-05-06T06:19:00+00:00</updated>
+    <id>http://baham.co/ruby-multidimensional-arrays</id>
+    <content type="html"><![CDATA[<p>Today, when I use Two-dimensional array with ruby.</p>
+
+<p>Like:</p>
+
+<p>``` ruby</p>
+
+<pre><code>arr=[]
+arr2=[]
+3.times  { arr2 &lt;&lt; "_" } 
+3.time   {arr &lt;&lt; arr2}
+</code></pre>
+
+<p>```</p>
+
+<p>And when I change the <code>arr[1][1] to "-"</code></p>
+
+<p>It will show:</p>
+
+<p>```</p>
+
+<pre><code> _ - _
+ _ - _
+ _ - _
+</code></pre>
+
+<p>```</p>
+
+<!--more-->
+
+
+<p>But what I want is :</p>
+
+<p>```</p>
+
+<pre><code>_ _ _
+_ - _
+_ _ _
+</code></pre>
+
+<p>```</p>
+
+<p>I did not know why this happened. So I search it by search engineer.</p>
+
+<p>And I found a differen thing in ruby.</p>
+
+<p>If you want to output right image. Like above.</p>
+
+<p>You need init your array like this:</p>
+
+<p><code>ruby
+arr=[[" _"," _"," _"],[" _"," _"," _"],[" _"," _"," _"]]
+</code></p>
+
+<h2>The Reason</h2>
+
+<p>When you use te first way to create a two-dimensinol array.</p>
+
+<p>The sub array point to the same object <code>arr2</code>.</p>
+
+<p>``` ruby
+Array.new(3, Array.new(3,0)).each{|i|p i.object_id}
+-616182288
+-616182288
+-616182288</p>
+
+<p>[[0, 0, 0], [0, 0, 0], [0, 0, 0]].each{|i|p i.object_id}
+-616198918
+-616198928
+-616198938</p>
+
+<p>```</p>
+
+<p>Reference Article:</p>
+
+<p><a href="http://lgn21st.iteye.com/blog/173550">Lvguoning Blog</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The ruby community]]></title>
