@@ -5,14 +5,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>I did a wrong thing - Baham's Blog</title>
+  <title>octopress-add-description-keywords-plugin-optimization - Baham's Blog</title>
   <meta name="author" content="Baham">
 
 
-<meta name="description" content="今天，做实验时，老师说，下午每组要来一个烧灰。Hu让我来，我不是很愿意来，但还是说“可以”。但是我说我建议咱们轮流来。 Hu不愿意来，就不同意，说让我和Li来。我说还是轮流来，今天下午我过来。Hu还是不同意，可能到此都没出什么问题，但问题是，我反驳了一句，“你这不是流氓吗？” 说完这句话，我沉默了 &hellip;" />
+<meta name="description" content="How to seo octopress blog, and optimizate the octopress add keywords and description plugin. On meta tag in head." />
 
 
-<meta name="keywords" content="" />
+<meta name="keywords" content="seo, baham, octopress plugin, add description, octopress keyword" />
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -20,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://baham.co/11_14_i-did-a-wrong-thing.html">
+  <link rel="canonical" href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/feeds/" rel="alternate" title="Baham's Blog" type="application/atom+xml">
@@ -89,7 +89,7 @@
   
   <header>
     
-      <h1 class="entry-title">I Did a Wrong Thing</h1>
+      <h1 class="entry-title">Octopress-add-description-keywords-plugin-optimization</h1>
     
     
       <p class="meta">
@@ -105,37 +105,72 @@
   
 
 
-<time datetime="2013-11-14T08:03:00+00:00" pubdate data-updated="true">Nov 14<span>th</span>, 2013</time>
+<time datetime="2014-05-07T01:22:00+00:00" pubdate data-updated="true">May 7<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>今天，做实验时，老师说，下午每组要来一个<strong>烧灰</strong>。Hu让我来，我不是很愿意来，但还是说“可以”。但是我说我建议咱们轮流来。</p>
+<div class="entry-content"><p>Yesterday, when I just google my own site. I find the results show like this:</p>
+
+<p><img src="" alt="The Site's meta description" /></p>
+
+<p>But I did not want every page without description all show the site&rsquo;s description.</p>
+
+<p>Cause it is not good to index pages by search engine.</p>
+
+<p>So I want to optimizate the octopress plugin or called code to add the description and keywords.</p>
 
 <!--more-->
 
 
-<p>Hu不愿意来，就不同意，说让我和Li来。我说还是轮流来，今天下午我过来。Hu还是不同意，可能到此都没出什么问题，但问题是，我反驳了一句，“你这不是流氓吗？”</p>
+<h2>Old Code</h2>
 
-<p>说完这句话，我沉默了、他也沉默了。</p>
+<p>This is the old code.</p>
 
-<p>等到，实验开始后，Hu说，烧灰由他和Li来。</p>
+<figure class='code'><figcaption><span> (add_keywords_and_description.rb)</span> <a href='/files/code/add_keywords_and_description.rb'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'>   <span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">site</span><span class="o">.</span><span class="n">description</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
+</span><span class='line'>  <span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
+</span><span class='line'><span class="sr"> {% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif site.keywords %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
+</span><span class='line'><span class="sr"> &lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
 
-<p>现在，我才发现，在和Hu对话时，我误解了对方有些话的意义。而且，还说了句明显论断人的话，实在是不应该。</p>
 
-<pre><code>不要论断人，以免为人论断。
+<p>The results I dislike it bring about are show the page&rsquo;s description as same as the site&rsquo;s description.</p>
 
-如果有人打你左脸，把右脸也送过去。
-</code></pre>
+<p>So I change codes to show part of the page&rsquo;s content as description instead of site&rsquo;s description.</p>
 
-<p>我却并没有按照耶稣基督的话做，在小事上与人斤斤计较，把“爱人如己”的心丢在了一边。</p>
+<h2>Add Description and Keywords new version</h2>
 
-<p>我实实在在做了一件错事。</p>
+<figure class='code'><figcaption><span> (add_keywords_and_description_new.rb)</span> <a href='/files/code/add_keywords_and_description_new.rb'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">page</span><span class="o">.</span><span class="n">title</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
+</span><span class='line'><span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif page.title %}{{&quot;&quot;}}{% else %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
+</span><span class='line'><span class="sr">&lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
 
-<pre><code>愿主赐我智慧，让我改变，让我屏除掉自己的坏脾气。愿主的灵充满我，让我能时刻常存爱人如己的心。
-</code></pre>
+
+<p>The code is not a ruby file, please add the codes or change the original code to these after the author meta in <code>source/_include/head.html</code>.</p>
+
+<p>When you change the codes to these.
+1. If the page has a description, it will show the description
+2. If has not and this page is a page, it will show the part of page content.
+3. Otherwise, show the site&rsquo;s description, like the homepage.</p>
+
+<p><em>PS</em>: <code>page means page/post/and other link, not just rake new_page's page</code></p>
+
+<p>And the keywords&#8217; code is like the description&#8217;.</p>
 
 <p> <p class='post-footer' style="font-size:70%;" ></p>
 
@@ -149,7 +184,7 @@
 
 
 <p>The Original Link:
-<a href='http://baham.co/11_14_i-did-a-wrong-thing.html' rel="bookmark"><a href="http://baham.co/11_14_i-did-a-wrong-thing.html">http://baham.co/11_14_i-did-a-wrong-thing.html</a></a><br/>
+<a href='http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html' rel="bookmark"><a href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html">http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html</a></a><br/>
 If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
 </p></p>
 </div>
@@ -174,8 +209,14 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
   
 
 
-<time datetime="2013-11-14T08:03:00+00:00" pubdate data-updated="true">Nov 14<span>th</span>, 2013</time>
+<time datetime="2014-05-07T01:22:00+00:00" pubdate data-updated="true">May 7<span>th</span>, 2014</time>
       
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/octopress/'>Octopress</a>, <a class='category' href='/blog/categories/seo/'>SEO</a>
+  
+</span>
 
 
       <!--
@@ -183,15 +224,15 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
   <ul class="posts">
   
     <li class="related">
-      <a href="/05_07_octopress-add-description-keywords-plugin-optimization.html">octopress-add-description-keywords-plugin-optimization</a>
-    </li>
-  
-    <li class="related">
       <a href="/05_06_what-an-amazing-software.html">What An Amazing Software</a>
     </li>
   
     <li class="related">
       <a href="/05_06_ruby-multidimensional-arrays.html">Ruby Multidimensional Arrays</a>
+    </li>
+  
+    <li class="related">
+      <a href="/05_05_the-great-hypnotist.html">The Great Hypnotist Feedback</a>
     </li>
   
   </ul>
@@ -207,10 +248,8 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/11_11_androidkai-fa-de-si-kuan-ide.html" title="Previous Post: Android开发的四款IDE">&laquo; Android开发的四款IDE</a>
+        <a class="basic-alignment left" href="/05_06_what-an-amazing-software.html" title="Previous Post: What An Amazing Software">&laquo; What An Amazing Software</a>
       
-      
-        <a class="basic-alignment right" href="/11_14_mang-dang-shan-you-ji-4.html" title="Next Post: 芒砀山游记4">芒砀山游记4 &raquo;</a>
       
     </p>
   </footer>
@@ -370,8 +409,8 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://baham.co/11_14_i-did-a-wrong-thing.html';
-        var disqus_url = 'http://baham.co/11_14_i-did-a-wrong-thing.html';
+        var disqus_identifier = 'http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html';
+        var disqus_url = 'http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html';
         var disqus_script = 'embed.js';
       
     (function () {

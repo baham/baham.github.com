@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-05-06T16:10:08+00:00</updated>
+  <updated>2014-05-07T01:50:39+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,89 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[octopress-add-description-keywords-plugin-optimization]]></title>
+    <link href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html"/>
+    <updated>2014-05-07T01:22:00+00:00</updated>
+    <id>http://baham.co/octopress-add-description-keywords-plugin-optimization</id>
+    <content type="html"><![CDATA[<p>Yesterday, when I just google my own site. I find the results show like this:</p>
+
+<p><img src="" alt="The Site's meta description" /></p>
+
+<p>But I did not want every page without description all show the site&rsquo;s description.</p>
+
+<p>Cause it is not good to index pages by search engine.</p>
+
+<p>So I want to optimizate the octopress plugin or called code to add the description and keywords.</p>
+
+<!--more-->
+
+
+<h2>Old Code</h2>
+
+<p>This is the old code.</p>
+
+<figure class='code'><figcaption><span> (add_keywords_and_description.rb)</span> <a href='http://baham.co/files/code/add_keywords_and_description.rb'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'>   <span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">site</span><span class="o">.</span><span class="n">description</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
+</span><span class='line'>  <span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
+</span><span class='line'><span class="sr"> {% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif site.keywords %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
+</span><span class='line'><span class="sr"> &lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The results I dislike it bring about are show the page&rsquo;s description as same as the site&rsquo;s description.</p>
+
+<p>So I change codes to show part of the page&rsquo;s content as description instead of site&rsquo;s description.</p>
+
+<h2>Add Description and Keywords new version</h2>
+
+<figure class='code'><figcaption><span> (add_keywords_and_description_new.rb)</span> <a href='http://baham.co/files/code/add_keywords_and_description_new.rb'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">page</span><span class="o">.</span><span class="n">title</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
+</span><span class='line'><span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif page.title %}{{&quot;&quot;}}{% else %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
+</span><span class='line'><span class="sr">&lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The code is not a ruby file, please add the codes or change the original code to these after the author meta in <code>source/_include/head.html</code>.</p>
+
+<p>When you change the codes to these.
+1. If the page has a description, it will show the description
+2. If has not and this page is a page, it will show the part of page content.
+3. Otherwise, show the site&rsquo;s description, like the homepage.</p>
+
+<p><em>PS</em>: <code>page means page/post/and other link, not just rake new_page's page</code></p>
+
+<p>And the keywords&#8217; code is like the description&#8217;.</p>
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link:
+<a href='http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html' rel="bookmark"><a href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html">http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html</a></a><br/>
+If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[What An Amazing Software]]></title>
@@ -584,6 +667,8 @@ keywords: "keywords, for, the, website"
 
 
 <p>After the modifying, when you check the <code>keywords</code> and <code>Description</code>, they will show what you add in <code>_config.yml</code></p>
+
+<p>The above code was optimizated by myself, this is <a href="http://baham.co/05_17_octopress-add-description-keywords-plugin-optimization.html">the new version with optimization about site&rsquo;s description and keywords </a>.</p>
 
 <p><strong>I think you will like it, my octopressers.</strong></p>
 
@@ -1333,44 +1418,6 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 
 <p>The Original Link:
 <a href='http://baham.co/03_20_use-linuxmint16.html' rel="bookmark"><a href="http://baham.co/03_20_use-linuxmint16.html">http://baham.co/03_20_use-linuxmint16.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[About Golang Article]]></title>
-    <link href="http://baham.co/03_10_11-10-26.html"/>
-    <updated>2014-03-10T11:10:00+00:00</updated>
-    <id>http://baham.co/11-10-26</id>
-    <content type="html"><![CDATA[<p>In this winter holiday. I nearlly write nothing. I did not achive my goal &ldquo;one day one golang&rdquo;.</p>
-
-<p>I failed.</p>
-
-<p>So I decide to stop the goal.</p>
-
-<p>But I still will write articles about golang.</p>
-
-<!--more-->
-
-
-<p>寒假几乎没有去写关于Go语言的文章，其中原因很多，但主要是因为懒惰。暂时，决定停更one day one golang的计划。</p>
-
-<p>但还会继续写关于go语言的文章。</p>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link:
-<a href='http://baham.co/03_10_11-10-26.html' rel="bookmark"><a href="http://baham.co/03_10_11-10-26.html">http://baham.co/03_10_11-10-26.html</a></a><br/>
 If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
 </p></p>
 ]]></content>
