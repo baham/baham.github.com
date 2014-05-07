@@ -1082,7 +1082,7 @@
     </url>
     <url>
         <loc>http://baham.co/04_29_octopress-seo.html</loc>
-        <lastmod>2014-05-07T01:40:24+00:00</lastmod>
+        <lastmod>2014-05-07T01:54:23+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/05_01_21-24-octopress-orinal-link-bug-fix.html</loc>
@@ -1102,13 +1102,13 @@
     </url>
     <url>
         <loc>http://baham.co/05_06_what-an-amazing-software.html</loc>
-        <lastmod>2014-05-06T15:04:46+00:00</lastmod>
+        <lastmod>2014-05-07T02:01:58+00:00</lastmod>
     </url>
     <url>
         <loc>
             http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html
         </loc>
-        <lastmod>2014-05-07T01:50:16+00:00</lastmod>
+        <lastmod>2014-05-07T08:14:51+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/friendly-links/</loc>
@@ -1136,7 +1136,7 @@
     </url>
     <url>
         <loc>http://baham.co/assets/bootstrap/docs/</loc>
-        <lastmod>2014-05-07T01:50:16+00:00</lastmod>
+        <lastmod>2014-05-07T08:14:51+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/assets/bootstrap/docs/css.html</loc>
@@ -1152,7 +1152,7 @@
     </url>
     <url>
         <loc>http://baham.co/feeds/</loc>
-        <lastmod>2014-05-06T15:17:44+00:00</lastmod>
+        <lastmod>2014-05-07T03:12:07+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/license/</loc>
@@ -1167,12 +1167,12 @@
         <lastmod>2014-04-28T07:45:02+00:00</lastmod>
     </url>
     <url>
-        <loc>http://baham.co/archives/</loc>
-        <lastmod>2014-05-07T01:50:16+00:00</lastmod>
+        <loc>http://baham.co/blog/archives/</loc>
+        <lastmod>2014-05-07T08:14:51+00:00</lastmod>
     </url>
     <url>
-        <loc>http://baham.co/blog/archives/</loc>
-        <lastmod>2014-05-07T01:50:16+00:00</lastmod>
+        <loc>http://baham.co/blog/categories/</loc>
+        <lastmod>2014-05-07T08:14:51+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/contactme/</loc>
@@ -1188,11 +1188,11 @@
     </url>
     <url>
         <loc>http://baham.co/</loc>
-        <lastmod>2014-05-07T01:50:16+00:00</lastmod>
+        <lastmod>2014-05-07T08:14:51+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/contactme-en/</loc>
-        <lastmod>2014-05-06T15:12:15+00:00</lastmod>
+        <lastmod>2014-05-07T03:16:57+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/files/code/robots.txt</loc>

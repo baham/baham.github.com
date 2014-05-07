@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-05-07T01:50:39+00:00</updated>
+  <updated>2014-05-07T08:16:16+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -14,15 +14,15 @@
 
   
   <entry>
-    <title type="html"><![CDATA[octopress-add-description-keywords-plugin-optimization]]></title>
+    <title type="html"><![CDATA[Octopress Add Description Keywords Plugin Optimization]]></title>
     <link href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html"/>
     <updated>2014-05-07T01:22:00+00:00</updated>
     <id>http://baham.co/octopress-add-description-keywords-plugin-optimization</id>
     <content type="html"><![CDATA[<p>Yesterday, when I just google my own site. I find the results show like this:</p>
 
-<p><img src="" alt="The Site's meta description" /></p>
+<p><img src="http://baham.co/images/baham/old-descripiton.jpg" alt="The Site's meta description" /></p>
 
-<p>But I did not want every page without description all show the site&rsquo;s description.</p>
+<p>But I did not want every page without description shows the site&rsquo;s description.</p>
 
 <p>Cause it is not good to index pages by search engine.</p>
 
@@ -47,7 +47,9 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>The results I dislike it bring about are show the page&rsquo;s description as same as the site&rsquo;s description.</p>
+<p>And the article that include the old codes  about the <a href="http://baham.co/04_29_octopress-seo.html">octopress seo</a>.</p>
+
+<p>The results I dislike codes bring about are show the page&rsquo;s description as same as the site&rsquo;s description.</p>
 
 <p>So I change codes to show part of the page&rsquo;s content as description instead of site&rsquo;s description.</p>
 
@@ -69,12 +71,16 @@
 
 <p>The code is not a ruby file, please add the codes or change the original code to these after the author meta in <code>source/_include/head.html</code>.</p>
 
+<p>Then the meta will show like :</p>
+
+<p><img src="http://baham.co/images/baham/meta.jpg" alt="meta" /></p>
+
 <p>When you change the codes to these.
 1. If the page has a description, it will show the description
 2. If has not and this page is a page, it will show the part of page content.
 3. Otherwise, show the site&rsquo;s description, like the homepage.</p>
 
-<p><em>PS</em>: <code>page means page/post/and other link, not just rake new_page's page</code></p>
+<p><em>PS</em>: <code>page means page/post/other links, not just rake new_page's page</code></p>
 
 <p>And the keywords&#8217; code is like the description&#8217;.</p>
 
@@ -89,9 +95,8 @@
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html' rel="bookmark"><a href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html">http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html">http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -142,7 +147,9 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 <span class='line-number'>8</span>
 <span class='line-number'>9</span>
 <span class='line-number'>10</span>
+<span class='line-number'>11</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>A
+</span><span class='line'>
 </span><span class='line'>         [5 0 0 0 8 0 0 4 9]
 </span><span class='line'>        [0 0 0 5 0 0 0 3 0]
 </span><span class='line'>        [0 6 7 3 0 0 0 0 1]
@@ -167,15 +174,17 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 <span class='line-number'>7</span>
 <span class='line-number'>8</span>
 <span class='line-number'>9</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'> [5 1 3 6 8 7 2 4 9]
-</span><span class='line'>    [8 4 9 5 2 1 6 3 7]
-</span><span class='line'>    [2 6 7 3 4 9 5 8 1]
-</span><span class='line'>    [1 5 8 4 6 3 9 7 2]
-</span><span class='line'>    [9 7 4 2 1 8 3 6 5]
-</span><span class='line'>    [3 2 6 7 9 5 4 1 8]
-</span><span class='line'>    [7 8 2 9 3 4 1 5 6]
-</span><span class='line'>    [6 3 5 1 7 2 8 9 4]
-</span><span class='line'>    [4 9 1 8 5 6 7 2 3]</span></code></pre></td></tr></table></div></figure>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>
+</span><span class='line'>      [5 1 3 6 8 7 2 4 9]
+</span><span class='line'>        [8 4 9 5 2 1 6 3 7]
+</span><span class='line'>        [2 6 7 3 4 9 5 8 1]
+</span><span class='line'>        [1 5 8 4 6 3 9 7 2]
+</span><span class='line'>        [9 7 4 2 1 8 3 6 5]
+</span><span class='line'>        [3 2 6 7 9 5 4 1 8]
+</span><span class='line'>        [7 8 2 9 3 4 1 5 6]
+</span><span class='line'>        [6 3 5 1 7 2 8 9 4]
+</span><span class='line'>        [4 9 1 8 5 6 7 2 3]</span></code></pre></td></tr></table></div></figure>
 
 
 <p>What a math software! <p class='post-footer' style="font-size:70%;" ></p>
@@ -189,9 +198,8 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/05_06_what-an-amazing-software.html' rel="bookmark"><a href="http://baham.co/05_06_what-an-amazing-software.html">http://baham.co/05_06_what-an-amazing-software.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/05_06_what-an-amazing-software.html">http://baham.co/05_06_what-an-amazing-software.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -297,9 +305,8 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/05_06_ruby-multidimensional-arrays.html' rel="bookmark"><a href="http://baham.co/05_06_ruby-multidimensional-arrays.html">http://baham.co/05_06_ruby-multidimensional-arrays.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/05_06_ruby-multidimensional-arrays.html">http://baham.co/05_06_ruby-multidimensional-arrays.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -379,9 +386,8 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/05_05_the-great-hypnotist.html' rel="bookmark"><a href="http://baham.co/05_05_the-great-hypnotist.html">http://baham.co/05_05_the-great-hypnotist.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/05_05_the-great-hypnotist.html">http://baham.co/05_05_the-great-hypnotist.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -443,9 +449,8 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/05_02_church-meeting-in-worker-s-day.html' rel="bookmark"><a href="http://baham.co/05_02_church-meeting-in-worker-s-day.html">http://baham.co/05_02_church-meeting-in-worker-s-day.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/05_02_church-meeting-in-worker-s-day.html">http://baham.co/05_02_church-meeting-in-worker-s-day.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -488,9 +493,8 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/05_01_21-24-octopress-orinal-link-bug-fix.html' rel="bookmark"><a href="http://baham.co/05_01_21-24-octopress-orinal-link-bug-fix.html">http://baham.co/05_01_21-24-octopress-orinal-link-bug-fix.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/05_01_21-24-octopress-orinal-link-bug-fix.html">http://baham.co/05_01_21-24-octopress-orinal-link-bug-fix.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -668,7 +672,7 @@ keywords: "keywords, for, the, website"
 
 <p>After the modifying, when you check the <code>keywords</code> and <code>Description</code>, they will show what you add in <code>_config.yml</code></p>
 
-<p>The above code was optimizated by myself, this is <a href="http://baham.co/05_17_octopress-add-description-keywords-plugin-optimization.html">the new version with optimization about site&rsquo;s description and keywords </a>.</p>
+<p>The above code was optimizated by myself, this is <a href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html">the new version with optimization about site&rsquo;s description and keywords </a>.</p>
 
 <p><strong>I think you will like it, my octopressers.</strong></p>
 
@@ -691,9 +695,8 @@ keywords: "keywords, for, the, website"
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/04_29_octopress-seo.html' rel="bookmark"><a href="http://baham.co/04_29_octopress-seo.html">http://baham.co/04_29_octopress-seo.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/04_29_octopress-seo.html">http://baham.co/04_29_octopress-seo.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -767,9 +770,8 @@ https://groups.google.com/forum/#!forum/comp.lang.ruby
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/04_28_the-ruby-community.html' rel="bookmark"><a href="http://baham.co/04_28_the-ruby-community.html">http://baham.co/04_28_the-ruby-community.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/04_28_the-ruby-community.html">http://baham.co/04_28_the-ruby-community.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -823,9 +825,8 @@ here_document
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/04_28_ruby-multi-line.html' rel="bookmark"><a href="http://baham.co/04_28_ruby-multi-line.html">http://baham.co/04_28_ruby-multi-line.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/04_28_ruby-multi-line.html">http://baham.co/04_28_ruby-multi-line.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -896,9 +897,8 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/04_27_3-hours-in-zhengzhou.html' rel="bookmark"><a href="http://baham.co/04_27_3-hours-in-zhengzhou.html">http://baham.co/04_27_3-hours-in-zhengzhou.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/04_27_3-hours-in-zhengzhou.html">http://baham.co/04_27_3-hours-in-zhengzhou.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -965,9 +965,8 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/04_26_internship-in-pingdingshan.html' rel="bookmark"><a href="http://baham.co/04_26_internship-in-pingdingshan.html">http://baham.co/04_26_internship-in-pingdingshan.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/04_26_internship-in-pingdingshan.html">http://baham.co/04_26_internship-in-pingdingshan.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -1025,9 +1024,8 @@ After it, I went back by train. It is so late, so I took a shower, watche a litt
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/04_26_exchange-dream-by-jiaqian.html' rel="bookmark"><a href="http://baham.co/04_26_exchange-dream-by-jiaqian.html">http://baham.co/04_26_exchange-dream-by-jiaqian.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/04_26_exchange-dream-by-jiaqian.html">http://baham.co/04_26_exchange-dream-by-jiaqian.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -1102,9 +1100,8 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/04_24_shenzhen.html' rel="bookmark"><a href="http://baham.co/04_24_shenzhen.html">http://baham.co/04_24_shenzhen.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/04_24_shenzhen.html">http://baham.co/04_24_shenzhen.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -1143,9 +1140,8 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/04_24_use-english-to-write-articles.html' rel="bookmark"><a href="http://baham.co/04_24_use-english-to-write-articles.html">http://baham.co/04_24_use-english-to-write-articles.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/04_24_use-english-to-write-articles.html">http://baham.co/04_24_use-english-to-write-articles.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -1197,9 +1193,8 @@ after the station, there are mountains.</p>
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/04_21_go-to-shenzhen.html' rel="bookmark"><a href="http://baham.co/04_21_go-to-shenzhen.html">http://baham.co/04_21_go-to-shenzhen.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/04_21_go-to-shenzhen.html">http://baham.co/04_21_go-to-shenzhen.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -1246,9 +1241,8 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/04_21_18-44-52.html' rel="bookmark"><a href="http://baham.co/04_21_18-44-52.html">http://baham.co/04_21_18-44-52.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/04_21_18-44-52.html">http://baham.co/04_21_18-44-52.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -1299,9 +1293,8 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/04_21_18-00-28.html' rel="bookmark"><a href="http://baham.co/04_21_18-00-28.html">http://baham.co/04_21_18-00-28.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/04_21_18-00-28.html">http://baham.co/04_21_18-00-28.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -1348,9 +1341,8 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/04_20_21-29-52.html' rel="bookmark"><a href="http://baham.co/04_20_21-29-52.html">http://baham.co/04_20_21-29-52.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/04_20_21-29-52.html">http://baham.co/04_20_21-29-52.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -1384,9 +1376,8 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/03_30_ituring-new-version.html' rel="bookmark"><a href="http://baham.co/03_30_ituring-new-version.html">http://baham.co/03_30_ituring-new-version.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/03_30_ituring-new-version.html">http://baham.co/03_30_ituring-new-version.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
@@ -1416,9 +1407,8 @@ If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.
 <br/>
 
 
-<p>The Original Link:
-<a href='http://baham.co/03_20_use-linuxmint16.html' rel="bookmark"><a href="http://baham.co/03_20_use-linuxmint16.html">http://baham.co/03_20_use-linuxmint16.html</a></a><br/>
-If you want to reprint it, please do under the  <a href=/license >CC BY-NC-SA 4.0</a>.<br/>
+<p>The Original Link: <a href="http://baham.co/03_20_use-linuxmint16.html">http://baham.co/03_20_use-linuxmint16.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>

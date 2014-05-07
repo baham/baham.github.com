@@ -4,7 +4,7 @@
   <title><![CDATA[Category: SEO | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/seo/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-05-07T01:50:39+00:00</updated>
+  <updated>2014-05-07T08:16:16+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -14,15 +14,15 @@
 
   
   <entry>
-    <title type="html"><![CDATA[octopress-add-description-keywords-plugin-optimization]]></title>
+    <title type="html"><![CDATA[Octopress Add Description Keywords Plugin Optimization]]></title>
     <link href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html"/>
     <updated>2014-05-07T01:22:00+00:00</updated>
     <id>http://baham.co/octopress-add-description-keywords-plugin-optimization</id>
     <content type="html"><![CDATA[<p>Yesterday, when I just google my own site. I find the results show like this:</p>
 
-<p><img src="" alt="The Site's meta description" /></p>
+<p><img src="/images/baham/old-descripiton.jpg" alt="The Site's meta description" /></p>
 
-<p>But I did not want every page without description all show the site&rsquo;s description.</p>
+<p>But I did not want every page without description shows the site&rsquo;s description.</p>
 
 <p>Cause it is not good to index pages by search engine.</p>
 
@@ -45,7 +45,9 @@
 </span><span class='line'><span class="sr">	&lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
 </span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
-<p>The results I dislike it bring about are show the page&rsquo;s description as same as the site&rsquo;s description.</p>
+<p>And the article that include the old codes  about the <a href="/04_29_octopress-seo.html">octopress seo</a>.</p>
+
+<p>The results I dislike codes bring about are show the page&rsquo;s description as same as the site&rsquo;s description.</p>
 
 <p>So I change codes to show part of the page&rsquo;s content as description instead of site&rsquo;s description.</p>
 
@@ -66,12 +68,16 @@
 
 <p>The code is not a ruby file, please add the codes or change the original code to these after the author meta in <code>source/_include/head.html</code>.</p>
 
+<p>Then the meta will show like :</p>
+
+<p><img src="/images/baham/meta.jpg" alt="meta" /></p>
+
 <p>When you change the codes to these.
 1. If the page has a description, it will show the description
 2. If has not and this page is a page, it will show the part of page content.
 3. Otherwise, show the site&rsquo;s description, like the homepage.</p>
 
-<p><em>PS</em>: <code>page means page/post/and other link, not just rake new_page's page</code></p>
+<p><em>PS</em>: <code>page means page/post/other links, not just rake new_page's page</code></p>
 
 <p>And the keywords' code is like the description'.</p>
 ]]></content>
