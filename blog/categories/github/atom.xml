@@ -4,7 +4,15 @@
   <title><![CDATA[Category: Github | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
+<<<<<<< HEAD
   <updated>2014-05-09T06:35:44+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-09T06:29:49+00:00</updated>
+=======
+  <updated>2014-05-09T06:22:09+00:00</updated>
+>>>>>>> 9965554227a9168e925c0fc3cae65a6ebc2e0dd2
+>>>>>>> 3399caa1cbe967ec6120f436bdff1733f66bb273
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -45,7 +53,9 @@
     <content type="html"><![CDATA[<p>1 创建CNAME在你的repo
 此处CNAME指的是一个文件，文件名即CNAME，在其中，填入你想要绑定的域名。
 比如本站：
-<blockquote><p>baham.co</p></blockquote></p>
+{% blockquote %}
+baham.co
+{% endblockquote %}</p>
 
 <p>2 配置DNS
 配置A记录到  204.232.175.78</p>
