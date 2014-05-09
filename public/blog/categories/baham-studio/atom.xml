@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Baham Studio | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/baham-studio/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2014-05-09T06:00:59+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Binix和BearFox停止更新]]></title>
+    <link href="http://baham.co/06_27_binixhe-bearfoxting-zhi-geng-xin.html"/>
+    <updated>2013-06-27T14:53:00+00:00</updated>
+    <id>http://baham.co/binixhe-bearfoxting-zhi-geng-xin</id>
+    <content type="html"><![CDATA[<p>之前，心血来潮，在Firefox的社区里申请定制了Bearfox,即熊狐浏览器，但是更新过一次，再也没有更新过，毕竟受众太少，维护无力，所以连同在opensuse那定制的Binix（即Baham-Linux），一同停止更新，同时从导航栏中移除两者链接。</p>
+
+<p>现正式声明此状况，如果您真地需要使用这两款软件，依旧可以获得老版本。</p>
+
+<p>愧对开源社区，在此致歉。</p>
+
+<p><a href="/binix-baham-linux-os">Binix</a>;</p>
+
+<p><a href="/bearfox">Bearfox</a>。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tic-Tac-Toe-AI-GUI版本]]></title>
+    <link href="http://baham.co/08_25_456.html"/>
+    <updated>2012-08-25T23:16:22+00:00</updated>
+    <id>http://baham.co/456</id>
+    <content type="html"><![CDATA[<p><img src="http://baham.co/wp-content/uploads/2012/08/tttui-300x273.png" alt="Tic-Tac-Toe-AI_Gui-开始" />之前写的一直是NoUI版本，最近基于Java <strong>Swing</strong>写了一个GUI版本，部分代码有了变化，不过整个AI设计并没有变化，还是那个涉及<strong>博弈论</strong>的老问题。</p>
+
+<p>Java最大的特点莫过于面向对象，不过在改写整个程序过程中，发现其实自己刚开始写的NoUI版本的扩展性并不好，很多代码需要修改，而不是只在客户代码中修改、或者通过集成修改子类。</p>
+
+<p>总之这个版本在<strong>逻辑</strong>上应该没什么大问题，和NoUI版并无大异。只是代码<strong>可读性</strong>并没有进步，以后优势见可能会在次修改代码，会让它读起来更优美。现在，先将代码放出，可能很多地方需要完善，但是基本实现对奕的全过程。<!-- more --></p>
+
+<p><a href="http://baham.co/wp-content/uploads/2012/08/tttui3.png"><img src="http://baham.co/wp-content/uploads/2012/08/tttui3-300x231.png" alt="Tic-Tac-Toe-AI_Gui-对奕" /></a><a href="http://baham.co/wp-content/uploads/2012/08/tttui2.png"><img src="http://baham.co/wp-content/uploads/2012/08/tttui2-300x273.png" alt="Tic-Tac-Toe-AI_Gui-判定胜负" /></a></p>
+
+<p>以下为GUI部分通过Swing设计的代码：</p>
+
+<pre><code>package tttai;
+
+import java.awt.Color;
+import java.awt.FlowLayout;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+
+import javax.swing.*;
+import javax.swing.border.EtchedBorder;
+import javax.swing.event.MouseInputAdapter;
+
+public class TTTUI extends MouseInputAdapter{
+
+    private JFrame jf;
+    private JLabel[][] jlb;
+
+    private String s;
+    public TTTUI(String s){
+
+        try{
+            String theLook=UIManager.getSystemLookAndFeelClassName();
+            //String theLook="com.sun.java.swing.plaf.motif.MotifLookAndFeel";
+
+            UIManager.setLookAndFeel(theLook);
+        }catch (Exception e){
+            System.err.println("Exception:"+e);
+        }
+        this.s="X";
+        jf=new JFrame();
+        jf.setLayout(new GridLayout(3,3));
+        jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jf.setSize(300,300);
+        jf.setResizable(false);
+        jf.setLocation(500,300);
+        jf.setTitle("Tic-Tac-Toe-AI(GUI)");
+        jf.setBackground(Color.BLACK);
+        jf.setForeground(Color.GREEN);
+        jlb=new JLabel[3][3];
+
+        for(int i=0;i&lt;=jlb.length-1;i++){
+            for (int j=0;j&lt;=jlb[i].length-1;j++){
+                jlb[i][j]=new JLabel("");
+                jlb[i][j].setSize(100,100);
+                jlb[i][j].setBorder(new EtchedBorder(EtchedBorder.LOWERED));
+                jlb[i][j].addMouseListener(this);
+                jf.add(jlb[i][j]);
+            }
+        }
+
+        jf.setVisible(true);
+
+    }
+
+    public void mouseClicked(MouseEvent e){
+
+        if(e.getSource()==jlb[0][0]){
+            dropPiece(0,0);
+        }else if(e.getSource()==jlb[0][1]){
+            dropPiece(0,1);
+        }else if(e.getSource()==jlb[0][2]){
+            dropPiece(0,2);
+        }else if( e.getSource()==jlb[1][0]){
+            dropPiece(1,0);
+
+        }else if(e.getSource()==jlb[1][1]){
+            dropPiece(1,1);
+
+        }else if(e.getSource()==jlb[1][2]){
+            dropPiece(1,2);
+        }else if (e.getSource()==jlb[2][0]){
+            dropPiece(2,0);
+        }else if(e.getSource()==jlb[2][1]){
+            dropPiece(2,1);
+        }else if(e.getSource()==jlb[2][2]){
+            dropPiece(2,2);
+        }
+
+        check();
+
+    }
+    public void check(){
+        int tmp=TicTacToeAI.getAI().check();
+        if(tmp==1){
+            JOptionPane.showMessageDialog(jf, "Player1 Win!");
+            disableBoard();
+        }else if(tmp==-1){
+            JOptionPane.showMessageDialog(jf, "AI Win!");
+            disableBoard();
+
+        }else if(tmp==3){
+
+        }else {
+            JOptionPane.showMessageDialog(jf, "It is a draw!");
+            disableBoard();
+
+        }
+    }
+    public void disableBoard(){
+        for(int i=0;i&lt;=jlb.length-1;i++){
+            for (int j=0;j&lt;=jlb[i].length-1;j++){
+                jlb[i][j].removeMouseListener(this);
+            }
+        }
+    }
+    public int[][] getBoard(){
+        int t[][]=new int[3][3];
+        for (int i=0;i&lt;=2;i++){
+            for (int j=0;j&lt;=2;j++){
+                if(jlb[i][j].getText().equals("X")){
+                    t[i][j]=1;
+                }else if(jlb[i][j].getText().equals("O")){
+                    t[i][j]=-1;
+                }else 
+                    t[i][j]=0;
+            }
+        }
+        return t;
+
+    }
+
+    public void dropPiece(int x,int y){
+        if (jlb[x][y].getText().equals("")){
+            jlb[x][y].setText(s);
+            jf.repaint();
+            TicTacToeAI.getAI().start();
+            }else {
+                JOptionPane.showMessageDialog(jf, "Wrong Location!");
+            }
+
+    }
+
+    public void dropPiece(String flag,int x,int y){
+
+        jlb[x][y].setText(flag);
+        jf.repaint();
+
+    }
+    public JFrame getFrame(){
+        return jf;
+    }
+}
+</code></pre>
+
+<p><a href="http://baham.co/wp-files/tttai.zip"> Tic-Tac-Toe-AI_GUI完整源码下载</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Binix-Baham Linux OS详细介绍]]></title>
+    <link href="http://baham.co/08_25_447.html"/>
+    <updated>2012-08-25T22:40:11+00:00</updated>
+    <id>http://baham.co/447</id>
+    <content type="html"><![CDATA[<p>每个人都应改有一款自己的<strong>操作系统</strong>，我一直这么想的，本来想<a href="http://www.linuxfromscratch.org/lfs/">LFS</a>的,不过最后选择了Suse Studio。当然这没有LFS技术含量高，不过，也算是一款属于自己的操作系统。</p>
+
+<p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%8A%93%E5%9B%BE2-300x225.png" alt="Binix登录界面" /><strong>Binix</strong>-Baham Linux OS基于OpenSuse，默认浏览器为<a href="http://baham.co/bearfox">火狐</a>，使用KDE4.8作为X桌面，包好gpg软件包，提供安全保护。</p>
+
+<p>Binix属于微型系统，目的在于小巧，只有OpenSuse基本的软件包，无冗余。</p>
+
+<p>Suse最大的特点莫过于Yast工具，Binix也不利外，继承了Suse的优点。</p>
+
+<!-- more -->
+
+
+<p>Binix默认用户 <em>Binix</em></p>
+
+<p>默认密码 <em>xiniB</em></p>
+
+<p>root默认密码 <em>linux</em></p>
+
+<p>请在安装后自行更改为更安全的密码。</p>
+
+<p>[<img src="http://baham.co/wp-content/uploads/2012/08/%E6%8A%93%E5%9B%BE3-300x224.png" alt="Binix-KDE桌面" /> 图为Binix默认桌面]</p>
+
+<p><a href="http://baham.co/binix-baham-linux-os"> Binix下载</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[详解Tic-Tac-Toe人工智能实现]]></title>
+    <link href="http://baham.co/08_02_328.html"/>
+    <updated>2012-08-02T21:12:39+00:00</updated>
+    <id>http://baham.co/328</id>
+    <content type="html"><![CDATA[<p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_18-53-21.png" alt="井字棋棋盘 tic-tac-toe 棋盘" /> 井字棋棋盘</p>
+
+<p><strong>Tic-Tac-Toe</strong>又称<strong>井字棋</strong>，即在3X3的棋盘上，双方轮流落子，先将3枚棋子连成一线的一方获得胜利。</p>
+
+<p>Tic-Tac-Toe变化简单，只有765个可能局面，26830个棋局，因此常成为<a href="https://zh.wikipedia.org/wiki/%E5%8D%9A%E5%BC%88%E8%AE%BA">博弈论</a>和<a href="https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E6%A8%B9">游戏树</a>搜寻的教学例子，同时也是<a href="https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD">人工智能</a>的一道好题目。</p>
+
+<h1></h1>
+
+<h1>关于棋盘：</h1>
+
+<p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_18-58-43.png" alt="Tic-tac-toe棋盘坐标 井字棋 坐标" /> 井字棋棋盘坐标版</p>
+
+<p>整个棋盘可以连接出<strong>8条线</strong>。<a href="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-12-42.png">tic-tac-toe 井字棋 胜利方式</a>（如右图）&mdash;&mdash;></p>
+
+<p>在中心的位置（2，2）有<strong>四条线</strong>穿过。</p>
+
+<p>在所有棱位（1，2），（2，1），（2，3），（3，2），均有<strong>两条线</strong>穿过。</p>
+
+<p>在所有角位（1，1），（1，3），（3，1），（3，3），均有<strong>三条线</strong>。<!-- more --></p>
+
+<h1>如何实现人工智能：</h1>
+
+<p>在下棋过程中，任何一方无非处于四种状态：</p>
+
+<ol>
+<li><p> 开局落子</p></li>
+<li><p> 第二步棋（先角原则）</p></li>
+<li><p> 攻</p></li>
+<li><p> 守</p></li>
+<li><p> 垃圾时间</p></li>
+</ol>
+
+
+<p>想要实现人工智能，让AI和人正常对弈，必须让AI理解这5种状态。</p>
+
+<h2>开局落子：</h2>
+
+<p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-26-48.png" alt="Tic-tac-toe 井字棋 AI先手" /> 井字棋 AI先手[/caption]</p>
+
+<p>开局时，分为两种状况，一是AI先手，二是AI后手。AI先手时，毫无疑问，让AI落子在(2,2)位置（以X表示AI）。如图：</p>
+
+<p>而当AI后手时，玩家可能落子情况有分为三种：</p>
+
+<ol>
+<li><p> 中心位置</p></li>
+<li><p> 棱位</p></li>
+<li><p> 角位</p></li>
+</ol>
+
+
+<h3>1、玩家落子在中心位置：</h3>
+
+<p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-34-15.png" alt="tic-tac-toe 井字棋 AI落子棱位" /> 图1[/caption]</p>
+
+<p>此时，AI需要落子在角位。原因在于，如果落子在棱位，将出现如下<strong>必输的情形</strong>，示例如下，AI此时落子在（1，2）位置：玩家只需要在（3，1）或（3，3）位置落子，如图在（3，1），下一步则必须落子在（1，3），对手跟进落子在（1，1），</p>
+
+<p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-39-59.png" alt="tic-tac-toe 井字棋 大势已去" />
+——则AI大势已去！</p>
+
+<h3>2、棱位  3、角位</h3>
+
+<p>这两种情形，AI指需要落子在（2，2）位置，便可保无虞，甚至<strong>反守为攻</strong>。</p>
+
+<h2>第二步棋（先角原则）：</h2>
+
+<p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-12-42.png" alt="tic-tac-toe 井字棋 先角原则" />由上可知，当中心被玩家占据，需要避免上边提到的“<strong>必输的情形</strong>”跟进落子在角上，而非棱上。</p>
+
+<p>而如果，自己占据中心，玩家落子在棱上，根据“必输情形”，此时也应该落在角上，而且如上图图1，应该落子在玩家棋子对面的角位上，此时“必输情形”将属于玩家。</p>
+
+<h2>攻：</h2>
+
+<p>任何<strong>己方</strong>两枚棋子连接在一起，且连线有空位时，落子在空位。</p>
+
+<h2>守：</h2>
+
+<p>任何<strong>玩家</strong>两枚棋子连接在一起，且连线有空位时，落子在空位。</p>
+
+<h2>垃圾时间：</h2>
+
+<p>由于棋盘大小限制，下棋过程中，很容易陷入双方均无法获胜的情况，此时，只需要找个空位随便落子即可。</p>
+
+<h1>特殊情况：</h1>
+
+<p>在以以上方式实现AI时，出现了一种比较特殊情况。即玩家先手，落子在角位以（1，1）为例，AI根据“<strong>开局落子</strong>”的原则3，落子在（2，2）。而玩家在第一步棋子位置（1，1）的对角（3，3）位置落子，</p>
+
+<p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_20-13-02.png" alt="Tic-tac-toe-ai 井字棋 特殊情况" /> 井字棋 特殊情况[/caption]</p>
+
+<p>依据“<strong>角先原则</strong>”，AI将落子在（1，3）或（3，1），对方将在（3，1）或（1，3）封堵AI，此时AI便已输了。<img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_20-14-49.png" alt="tic-tac-toe-ai 特殊情况 AI输 井字棋" /></p>
+
+<p>所以，唯有此种情况不能执行“<strong>角先原则</strong>”。</p>
+
+<h1>代码实现：</h1>
+
+<p>其中，以<strong>二维数组</strong>t[3][3]表示棋盘，-1表示AI棋子X，1表示玩家棋子O，</p>
+
+<p>dropPiece(Position p)方法表示落子，Position（int f ,int x,int y）表示棋盘位置，x,y表示坐标值，f取值范围为（-1或1）表示AI或者玩家。下面是AI类主要代码：</p>
+
+<pre><code>public void start(){
+        if(attrack()){//实现攻
+        }else if(defend()){//实现守 
+                }else if(center()){//实现开局落子
+        }else{
+            planB();//实现特殊情况、先角原则及垃圾时间
+        }
+    }//以上方法是AI运行开始的方法
+    public boolean attrack(){
+        return twoPieces(-1);
+
+    }//攻，任何己方两枚棋子连接在一起，且连线有空位时，落子在空位。
+    public boolean defend(){
+        return twoPieces(1);
+
+    }//守，任何对方两枚棋子连接在一起，且连线有空位时，落子在空位。
+ private boolean twoPieces(int f) {
+
+        for(int i=0;i&lt;=t.length-1;i++){
+            if(t[i][0]==t[i][1]&amp;&amp;t[i][0]==f&amp;&amp;t[i][2]==0){
+                b.dropPiece(new PieceLocation(-1,i,2));return true;
+            }else if(t[i][0]==t[i][2]&amp;&amp;t[i][0]==f&amp;&amp;t[i][1]==0){
+                b.dropPiece(new PieceLocation(-1,i,1));return true;
+            }else if (t[i][1]==t[i][2]&amp;&amp;t[i][1]==f&amp;&amp;t[i][0]==0){
+                b.dropPiece(new PieceLocation(-1,i,0));return true;
+            }else if(t[0][i]==t[1][i]&amp;&amp;t[0][i]==f&amp;&amp;t[2][i]==0){
+                b.dropPiece(new PieceLocation(-1,2,i));return true;
+            }else if (t[0][i]==t[2][i]&amp;&amp;t[0][i]==f&amp;&amp;t[1][i]==0){
+                b.dropPiece(new PieceLocation(-1,1,i));return true;
+            }else if(t[1][i]==t[2][i]&amp;&amp;t[1][i]==f&amp;&amp;t[0][i]==0){
+                b.dropPiece(new PieceLocation(-1,0,i));return true;
+            }            
+        }
+        if (t[0][0]==t[1][1]&amp;&amp;t[0][0]==f&amp;&amp;t[2][2]==0){
+            b.dropPiece(new PieceLocation(-1,2,2));return true;
+        }else if(t[1][1]==t[2][2]&amp;&amp;t[1][1]==f&amp;&amp;t[0][0]==0){
+            b.dropPiece(new PieceLocation(-1,0,0));return true;
+        }else if(t[0][2]==t[1][1]&amp;&amp;t[0][2]==f&amp;&amp;t[2][0]==0){
+            b.dropPiece(new PieceLocation(-1,2,0));return true;
+        }else if (t[1][1]==t[2][0]&amp;&amp;t[1][1]==f&amp;&amp;t[0][2]==0){
+            b.dropPiece(new PieceLocation(-1,0,2));return true;
+        }else{
+            return false;
+        }
+    }//包含任何己方两枚棋子连接在一起，且连线有空位的情况
+     //（横向、纵向和斜着的方向）
+   public boolean center(){
+        if(t[1][1]==0){
+            b.dropPiece(new PieceLocation(-1,1,1));return true;
+        }else{
+            return false;
+        }
+    }
+    public void planB(){
+
+        if(t[0][0]==t[2][2]&amp;&amp;t[0][0]==1||t[0][2]==t[2][0]&amp;&amp;t[0][2]==1){
+            if(t[0][2]==0){
+                b.dropPiece(new PieceLocation(-1,0,2));
+            }else{
+                b.dropPiece(new PieceLocation(-1,0,0));
+            }//特殊情况实现代码
+
+        }else if((t[0][1]==1||t[1][2]==1)&amp;&amp;t[2][0]==0){
+            b.dropPiece(new PieceLocation(-1,2,0));
+        }else if((t[1][0]==1||t[2][1]==1)&amp;&amp;t[0][2]==0){
+            b.dropPiece(new PieceLocation(-1,0,2));
+                //以上四行为先角原则的实现 以下为垃圾时间代码实现，即从座至右，
+//从上到下，扫描整个棋盘，然后寻找空位，落子。
+        }else if(t[0][0]==0){
+            b.dropPiece(new PieceLocation(-1,0,0));
+        }else if (t[0][2]==0){
+            b.dropPiece(new PieceLocation(-1,0,2));
+        }else if(t[2][0]==0){
+            b.dropPiece(new PieceLocation(-1,2,0));
+        }else if (t[2][2]==0){
+            b.dropPiece(new PieceLocation(-1,2,2));
+        }else if(t[0][1]==0){
+            b.dropPiece(new PieceLocation(-1,0,1));
+        }else if(t[1][0]==0){
+            b.dropPiece(new PieceLocation(-1,1,0));
+        }else if(t[1][2]==0){
+            b.dropPiece(new PieceLocation(-1,1,2));
+        }else 
+            b.dropPiece(new PieceLocation(-1,2,1));
+        }
+      }
+</code></pre>
+
+<p><a href="http://baham.co/wp-files/Tic-Tac-Toe.jar"> Tic-Tac-Toe-AI Jar文件</a></p>
+
+<p><a href="http://baham.co/wp-files/Tic-Tac-Toe.zip">Tic-Tac-Toe-AI 源码</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[BearFox Browser-熊狐浏览器]]></title>
+    <link href="http://baham.co/07_29_271.html"/>
+    <updated>2012-07-29T13:13:27+00:00</updated>
+    <id>http://baham.co/271</id>
+    <content type="html"><![CDATA[<p><strong>BearFox Browser</strong>（<strong>熊狐浏览器</strong>），来自<a href="http://baham.co">Baham.co</a>， 由Baham定制。 插件包括 Adblock Plus，Auto Proxy，NoScript，Flagfox等安全插件； DownThemAll，IE Tab+，NetVideoHunter，Firebug，Xthunder，TabMixPlus，CreaseMonkey等其他常用插件。 书签包括Baham’s Blog，英文（NCR）、英文（印度）、印地语、德文、法文、中文（简繁）、日文俄语、西班牙语Google站点，以及MIT杂志的中文站、 EDXonline在线教育网站……以及一些其他很有用但国内访问量较少的网站。 主题及皮肤均采用默认。</p>
+
+<p>BearFox 1.0对应Firefox14.1，随火狐更新BearFox会动态更新。</p>
+
+<p>BearFox2.2 于2012年11月6日发布。</p>
+
+<p>下载地址：</p>
+
+<!-- more -->
+
+
+<p><strong>停止更新</strong></p>
+]]></content>
+  </entry>
+  
+</feed>
