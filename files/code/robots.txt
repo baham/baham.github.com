@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /javascripts
+
+Sitemap: http://baham.co/sitemap.xml

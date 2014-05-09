@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: SEO | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/seo/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2014-05-07T10:08:13+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress Add Description Keywords Plugin Optimization]]></title>
+    <link href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html"/>
+    <updated>2014-05-07T01:22:00+00:00</updated>
+    <id>http://baham.co/octopress-add-description-keywords-plugin-optimization</id>
+    <content type="html"><![CDATA[<p>Yesterday, when I just google my own site. I find the results show like this:</p>
+
+<p><img src="/images/baham/old-descripiton.jpg" alt="The Site's meta description" /></p>
+
+<p>But I did not want every page without description shows the site&rsquo;s description.</p>
+
+<p>Cause it is not good to index pages by search engine.</p>
+
+<p>So I want to optimizate the octopress plugin or called code to add the description and keywords.</p>
+
+<!--more-->
+
+
+<h2>Old Code</h2>
+
+<p>This is the old code.
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description.rb)</span> <a href='/files/code/add_keywords_and_description.rb'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'>	<span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">site</span><span class="o">.</span><span class="n">description</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
+</span><span class='line'>	<span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
+</span><span class='line'><span class="sr">	{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif site.keywords %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
+</span><span class='line'><span class="sr">	&lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>And the article that include the old codes  about the <a href="/04_29_octopress-seo.html">octopress seo</a>.</p>
+
+<p>The results I dislike codes bring about are show the page&rsquo;s description as same as the site&rsquo;s description.</p>
+
+<p>So I change codes to show part of the page&rsquo;s content as description instead of site&rsquo;s description.</p>
+
+<h2>Add Description and Keywords new version</h2>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description_new.rb)</span> <a href='/files/code/add_keywords_and_description_new.rb'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">page</span><span class="o">.</span><span class="n">title</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
+</span><span class='line'><span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif page.title %}{{&quot;&quot;}}{% else %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
+</span><span class='line'><span class="sr">&lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>The code is not a ruby file, please add the codes or change the original code to these after the author meta in <code>source/_include/head.html</code>.</p>
+
+<p>Then the meta will show like :</p>
+
+<p><img src="/images/baham/meta.jpg" alt="meta" /></p>
+
+<p>When you change the codes to these.
+1. If the page has a description, it will show the description
+2. If has not and this page is a page, it will show the part of page content.
+3. Otherwise, show the site&rsquo;s description, like the homepage.</p>
+
+<p><em>PS</em>: <code>page means page/post/other links, not just rake new_page's page</code></p>
+
+<p>And the keywords' code is like the description'.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[我秉持的SEO原则]]></title>
+    <link href="http://baham.co/11_10_wo-bing-chi-de-seoyuan-ze.html"/>
+    <updated>2013-11-10T14:09:00+00:00</updated>
+    <id>http://baham.co/wo-bing-chi-de-seoyuan-ze</id>
+    <content type="html"><![CDATA[<p>今天，去了同程网的宣讲会，招聘SEO人员，本来不是很想去，毕竟专业不对口，但当我拿起手机百度了一下"Baham"后，我发现，百度不仅恢复了对我网站的收录，而且<strong>Baham</strong>词条，我的排名第一。当然，这没什么值得炫耀，因为，网站核心词汇在搜索引擎中排名第一是正常现象。</p>
+
+<p>（好比，百度中搜索谷歌，如果，百度第一条显示结果不是Google。你不会抱怨谷歌的网站太不起眼，你会抱怨百度搜索技术太差。）</p>
+
+<p>因此，我问自己，为什么不去应聘呢？毕竟，全世界都可能没有一所大学教授学生SEO，何况，我认真读过SEO大师ZAC的《SEO实战密码》、还有自己这两年的SEO经验。</p>
+
+<p>说多了，下面进入正题，我秉持的几条SEO原则：</p>
+
+<!--more-->
+
+
+<h2>内容原创</h2>
+
+<p> 读过一位站长的经验分享，大意是，<strong>一味原创的网站不会成功</strong>。
+其实，这涉及两个问题，</p>
+
+<p>1,  是，这句话对吗？
+2, 是，如果对，如何定义<strong>成功</strong>。</p>
+
+<p>对我来讲，不需要网站盈利，所以也就不需要多高的流量。写写博客，记录自己的想法、生活足够。</p>
+
+<p>所以，我的博文中，可能只有几篇涉及拷贝内容，其他均为自己一个字一个字码出来的。</p>
+
+<h2>不刻意增加外链</h2>
+
+<p> 超链接构成整个WEB，但是刻意增加外链，比如用“站群工具”做n个网站互相链接成轮、或者到论坛、博客留言处疯狂贴垃圾回复，很容易被搜索引擎惩罚。</p>
+
+<h2>不去搜索引擎做竞价排名</h2>
+
+<p> 个人站点、负担不起，也不会去负担这笔不菲的费用。而且，我也不认为搜索引擎的竞价排名有利于互联网发展壮大。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[昨天才发现我的站点被百度狠狠地惩罚了]]></title>
+    <link href="http://baham.co/05_06_zuo-tian-cai-fa-xian-wo-de-zhan-dian-bei-bai-du-hen-hen-di-cheng-fa-liao.html"/>
+    <updated>2013-05-06T23:38:00+00:00</updated>
+    <id>http://baham.co/zuo-tian-cai-fa-xian-wo-de-zhan-dian-bei-bai-du-hen-hen-di-cheng-fa-liao</id>
+    <content type="html"><![CDATA[<p>之前犯过一次错误，就是在从wordpress迁移到octopress时，把自己的一个二级目录/javatutorial扔了，也就是说，该二级目录下的内容并没有迁移过来，我知道对于这种情况搜索引擎一定会给电惩罚的，只是不知道这么严重。</p>
+
+<p><img src="/images/bd.png" alt="baidu" /></p>
+
+<p>谷歌收录也少了大约100多，我的站点最多时候谷歌有大约500左右的收录，现在有不到400。状态最好时候，在百度搜索<em>Baham</em>，主页会出现在第二或者第三的位置。</p>
+
+<p>不过，还好，网站没有以盈利为目的，也部在乎百度是否收录，不在乎访问量什么的。
+虽然，刚开始我也想过建一个以盈利为目的的网站，不过，今天看来，不盈利也挺好，有时间就更新点内容，不用在乎SEO规则，自由自在地写点自己的东西，每年都为域名续一次费，只要<a href="https://github.com">Github</a>不倒，就这么一直写下去……</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress相关文章插件]]></title>
+    <link href="http://baham.co/01_12_octopressxiang-guan-wen-zhang-cha-jian.html"/>
+    <updated>2013-01-12T11:44:00+00:00</updated>
+    <id>http://baham.co/octopressxiang-guan-wen-zhang-cha-jian</id>
+    <content type="html"><![CDATA[<p>默认，Octopress没有<em>相关文章插件</em>。不过，有人为Octopress写了一个<a href="https://github.com/jcftang/octopress-relatedposts.git">relatedposts</a></p>
+
+<p>演示可以看本站右下位置。</p>
+
+<p>相应的配置安装也很简单。</p>
+
+<h2>1 配置_config.yml</h2>
+
+<p>添加<code>lsi: true</code>。</p>
+
+<h2>2 设置侧边栏</h2>
+
+<p>在default_asides中添加<code>custom/asides/related.html</code></p>
+
+<h2>3 添加插件</h2>
+
+<p>复制<a href="https://nodeload.github.com/jcftang/octopress-relatedposts/zip/master">压缩包</a>内的related.html文件到这里 source/_includes/custom/asides/related.html</p>
+
+<p>至此Octopress的相关文章插件，配置完成。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress robots.txt写法]]></title>
+    <link href="http://baham.co/01_11_octopress-robots-dot-txtxie-fa.html"/>
+    <updated>2013-01-11T22:23:00+00:00</updated>
+    <id>http://baham.co/octopress-robots-dot-txtxie-fa</id>
+    <content type="html"><![CDATA[<p>又想了想Octopress的robots.txt写法。
+现在我的是这样：
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>User-agent: *
+</span><span class='line'>Disallow: /&lt;em>?&lt;/em>
+</span><span class='line'>Disallow: /archives
+</span><span class='line'>Disallow: /javascripts
+</span><span class='line'>Disallow: /font
+</span><span class='line'>Disallow: /assets
+</span><span class='line'>Disallow: /blog
+</span><span class='line'>Sitemap: &lt;a href="http://baham.co/sitemap.xml">http://baham.co/sitemap.xml&lt;/a></span></code></pre></td></tr></table></div></figure></notextile></div>
+Line 1:对于所有搜索引擎</p>
+
+<p>Line 2:禁止访问所有动态内容（虽然Octopress的文章都是纯净态，但是此处还是加上，比如我在用Cloudflare时，Cloudflare默认就会生成一些带?的缓存链接）</p>
+
+<p>Line 3～7:禁止访问archives,javascripts,font,assets,blog目录，archives是归档内容，blog目录下是归档内容以及分类内容和页号内容，由于更新较频繁，建议禁止。</p>
+
+<p>Line 8: sitemap地址</p>
+]]></content>
+  </entry>
+  
+</feed>

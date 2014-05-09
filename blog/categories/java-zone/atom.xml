@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Java Zone | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/java-zone/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2014-05-07T10:08:13+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[JavaZone视频集锦2-JavaZone四个最受欢迎的演讲视频]]></title>
+    <link href="http://baham.co/08_06_370.html"/>
+    <updated>2012-08-06T00:00:57+00:00</updated>
+    <id>http://baham.co/370</id>
+    <content type="html"><![CDATA[<h1><img src="http://baham.co/wp-content/uploads/2012/08/JavaZone-coolcode-300x219.png" alt="JavaZone视频演讲-Coolcode" /></h1>
+
+<h1></h1>
+
+<h1></h1>
+
+<h1></h1>
+
+<h1><!-- more --></h1>
+
+<h1>第四名 Cool Code</h1>
+
+<p>时间: 2011.9.8周四</p>
+
+<p>演讲者: Kevlin Henney</p>
+
+<p>地点: Oslo, Norway</p>
+
+<p>时长：61：33<!-- more --></p>
+
+<p>下载地址 <a href="http://vimeo.com/28772428/download?t=1344181972&amp;v=64503253&amp;s=a9ea13f168350043bc31460753a189f5">http://vimeo.com/28772428/download?t=1344181972&amp;v=64503253&amp;s=a9ea13f168350043bc31460753a189f5</a></p>
+
+<h1>第三名 CoffeeScript: JavaScript without the Fail</h1>
+
+<p>时间: 2011.9.8周四</p>
+
+<p>演讲人: Bodil Stokke</p>
+
+<p>地点: Oslo, Norway</p>
+
+<p>时长：56：25</p>
+
+<p>下载地址 <a href="http://vimeo.com/28772382/download?t=1344182175&amp;v=64501495&amp;s=79c1e76f291d90a551aab9f3e730fb3d">http://vimeo.com/28772382/download?t=1344182175&amp;v=64501495&amp;s=79c1e76f291d90a551aab9f3e730fb3d</a></p>
+
+<p>顾名思义，主讲内容为JavaScript</p>
+
+<h1>第二名 High Wizardry in the Land of Scala</h1>
+
+<p>时间: 2011.9.8周四</p>
+
+<p>演讲人: Daniel Spiewak</p>
+
+<p>地点: Oslo, Norway</p>
+
+<p>时长：56：45</p>
+
+<p>下载地址 <a href="http://vimeo.com/28793245/download?t=1344181348&amp;v=64555757&amp;s=2d975fc2bc45867043fdca4d5c52d1f4">http://vimeo.com/28793245/download?t=1344181348&amp;v=64555757&amp;s=2d975fc2bc45867043fdca4d5c52d1f4</a></p>
+
+<p>其中Wizardry是巫术的意思。</p>
+
+<h1>第一名 Hibernate should be to programmers what cake mixes are to bakers: beneath their dignity.</h1>
+
+<p>时间: 2011.9.8周四</p>
+
+<p>演讲人: Christin Gorman</p>
+
+<p>地点: Oslo, Norway</p>
+
+<p>时长：8:50</p>
+
+<p>下载地址 <a href="http://vimeo.com/28885655/download?t=1344181056&amp;v=64787460&amp;s=0e023ee400d6352dc5617b15df6d4a82">http://vimeo.com/28885655/download?t=1344181056&amp;v=64787460&amp;s=0e023ee400d6352dc5617b15df6d4a82</a></p>
+
+<p>少有的女开发人员，一场简短精悍的演讲。</p>
+
+<p>其中排名依据Vimeo Like数量</p>
+]]></content>
+  </entry>
+  
+</feed>

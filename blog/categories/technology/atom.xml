@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Technology | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/technology/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2014-05-07T10:08:13+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Backyard Brains-赛博蟑螂-RoboRoach#12]]></title>
+    <link href="http://baham.co/10_09_backyard-brains-sai-bo-zhang-lang-roboroach-number-12.html"/>
+    <updated>2013-10-09T23:15:00+00:00</updated>
+    <id>http://baham.co/backyard-brains-sai-bo-zhang-lang-roboroach-number-12</id>
+    <content type="html"><![CDATA[<p>See Video:</p>
+
+<p><embed width="480" align="middle" height="400" type="application/x-shockwave-flash" allowscriptaccess="always" quality="high" allowfullscreen="true" src="http://player.youku.com/player.php/sid/XNjE4OTc5MjY0/v.swf"></p>
+]]></content>
+  </entry>
+  
+</feed>

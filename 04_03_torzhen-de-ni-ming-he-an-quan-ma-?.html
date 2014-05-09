@@ -1,0 +1,471 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Tor真的匿名和安全吗?Baham's Blog</title>
+  <meta name="author" content="Baham">
+
+
+<meta name="description" content="很多人相信Tor是完全匿名，隐私，安全的，是能够完全杜绝别人的监控和跟踪的上网方式。
+但真是这样吗？显然，答案并不那么简单。 Tor并非完全匿名和隐私的解决方案，如果你使用Tor的话有几点需要注意： Tor的出口节点是可被嗅探的 &hellip;" />
+
+
+<meta name="keywords" content="" />
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://baham.co/04_03_torzhen-de-ni-ming-he-an-quan-ma-%3F.html">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/feeds/" rel="alternate" title="Baham's Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33861107-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+	<h1><a href="/">Baham's Blog</a></h1>
+  
+	<h2>Baham的个人博客</h2>
+  
+</hgroup>
+<!--<h1><a href="/">Baham's Blog</a></h1>
+<h2>Baham的个人博客</h2>-->
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/feeds/" rel="nofollow" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:baham.co" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/blog/categories/golang/">Golang</a></li>
+  <li><a href="/blog/categories/ideas">Ideas</a></li>
+  <li><a href="/blog/categories/thinking">Thingking</a></li>
+  <li><a href="/blog/categories/translation">翻译</a></li>
+  <li><a href="/blog/categories/faith">+Grace+</a></li>
+  <li><a href="/contactme-en">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Tor真的匿名和安全吗?</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-03T16:11:00+00:00" pubdate data-updated="true">Apr 3<span>rd</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><img src="/images/cctv.jpg" alt="CCTV TOR" /></p>
+
+<p>  很多人相信<strong>Tor</strong>是完全匿名，隐私，安全的，是能够完全杜绝别人的监控和跟踪的上网方式。
+但真是这样吗？显然，答案并不那么简单。</p>
+
+<p>  Tor并非完全匿名和隐私的解决方案，如果你使用Tor的话有几点需要注意：</p>
+
+<!--more-->
+
+
+<h1>Tor的出口节点是可被嗅探的</h1>
+
+<p>  可以阅读这里关于<a href="http://www.howtogeek.com/114004/how-to-browse-anonymously-with-tor/">Tor工作原理的文章</a>更多地了解Tor提供给用户的匿名性。大体上讲，
+当你使用Tor时，你的数据将通过Tor的网络路由并且在离开Tor网络前随即选择几处节点。Tor
+的这种设计理论上保证了无法追踪数据来源。你的计算机可能会发起连接或者作为网络内中转节点，传输
+加密的数据到下一个节点。</p>
+
+<p>  但最终Tor网络内的数据大多会离开Tor网络。例如，你通过Tor访问<a href="https://www.google.com">Google</a>，你的数据
+经过几个Tor节点，但最终还是会离开Tor网络连接到谷歌服务器。最后的一个节点，也就是你的数据
+请求离开Tor网络，进入互联网时，是可以被监控到的。数据离开Tor网络的最后一个节点，即称为
+出口节点。</p>
+
+<p>  在下边图解中，红色的箭头标示出<strong>出口节点</strong>和网络上的计算机“Bob”之间的未加密数据传输：</p>
+
+<p>[Tor works]<a href="https://www.torproject.org/images/htw2.png">https://www.torproject.org/images/htw2.png</a></p>
+
+<p>  如果你访问使用加密连接（HTTPS）的网站，例如Gmail，This is okay！虽然，出口节点
+可以观察到你访问了Gmail，但无法观察到你的数据。如果访问未使用HTTPS的网站，出口节点可以
+偷偷监视你的网络活动，跟踪并获取你访问了什么网站，监控你的网络活动及你发送了的信息。</p>
+
+<p>  你必须认识到当你作为Tor网络的出口节点时，会比中转节点承担更多的法律风险。就像很多GOV
+运行出口节点，并监控出口节点，以用来调查犯罪，in repressive countries, punish
+political activists.</p>
+
+<p>  这种风险不仅仅是理论上的，2007年，一位安全调查员通过运行Tor网络的出口节点窃取了100多
+个email帐号。因为这些用户相信Tor会保护他们的数据而并没有在电邮系统中使用加密链接。实际
+上，Tor的工作原理确实无法保护这种情况。</p>
+
+<h2>小结:</h2>
+
+<p>使用Tor时，访问敏感数据一定要使用加密链接（HTTPS）访问。否则，你的数据是可以被监控的，不
+仅被GOV，也包括某些对私人数据别有用心的人。</p>
+
+<h1>JavaScript，浏览器插件，和其他程序同样可以暴露你的真实IP</h1>
+
+<p><strong>Tor Bundle</strong>，安全方面预先配置好的Tor工具，禁用JavaScript，禁用插件，并且在下载文件
+调用其他程序打开时，会给出警告。</p>
+
+<p>一般来讲，JavaScript不会导致安全风险，但如果你想隐藏IP，那么不可以使用JavaScript。浏
+览器的JavaScript引擎、插件比如Adobe Flash、以及外界程序比如Adobe Reader或者视频播
+放器都可能暴露你的真实IP给那些想要获得它的站点。</p>
+
+<p>Tor Bundle的默认设置避免了这些安全问题，但在使用Tor Bundle时，你可能禁用了这些保护并
+且启用了JavaScript或者浏览器插件。如果你很在乎匿名性，那么不要这么做，如果你不是很在乎
+匿名性，那么最好不用Tor。</p>
+
+<p>这也不是仅仅在理论层面的风险。2011年，一群安全调查员获取了1000多通过Tor使用BT客户端的用
+户。和其他程序一样，BT客户端并不安全并且可能会暴露你的真实IP。</p>
+
+<h2>小结:</h2>
+
+<p>保持Tor的默认安全设置不变，不要试着在其他浏览器中使用Tor。使用Tor Bundle这款为Tor预先配置好
+的浏览器。而且你最好不要在其他程序中使用Tor。</p>
+
+<p><img src="http://cdn.howtogeek.com/wp-content/uploads/2013/03/tor-browser-external-content-warning.png" alt="example" /></p>
+
+<h1>作为出口节点的风险</h1>
+
+<p>如果你是互联网匿名的拥蹩，你可能通过运行Tor节点来捐赠你的带宽。这本来不存在法律上的问题，因为一
+个Tor的节点只是在Tor网络内传输加密数据。Tor项目正是依靠志愿者实现其匿名性。</p>
+
+<p>但在作为出口节点时，你应该三思而后行，因为出口节点是一个把数据从匿名的Tor网络连接到开放互联网
+的节点。如果罪犯使用Tor做些非法事情并且数据恰好从你运行的出口节点传出，调查这些数据时将会调查
+到你的IP地址，随后，你可能会听到敲门声，你的计算机可能会被没收。一位澳大利亚人曾被起诉，因为他
+运行的Tor出口节点对外传输了儿童色情图片。作为Tor的出口节点允许坏人们通过你的IP做坏事，但被跟
+踪到的却是你，就像开放的Wifi网络一样，但却更有可能使你卷进麻烦中。结果可能并非罪犯一样的惩罚，
+但你可能面对下载侵权内容的起诉，或者收到美国保护知识产权机构的警告。
+<img src="http://cdn.howtogeek.com/wp-content/uploads/2013/01/comcast-dmca-letter.jpg" alt="CAST" /></p>
+
+<p>运行出口节点的风险实际上又被带回了第一种情况。因为运行出口节点风险很高，所以几乎没人去作。GOV不
+一样，反而可能很喜欢去作。</p>
+
+<h2>小结:</h2>
+
+<p>记住，永远不要运行出口节点！</p>
+
+<p>**如果你真想运行一个出口节点，Tor项目有几条忠告。他们建议在商用设备上运行Tor出口节点，并且选择
+Tor-friendly的ISP。千万别在家里尝试。</p>
+
+<p>在你需要匿名上网时，Tor是一个魔幻般的项目。它非常聪明地通过Tor网络传输加密数据。但是，这些数
+据总会在某个位置离开，这对于用户以及作为出口节点者，都是一个问题。总之，如果你不仅仅是在Tor
+Bundle上浏览HTML网页，那么你计算机上的并非为隐藏IP设计的软件都会带给你风险。**</p>
+
+<p><strong>英文原版</strong>来自<a href="http://www.howtogeek.com/142380/htg-explains-is-tor-really-anonymous-and-secure/">HowToGeek</a>
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="/04_03_torzhen-de-ni-ming-he-an-quan-ma-%3F.html">http://baham.co/04_03_torzhen-de-ni-ming-he-an-quan-ma-%3F.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Baham</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-03T16:11:00+00:00" pubdate data-updated="true">Apr 3<span>rd</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/hack/'>Hack</a>, <a class='category' href='/blog/categories/translation/'>Translation</a>
+  
+</span>
+
+
+      <!--
+  <h3>Related posts</h3>
+  <ul class="posts">
+  
+    <li class="related">
+      <a href="/05_07_octopress-add-description-keywords-plugin-optimization.html">Octopress Add Description Keywords Plugin Optimization</a>
+    </li>
+  
+    <li class="related">
+      <a href="/05_06_what-an-amazing-software.html">What An Amazing Software</a>
+    </li>
+  
+    <li class="related">
+      <a href="/05_06_ruby-multidimensional-arrays.html">Ruby Multidimensional Arrays</a>
+    </li>
+  
+  </ul>
+-->
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/03_22_zhao-ben-shan-xiao-pin-%3C%3Cxin-bing-%3E%3E-yu-wang-yang-ming-chuan-si-lu-zhong-de-si-sheng-zhi-dao.html" title="Previous Post: 赵本山小品《心病》与王阳明传思录中的死生之道">&laquo; 赵本山小品《心病》与王阳明传思录中的死生之道</a>
+      
+      
+        <a class="basic-alignment right" href="/04_11_blendertai-wan-da-shen-%5Bnil%5D%16artspacemediashi-pin-jiao-cheng.html" title="Next Post: Blender台湾大神－artspacemedia视频教程">Blender台湾大神－artspacemedia视频教程 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h2>Recommended</h2>
+  <ul id="recent_posts">
+	  <li>
+		<a href="/04_29_octopress-seo.html">Octopress SEO Tools</a>
+    </li>
+    <li>
+		<a href="/04_21_18-44-52.html">Travel in April</a>
+    </li>
+    
+  </ul>
+</section>
+<section class="panel panel-default">
+  <div class="panel-heading">
+    <h2 class="panel-title">Category Cloud</h2>
+  </div>
+<div id="recent_posts" class="list-group">
+	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 118.0%'>Announcement(9)</a> <a href='/blog/categories/baham' style='font-size: 124.0%'>Baham(12)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 112.0%'>Blender(6)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 108.0%'>CUMT(4)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 134.0%'>Faith(17)</a> <a href='/blog/categories/fate' style='font-size: 102.0%'>Fate(1)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 114.0%'>Game(7)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 102.0%'>Google(1)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 104.0%'>Job(2)</a> <a href='/blog/categories/linux' style='font-size: 152.0%'>Linux(26)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 118.0%'>Memo(9)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 112.0%'>Mineral Processing(6)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 124.0%'>Octopress(12)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 112.0%'>SEO(6)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 108.0%'>Translation(4)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 110.0%'>Video(5)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
+</div>
+</section><section>
+  <h2>Recent Posts</h2>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/05_07_octopress-add-description-keywords-plugin-optimization.html">Octopress Add Description Keywords Plugin Optimization</a>
+      </li>
+    
+      <li class="post">
+        <a href="/05_06_what-an-amazing-software.html">What An Amazing Software</a>
+      </li>
+    
+      <li class="post">
+        <a href="/05_06_ruby-multidimensional-arrays.html">Ruby Multidimensional Arrays</a>
+      </li>
+    
+      <li class="post">
+        <a href="/05_05_the-great-hypnotist.html">The Great Hypnotist Feedback</a>
+      </li>
+    
+      <li class="post">
+        <a href="/05_02_church-meeting-in-worker-s-day.html">Labor Day's Church Meeting</a>
+      </li>
+    
+      <li class="post">
+        <a href="/05_01_21-24-octopress-orinal-link-bug-fix.html">Fix a bug to add an original link</a>
+      </li>
+    
+      <li class="post">
+        <a href="/04_29_octopress-seo.html">Some Octopress tools: SEO, add the original link</a>
+      </li>
+    
+      <li class="post">
+        <a href="/04_28_the-ruby-community.html">The ruby community</a>
+      </li>
+    
+      <li class="post">
+        <a href="/04_28_ruby-multi-line.html">Ruby's Multiline</a>
+      </li>
+    
+      <li class="post">
+        <a href="/04_27_3-hours-in-zhengzhou.html">About 3 hours in Zhengzhou</a>
+      </li>
+    
+      <li class="post">
+        <a href="/04_26_internship-in-pingdingshan.html">The Internship in Pingdingshan</a>
+      </li>
+    
+      <li class="post">
+        <a href="/04_26_exchange-dream-by-jiaqian.html">Exchange Dream by Jiaqian</a>
+      </li>
+    
+      <li class="post">
+        <a href="/04_24_shenzhen.html">Travel in Shenzhen City</a>
+      </li>
+    
+      <li class="post">
+        <a href="/04_24_use-english-to-write-articles.html">Use English to Write Articles</a>
+      </li>
+    
+      <li class="post">
+        <a href="/04_21_go-to-shenzhen.html">Go to Shenzhen</a>
+      </li>
+    
+      <li class="post">
+        <a href="/04_21_18-44-52.html">In these days</a>
+      </li>
+    
+      <li class="post">
+        <a href="/04_21_18-00-28.html">Take the mensa test</a>
+      </li>
+    
+      <li class="post">
+        <a href="/04_20_21-29-52.html">The last day in Guangzhou -- Easter Day </a>
+      </li>
+    
+      <li class="post">
+        <a href="/03_30_ituring-new-version.html">Ituring-new-version</a>
+      </li>
+    
+      <li class="post">
+        <a href="/03_20_use-linuxmint16.html">Use Linux Mint 16</a>
+      </li>
+    
+  </ul>
+</section>
+<section class="panel panel-default">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <div class="panel-heading">
+    <h2 class="panel-title">Verse</h2>
+  </div>
+<div>
+<script type="text/javascript" src="/javascripts/randomVerse.js"></script>
+<br/>
+<br/>
+<script type="text/javascript" src="/javascripts/randomVerse-en.js"></script>
+<br/>
+<br/>
+<p style="font-family:verdana;font-size:50%;float:right;">
+<i><a href="/verse">More</a></i>
+</p>
+<br/>
+</div>
+<!--color:green;-->
+</section>
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - <a href="/">Baham</a> -
+  <span class="credit">Powered by <a href="http://octopress.org" target="_blank">Octopress</a> | <a href="/license" rel="nofollow" target="_blank">CC BY-NC-SA 4.0</a>  <span style="float:right;"><a  href="/blog/archives" rel="index" >Archives</a> | <a style="float:right;" href="/sitemap.xml" rel="sitemap" target="_blank">Sitemap</a>
+  </span>
+  </span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'baham';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://baham.co/04_03_torzhen-de-ni-ming-he-an-quan-ma-%3F.html';
+        var disqus_url = 'http://baham.co/04_03_torzhen-de-ni-ming-he-an-quan-ma-%3F.html';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

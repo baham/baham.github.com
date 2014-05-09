@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: MOOC | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/mooc/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2014-05-07T10:08:13+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Some MOOC Website]]></title>
+    <link href="http://baham.co/10_27_some-mooc-website.html"/>
+    <updated>2013-10-27T23:38:00+00:00</updated>
+    <id>http://baham.co/some-mooc-website</id>
+    <content type="html"><![CDATA[<h1>MOOC List-几大MOOC列表</h1>
+
+
+<p>
+<a href="http://www.coursera.org/">Coursera</a>
+</p>
+
+
+<p>
+<a href="http://www.edx.org/">Edx</a>
+</p>
+
+
+<p>
+<a href="http://www.udacity.com/">Udacity</a>
+</p>
+
+
+<!--more-->
+
+
+<h2>华语圈内MOOC-In Chinese</h2>
+
+
+<p>
+<a href="https://www.xuetangx.com/">学堂在线</a>
+-清华大学
+</p>
+
+
+<p>
+<a href="http://www.ewant.org/">Ewant</a>
+-新竹交通大学，以及西南、西安、上海、北京交通大学
+</p>
+
+
+<h2>Others</h2>
+
+
+<p>
+<a href="http://online.stanford.edu/courses">Stanford</a>
+</p>
+
+
+<p>
+<a href="https://www.canvas.net/">Canvas</a>
+</p>
+
+
+<p>
+<a href="https://novoed.com/">Novoed</a>
+–斯坦福-经济方面
+</p>
+
+
+<p>
+<a href="https://www.futurelearn.com/">FutureLearn</a>
+-英国几所大学
+</p>
+
+
+<p>
+<a href="http://www.open2study.com">Open2Study</a>
+-澳洲
+</p>
+
+
+<p>
+<a href="http://www.iversity.org">Iversity</a>
+-德国
+</p>
+
+
+<h2>其他-可能不算MOOC</h2>
+
+
+<p>主要是 编程、计算机方面：</p>
+
+
+<p>
+<a href="http://www.codecademy.com/">Codecademy</a>
+</p>
+
+
+<p>
+<a href="https://www.khanacademy.org/">KhanCademy</a>
+</p>
+
+
+<h2>总结</h2>
+
+
+<p>以前不知道有这么多MOOC提供者，最早知道得是Stanford Online，然后知道了Mitx(现在和并到edx中)。</p>
+
+
+<p>总之，以后发现一些新的MOOC课程提供网站，还会在本页更新。</p>
+
+
+<p>尽情享受知识吧。</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[中國古代歷史與人物－－秦始皇]]></title>
+    <link href="http://baham.co/10_05_zhong-guo-gu-dai-li-shi-yu-ren-wu-%5Bnil%5D%5Bnil%5Dqin-shi-huang.html"/>
+    <updated>2013-10-05T23:11:00+00:00</updated>
+    <id>http://baham.co/zhong-guo-gu-dai-li-shi-yu-ren-wu-[nil][nil]qin-shi-huang</id>
+    <content type="html"><![CDATA[<p> 最近一直在 听Prof. 呂世浩 Shih-Hao Lu 的公开课，觉得很不错，分享一下，第一篇——开宗名义</p>
+
+<p>下为视频，同时也测试一下HTML5的video标签。</p>
+
+<p><em>视频已移除。</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[清华大学在线课程-电路原理-第一讲-edx]]></title>
+    <link href="http://baham.co/10_05_qing-hua-da-xue-zai-xian-ke-cheng-dian-lu-yuan-li-di-%5B%3F%5D-jiang-edx.html"/>
+    <updated>2013-10-05T23:08:00+00:00</updated>
+    <id>http://baham.co/qing-hua-da-xue-zai-xian-ke-cheng-dian-lu-yuan-li-di-[?]-jiang-edx</id>
+    <content type="html"><![CDATA[<p>May be there is a bug.</p>
+
+<p>See the video. 清华大学edx公开课-电路原理：</p>
+
+<p><embed width="480" align="middle" height="400" type="application/x-shockwave-flash" allowscriptaccess="always" quality="high" allowfullscreen="true" src="http://player.youku.com/player.php/sid/XNjE3MzEwOTE2/v.swf"></p>
+
+<!--more-->
+
+
+<p>and more on <a href="http://www.edx.org">edx</a></p>
+]]></content>
+  </entry>
+  
+</feed>
