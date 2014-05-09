@@ -4,11 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-<<<<<<< HEAD
-  <updated>2014-05-09T06:00:59+00:00</updated>
-=======
-  <updated>2014-05-07T10:08:13+00:00</updated>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
+  <updated>2014-05-09T06:28:02+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -18,7 +14,6 @@
 
   
   <entry>
-<<<<<<< HEAD
     <title type="html"><![CDATA[Octopress add Original Link after post Version2]]></title>
     <link href="http://baham.co/05_08_add-original-link.html"/>
     <updated>2014-05-08T10:47:00+00:00</updated>
@@ -182,8 +177,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
   </entry>
   
   <entry>
-=======
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
     <title type="html"><![CDATA[Octopress Add Description Keywords Plugin Optimization]]></title>
     <link href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html"/>
     <updated>2014-05-07T01:22:00+00:00</updated>
@@ -254,13 +247,9 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
 <p>And the keywords&#8217; code is like the description&#8217;.</p>
 
-<<<<<<< HEAD
 <h2><a href="http://baham.co/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html">Version 3</a></h2>
 
 <p>Optimization about the page with number&rsquo;s title and description. <p class='post-footer' style="font-size:70%;" ></p>
-=======
-<p> <p class='post-footer' style="font-size:70%;" ></p>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
 
 <br/>
 
@@ -699,11 +688,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
 
 
-<<<<<<< HEAD
 <figure class='code'><figcaption><span>octopress-add-original-link</span><a href='http://baham.co/files/code/octopress-add-original-link.rb'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-=======
-<figure class='code'><figcaption><span>octopress-add-original-link</span><a href='https://github.com/minghub/octopress-add-original-link/raw/master/octopress-add-original-link.rb'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -786,13 +771,9 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<<<<<<< HEAD
 <p>The file is here&mdash;<a href="http://baham.co/files/code/octopress-add-original-link.rb">octopress-add-original-link.rb</a>  <code>please use the below link to download the newer one</code></p>
 
 <p>And the newer version that fix a bug is in <a href="http://baham.co/files/code/octopress-add-original-link-v2.rb">add-original-link version2</a></p>
-=======
-<p>The file is here&mdash;<a href="https://github.com/minghub/octopress-add-original-link/raw/master/octopress-add-original-link.rb">octopress-add-original-link.rb</a></p>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
 
 <p>And after I modified, It is only can show the post&rsquo;s original link.</p>
 
@@ -860,11 +841,8 @@ keywords: "keywords, for, the, website"
 
 <p>The above code was optimizated by myself, this is <a href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html">the new version with optimization about site&rsquo;s description and keywords </a>.</p>
 
-<<<<<<< HEAD
 <p><a href="http://baham.co/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html">Add description and keywords version3</a></p>
 
-=======
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
 <p><strong>I think you will like it, my octopressers.</strong></p>
 
 <p>Reference Articles:</p>
@@ -1538,73 +1516,4 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 ]]></content>
   </entry>
   
-<<<<<<< HEAD
-=======
-  <entry>
-    <title type="html"><![CDATA[Ituring-new-version]]></title>
-    <link href="http://baham.co/03_30_ituring-new-version.html"/>
-    <updated>2014-03-30T08:09:00+00:00</updated>
-    <id>http://baham.co/ituring-new-version</id>
-    <content type="html"><![CDATA[<p>It is a long time not to post the artciel abour Ituring Magzine <em>Manong</em>(means Coder).</p>
-
-<!--more-->
-
-
-<p><img src="http://www.ituring.com.cn/bookcover/1342.583.jpg" alt="Manong10" /></p>
-
-<p><img src="http://www.ituring.com.cn/bookcover/1372.655.jpg" alt="Manong11" /></p>
-
-<p><a href="http://www.ituring.com.cn/book/1342">V10</a> &mdash;New Year Special Version</p>
-
-<p><a href="http://www.ituring.com.cn/book/1372">V11</a></p>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/03_30_ituring-new-version.html">http://baham.co/03_30_ituring-new-version.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Use Linux Mint 16]]></title>
-    <link href="http://baham.co/03_20_use-linuxmint16.html"/>
-    <updated>2014-03-20T11:09:00+00:00</updated>
-    <id>http://baham.co/use-linuxmint16</id>
-    <content type="html"><![CDATA[<p>Now I change my OS from ubuntu GNOME 13.10  to Linux Mint 16 with Cannamon.</p>
-
-<p>Why do this. CAose Gnome3 is really slow.</p>
-
-<p>And before now, with cinnamon I got one bug .</p>
-
-<p>And I already get fcitx libpinyin.</p>
-
-<p>Leave Gnome3! this is my advice.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/03_20_use-linuxmint16.html">http://baham.co/03_20_use-linuxmint16.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
 </feed>

@@ -4,11 +4,7 @@
   <title><![CDATA[Category: Octopress | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-<<<<<<< HEAD
-  <updated>2014-05-09T06:00:59+00:00</updated>
-=======
-  <updated>2014-05-07T10:08:13+00:00</updated>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
+  <updated>2014-05-09T06:29:49+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -18,7 +14,6 @@
 
   
   <entry>
-<<<<<<< HEAD
     <title type="html"><![CDATA[Octopress add Original Link after post Version2]]></title>
     <link href="http://baham.co/05_08_add-original-link.html"/>
     <updated>2014-05-08T10:47:00+00:00</updated>
@@ -65,18 +60,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=#{license
     <updated>2014-05-08T08:33:00+00:00</updated>
     <id>http://baham.co/add-descritpion-and-keywords-for-octopress-site-plugin-v3</id>
     <content type="html"><![CDATA[<p>In version 2 plugin, the code is :
-<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description_new.rb)</span> <a href='/files/code/add_keywords_and_description_new.rb'>download</a></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">page</span><span class="o">.</span><span class="n">title</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
-</span><span class='line'><span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="sr">{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif page.title %}{{&quot;&quot;}}{% else %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
-</span><span class='line'><span class="sr">&lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+{% include_code  add_keywords_and_description_new.rb %}</p>
 
 <p>And after change the <code>head.html</code> to that, the site&rsquo;s homepage will show site&rsquo;s description and keywords, and post show the post&rsquo;s, if the post has not, it will show no keywords but part of content as description, and the page is like the post.</p>
 
@@ -87,28 +71,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=#{license
 <!--more-->
 
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description_version3.rb)</span> <a href='/files/code/add_keywords_and_description_version3.rb'>download</a></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="o">&lt;</span><span class="n">head</span><span class="o">&gt;</span>
-</span><span class='line'>  <span class="o">&lt;</span><span class="n">meta</span> <span class="n">charset</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="o">&gt;</span>
-</span><span class='line'>  <span class="o">&lt;</span><span class="n">title</span><span class="o">&gt;</span><span class="p">{</span><span class="o">%</span> <span class="k">if</span> <span class="n">page</span><span class="o">.</span><span class="n">title</span> <span class="sx">%}{{ page.title }</span><span class="p">}</span><span class="o">-</span><span class="p">{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">page</span><span class="o">.</span><span class="n">url</span> <span class="n">contains</span> <span class="s2">&quot;blog/page&quot;</span> <span class="sx">%}{{ &#39;One of the Pages From&#39; }</span><span class="p">}</span><span class="o">-</span><span class="p">{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}  {{ site.title }</span><span class="p">}</span><span class="o">&lt;</span><span class="sr">/title&gt;</span>
-</span><span class='line'><span class="sr">  &lt;meta name=&quot;author&quot; content=&quot;{{ site.author }}&quot;&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="sr">{% capture description %}{% if page.description %}{{ page.description }}{% elsif page.title %}{{ content | raw_content }}{% elsif page.url contains&quot;blog/</span><span class="n">page</span><span class="s2">&quot; %}{{ &quot;&quot; }}{% else %}{{ site.description  }}{% endif %}{% endcapture %}</span>
-</span><span class='line'><span class="s2">&lt;meta name=&quot;</span><span class="n">description</span><span class="s2">&quot; content=&quot;</span><span class="p">{{</span> <span class="n">description</span> <span class="o">|</span> <span class="n">strip_html</span> <span class="o">|</span> <span class="n">condense_spaces</span> <span class="o">|</span> <span class="ss">truncate</span><span class="p">:</span><span class="mi">150</span> <span class="p">}}</span><span class="s2">&quot; /&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="s2">{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif page.title %}{{&quot;&quot;}}{% elsif page.url contains &quot;</span><span class="n">blog</span><span class="o">/</span><span class="n">page</span><span class="s2">&quot; %}{{ &quot;&quot; }}{% else %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
-</span><span class='line'><span class="s2">&lt;meta name=&quot;</span><span class="n">keywords</span><span class="s2">&quot; content=&quot;</span><span class="p">{{</span> <span class="n">keywords</span> <span class="o">|</span> <span class="n">strip_html</span> <span class="o">|</span> <span class="n">condense_spaces</span> <span class="p">}}</span><span class="s2">&quot; /&gt;</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% include_code  add_keywords_and_description_version3.rb %}</p>
 
 <h2>Release Notes</h2>
 
@@ -145,8 +108,6 @@ Disallow: /blog/page/
   </entry>
   
   <entry>
-=======
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
     <title type="html"><![CDATA[Octopress Add Description Keywords Plugin Optimization]]></title>
     <link href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html"/>
     <updated>2014-05-07T01:22:00+00:00</updated>
@@ -167,16 +128,7 @@ Disallow: /blog/page/
 <h2>Old Code</h2>
 
 <p>This is the old code.
-<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description.rb)</span> <a href='/files/code/add_keywords_and_description.rb'>download</a></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='rb'><span class='line'>	<span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">site</span><span class="o">.</span><span class="n">description</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
-</span><span class='line'>	<span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
-</span><span class='line'><span class="sr">	{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif site.keywords %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
-</span><span class='line'><span class="sr">	&lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+{% include_code  add_keywords_and_description.rb %}</p>
 
 <p>And the article that include the old codes  about the <a href="/04_29_octopress-seo.html">octopress seo</a>.</p>
 
@@ -186,18 +138,7 @@ Disallow: /blog/page/
 
 <h2>Add Description and Keywords new version</h2>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description_new.rb)</span> <a href='/files/code/add_keywords_and_description_new.rb'>download</a></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">page</span><span class="o">.</span><span class="n">title</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
-</span><span class='line'><span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="sr">{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif page.title %}{{&quot;&quot;}}{% else %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
-</span><span class='line'><span class="sr">&lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% include_code  add_keywords_and_description_new.rb %}</p>
 
 <p>The code is not a ruby file, please add the codes or change the original code to these after the author meta in <code>source/_include/head.html</code>.</p>
 
@@ -213,13 +154,10 @@ Disallow: /blog/page/
 <p><em>PS</em>: <code>page means page/post/other links, not just rake new_page's page</code></p>
 
 <p>And the keywords' code is like the description'.</p>
-<<<<<<< HEAD
 
 <h2><a href="/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html">Version 3</a></h2>
 
 <p>Optimization about the page with number&rsquo;s title and description.</p>
-=======
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
 ]]></content>
   </entry>
   
@@ -275,11 +213,7 @@ Disallow: /blog/page/
 <!--more-->
 
 
-<<<<<<< HEAD
 <p>``` ruby octopress-add-original-link  /files/code/octopress-add-original-link.rb</p>
-=======
-<p>``` ruby octopress-add-original-link  <a href="https://github.com/minghub/octopress-add-original-link/raw/master/octopress-add-original-link.rb">https://github.com/minghub/octopress-add-original-link/raw/master/octopress-add-original-link.rb</a></p>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
 
 <h1>To change this license header, choose License Headers in Project Properties.</h1>
 
@@ -314,7 +248,7 @@ If you want to reprint it, please do under the  <a href=#{license} >#{lic_name}<
 
 <pre><code>        #&amp;nbsp;Posted at &lt;a href='#{url}'&gt;#{url}&lt;/a&gt;&lt;br/&gt;
         #&amp;nbsp;Written by &lt;a href='#{url}'&gt;#{author}&lt;/a&gt;
-        #&amp;nbsp;Keywords : 
+        #&amp;nbsp;Keywords : {{ page.keywords }}
 </code></pre>
 
 <p>  end
@@ -333,16 +267,11 @@ end
 end</p>
 
 <p>Liquid::Template.register_filter AppendFooterFilter
-<<<<<<< HEAD
 ```</p>
 
 <p>The file is here&mdash;<a href="/files/code/octopress-add-original-link.rb">octopress-add-original-link.rb</a>  <code>please use the below link to download the newer one</code></p>
 
 <p>And the newer version that fix a bug is in <a href="/files/code/octopress-add-original-link-v2.rb">add-original-link version2</a></p>
-=======
-```
-The file is here&mdash;<a href="https://github.com/minghub/octopress-add-original-link/raw/master/octopress-add-original-link.rb">octopress-add-original-link.rb</a></p>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
 
 <p>And after I modified, It is only can show the post&rsquo;s original link.</p>
 
@@ -394,26 +323,14 @@ keywords: "keywords, for, the, website"
 
 <p>in your octopress&rsquo;s <code>_config.yml</code> file, and modify the <code>source/_includes/head.html</code> after the author meta like this:</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description.rb)</span> <a href='/files/code/add_keywords_and_description.rb'>download</a></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='rb'><span class='line'>	<span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">site</span><span class="o">.</span><span class="n">description</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
-</span><span class='line'>	<span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
-</span><span class='line'><span class="sr">	{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif site.keywords %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
-</span><span class='line'><span class="sr">	&lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% include_code  add_keywords_and_description.rb %}</p>
 
 <p>After the modifying, when you check the <code>keywords</code> and <code>Description</code>, they will show what you add in <code>_config.yml</code></p>
 
 <p>The above code was optimizated by myself, this is <a href="/05_07_octopress-add-description-keywords-plugin-optimization.html">the new version with optimization about site&rsquo;s description and keywords </a>.</p>
 
-<<<<<<< HEAD
 <p><a href="/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html">Add description and keywords version3</a></p>
 
-=======
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
 <p><strong>I think you will like it, my octopressers.</strong></p>
 
 <p>Reference Articles:</p>
@@ -426,125 +343,4 @@ keywords: "keywords, for, the, website"
 ]]></content>
   </entry>
   
-<<<<<<< HEAD
-=======
-  <entry>
-    <title type="html"><![CDATA[Octopress Easypost Tool]]></title>
-    <link href="http://baham.co/03_10_octopress-easypost-tool.html"/>
-    <updated>2014-03-10T07:16:00+00:00</updated>
-    <id>http://baham.co/octopress-easypost-tool</id>
-    <content type="html"><![CDATA[<p>When using octopress to write articles.
-You need run commands like this.
-1. rake new_post[&lsquo;name&rsquo;]     //to post an article
-2. rake generate        //to create the html files
-3. rake deploy      //to push your articles</p>
-
-<p>When I use Ubuntu 12.04, even I need add <code>bundle exec</code> to fix the gem version problem.</p>
-
-<p>Cause I am in China, to fix the TimeZone problem, I need to add <code>TZ=CCT</code></p>
-
-<p>So before you write your article, you have already write <code>TZ=CCT bundle exec rake new_post......</code></p>
-
-<p>And when change my os to <strong>Ubunt Gnome</strong>, I found an article about using octopress easily.</p>
-
-<!--more-->
-
-
-<p>Here is it.  An Chinese coder&rsquo;s <a href="http://my.oschina.net/u/160375/blog/160342">article</a> on oschina blog.</p>
-
-<p>This man write an shell script to write octopress articles more easily.</p>
-
-<p>I found it is really useful.</p>
-
-<p>Here is the code.</p>
-
-<pre><code>
-#!/bin/sh
-root=/my/blog/path
-scriptName=`basename $0`
-cd $root
-case $1 in
-    'blog')
-        name=`date +"%H-%M-%S"`
-        if [[ $2 ]]; then
-            name=`echo $2|sed 's/ /-/g'`
-        fi
-        path=`rake new_post[$name]|awk -F":" '{print $2}'`
-        vi $path
-        ;;
-    'page')
-        if [[ ! $2 ]]; then
-            echo 'need page name'
-            exit
-        fi
-        name=`echo $2|sed 's/ /-/g'`
-        echo $name
-        path=`rake new_page[$name]|awk -F":" '{print $2}'`
-        vi $path
-        ;;
-    'view')
-        rake preview
-        ;;
-    'publish')
-        rake gen_deploy
-        ;;
-    'build')
-        rake clean
-        rake generate
-        ;;
-    'open')
-        open $root
-        ;;
-    'edit')
-        vi $root
-        ;;
-    *)
-        echo "usage: $scriptName [blog|page|view|publish|build|open|edit]"
-        exit 1
-        ;;
-esac
-</code></pre>
-
-
-<p>Unfortunately, I found a bug when you write an article with article name.</p>
-
-<p>It showed <code>not found [[</code> or somethin \g like this.</p>
-
-<p>And this shell use <em>blog page build &hellip;</em> comands, it is more difficult than <strong>new_post new_page generate</strong></p>
-
-<p>So I changed the commands name to <code>post page preview deploy generate open edit</code></p>
-
-<p>And add 2 commands <code>gen_pre gen_dep</code></p>
-
-<p>And change generate to generate not <code>gen_deploy</code></p>
-
-<p>And this is <a href="https://github.com/minghub/octopress-easy-post-tool.git">github link</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Octopress使用Disqus留言系统]]></title>
-    <link href="http://baham.co/01_16_octopressshi-yong-disqusliu-yan-xi-tong.html"/>
-    <updated>2013-01-16T13:10:00+00:00</updated>
-    <id>http://baham.co/octopressshi-yong-disqusliu-yan-xi-tong</id>
-    <content type="html"><![CDATA[<p>Octopress没有默认的留言系统，不过，可以使用Disqus。</p>
-
-<p>开启也Disqus留言系统也很简单，</p>
-
-<p>开启也Disqus留言系统也很简单，</p>
-
-<p>首先，需要一个Disqus帐号，<a href="http://disqus.com">注册地址</a>。Disqus功能强大，不仅提供独立的留言系统，还可以显示相关文章。如果你开启，相关文章的广告功能，
-甚至可以通过点击量赚钱。</p>
-
-<p>其次，在_config.yml文件中开启Disqus留言系统</p>
-
-<p>如下：</p>
-
-<p><img src="/images/disqus_%E8%AE%BE%E7%BD%AE.png" title="Disqus" alt="Disqus设置" /></p>
-
-<p>填入你的ID即可。</p>
-]]></content>
-  </entry>
-  
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
 </feed>

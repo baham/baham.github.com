@@ -274,14 +274,14 @@
     </url>
     <url>
         <loc>http://baham.co/12_17_757.html</loc>
-<<<<<<< HEAD
         <lastmod>2014-05-08T06:28:59+00:00</lastmod>
-=======
-        <lastmod>2014-05-01T15:09:52+00:00</lastmod>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
     </url>
     <url>
         <loc>http://baham.co/12_23_764.html</loc>
+        <lastmod>2014-05-01T15:09:52+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://baham.co/12_25_767.html</loc>
         <lastmod>2014-05-01T15:09:52+00:00</lastmod>
     </url>
     <url>
@@ -1086,11 +1086,7 @@
     </url>
     <url>
         <loc>http://baham.co/04_29_octopress-seo.html</loc>
-<<<<<<< HEAD
         <lastmod>2014-05-08T11:14:09+00:00</lastmod>
-=======
-        <lastmod>2014-05-07T01:54:23+00:00</lastmod>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
     </url>
     <url>
         <loc>http://baham.co/05_01_21-24-octopress-orinal-link-bug-fix.html</loc>
@@ -1116,21 +1112,17 @@
         <loc>
             http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html
         </loc>
-<<<<<<< HEAD
         <lastmod>2014-05-08T09:02:01+00:00</lastmod>
     </url>
     <url>
         <loc>
             http://baham.co/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html
         </loc>
-        <lastmod>2014-05-08T09:13:09+00:00</lastmod>
+        <lastmod>2014-05-09T06:29:11+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/05_08_add-original-link.html</loc>
-        <lastmod>2014-05-08T11:16:45+00:00</lastmod>
-=======
-        <lastmod>2014-05-07T08:14:51+00:00</lastmod>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
+        <lastmod>2014-05-09T06:27:41+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/friendly-links/</loc>
@@ -1158,11 +1150,7 @@
     </url>
     <url>
         <loc>http://baham.co/assets/bootstrap/docs/</loc>
-<<<<<<< HEAD
-        <lastmod>2014-05-08T11:16:45+00:00</lastmod>
-=======
-        <lastmod>2014-05-07T08:14:51+00:00</lastmod>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
+        <lastmod>2014-05-09T06:29:11+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/assets/bootstrap/docs/css.html</loc>
@@ -1194,19 +1182,11 @@
     </url>
     <url>
         <loc>http://baham.co/blog/archives/</loc>
-<<<<<<< HEAD
-        <lastmod>2014-05-08T11:16:45+00:00</lastmod>
+        <lastmod>2014-05-09T06:29:11+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/blog/categories/</loc>
-        <lastmod>2014-05-08T11:16:45+00:00</lastmod>
-=======
-        <lastmod>2014-05-07T09:45:04+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://baham.co/blog/categories/</loc>
-        <lastmod>2014-05-07T08:14:51+00:00</lastmod>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
+        <lastmod>2014-05-09T06:29:11+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/contactme/</loc>
@@ -1214,7 +1194,7 @@
     </url>
     <url>
         <loc>http://baham.co/robots.txt</loc>
-        <lastmod>2014-05-06T07:17:55+00:00</lastmod>
+        <lastmod>2014-05-09T06:23:14+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/verse/</loc>
@@ -1222,24 +1202,13 @@
     </url>
     <url>
         <loc>http://baham.co/</loc>
-<<<<<<< HEAD
-        <lastmod>2014-05-08T11:16:45+00:00</lastmod>
-=======
-        <lastmod>2014-05-07T08:14:51+00:00</lastmod>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
+        <lastmod>2014-05-09T06:29:11+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/contactme-en/</loc>
         <lastmod>2014-05-07T03:16:57+00:00</lastmod>
     </url>
     <url>
-<<<<<<< HEAD
-=======
-        <loc>http://baham.co/files/code/robots.txt</loc>
-        <lastmod>2013-04-22T17:22:13+00:00</lastmod>
-    </url>
-    <url>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
         <loc>http://baham.co/bearfox/</loc>
         <lastmod>2014-05-06T15:16:12+00:00</lastmod>
     </url>
