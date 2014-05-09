@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Announcement | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/announcement/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2014-05-09T06:00:59+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Use English to Write Articles]]></title>
+    <link href="http://baham.co/04_24_use-english-to-write-articles.html"/>
+    <updated>2014-04-24T03:02:00+00:00</updated>
+    <id>http://baham.co/use-english-to-write-articles</id>
+    <content type="html"><![CDATA[<p>For learning English writing, I decide to use English to write articles.</p>
+
+<p>Before this day, I had used English to write some articles.</p>
+
+<p>And after it ,I want to change the website&rsquo;s main language from Chinese to English.</p>
+
+<p>And write more English articles.</p>
+
+<p>Maybe my website&rsquo;s PR will descend by this change, but I still decided to do change.(In fact ,my website&rsquo;s index number from baidu had already come down, Baidu just indexed about 2 my website&rsquo;s links. )</p>
+
+<!--more-->
+
+
+<p>Otherwise the license updated from CC BY-NC-CA 3.0 to <strong>CC BY-NC-CA 4.0</strong>.</p>
+
+<p>You can see <a href="/license">here</a> to read it. The conten in the licnese is English too.But still keep the Chinese translation link.</p>
+
+<p><img src="/favicon.png" alt="baham" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Remove the Qrcode in Lower Right Area]]></title>
+    <link href="http://baham.co/10_22_remove-the-qrcode-in-lower-right-area.html"/>
+    <updated>2013-10-22T23:33:00+00:00</updated>
+    <id>http://baham.co/remove-the-qrcode-in-lower-right-area</id>
+    <content type="html"><![CDATA[<p>This plugin used google apis.</p>
+
+<p>It is like this:</p>
+
+<pre><code>http://chart.apis.google.com/chart?chs=150x150&amp;cht=qr&amp;chld=|0&amp;chco=165B94&amp;chl=http://baham.co/10_22_remove-the-qrcode-in-lower-right-area.html
+</code></pre>
+
+<p>And it is not very userful.</p>
+
+<p>So I am ready to remove it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[开始使用安全宝CDN服务了]]></title>
+    <link href="http://baham.co/05_25_kai-shi-shi-yong-an-quan-bao-cdnfu-wu-liao.html"/>
+    <updated>2013-05-25T18:14:00+00:00</updated>
+    <id>http://baham.co/kai-shi-shi-yong-an-quan-bao-cdnfu-wu-liao</id>
+    <content type="html"><![CDATA[<p>之前一直使用CloudFalre的CDN服务，不过发现最近出现有些时间无法访问。
+虽然我觉得GithubPage，不用CDN访问速度也不错，不过还是用个CDN 吧，反正免费。</p>
+
+<p>现在是，香港节点，Ping值，比CloudFlare略快。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[昨天才发现我的站点被百度狠狠地惩罚了]]></title>
+    <link href="http://baham.co/05_06_zuo-tian-cai-fa-xian-wo-de-zhan-dian-bei-bai-du-hen-hen-di-cheng-fa-liao.html"/>
+    <updated>2013-05-06T23:38:00+00:00</updated>
+    <id>http://baham.co/zuo-tian-cai-fa-xian-wo-de-zhan-dian-bei-bai-du-hen-hen-di-cheng-fa-liao</id>
+    <content type="html"><![CDATA[<p>之前犯过一次错误，就是在从wordpress迁移到octopress时，把自己的一个二级目录/javatutorial扔了，也就是说，该二级目录下的内容并没有迁移过来，我知道对于这种情况搜索引擎一定会给电惩罚的，只是不知道这么严重。</p>
+
+<p><img src="/images/bd.png" alt="baidu" /></p>
+
+<p>谷歌收录也少了大约100多，我的站点最多时候谷歌有大约500左右的收录，现在有不到400。状态最好时候，在百度搜索<em>Baham</em>，主页会出现在第二或者第三的位置。</p>
+
+<p>不过，还好，网站没有以盈利为目的，也部在乎百度是否收录，不在乎访问量什么的。
+虽然，刚开始我也想过建一个以盈利为目的的网站，不过，今天看来，不盈利也挺好，有时间就更新点内容，不用在乎SEO规则，自由自在地写点自己的东西，每年都为域名续一次费，只要<a href="https://github.com">Github</a>不倒，就这么一直写下去……</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[又是很久没有更新博客]]></title>
+    <link href="http://baham.co/04_25_you-shi-hen-jiu-mei-you-geng-xin-bo-ke.html"/>
+    <updated>2013-04-25T23:20:00+00:00</updated>
+    <id>http://baham.co/you-shi-hen-jiu-mei-you-geng-xin-bo-ke</id>
+    <content type="html"><![CDATA[<p>考试在即,本来不应该来写博客的.只是对于最近发生的事,还是应该写写.</p>
+
+<p>学校更新了上网客户端,本来在linux上的算密码程序不能用了.</p>
+
+<p>这不是重点,重点是,我在一次强关后硬盘坏了.</p>
+
+<p>开始以为是内存,后来借了别人移动硬盘,把自己的硬盘拆下来装进去,发现,只要硬盘拆下来,live usb就可用.
+插上硬盘,就不可用,包括光盘启动叶是停止不前.</p>
+
+<p>后来,去笔记本的售后服务.</p>
+
+<p>等了2个小时左右的mhdd检测,最后证明硬盘本身没有坏.</p>
+
+<p>最后和售后的工作人员讨论了许久,发现是分区表坏了.</p>
+
+<p>强关之后,我的/分区和/usr/local分区丢了.</p>
+
+<p>只是不知道为什么用live usb进不去live模式????(尚未解决的疑问)</p>
+
+<p>最后格了"/&ldquo;分区.(悲剧的/usr/local啊,里边有一些私密数据啊)</p>
+
+<p>回来之后,把/home分区里的文件删掉一部分(误把.git给删了,刚刚还在重新配置git),剩下的copy到移动硬盘上.</p>
+
+<p>重新格式化了整块硬盘.</p>
+
+<p>然后装上了我的大</p>
+
+<!--more-->
+
+
+<p>[Chakra Linux]<a href="http://chakraos.org/">http://chakraos.org/</a></p>
+
+<p>之前也装过Chakra Linux.出了点问题,就是安装完之后,无法进入系统.</p>
+
+<p>搜索了一下,知道了原因是因为 systemd 和独立的/usr分区的一个小bug.</p>
+
+<p>总之Chakra Linux/Arch Linux最好不要将/usr单独分区.</p>
+
+<p>会导致系统无法进入.</p>
+
+<p>关于Chakra Linux的介绍,以后会有详述.</p>
+]]></content>
+  </entry>
+  
+</feed>
