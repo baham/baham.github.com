@@ -1,13 +1,7 @@
 User-agent: *
-<<<<<<< HEAD
 Disallow: /404.html
 Disallow: /404
 Disallow: /assets
 Disallow: /blog/page/
 
 Sitemap: {{ site.url }}/sitemap.xml 
-=======
-Disallow: /javascripts
-
-Sitemap: http://baham.co/sitemap.xml
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593

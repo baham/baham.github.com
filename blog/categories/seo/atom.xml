@@ -4,11 +4,7 @@
   <title><![CDATA[Category: SEO | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/seo/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-<<<<<<< HEAD
-  <updated>2014-05-09T06:00:59+00:00</updated>
-=======
-  <updated>2014-05-07T10:08:13+00:00</updated>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
+  <updated>2014-05-09T06:35:44+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -18,7 +14,6 @@
 
   
   <entry>
-<<<<<<< HEAD
     <title type="html"><![CDATA[Octopress add Original Link after post Version2]]></title>
     <link href="http://baham.co/05_08_add-original-link.html"/>
     <updated>2014-05-08T10:47:00+00:00</updated>
@@ -145,8 +140,6 @@ Disallow: /blog/page/
   </entry>
   
   <entry>
-=======
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
     <title type="html"><![CDATA[Octopress Add Description Keywords Plugin Optimization]]></title>
     <link href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html"/>
     <updated>2014-05-07T01:22:00+00:00</updated>
@@ -213,13 +206,10 @@ Disallow: /blog/page/
 <p><em>PS</em>: <code>page means page/post/other links, not just rake new_page's page</code></p>
 
 <p>And the keywords' code is like the description'.</p>
-<<<<<<< HEAD
 
 <h2><a href="/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html">Version 3</a></h2>
 
 <p>Optimization about the page with number&rsquo;s title and description.</p>
-=======
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
 ]]></content>
   </entry>
   
@@ -277,67 +267,4 @@ Disallow: /blog/page/
 ]]></content>
   </entry>
   
-<<<<<<< HEAD
-=======
-  <entry>
-    <title type="html"><![CDATA[Octopress相关文章插件]]></title>
-    <link href="http://baham.co/01_12_octopressxiang-guan-wen-zhang-cha-jian.html"/>
-    <updated>2013-01-12T11:44:00+00:00</updated>
-    <id>http://baham.co/octopressxiang-guan-wen-zhang-cha-jian</id>
-    <content type="html"><![CDATA[<p>默认，Octopress没有<em>相关文章插件</em>。不过，有人为Octopress写了一个<a href="https://github.com/jcftang/octopress-relatedposts.git">relatedposts</a></p>
-
-<p>演示可以看本站右下位置。</p>
-
-<p>相应的配置安装也很简单。</p>
-
-<h2>1 配置_config.yml</h2>
-
-<p>添加<code>lsi: true</code>。</p>
-
-<h2>2 设置侧边栏</h2>
-
-<p>在default_asides中添加<code>custom/asides/related.html</code></p>
-
-<h2>3 添加插件</h2>
-
-<p>复制<a href="https://nodeload.github.com/jcftang/octopress-relatedposts/zip/master">压缩包</a>内的related.html文件到这里 source/_includes/custom/asides/related.html</p>
-
-<p>至此Octopress的相关文章插件，配置完成。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Octopress robots.txt写法]]></title>
-    <link href="http://baham.co/01_11_octopress-robots-dot-txtxie-fa.html"/>
-    <updated>2013-01-11T22:23:00+00:00</updated>
-    <id>http://baham.co/octopress-robots-dot-txtxie-fa</id>
-    <content type="html"><![CDATA[<p>又想了想Octopress的robots.txt写法。
-现在我的是这样：
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>User-agent: *
-</span><span class='line'>Disallow: /&lt;em>?&lt;/em>
-</span><span class='line'>Disallow: /archives
-</span><span class='line'>Disallow: /javascripts
-</span><span class='line'>Disallow: /font
-</span><span class='line'>Disallow: /assets
-</span><span class='line'>Disallow: /blog
-</span><span class='line'>Sitemap: &lt;a href="http://baham.co/sitemap.xml">http://baham.co/sitemap.xml&lt;/a></span></code></pre></td></tr></table></div></figure></notextile></div>
-Line 1:对于所有搜索引擎</p>
-
-<p>Line 2:禁止访问所有动态内容（虽然Octopress的文章都是纯净态，但是此处还是加上，比如我在用Cloudflare时，Cloudflare默认就会生成一些带?的缓存链接）</p>
-
-<p>Line 3～7:禁止访问archives,javascripts,font,assets,blog目录，archives是归档内容，blog目录下是归档内容以及分类内容和页号内容，由于更新较频繁，建议禁止。</p>
-
-<p>Line 8: sitemap地址</p>
-]]></content>
-  </entry>
-  
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
 </feed>

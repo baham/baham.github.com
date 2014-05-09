@@ -4,11 +4,7 @@
   <title><![CDATA[Category: Octopress | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-<<<<<<< HEAD
-  <updated>2014-05-09T06:00:59+00:00</updated>
-=======
-  <updated>2014-05-07T10:08:13+00:00</updated>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
+  <updated>2014-05-09T06:35:44+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -18,7 +14,6 @@
 
   
   <entry>
-<<<<<<< HEAD
     <title type="html"><![CDATA[Octopress add Original Link after post Version2]]></title>
     <link href="http://baham.co/05_08_add-original-link.html"/>
     <updated>2014-05-08T10:47:00+00:00</updated>
@@ -145,8 +140,6 @@ Disallow: /blog/page/
   </entry>
   
   <entry>
-=======
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
     <title type="html"><![CDATA[Octopress Add Description Keywords Plugin Optimization]]></title>
     <link href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html"/>
     <updated>2014-05-07T01:22:00+00:00</updated>
@@ -213,13 +206,10 @@ Disallow: /blog/page/
 <p><em>PS</em>: <code>page means page/post/other links, not just rake new_page's page</code></p>
 
 <p>And the keywords' code is like the description'.</p>
-<<<<<<< HEAD
 
 <h2><a href="/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html">Version 3</a></h2>
 
 <p>Optimization about the page with number&rsquo;s title and description.</p>
-=======
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
 ]]></content>
   </entry>
   
@@ -275,11 +265,7 @@ Disallow: /blog/page/
 <!--more-->
 
 
-<<<<<<< HEAD
 <p>``` ruby octopress-add-original-link  /files/code/octopress-add-original-link.rb</p>
-=======
-<p>``` ruby octopress-add-original-link  <a href="https://github.com/minghub/octopress-add-original-link/raw/master/octopress-add-original-link.rb">https://github.com/minghub/octopress-add-original-link/raw/master/octopress-add-original-link.rb</a></p>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
 
 <h1>To change this license header, choose License Headers in Project Properties.</h1>
 
@@ -333,16 +319,11 @@ end
 end</p>
 
 <p>Liquid::Template.register_filter AppendFooterFilter
-<<<<<<< HEAD
 ```</p>
 
 <p>The file is here&mdash;<a href="/files/code/octopress-add-original-link.rb">octopress-add-original-link.rb</a>  <code>please use the below link to download the newer one</code></p>
 
 <p>And the newer version that fix a bug is in <a href="/files/code/octopress-add-original-link-v2.rb">add-original-link version2</a></p>
-=======
-```
-The file is here&mdash;<a href="https://github.com/minghub/octopress-add-original-link/raw/master/octopress-add-original-link.rb">octopress-add-original-link.rb</a></p>
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
 
 <p>And after I modified, It is only can show the post&rsquo;s original link.</p>
 
@@ -409,11 +390,8 @@ keywords: "keywords, for, the, website"
 
 <p>The above code was optimizated by myself, this is <a href="/05_07_octopress-add-description-keywords-plugin-optimization.html">the new version with optimization about site&rsquo;s description and keywords </a>.</p>
 
-<<<<<<< HEAD
 <p><a href="/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html">Add description and keywords version3</a></p>
 
-=======
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
 <p><strong>I think you will like it, my octopressers.</strong></p>
 
 <p>Reference Articles:</p>
@@ -426,125 +404,4 @@ keywords: "keywords, for, the, website"
 ]]></content>
   </entry>
   
-<<<<<<< HEAD
-=======
-  <entry>
-    <title type="html"><![CDATA[Octopress Easypost Tool]]></title>
-    <link href="http://baham.co/03_10_octopress-easypost-tool.html"/>
-    <updated>2014-03-10T07:16:00+00:00</updated>
-    <id>http://baham.co/octopress-easypost-tool</id>
-    <content type="html"><![CDATA[<p>When using octopress to write articles.
-You need run commands like this.
-1. rake new_post[&lsquo;name&rsquo;]     //to post an article
-2. rake generate        //to create the html files
-3. rake deploy      //to push your articles</p>
-
-<p>When I use Ubuntu 12.04, even I need add <code>bundle exec</code> to fix the gem version problem.</p>
-
-<p>Cause I am in China, to fix the TimeZone problem, I need to add <code>TZ=CCT</code></p>
-
-<p>So before you write your article, you have already write <code>TZ=CCT bundle exec rake new_post......</code></p>
-
-<p>And when change my os to <strong>Ubunt Gnome</strong>, I found an article about using octopress easily.</p>
-
-<!--more-->
-
-
-<p>Here is it.  An Chinese coder&rsquo;s <a href="http://my.oschina.net/u/160375/blog/160342">article</a> on oschina blog.</p>
-
-<p>This man write an shell script to write octopress articles more easily.</p>
-
-<p>I found it is really useful.</p>
-
-<p>Here is the code.</p>
-
-<pre><code>
-#!/bin/sh
-root=/my/blog/path
-scriptName=`basename $0`
-cd $root
-case $1 in
-    'blog')
-        name=`date +"%H-%M-%S"`
-        if [[ $2 ]]; then
-            name=`echo $2|sed 's/ /-/g'`
-        fi
-        path=`rake new_post[$name]|awk -F":" '{print $2}'`
-        vi $path
-        ;;
-    'page')
-        if [[ ! $2 ]]; then
-            echo 'need page name'
-            exit
-        fi
-        name=`echo $2|sed 's/ /-/g'`
-        echo $name
-        path=`rake new_page[$name]|awk -F":" '{print $2}'`
-        vi $path
-        ;;
-    'view')
-        rake preview
-        ;;
-    'publish')
-        rake gen_deploy
-        ;;
-    'build')
-        rake clean
-        rake generate
-        ;;
-    'open')
-        open $root
-        ;;
-    'edit')
-        vi $root
-        ;;
-    *)
-        echo "usage: $scriptName [blog|page|view|publish|build|open|edit]"
-        exit 1
-        ;;
-esac
-</code></pre>
-
-
-<p>Unfortunately, I found a bug when you write an article with article name.</p>
-
-<p>It showed <code>not found [[</code> or somethin \g like this.</p>
-
-<p>And this shell use <em>blog page build &hellip;</em> comands, it is more difficult than <strong>new_post new_page generate</strong></p>
-
-<p>So I changed the commands name to <code>post page preview deploy generate open edit</code></p>
-
-<p>And add 2 commands <code>gen_pre gen_dep</code></p>
-
-<p>And change generate to generate not <code>gen_deploy</code></p>
-
-<p>And this is <a href="https://github.com/minghub/octopress-easy-post-tool.git">github link</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Octopress使用Disqus留言系统]]></title>
-    <link href="http://baham.co/01_16_octopressshi-yong-disqusliu-yan-xi-tong.html"/>
-    <updated>2013-01-16T13:10:00+00:00</updated>
-    <id>http://baham.co/octopressshi-yong-disqusliu-yan-xi-tong</id>
-    <content type="html"><![CDATA[<p>Octopress没有默认的留言系统，不过，可以使用Disqus。</p>
-
-<p>开启也Disqus留言系统也很简单，</p>
-
-<p>开启也Disqus留言系统也很简单，</p>
-
-<p>首先，需要一个Disqus帐号，<a href="http://disqus.com">注册地址</a>。Disqus功能强大，不仅提供独立的留言系统，还可以显示相关文章。如果你开启，相关文章的广告功能，
-甚至可以通过点击量赚钱。</p>
-
-<p>其次，在_config.yml文件中开启Disqus留言系统</p>
-
-<p>如下：</p>
-
-<p><img src="/images/disqus_%E8%AE%BE%E7%BD%AE.png" title="Disqus" alt="Disqus设置" /></p>
-
-<p>填入你的ID即可。</p>
-]]></content>
-  </entry>
-  
->>>>>>> 00c132bfc1d2b86f275d17ba2ba0d0dfa96b4593
 </feed>
