@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Ruby | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+<<<<<<< HEAD
+  <updated>2014-05-09T06:35:44+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-09T06:29:49+00:00</updated>
+=======
+  <updated>2014-05-09T06:22:09+00:00</updated>
+>>>>>>> 9965554227a9168e925c0fc3cae65a6ebc2e0dd2
+>>>>>>> 3399caa1cbe967ec6120f436bdff1733f66bb273
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby Multidimensional Arrays]]></title>
+    <link href="http://baham.co/05_06_ruby-multidimensional-arrays.html"/>
+    <updated>2014-05-06T06:19:00+00:00</updated>
+    <id>http://baham.co/ruby-multidimensional-arrays</id>
+    <content type="html"><![CDATA[<p>Today, when I use Two-dimensional array with ruby.</p>
+
+<p>Like:</p>
+
+<p>``` ruby</p>
+
+<pre><code>arr=[]
+arr2=[]
+3.times  { arr2 &lt;&lt; "_" } 
+3.time   {arr &lt;&lt; arr2}
+</code></pre>
+
+<p>```</p>
+
+<p>And when I change the <code>arr[1][1] to "-"</code></p>
+
+<p>It will show:</p>
+
+<p>```</p>
+
+<pre><code> _ - _
+ _ - _
+ _ - _
+</code></pre>
+
+<p>```</p>
+
+<!--more-->
+
+
+<p>But what I want is :</p>
+
+<p>```</p>
+
+<pre><code>_ _ _
+_ - _
+_ _ _
+</code></pre>
+
+<p>```</p>
+
+<p>I did not know why this happened. So I search it by search engineer.</p>
+
+<p>And I found a differen thing in ruby.</p>
+
+<p>If you want to output right image. Like above.</p>
+
+<p>You need init your array like this:</p>
+
+<p><code>ruby
+arr=[[" _"," _"," _"],[" _"," _"," _"],[" _"," _"," _"]]
+</code></p>
+
+<h2>The Reason</h2>
+
+<p>When you use te first way to create a two-dimensinol array.</p>
+
+<p>The sub array point to the same object <code>arr2</code>.</p>
+
+<p>``` ruby
+Array.new(3, Array.new(3,0)).each{|i|p i.object_id}
+-616182288
+-616182288
+-616182288</p>
+
+<p>[[0, 0, 0], [0, 0, 0], [0, 0, 0]].each{|i|p i.object_id}
+-616198918
+-616198928
+-616198938</p>
+
+<p>```</p>
+
+<p>Reference Article:</p>
+
+<p><a href="http://lgn21st.iteye.com/blog/173550">Lvguoning Blog</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The ruby community]]></title>
+    <link href="http://baham.co/04_28_the-ruby-community.html"/>
+    <updated>2014-04-28T09:50:00+00:00</updated>
+    <id>http://baham.co/the-ruby-community</id>
+    <content type="html"><![CDATA[<p>In these days, I read a book about ruby.</p>
+
+<p>And there are some ruby communities and blogs.</p>
+
+<!--more-->
+
+
+<h3>Online Forum</h3>
+
+<p><a href="http://www.ruby-forum.com">Ruby-Forum</a></p>
+
+<p>This is a really cool forum, cause I found if you are in China, your ip will be denied to register the account. It looks like it is areally popular forum.</p>
+
+<p><a href="http://sitepoint.com">SitePoint</a></p>
+
+<p>Especially the Sitepoint, It is a cool and poular online forum for <em>web developer</em>, not only included ruby , but also html5, javascript, php and so on.</p>
+
+<h3>IRC channel</h3>
+
+<pre><code>#ruby-lang   and    #rubyonrails
+</code></pre>
+
+<p>they are all on <a href="http://freenode.net">freenode</a></p>
+
+<p><code>rubyonrails</code> maybe gone, cause I cannot join it.</p>
+
+<h3>usernet</h3>
+
+<pre><code>[google groups]
+https://groups.google.com/forum/#!forum/comp.lang.ruby
+</code></pre>
+
+<p>If you are in China, yuo need find a smart way to visit the google group.</p>
+
+<h3>Mailing list</h3>
+
+<p><a href="https://www.ruby-lang.org/en/community/mailing-lists/">ruby-lang</a></p>
+
+<pre><code>ruby-talk   ruby-core   ruby-doc
+</code></pre>
+
+<p> You can easily subcribe it or teem all.</p>
+
+<h2>Blog</h2>
+
+<p><a href="http://www.rubyinside.com/">ruby inside</a></p>
+
+<p><em>Ruby</em> is a very cool programming language, I think these communities and blogs will help you learn it.</p>
+
+<p>And there is more about <a href="/files/ruby-appendix-c.pdf">ruby communities</a>.</p>
+
+<p><code>The file is in Chinese, and it is Beginning Ruby:From Novice to Professional's appendix c from hzbook.com</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby's Multiline]]></title>
+    <link href="http://baham.co/04_28_ruby-multi-line.html"/>
+    <updated>2014-04-28T01:11:00+00:00</updated>
+    <id>http://baham.co/ruby-multi-line</id>
+    <content type="html"><![CDATA[<p>How to show<em> mutilines</em> in <em>Ruby&rsquo;s code</em></p>
+
+<p>In summary, there are 2 ways:</p>
+
+<h3>1 use %q{}</h3>
+
+<p>For example:</p>
+
+<pre><code>x = %q{ line1
+line2
+line3}
+</code></pre>
+
+<p><em>or use %q!! %q() and so on</em></p>
+
+<!--more-->
+
+
+<h3>2 use Here Document</h3>
+
+<p>And you can use <em>here document</em></p>
+
+<p>For example:</p>
+
+<pre><code>x = &lt;&lt;here_document
+line1
+line2
+here_document
+</code></pre>
+
+<p>Use <em>&lt;&lt;</em> start with some strings, like the abrove, use <em>&lt;&lt;here_document</em></p>
+
+<p>And ended with the strings.</p>
+]]></content>
+  </entry>
+  
+</feed>

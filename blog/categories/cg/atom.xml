@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: CG | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/cg/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+<<<<<<< HEAD
+  <updated>2014-05-09T06:35:44+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-09T06:29:49+00:00</updated>
+=======
+  <updated>2014-05-09T06:22:09+00:00</updated>
+>>>>>>> 9965554227a9168e925c0fc3cae65a6ebc2e0dd2
+>>>>>>> 3399caa1cbe967ec6120f436bdff1733f66bb273
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Blender快捷键汇总]]></title>
+    <link href="http://baham.co/09_15_601.html"/>
+    <updated>2012-09-15T00:25:49+00:00</updated>
+    <id>http://baham.co/601</id>
+    <content type="html"><![CDATA[<ul>
+<li><p>shift+a添加</p></li>
+<li><p>shift+d复制</p></li>
+<li><p>ctrl+alt+Num0相机视图模式</p></li>
+<li><p>……</p></li>
+</ul>
+
+
+<p><em><strong>Blender</strong></em>拥有<strong>丰富的快捷键</strong>，当然快捷键使用并非必须的，不过，灵活使用快捷键会让你的Blender使用时更加简单、快速、方便。试想一下，在你的思维如泉涌时，你的双手却跟不上思考的速度，这是一件多么悲剧的事情。</p>
+
+<!-- more -->
+
+
+<h2>Blender快捷键分类一览(图示)</h2>
+
+<p>[<img src="http://baham.co/wp-content/uploads/2012/09/blendervisualhotkeys.png" alt="blender快捷键-分类汇总" />] Blender快捷键图示</p>
+
+<h2> Blender快捷键英文版简介</h2>
+
+<ol>
+<li><p> 窗口模式-Window HotKeys</p></li>
+<li><p> 通用模式-Universal HotKeys</p></li>
+<li><p> 对象模式-Object Mode HotKeys</p></li>
+<li><p> ……</p></li>
+</ol>
+
+
+<p>想系介绍，请阅读完整版本PDF文档。</p>
+]]></content>
+  </entry>
+  
+</feed>

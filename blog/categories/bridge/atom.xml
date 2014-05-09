@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Bridge | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/bridge/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+<<<<<<< HEAD
+  <updated>2014-05-09T06:35:44+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-09T06:29:49+00:00</updated>
+=======
+  <updated>2014-05-09T06:22:09+00:00</updated>
+>>>>>>> 9965554227a9168e925c0fc3cae65a6ebc2e0dd2
+>>>>>>> 3399caa1cbe967ec6120f436bdff1733f66bb273
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[I Found a Website]]></title>
+    <link href="http://baham.co/10_10_i-found-a-website.html"/>
+    <updated>2013-10-10T23:17:00+00:00</updated>
+    <id>http://baham.co/i-found-a-website</id>
+    <content type="html"><![CDATA[<p>Yesterday, I search “桥牌”, and I found this site–桥牌园地(<a href="http://www.sxyx.gov.cn/web/qpyd/qpdzs.htm">http://www.sxyx.gov.cn/web/qpyd/qpdzs.htm</a>)</p>
+
+<p>But it is very strange, because it is on a goverment website.</p>
+
+<p>“sxyx” means “山西盂县”。</p>
+
+<p>And it is not over.</p>
+
+<p>When I open what I downloaded from there, I found <strong>lpk.dll</strong>.</p>
+
+<p><img src="http://baham.co/images/lpk.jpeg" alt="lpk" /></p>
+
+<p>And there are almost in every linked files.</p>
+]]></content>
+  </entry>
+  
+</feed>
