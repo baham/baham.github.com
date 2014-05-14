@@ -4,15 +4,7 @@
   <title><![CDATA[Category: SEO | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/seo/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-<<<<<<< HEAD
-  <updated>2014-05-09T06:35:44+00:00</updated>
-=======
-<<<<<<< HEAD
-  <updated>2014-05-09T06:29:49+00:00</updated>
-=======
-  <updated>2014-05-09T06:22:09+00:00</updated>
->>>>>>> 9965554227a9168e925c0fc3cae65a6ebc2e0dd2
->>>>>>> 3399caa1cbe967ec6120f436bdff1733f66bb273
+  <updated>2014-05-14T09:52:39+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -68,7 +60,18 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=#{license
     <updated>2014-05-08T08:33:00+00:00</updated>
     <id>http://baham.co/add-descritpion-and-keywords-for-octopress-site-plugin-v3</id>
     <content type="html"><![CDATA[<p>In version 2 plugin, the code is :
-{% include_code  add_keywords_and_description_new.rb %}</p>
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description_new.rb)</span> <a href='/files/code/add_keywords_and_description_new.rb'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">page</span><span class="o">.</span><span class="n">title</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
+</span><span class='line'><span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif page.title %}{{&quot;&quot;}}{% else %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
+</span><span class='line'><span class="sr">&lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>And after change the <code>head.html</code> to that, the site&rsquo;s homepage will show site&rsquo;s description and keywords, and post show the post&rsquo;s, if the post has not, it will show no keywords but part of content as description, and the page is like the post.</p>
 
@@ -79,7 +82,28 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=#{license
 <!--more-->
 
 
-<p>{% include_code  add_keywords_and_description_version3.rb %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description_version3.rb)</span> <a href='/files/code/add_keywords_and_description_version3.rb'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="o">&lt;</span><span class="n">head</span><span class="o">&gt;</span>
+</span><span class='line'>  <span class="o">&lt;</span><span class="n">meta</span> <span class="n">charset</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>  <span class="o">&lt;</span><span class="n">title</span><span class="o">&gt;</span><span class="p">{</span><span class="o">%</span> <span class="k">if</span> <span class="n">page</span><span class="o">.</span><span class="n">title</span> <span class="sx">%}{{ page.title }</span><span class="p">}</span><span class="o">-</span><span class="p">{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">page</span><span class="o">.</span><span class="n">url</span> <span class="n">contains</span> <span class="s2">&quot;blog/page&quot;</span> <span class="sx">%}{{ &#39;One of the Pages From&#39; }</span><span class="p">}</span><span class="o">-</span><span class="p">{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}  {{ site.title }</span><span class="p">}</span><span class="o">&lt;</span><span class="sr">/title&gt;</span>
+</span><span class='line'><span class="sr">  &lt;meta name=&quot;author&quot; content=&quot;{{ site.author }}&quot;&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">{% capture description %}{% if page.description %}{{ page.description }}{% elsif page.title %}{{ content | raw_content }}{% elsif page.url contains&quot;blog/</span><span class="n">page</span><span class="s2">&quot; %}{{ &quot;&quot; }}{% else %}{{ site.description  }}{% endif %}{% endcapture %}</span>
+</span><span class='line'><span class="s2">&lt;meta name=&quot;</span><span class="n">description</span><span class="s2">&quot; content=&quot;</span><span class="p">{{</span> <span class="n">description</span> <span class="o">|</span> <span class="n">strip_html</span> <span class="o">|</span> <span class="n">condense_spaces</span> <span class="o">|</span> <span class="ss">truncate</span><span class="p">:</span><span class="mi">150</span> <span class="p">}}</span><span class="s2">&quot; /&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="s2">{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif page.title %}{{&quot;&quot;}}{% elsif page.url contains &quot;</span><span class="n">blog</span><span class="o">/</span><span class="n">page</span><span class="s2">&quot; %}{{ &quot;&quot; }}{% else %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
+</span><span class='line'><span class="s2">&lt;meta name=&quot;</span><span class="n">keywords</span><span class="s2">&quot; content=&quot;</span><span class="p">{{</span> <span class="n">keywords</span> <span class="o">|</span> <span class="n">strip_html</span> <span class="o">|</span> <span class="n">condense_spaces</span> <span class="p">}}</span><span class="s2">&quot; /&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <h2>Release Notes</h2>
 
@@ -136,7 +160,16 @@ Disallow: /blog/page/
 <h2>Old Code</h2>
 
 <p>This is the old code.
-{% include_code  add_keywords_and_description.rb %}</p>
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description.rb)</span> <a href='/files/code/add_keywords_and_description.rb'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'>	<span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">site</span><span class="o">.</span><span class="n">description</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
+</span><span class='line'>	<span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
+</span><span class='line'><span class="sr">	{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif site.keywords %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
+</span><span class='line'><span class="sr">	&lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>And the article that include the old codes  about the <a href="/04_29_octopress-seo.html">octopress seo</a>.</p>
 
@@ -146,7 +179,18 @@ Disallow: /blog/page/
 
 <h2>Add Description and Keywords new version</h2>
 
-<p>{% include_code  add_keywords_and_description_new.rb %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description_new.rb)</span> <a href='/files/code/add_keywords_and_description_new.rb'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">page</span><span class="o">.</span><span class="n">title</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
+</span><span class='line'><span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif page.title %}{{&quot;&quot;}}{% else %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
+</span><span class='line'><span class="sr">&lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>The code is not a ruby file, please add the codes or change the original code to these after the author meta in <code>source/_include/head.html</code>.</p>
 
