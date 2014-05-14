@@ -92,7 +92,14 @@
       
   <header>
     
+<<<<<<< HEAD
       <h1 class="entry-title"><a href="/12_02_goyu-yan-go1-dot-2.html">Go语言-Go1.2</a></h1>
+=======
+<<<<<<< HEAD
+      <h1 class="entry-title"><a href="/12_02_goyu-yan-go1-dot-2.html">Go语言-Go1.2</a></h1>
+=======
+      <h1 class="entry-title"><a href="/12_02_goyu-yan-zhong-ifyu-ju-%5B%3F%5D-chu-yi-wen.html">Go语言中if语句一处疑问</a></h1>
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
     
     
       <p class="meta">
@@ -108,13 +115,18 @@
   
 
 
+<<<<<<< HEAD
 <time datetime="2013-12-02T13:22:00+00:00" pubdate data-updated="true">Dec 2<span>nd</span>, 2013</time>
+=======
+<time datetime="2013-12-02T08:27:00+00:00" pubdate data-updated="true">Dec 2<span>nd</span>, 2013</time>
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
         
       </p>
     
   </header>
 
 
+<<<<<<< HEAD
   <div class="entry-content"><p><img src="/images/golang12.png" alt="golang" /></p>
 
 <p>12月1日，Go语言更新到1.2，距离go1.1发布有7个月时间。语言的改变相比于1.1和1.0之间也较小</p>
@@ -132,40 +144,7 @@
   
     <footer>
       <a rel="full-article" href="/12_02_goyu-yan-go1-dot-2.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/12_02_goyu-yan-zhong-ifyu-ju-%5B%3F%5D-chu-yi-wen.html">Go语言中if语句一处疑问</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-12-02T08:27:00+00:00" pubdate data-updated="true">Dec 2<span>nd</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
+=======
   <div class="entry-content"><p>今天，早晨把《骑砍》卸载了，因为它占用了我太多时间。按照《Video Game and Learning》课程中的介绍，适当玩电子游戏对人类有帮助（自己的主观看法也是如此），所以，我决定不禁止自己玩游戏，而是限制自己的游戏时间。按照统计，每周的游戏时间不应当超过21小时，所以将来自己有条件了，我考虑在客厅放一台Xbox，现在呢，还是不要在自己的这台笔记本上再装什么《骑砍》、《文明》、《兽人必须死》……，毕竟还在求学，还有很多事要做、很多书要读。</p>
 
 <p>废话说多了，切入正题。</p>
@@ -182,6 +161,7 @@
   
     <footer>
       <a rel="full-article" href="/12_02_goyu-yan-zhong-ifyu-ju-%5B%3F%5D-chu-yi-wen.html">Read on &rarr;</a>
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
     </footer>
   
 
@@ -193,7 +173,12 @@
       
   <header>
     
+<<<<<<< HEAD
+      <h1 class="entry-title"><a href="/12_02_goyu-yan-zhong-ifyu-ju-%5B%3F%5D-chu-yi-wen.html">Go语言中if语句一处疑问</a></h1>
+=======
       <h1 class="entry-title"><a href="/12_02_goyu-yan-forxun-huan.html">Go语言-for循环</a></h1>
+>>>>>>> b93ae7e360507df6f770c409171311f98f14048d
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
     
     
       <p class="meta">
@@ -209,13 +194,170 @@
   
 
 
-<time datetime="2013-12-02T07:33:00+00:00" pubdate data-updated="true">Dec 2<span>nd</span>, 2013</time>
+<<<<<<< HEAD
+<time datetime="2013-12-02T08:27:00+00:00" pubdate data-updated="true">Dec 2<span>nd</span>, 2013</time>
+=======
+<time datetime="2013-12-02T13:22:00+00:00" pubdate data-updated="true">Dec 2<span>nd</span>, 2013</time>
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
         
       </p>
     
   </header>
 
 
+<<<<<<< HEAD
+  <div class="entry-content"><p>今天，早晨把《骑砍》卸载了，因为它占用了我太多时间。按照《Video Game and Learning》课程中的介绍，适当玩电子游戏对人类有帮助（自己的主观看法也是如此），所以，我决定不禁止自己玩游戏，而是限制自己的游戏时间。按照统计，每周的游戏时间不应当超过21小时，所以将来自己有条件了，我考虑在客厅放一台Xbox，现在呢，还是不要在自己的这台笔记本上再装什么《骑砍》、《文明》、《兽人必须死》……，毕竟还在求学，还有很多事要做、很多书要读。</p>
+
+<p>废话说多了，切入正题。</p>
+
+<p>在《Go语言云动力》里，看到这样一段代码（77页）</p>
+
+<pre><code>if leap = false; year%4==0(year%100!=0 ||year%400==0){
+    leap=true
+}
+</code></pre>
+
+<p>一开始，不懂这段“;”前边的代码，后来在<em>3.3简单语句</em>处看到，简单语句在if、switch语句中可以放在布尔表达式前，也可在for语句中作为<em>初始赋值</em>和<em>增量语句</em></div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/12_02_goyu-yan-zhong-ifyu-ju-%5B%3F%5D-chu-yi-wen.html">Read on &rarr;</a>
+=======
+  <div class="entry-content"><p><img src="/images/golang12.png" alt="golang" /></p>
+
+<p>12月1日，Go语言更新到1.2，距离go1.1发布有7个月时间。语言的改变相比于1.1和1.0之间也较小</p>
+
+<p>Go1.2包括几处小的语言变化，一些语言实现、工具的改进，性能的提升，以及标准库里的附加功能以及改变（向后兼容）:</p>
+
+<ol>
+<li>nil的使用</li>
+<li>三下标的切片</li>
+<li>cgo</li>
+<li>godoc, vet的位置</li>
+<li>godoc命令
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/12_02_goyu-yan-go1-dot-2.html">Read on &rarr;</a>
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+<<<<<<< HEAD
+      <h1 class="entry-title"><a href="/12_02_goyu-yan-forxun-huan.html">Go语言-for循环</a></h1>
+=======
+      <h1 class="entry-title"><a href="/12_02_goyu-yan-zhong-ifyu-ju-%5B%3F%5D-chu-yi-wen.html">Go语言中if语句一处疑问</a></h1>
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<<<<<<< HEAD
+<time datetime="2013-12-02T07:33:00+00:00" pubdate data-updated="true">Dec 2<span>nd</span>, 2013</time>
+=======
+<time datetime="2013-12-02T08:27:00+00:00" pubdate data-updated="true">Dec 2<span>nd</span>, 2013</time>
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
+        
+      </p>
+    
+  </header>
+
+
+<<<<<<< HEAD
+  <div class="entry-content"><p>Go语言的循环比较不同，不存在<code>while</code>或者<code>do while</code>，只有<code>for</code>，我个人比较喜欢这种方式，因为如果最终达到结果是一样的，没必要需要两种方式或者写法实现同一目标。</p>
+
+<h2>While方式</h2>
+
+<pre><code>i:=0
+for i&lt;10{
+    i++
+=======
+  <div class="entry-content"><p>今天，早晨把《骑砍》卸载了，因为它占用了我太多时间。按照《Video Game and Learning》课程中的介绍，适当玩电子游戏对人类有帮助（自己的主观看法也是如此），所以，我决定不禁止自己玩游戏，而是限制自己的游戏时间。按照统计，每周的游戏时间不应当超过21小时，所以将来自己有条件了，我考虑在客厅放一台Xbox，现在呢，还是不要在自己的这台笔记本上再装什么《骑砍》、《文明》、《兽人必须死》……，毕竟还在求学，还有很多事要做、很多书要读。</p>
+
+<p>废话说多了，切入正题。</p>
+
+<p>在《Go语言云动力》里，看到这样一段代码（77页）</p>
+
+<pre><code>if leap = false; year%4==0(year%100!=0 ||year%400==0){
+    leap=true
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
+}
+</code></pre>
+
+<p>一开始，不懂这段“;”前边的代码，后来在<em>3.3简单语句</em>处看到，简单语句在if、switch语句中可以放在布尔表达式前，也可在for语句中作为<em>初始赋值</em>和<em>增量语句</em></div>
+  
+  
+    <footer>
+<<<<<<< HEAD
+      <a rel="full-article" href="/12_02_goyu-yan-forxun-huan.html">Read on &rarr;</a>
+=======
+      <a rel="full-article" href="/12_02_goyu-yan-zhong-ifyu-ju-%5B%3F%5D-chu-yi-wen.html">Read on &rarr;</a>
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+<<<<<<< HEAD
+      <h1 class="entry-title"><a href="/12_01_%5B%3F%5D-ge-meng.html">一个梦</a></h1>
+=======
+      <h1 class="entry-title"><a href="/12_02_goyu-yan-forxun-huan.html">Go语言-for循环</a></h1>
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<<<<<<< HEAD
+<time datetime="2013-12-01T05:58:00+00:00" pubdate data-updated="true">Dec 1<span>st</span>, 2013</time>
+=======
+<time datetime="2013-12-02T07:33:00+00:00" pubdate data-updated="true">Dec 2<span>nd</span>, 2013</time>
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
+        
+      </p>
+    
+  </header>
+
+
+<<<<<<< HEAD
+  <div class="entry-content"><p> 早上做了一个梦，一个怀孕的女性，和别人发生了争执，当时恰好在台阶上，不慎跌倒。见状，另外两个人跑了，女的很无助，自己强撑着来到医院，结果医院因为太晚，把她赶了出去。</p>
+=======
   <div class="entry-content"><p>Go语言的循环比较不同，不存在<code>while</code>或者<code>do while</code>，只有<code>for</code>，我个人比较喜欢这种方式，因为如果最终达到结果是一样的，没必要需要两种方式或者写法实现同一目标。</p>
 
 <h2>While方式</h2>
@@ -249,8 +391,12 @@ for i&lt;10{
         
 
 
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
 
+<p> 她只好在路上，拦车，想让人把自己送到别处，结果停车的司机看她，腿上带着血，还挺着大肚子，没人赶载她。</p>
 
+<<<<<<< HEAD
+=======
 
 
 
@@ -269,6 +415,7 @@ for i&lt;10{
 
 <p> 她只好在路上，拦车，想让人把自己送到别处，结果停车的司机看她，腿上带着血，还挺着大肚子，没人赶载她。</p>
 
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
 </div>
   
   
@@ -280,6 +427,7 @@ for i&lt;10{
 
     </article>
   
+<<<<<<< HEAD
   
     <article>
       
@@ -328,6 +476,8 @@ x,x=1,2
 
     </article>
   
+=======
+>>>>>>> b93ae7e360507df6f770c409171311f98f14048d
   <div class="pagination">
     
       <a class="prev" href="/blog/page/12/">&larr; Older</a>
@@ -357,17 +507,34 @@ x,x=1,2
     <h2 class="panel-title">Category Cloud</h2>
   </div>
 <div id="recent_posts" class="list-group">
+<<<<<<< HEAD
 	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 120.0%'>Announcement(10)</a> <a href='/blog/categories/baham' style='font-size: 124.0%'>Baham(12)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 112.0%'>Blender(6)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 108.0%'>CUMT(4)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 134.0%'>Faith(17)</a> <a href='/blog/categories/fate' style='font-size: 102.0%'>Fate(1)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 102.0%'>Google(1)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 104.0%'>Job(2)</a> <a href='/blog/categories/linux' style='font-size: 154.0%'>Linux(27)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 118.0%'>Memo(9)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 112.0%'>Mineral Processing(6)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 110.0%'>Video(5)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
+=======
+<<<<<<< HEAD
+	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 120.0%'>Announcement(10)</a> <a href='/blog/categories/baham' style='font-size: 124.0%'>Baham(12)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 112.0%'>Blender(6)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 108.0%'>CUMT(4)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 134.0%'>Faith(17)</a> <a href='/blog/categories/fate' style='font-size: 102.0%'>Fate(1)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 102.0%'>Google(1)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 104.0%'>Job(2)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 118.0%'>Memo(9)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 112.0%'>Mineral Processing(6)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 110.0%'>Video(5)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
+=======
+	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 118.0%'>Announcement(9)</a> <a href='/blog/categories/baham' style='font-size: 124.0%'>Baham(12)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 112.0%'>Blender(6)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 108.0%'>CUMT(4)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 134.0%'>Faith(17)</a> <a href='/blog/categories/fate' style='font-size: 102.0%'>Fate(1)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 102.0%'>Google(1)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 104.0%'>Job(2)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 118.0%'>Memo(9)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 112.0%'>Mineral Processing(6)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 108.0%'>Translation(4)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 110.0%'>Video(5)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
+>>>>>>> b93ae7e360507df6f770c409171311f98f14048d
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
 </div>
 </section><section>
   <h2>Recent Posts</h2>
   <ul id="recent_posts">
     
       <li class="post">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
         <a href="/05_14_about-the-translation-category.html">About the Translation Category</a>
       </li>
     
       <li class="post">
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b93ae7e360507df6f770c409171311f98f14048d
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
         <a href="/05_11_do-you-remember-that-game-on-linux.html">Do you remember that game on linux</a>
       </li>
     
@@ -443,6 +610,16 @@ x,x=1,2
         <a href="/04_21_18-44-52.html">In these days</a>
       </li>
     
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      <li class="post">
+        <a href="/04_21_18-00-28.html">Take the mensa test</a>
+      </li>
+    
+>>>>>>> b93ae7e360507df6f770c409171311f98f14048d
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
   </ul>
 </section>
 <section class="panel panel-default">
