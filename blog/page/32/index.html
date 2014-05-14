@@ -55,8 +55,6 @@
 	<h2>Baham的个人博客</h2>
   
 </hgroup>
-<!--<h1><a href="/">Baham's Blog</a></h1>
-<h2>Baham的个人博客</h2>-->
 </header>
   <nav role="navigation"><ul class="subscription" data-subscription="rss">
   <li><a href="/feeds/" rel="nofollow" title="subscribe via RSS">RSS</a></li>
@@ -76,7 +74,7 @@
   <li><a href="/blog/categories/golang/">Golang</a></li>
   <li><a href="/blog/categories/ideas">Ideas</a></li>
   <li><a href="/blog/categories/thinking">Thingking</a></li>
-  <li><a href="/blog/categories/translation">翻译</a></li>
+  <li><a href="http://translation.baham.co" rel="subdomain">翻译</a></li>
   <li><a href="/blog/categories/faith">+Grace+</a></li>
   <li><a href="/contactme-en">About</a></li>
 </ul>
@@ -86,6 +84,125 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/05_15_chakra-linux-bundlesystembei-extraku-qu-dai.html">Chakra Linux BundleSystem被Extra库取代</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-15T17:32:00+00:00" pubdate data-updated="true">May 15<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Chakra Linux已经使用<strong>BundleSystem</strong>两年了，为了实现Chakra的Gtk-free，现在我们决定创造一个默认的不再依靠BundkeSystem的发行版。</p>
+
+<p>Chakra的多数软件包都是Gtk-free的，只有很少例外，比如，flash,gtk本身,pygtk。</p>
+
+<p>但是BundleSystem略显复杂，所以现在提供了一个新的解决方案，以实现同样的目的，但是却更简单、更符合<a href="https://en.wikipedia.org/wiki/KISS_principle">KISS原则</a>、并且更灵活。</p>
+
+<p>Extra库，是一个全新的层次，使用一系列配置文件让我们无需安装非KDE软件到文件系统结构中而享受GTK程序和一些其他的包。举例来讲，安装<a href="http://sourceforge.net/projects/amule/">amule</a>时，现在会安装Plasmoid和PlasmAmule到一个正常KDE程序的路径下，对于Flash插件，会安装对应的配置包在“系统设置”中。</p>
+
+<p>Extra库现在结暂时构是这样的：</p>
+
+<pre><code>/extra
+/extra/etc
+/extra/bin
+/extra/lib
+/extra/usr
+/extra/opt 
+</code></pre>
+
+<p>把这些包都安装到/extra下，会保证原本的文件系统完好，保证主要的库保持Gtk-free。现在extra库，在<a href="/05_05_chakra-linuxan-zhuang-shi-yong.html">Chakra安装</a>时会被默认启用。</p>
+
+<h2>如何使用</h2>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/05_15_chakra-linux-bundlesystembei-extraku-qu-dai.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/05_13_xue-dao-liao-liang-ge-li-lun.html">学到了两个理论</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-13T16:15:00+00:00" pubdate data-updated="true">May 13<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>一个源自古希腊，一个源自古罗马。</p>
+
+<p><a href="https://zh.wikipedia.org/wiki/%E4%BF%AE%E6%98%94%E5%BA%95%E5%BE%B7">修昔底德</a>陷阱:</p>
+
+<blockquote><p>古希腊著名历史学家修昔底德的名言说，雅典和斯巴达的战争之所以最终变得不可避免，是因为雅典实力的增长，以及这种增长在斯巴达所引起的恐惧。即在现实中，两个大国的战略判断与感情好恶的致命结合，随着时间的流逝，会导致健康的竞争变成你死我活的敌对，甚至更糟。</p></blockquote>
+
+<p><a href="https://zh.wikipedia.org/wiki/%E5%A1%94%E8%A5%BF%E4%BD%97">塔西佗</a>陷阱:</p>
+
+<blockquote><p>“塔西佗陷阱”得名于古罗马时代的历史学家塔西佗，通俗地讲就是指当政府部门失去公信力时，无论说真话还是假话，做好事还是坏事，都会被认为是说假话、做坏事，这个卓越的见解后来成为西方政治学里的定律之一：“塔西佗陷阱”，这一定律也在社会群体突发事件中有充分的体现，诚信体系故障，社会秩序会混乱。
+ <p class='post-footer' style="font-size:70%;" ></p></blockquote>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="/05_13_xue-dao-liao-liang-ge-li-lun.html">http://baham.co/05_13_xue-dao-liao-liang-ge-li-lun.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -248,123 +365,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/05_05_chakra-linuxan-zhuang-shi-yong.html">Chakra Linux安装使用</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-05-05T22:29:00+00:00" pubdate data-updated="true">May 5<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>  对于<em>Chakra Linux</em>,一句话形容的话就是KDE+Arch。Arch的设计原则是KISS，即Keep It Simple and Stupid，
-  Chakra也一样。KDE设计的很重要目标就是提供一套完整的桌面系统，Chakra也做到了这一点。而且Chakra Linux是a [pure environment] <a href="http://chakra-linux.org/bundles.html%E3%80%82">http://chakra-linux.org/bundles.html%E3%80%82</a></p>
-
-<p>  Chakra Linux使用的图形化安装工具是<em>Tribe</em>，</p>
-
-<p>  <a href="http://chakra-project.org/wiki/images/a/a8/Installation_2.png">http://chakra-project.org/wiki/images/a/a8/Installation_2.png</a></p>
-
-<p>  非常强大的安装工具，虽然Tribe自己不断提醒<strong>这是一款处于Alpha测试阶段的软件</strong>，不过稳定性还是很有保障的，至少我没有因为
-  Tribe而出过问题或者毁掉我的硬盘。倒是因为[systemd和/usr分区] (<a href="http://freedesktop.org/wiki/Software/systemd/separate-usr-is-broken">http://freedesktop.org/wiki/Software/systemd/separate-usr-is-broken</a>)出过[状况](<a href="http://baham.co/04_25_you-shi-hen-jiu-mei-you-geng-xin-bo-ke.html%E3%80%82">http://baham.co/04_25_you-shi-hen-jiu-mei-you-geng-xin-bo-ke.html%E3%80%82</a></p>
-
-<p>  详细安装过程可以看[这里] <a href="http://chakra-project.org/wiki/index.php?title=Installing_Chakra#Ladies_and_Gentlemen.2C_Load_Your_Media.21">http://chakra-project.org/wiki/index.php?title=Installing_Chakra#Ladies_and_Gentlemen.2C_Load_Your_Media.21</a>)。</p>
-
-<p>  Chakra Linux的安装过程并不复杂，而且Tribe支持中文。 <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="/05_05_chakra-linuxan-zhuang-shi-yong.html">http://baham.co/05_05_chakra-linuxan-zhuang-shi-yong.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/05_01_shi-yong-blenderzuo-3dda-yin.html">使用Blender做3D打印</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-05-01T23:38:00+00:00" pubdate data-updated="true">May 1<span>st</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><embed src="http://player.youku.com/player.php/sid/XNTUwNzU5MDg4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
-
-<p>一个讲blender做3d打印的教程，和大家分享一下。</p>
-
-<p>视频做得不错，英语说得很慢。</p>
-
-<p>如果感兴趣，可以去<a href="http://blender.org">blender</a>订阅。
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="/05_01_shi-yong-blenderzuo-3dda-yin.html">http://baham.co/05_01_shi-yong-blenderzuo-3dda-yin.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/33/">&larr; Older</a>
@@ -394,11 +394,19 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     <h2 class="panel-title">Category Cloud</h2>
   </div>
 <div id="recent_posts" class="list-group">
-	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 118.0%'>Announcement(9)</a> <a href='/blog/categories/baham' style='font-size: 124.0%'>Baham(12)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 112.0%'>Blender(6)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 108.0%'>CUMT(4)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 134.0%'>Faith(17)</a> <a href='/blog/categories/fate' style='font-size: 102.0%'>Fate(1)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 114.0%'>Game(7)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 102.0%'>Google(1)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 104.0%'>Job(2)</a> <a href='/blog/categories/linux' style='font-size: 152.0%'>Linux(26)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 118.0%'>Memo(9)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 112.0%'>Mineral Processing(6)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 108.0%'>Translation(4)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 110.0%'>Video(5)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
+	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 120.0%'>Announcement(10)</a> <a href='/blog/categories/baham' style='font-size: 124.0%'>Baham(12)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 112.0%'>Blender(6)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 108.0%'>CUMT(4)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 134.0%'>Faith(17)</a> <a href='/blog/categories/fate' style='font-size: 102.0%'>Fate(1)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 102.0%'>Google(1)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 104.0%'>Job(2)</a> <a href='/blog/categories/linux' style='font-size: 154.0%'>Linux(27)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 118.0%'>Memo(9)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 112.0%'>Mineral Processing(6)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 110.0%'>Video(5)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
 </div>
 </section><section>
   <h2>Recent Posts</h2>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/05_14_about-the-translation-category.html">About the Translation Category</a>
+      </li>
+    
+      <li class="post">
+        <a href="/05_11_do-you-remember-that-game-on-linux.html">Do you remember that game on linux</a>
+      </li>
     
       <li class="post">
         <a href="/05_08_add-original-link.html">Octopress add Original Link after post Version2</a>
@@ -470,14 +478,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     
       <li class="post">
         <a href="/04_21_18-44-52.html">In these days</a>
-      </li>
-    
-      <li class="post">
-        <a href="/04_21_18-00-28.html">Take the mensa test</a>
-      </li>
-    
-      <li class="post">
-        <a href="/04_20_21-29-52.html">The last day in Guangzhou &#8211; Easter Day </a>
       </li>
     
   </ul>
