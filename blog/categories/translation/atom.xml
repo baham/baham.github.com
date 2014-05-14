@@ -4,15 +4,7 @@
   <title><![CDATA[Category: Translation | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/translation/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-<<<<<<< HEAD
-  <updated>2014-05-09T06:35:44+00:00</updated>
-=======
-<<<<<<< HEAD
-  <updated>2014-05-09T06:29:49+00:00</updated>
-=======
-  <updated>2014-05-09T06:22:09+00:00</updated>
->>>>>>> 9965554227a9168e925c0fc3cae65a6ebc2e0dd2
->>>>>>> 3399caa1cbe967ec6120f436bdff1733f66bb273
+  <updated>2014-05-14T11:03:25+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -20,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[About the Translation Category]]></title>
+    <link href="http://baham.co/05_14_about-the-translation-category.html"/>
+    <updated>2014-05-14T06:02:00+00:00</updated>
+    <id>http://baham.co/about-the-translation-category</id>
+    <content type="html"><![CDATA[<p>After I move the language on this site from Chinese to English.</p>
+
+<p>I decide to make a subpage or subdomian to include some Chinese translations from English.</p>
+
+<p>And the translation articles mouved to <a href="http://translation.baham.co">baham&rsquo;s translation</a></p>
+
+<!--more-->
+
+
+<p>And this category <a href="/blog/categories/translation/">translation</a> maybe will include some articles translated from Chinese.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Go语言-playground]]></title>
