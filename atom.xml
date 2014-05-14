@@ -4,15 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-<<<<<<< HEAD
-  <updated>2014-05-09T06:35:44+00:00</updated>
-=======
-<<<<<<< HEAD
-  <updated>2014-05-09T06:28:02+00:00</updated>
-=======
-  <updated>2014-05-09T06:22:09+00:00</updated>
->>>>>>> 9965554227a9168e925c0fc3cae65a6ebc2e0dd2
->>>>>>> 3399caa1cbe967ec6120f436bdff1733f66bb273
+  <updated>2014-05-14T09:59:05+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -20,6 +12,93 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[About the Translation Category]]></title>
+    <link href="http://baham.co/05_14_about-the-translation-category.html"/>
+    <updated>2014-05-14T06:02:00+00:00</updated>
+    <id>http://baham.co/about-the-translation-category</id>
+    <content type="html"><![CDATA[<p>After I move the language on this site from Chinese to English.</p>
+
+<p>I decide to make a subpage or subdomian to include some Chinese translations from English.</p>
+
+<p>And the translation articles mouved to <a href="http://translation.baham.co">baham&rsquo;s translation</a></p>
+
+<!--more-->
+
+
+<p>And this category <a href="http://baham.co/blog/categories/translation/">translation</a> maybe will include some articles translated from Chinese.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/05_14_about-the-translation-category.html">http://baham.co/05_14_about-the-translation-category.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Do you remember that game on linux]]></title>
+    <link href="http://baham.co/05_11_do-you-remember-that-game-on-linux.html"/>
+    <updated>2014-05-11T08:40:00+00:00</updated>
+    <id>http://baham.co/do-you-remember-that-game-on-linux</id>
+    <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="https://en.wikipedia.org/wiki/Linux_gaming">list</a>.</p>
+
+<h2>Tetris&mdash;<a href="https://help.gnome.org/users/quadrapassel/stable/index.html.en">Quadrapassel</a></h2>
+
+<p><img src="https://help.gnome.org/users/quadrapassel/stable/media/part2.jpg" alt="tetris" /></p>
+
+<!--more-->
+
+
+<p>It is an installed game defaultly on old ubuntu.</p>
+
+<p>But I did not get it in mint 16(ubuntu 13.10) with cinnamon desktop environment.</p>
+
+<p>For example, when you need a square, it will never give you a square.</p>
+
+<p>This is a very good design, and hard to play, hard to get high scores.</p>
+
+<h2><a href="http://www.reptilelabour.com/software/chromium/">Chromium BSU</a></h2>
+
+<p>It has the same name with browser chromium.</p>
+
+<p>Just control a space ship to shoot the enemies. But still very difficult.</p>
+
+<p><img src="http://baham.co/images/game/bsu.jpg" alt="chromium bsu" /></p>
+
+<h2>Tetris 3D&mdash; <a href="http://www.blockout.net/blockout2/">Blockout2</a></h2>
+
+<p><img src="http://www.blockout.net/blockout2/screenshots/scr2.jpg" alt="tetris 3d" /></p>
+
+<p>It is a 3d tetris game.  More difficult than 2d tetris.</p>
+
+<p>But the difficult  is not like  Quadrapassel.</p>
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/05_11_do-you-remember-that-game-on-linux.html">http://baham.co/05_11_do-you-remember-that-game-on-linux.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress add Original Link after post Version2]]></title>
@@ -1419,106 +1498,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
 
 <p>The Original Link: <a href="http://baham.co/04_21_18-44-52.html">http://baham.co/04_21_18-44-52.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Take the mensa test]]></title>
-    <link href="http://baham.co/04_21_18-00-28.html"/>
-    <updated>2014-04-21T10:00:00+00:00</updated>
-    <id>http://baham.co/18-00-28</id>
-    <content type="html"><![CDATA[<p>About 2 years ago, I wanted to join mensa. Cause in <a href="http://iqtest.dk">iqtest.dk</a>, I have gotten a 130 score.</p>
-
-<p>But you know in 2012, the mensa.org.cn showed the number in 2012 is to achieve the max number. So I waited.</p>
-
-<p>And the mensa.org.cn showed test will open in 2013.</p>
-
-<p>But in 2013, the test did not open until the December in 2013.</p>
-
-<p>And I knew there was something happen in mensa-china. But recently, the <a href="http://mensa-china.com">mensa-china.com</a> opened, although I would be in internship in April 19, I still decided to ask for leave to take the test.</p>
-
-<p>But I found this test must be paid by paypal, and the method of paying the fee doesn&rsquo;t support alipay or unipay card.</p>
-
-<p>So i asked Brother Jun to help me pay the fee by using his credit card(both visa and unipay). But I ignored one thing that paypal need use the credit card of the account register.</p>
-
-<p>Then one bad thing happend. I did not pay the fee successfully, and the credit card of Brother Jun was freezed.</p>
-
-<p>After that day, I called paypal to solve this.</p>
-
-<!--more-->
-
-
-<p>So I decide to registe a visa card, but I was just a student, so I could only a debit card, so I registed Minsheng Back Internation Debit Card(The program of regist needs 7 work days). And I asked more 2 days for leave to get the card.</p>
-
-<p>When I came Xuzhou to get the card, I failed, cause the card did not arrive Minsheng Bank Xuzhou. I found one to transfer some dollars to my paypal account.</p>
-
-<p>And I paid the fee.</p>
-
-<p>In April 17, I left Pingdingshan City to Guangzhou City to take the test. In April 19, I took the test. And in the quiz after the test and a book, I got a highest score in who submit less in 25 minutes in my test batch(批次). It is really lucky, and may this little honor belong to God.</p>
-
-<p>You know during the test, I got five or six questions too hard to solve them, just like I took the test in <a href="http://iqtest.dk">iqtest.dk</a>. But still thanks God. Because finally I paid successfully, I took the test successfully, and I arrived in Guangzhou on time and so on.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/04_21_18-00-28.html">http://baham.co/04_21_18-00-28.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The last day in Guangzhou -- Easter Day ]]></title>
-    <link href="http://baham.co/04_20_21-29-52.html"/>
-    <updated>2014-04-20T13:29:00+00:00</updated>
-    <id>http://baham.co/21-29-52</id>
-    <content type="html"><![CDATA[<p>Today is Easter Day. In the day before yesterday. When I was at Excahnge-Dream by Jiaqian in Sun Yat-sen University, I poat a post on tieba. It is about is there a fellowship in Sun Yat-sen University?</p>
-
-<p>And I got a posiive answer. And Brother Ding tell me meet him in the Train Stop in Easter Day.</p>
-
-<p>So today , I  have been  to Liangren Church with Brother Ding.</p>
-
-<p>When we got there, there were just a few brothers and sisters here.And after we put bibles to the chairs. More ones came.</p>
-
-<p>When we started, we sang a welcome song for the newers(I was new that time ).Then we sang songs to praise God. And one brother sang a song called <em>You are my favorate</em>, It is really a beautiful song (Sorry I did not remember the brother&rsquo;s name, but I record the song). And one sister who is a lead singer in the church  sang a song too, beautiful too.</p>
-
-<p>After the Easter show, Priest Ma to teach us about <em>Jesus&rsquo;s Eternal Love</em>. It really made me moved.</p>
-
-<p>Then our American brothers and sisters show a show about Jesus&rsquo;s Story(I recorded it too). It is a really good show.</p>
-
-<!--more-->
-
-
-<p><img src="http://baham.co/images/guangdong/lrchurch.jpg" alt="LiangrenChurch" /></p>
-
-<p>In this morning. I knew two new guys, Brother Ding from Shantou and Brother Ren Xiaorong from US.</p>
-
-<p>Xiaorong is really a open man. And he is really conscientious to learn Chinese. When we talk to Mensa and Tieba, he took seriousty to record it by phone. And he is a man who will talk to you firstly.</p>
-
-<p>About on noon, we ate food. After that I left to train stop.</p>
-
-<p>This is a really good and happy experience. Thanks God!
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/04_20_21-29-52.html">http://baham.co/04_20_21-29-52.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
