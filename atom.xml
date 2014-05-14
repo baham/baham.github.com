@@ -4,7 +4,51 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
+<<<<<<< HEAD
   <updated>2014-05-14T10:46:00+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-14T10:03:51+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-14T10:02:09+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-14T09:59:05+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-14T09:56:01+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-14T09:52:39+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-14T09:48:21+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-14T09:28:54+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-13T15:41:09+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-10T14:29:38+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-09T08:04:53+00:00</updated>
+=======
+  <updated>2014-05-09T07:51:13+00:00</updated>
+>>>>>>> 22f19b1eca3855502d3d78da9c3fb735767fe410
+>>>>>>> 86196436ad6547fcb3bc629a611e2b21d063c3e9
+>>>>>>> 91be7c6effccd693b350415d10bac31f8204b779
+>>>>>>> b93ae7e360507df6f770c409171311f98f14048d
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
+>>>>>>> 40f6a1c95c8ebc3ef520d4871332905a31c8208f
+>>>>>>> 3fbaa123c98a19e6c31b0c1fd6eebb9e168f4cb4
+>>>>>>> 49780dd9356fb4e17a75b16aa6451c908b594bfe
+>>>>>>> d7d0b21b9fe5bc092265fa7a82875dbb4b743507
+>>>>>>> 59598ca05bdbdd1d69f6a0504ed96494b4907a84
+>>>>>>> cde8ba22796df6a6fc9748ab4783e29cc5bacb03
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -14,11 +58,107 @@
 
   
   <entry>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
+>>>>>>> 40f6a1c95c8ebc3ef520d4871332905a31c8208f
+>>>>>>> 3fbaa123c98a19e6c31b0c1fd6eebb9e168f4cb4
+>>>>>>> 49780dd9356fb4e17a75b16aa6451c908b594bfe
+    <title type="html"><![CDATA[About the Translation Category]]></title>
+    <link href="http://baham.co/05_14_about-the-translation-category.html"/>
+    <updated>2014-05-14T06:02:00+00:00</updated>
+    <id>http://baham.co/about-the-translation-category</id>
+    <content type="html"><![CDATA[<p>After I move the language on this site from Chinese to English.</p>
+
+<p>I decide to make a subpage or subdomian to include some Chinese translations from English.</p>
+
+<<<<<<< HEAD
+<p>And the translation articles mouved to <a href="http://translation.baham.co">baham&rsquo;s translation</a></p>
+=======
+<p>And the translation articles mouved to <a href="http://translation.baham.co">Translation.baham.co</a></p>
+>>>>>>> 49780dd9356fb4e17a75b16aa6451c908b594bfe
+
+<!--more-->
+
+
+<p>And this category <a href="http://baham.co/blog/categories/translation/">translation</a> maybe will include some articles translated from Chinese.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/05_14_about-the-translation-category.html">http://baham.co/05_14_about-the-translation-category.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b93ae7e360507df6f770c409171311f98f14048d
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
+>>>>>>> 40f6a1c95c8ebc3ef520d4871332905a31c8208f
+>>>>>>> 3fbaa123c98a19e6c31b0c1fd6eebb9e168f4cb4
+>>>>>>> 49780dd9356fb4e17a75b16aa6451c908b594bfe
+>>>>>>> d7d0b21b9fe5bc092265fa7a82875dbb4b743507
+>>>>>>> 59598ca05bdbdd1d69f6a0504ed96494b4907a84
+>>>>>>> cde8ba22796df6a6fc9748ab4783e29cc5bacb03
     <title type="html"><![CDATA[Do you remember that game on linux]]></title>
     <link href="http://baham.co/05_11_do-you-remember-that-game-on-linux.html"/>
     <updated>2014-05-11T08:40:00+00:00</updated>
     <id>http://baham.co/do-you-remember-that-game-on-linux</id>
+<<<<<<< HEAD
     <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="https://en.wikipedia.org/wiki/Linux_gaming">list</a>.</p>
+=======
+<<<<<<< HEAD
+    <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="https://en.wikipedia.org/wiki/Linux_gaming">list</a>.</p>
+=======
+<<<<<<< HEAD
+    <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="https://en.wikipedia.org/wiki/Linux_gaming">list</a>.</p>
+=======
+<<<<<<< HEAD
+    <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="https://en.wikipedia.org/wiki/Linux_gaming">list</a>.</p>
+=======
+<<<<<<< HEAD
+    <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="https://en.wikipedia.org/wiki/Linux_gaming">list</a>.</p>
+=======
+<<<<<<< HEAD
+    <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="https://en.wikipedia.org/wiki/Linux_gaming">list</a>.</p>
+=======
+    <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="">list</a>.</p>
+>>>>>>> 40f6a1c95c8ebc3ef520d4871332905a31c8208f
+>>>>>>> 3fbaa123c98a19e6c31b0c1fd6eebb9e168f4cb4
+>>>>>>> 49780dd9356fb4e17a75b16aa6451c908b594bfe
+>>>>>>> d7d0b21b9fe5bc092265fa7a82875dbb4b743507
+>>>>>>> 59598ca05bdbdd1d69f6a0504ed96494b4907a84
+>>>>>>> cde8ba22796df6a6fc9748ab4783e29cc5bacb03
 
 <h2>Tetris&mdash;<a href="https://help.gnome.org/users/quadrapassel/stable/index.html.en">Quadrapassel</a></h2>
 
@@ -1471,6 +1611,16 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 ]]></content>
   </entry>
   
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
   <entry>
     <title type="html"><![CDATA[Take the mensa test]]></title>
     <link href="http://baham.co/04_21_18-00-28.html"/>
@@ -1523,4 +1673,18 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 ]]></content>
   </entry>
   
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b93ae7e360507df6f770c409171311f98f14048d
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
+>>>>>>> 40f6a1c95c8ebc3ef520d4871332905a31c8208f
+>>>>>>> 3fbaa123c98a19e6c31b0c1fd6eebb9e168f4cb4
+>>>>>>> 49780dd9356fb4e17a75b16aa6451c908b594bfe
+>>>>>>> d7d0b21b9fe5bc092265fa7a82875dbb4b743507
+>>>>>>> 59598ca05bdbdd1d69f6a0504ed96494b4907a84
+>>>>>>> cde8ba22796df6a6fc9748ab4783e29cc5bacb03
 </feed>
