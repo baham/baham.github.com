@@ -4,15 +4,7 @@
   <title><![CDATA[Category: Linux | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-<<<<<<< HEAD
-  <updated>2014-05-09T06:35:44+00:00</updated>
-=======
-<<<<<<< HEAD
-  <updated>2014-05-09T06:29:49+00:00</updated>
-=======
-  <updated>2014-05-09T06:22:09+00:00</updated>
->>>>>>> 9965554227a9168e925c0fc3cae65a6ebc2e0dd2
->>>>>>> 3399caa1cbe967ec6120f436bdff1733f66bb273
+  <updated>2014-05-14T15:12:52+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -20,6 +12,46 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Do you remember that game on linux]]></title>
+    <link href="http://baham.co/05_11_do-you-remember-that-game-on-linux.html"/>
+    <updated>2014-05-11T08:40:00+00:00</updated>
+    <id>http://baham.co/do-you-remember-that-game-on-linux</id>
+    <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="https://en.wikipedia.org/wiki/Linux_gaming">list</a>.</p>
+
+<h2>Tetris&mdash;<a href="https://help.gnome.org/users/quadrapassel/stable/index.html.en">Quadrapassel</a></h2>
+
+<p><img src="https://help.gnome.org/users/quadrapassel/stable/media/part2.jpg" alt="tetris" /></p>
+
+<!--more-->
+
+
+<p>It is an installed game defaultly on old ubuntu.</p>
+
+<p>But I did not get it in mint 16(ubuntu 13.10) with cinnamon desktop environment.</p>
+
+<p>For example, when you need a square, it will never give you a square.</p>
+
+<p>This is a very good design, and hard to play, hard to get high scores.</p>
+
+<h2><a href="http://www.reptilelabour.com/software/chromium/">Chromium BSU</a></h2>
+
+<p>It has the same name with browser chromium.</p>
+
+<p>Just control a space ship to shoot the enemies. But still very difficult.</p>
+
+<p><img src="/images/game/bsu.jpg" alt="chromium bsu" /></p>
+
+<h2>Tetris 3D&mdash; <a href="http://www.blockout.net/blockout2/">Blockout2</a></h2>
+
+<p><img src="http://www.blockout.net/blockout2/screenshots/scr2.jpg" alt="tetris 3d" /></p>
+
+<p>It is a 3d tetris game.  More difficult than 2d tetris.</p>
+
+<p>But the difficult  is not like  Quadrapassel.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Use Linux Mint 16]]></title>
@@ -123,67 +155,6 @@ Though a lot of men do not like it.</p>
 <p>but why,why before “pacman -Syu” is ok,but after kde is crack ,because the new version kde has bugs and Chakra Linux update very frequently.</p>
 
 <p>So I just want to say ,how to choose an os. you must concern more ,not only fast or not ,cool or not, there is another very important feature satble and easy of use.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Chakra Linux BundleSystem被Extra库取代]]></title>
-    <link href="http://baham.co/05_15_chakra-linux-bundlesystembei-extraku-qu-dai.html"/>
-    <updated>2013-05-15T17:32:00+00:00</updated>
-    <id>http://baham.co/chakra-linux-bundlesystembei-extraku-qu-dai</id>
-    <content type="html"><![CDATA[<p>Chakra Linux已经使用<strong>BundleSystem</strong>两年了，为了实现Chakra的Gtk-free，现在我们决定创造一个默认的不再依靠BundkeSystem的发行版。</p>
-
-<p>Chakra的多数软件包都是Gtk-free的，只有很少例外，比如，flash,gtk本身,pygtk。</p>
-
-<p>但是BundleSystem略显复杂，所以现在提供了一个新的解决方案，以实现同样的目的，但是却更简单、更符合<a href="https://en.wikipedia.org/wiki/KISS_principle">KISS原则</a>、并且更灵活。</p>
-
-<p>Extra库，是一个全新的层次，使用一系列配置文件让我们无需安装非KDE软件到文件系统结构中而享受GTK程序和一些其他的包。举例来讲，安装<a href="http://sourceforge.net/projects/amule/">amule</a>时，现在会安装Plasmoid和PlasmAmule到一个正常KDE程序的路径下，对于Flash插件，会安装对应的配置包在“系统设置”中。</p>
-
-<p>Extra库现在结暂时构是这样的：</p>
-
-<pre><code>/extra
-/extra/etc
-/extra/bin
-/extra/lib
-/extra/usr
-/extra/opt 
-</code></pre>
-
-<p>把这些包都安装到/extra下，会保证原本的文件系统完好，保证主要的库保持Gtk-free。现在extra库，在<a href="/05_05_chakra-linuxan-zhuang-shi-yong.html">Chakra安装</a>时会被默认启用。</p>
-
-<h2>如何使用</h2>
-
-<!--more-->
-
-
-<p>最简单的方法就是在 /etc/pacman.conf中，把extra库添加到末尾，testing库也要添加。
-像这样：</p>
-
-<p><img src="/images/chakraextra.png" alt="extra" /></p>
-
-<p>然后，  <code>sudo pacman -Sy filesystem-extra</code></p>
-
-<p>再然后，重启，就可以安装extra库中的包了。</p>
-
-<p>现在还处于测试阶段，所以别期望Gnome桌面环境或者Banshee，extra库的目的是用一种更灵活的方式取代bundlesystem，所以现在有的包可能和bundle一样多甚至更少。</p>
-
-<p>现在只有这些包：</p>
-
-<blockquote><p>Chromium, Gimp, Firefox-KDE, Inkscape, aMule, FileZilla, wxMaxima, Thuderbird, Bluegriffon, Ardour, Audacity, Gcompris, and Pidgin</p></blockquote>
-
-<pre><code>Chrome被Chromium取代了。
-</code></pre>
-
-<p>Chakra团队将来会添加bundle中那些不存在QT/KDE替代的包，Chakra的库中有VLC, CLementime, Amarok等，所以别寻找别的播放器了。Chakra团队会决定加入那些包到库中。</p>
-
-<p>[原文以及已知常见错误]<a href="http://chakra-project.org/bbs/viewtopic.php?id=10278">http://chakra-project.org/bbs/viewtopic.php?id=10278</a></p>
-
-<h2>PS：</h2>
-
-<p>如何安装原本bundle中的包，用pacman就可以了，所以说现在用起来笔bundle确实方便了。例如，firefox：</p>
-
-<pre><code>sudo pacman -S firefox
-</code></pre>
 ]]></content>
   </entry>
   
