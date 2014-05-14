@@ -4,15 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-<<<<<<< HEAD
-  <updated>2014-05-09T06:35:44+00:00</updated>
-=======
-<<<<<<< HEAD
-  <updated>2014-05-09T06:28:02+00:00</updated>
-=======
-  <updated>2014-05-09T06:22:09+00:00</updated>
->>>>>>> 9965554227a9168e925c0fc3cae65a6ebc2e0dd2
->>>>>>> 3399caa1cbe967ec6120f436bdff1733f66bb273
+  <updated>2014-05-14T11:05:41+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -20,6 +12,61 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Do you remember that game on linux]]></title>
+    <link href="http://baham.co/05_11_do-you-remember-that-game-on-linux.html"/>
+    <updated>2014-05-11T08:40:00+00:00</updated>
+    <id>http://baham.co/do-you-remember-that-game-on-linux</id>
+    <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="https://en.wikipedia.org/wiki/Linux_gaming">list</a>.</p>
+
+<h2>Tetris&mdash;<a href="https://help.gnome.org/users/quadrapassel/stable/index.html.en">Quadrapassel</a></h2>
+
+<p><img src="https://help.gnome.org/users/quadrapassel/stable/media/part2.jpg" alt="tetris" /></p>
+
+<!--more-->
+
+
+<p>It is an installed game defaultly on old ubuntu.</p>
+
+<p>But I did not get it in mint 16(ubuntu 13.10) with cinnamon desktop environment.</p>
+
+<p>For example, when you need a square, it will never give you a square.</p>
+
+<p>This is a very good design, and hard to play, hard to get high scores.</p>
+
+<h2><a href="http://www.reptilelabour.com/software/chromium/">Chromium BSU</a></h2>
+
+<p>It has the same name with browser chromium.</p>
+
+<p>Just control a space ship to shoot the enemies. But still very difficult.</p>
+
+<p><img src="http://baham.co/images/game/bsu.jpg" alt="chromium bsu" /></p>
+
+<h2>Tetris 3D&mdash; <a href="http://www.blockout.net/blockout2/">Blockout2</a></h2>
+
+<p><img src="http://www.blockout.net/blockout2/screenshots/scr2.jpg" alt="tetris 3d" /></p>
+
+<p>It is a 3d tetris game.  More difficult than 2d tetris.</p>
+
+<p>But the difficult  is not like  Quadrapassel.</p>
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/05_11_do-you-remember-that-game-on-linux.html">http://baham.co/05_11_do-you-remember-that-game-on-linux.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress add Original Link after post Version2]]></title>
@@ -1471,54 +1518,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
 
 <p>The Original Link: <a href="http://baham.co/04_21_18-00-28.html">http://baham.co/04_21_18-00-28.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The last day in Guangzhou -- Easter Day ]]></title>
-    <link href="http://baham.co/04_20_21-29-52.html"/>
-    <updated>2014-04-20T13:29:00+00:00</updated>
-    <id>http://baham.co/21-29-52</id>
-    <content type="html"><![CDATA[<p>Today is Easter Day. In the day before yesterday. When I was at Excahnge-Dream by Jiaqian in Sun Yat-sen University, I poat a post on tieba. It is about is there a fellowship in Sun Yat-sen University?</p>
-
-<p>And I got a posiive answer. And Brother Ding tell me meet him in the Train Stop in Easter Day.</p>
-
-<p>So today , I  have been  to Liangren Church with Brother Ding.</p>
-
-<p>When we got there, there were just a few brothers and sisters here.And after we put bibles to the chairs. More ones came.</p>
-
-<p>When we started, we sang a welcome song for the newers(I was new that time ).Then we sang songs to praise God. And one brother sang a song called <em>You are my favorate</em>, It is really a beautiful song (Sorry I did not remember the brother&rsquo;s name, but I record the song). And one sister who is a lead singer in the church  sang a song too, beautiful too.</p>
-
-<p>After the Easter show, Priest Ma to teach us about <em>Jesus&rsquo;s Eternal Love</em>. It really made me moved.</p>
-
-<p>Then our American brothers and sisters show a show about Jesus&rsquo;s Story(I recorded it too). It is a really good show.</p>
-
-<!--more-->
-
-
-<p><img src="http://baham.co/images/guangdong/lrchurch.jpg" alt="LiangrenChurch" /></p>
-
-<p>In this morning. I knew two new guys, Brother Ding from Shantou and Brother Ren Xiaorong from US.</p>
-
-<p>Xiaorong is really a open man. And he is really conscientious to learn Chinese. When we talk to Mensa and Tieba, he took seriousty to record it by phone. And he is a man who will talk to you firstly.</p>
-
-<p>About on noon, we ate food. After that I left to train stop.</p>
-
-<p>This is a really good and happy experience. Thanks God!
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/04_20_21-29-52.html">http://baham.co/04_20_21-29-52.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
