@@ -55,8 +55,6 @@
 	<h2>Baham的个人博客</h2>
   
 </hgroup>
-<!--<h1><a href="/">Baham's Blog</a></h1>
-<h2>Baham的个人博客</h2>-->
 </header>
   <nav role="navigation"><ul class="subscription" data-subscription="rss">
   <li><a href="/feeds/" rel="nofollow" title="subscribe via RSS">RSS</a></li>
@@ -76,7 +74,7 @@
   <li><a href="/blog/categories/golang/">Golang</a></li>
   <li><a href="/blog/categories/ideas">Ideas</a></li>
   <li><a href="/blog/categories/thinking">Thingking</a></li>
-  <li><a href="/blog/categories/translation">翻译</a></li>
+  <li><a href="http://translation.baham.co" rel="subdomain">翻译</a></li>
   <li><a href="/blog/categories/faith">+Grace+</a></li>
   <li><a href="/contactme-en">About</a></li>
 </ul>
@@ -86,6 +84,187 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/08_02_318.html">Learn to Hack-如何成为一个黑客</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-02T12:19:34+00:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><strong><a href="http://baham.co/wp-content/uploads/2012/08/security.png"><img src="http://baham.co/wp-content/uploads/2012/08/security.png" alt="安全-learn to hack-如何成为黑客" /></a>攻击服务器</strong>、<strong>爆破密码</strong>、<strong>利用漏洞</strong>、<strong>破解加密</strong>，和所有一切保护你图里邪恶的东西。</p>
+
+<p>安全的计算机需要两种规则可以实现，</p>
+
+<ol>
+<li><p> <strong>不买，</strong></p></li>
+<li><p> <strong>买来计算机后，不去开机</strong></p></li>
+</ol>
+
+
+<p>打破其中任何一条，你就将面临着安全问题。在黑客眼里，没有一台计算机是100%安全的，但是你只需要简单几步，就能让你的计算机更难被破坏。</p>
+
+<p><strong>黑客行为</strong>是一门获取本没有访问权限的计算机系统权限的艺术，其间需要利用bug，本文将向您展示两种达到目的的方法，并且将教你如何避免成为受害者，我们将通过获取<strong>root权限</strong>（类Unix系统中最高权限）的方式达到我们想做的一切-<strong>盗取信息</strong>、<strong>破坏硬件</strong>。</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/08_02_318.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/08_02_313.html">《Building Java Programs》-继承和接口</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-02T11:49:24+00:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><strong>继承和接口</strong>可以让我们的程序更加简洁清晰。<strong>继承</strong>可以让你在不同类之间共享代码从而减少冗余，还可以达到用统一的方法处理多个类对象的效果。<strong>接口</strong>也可以让你用统一的方法处理几个不同类型的对象，而且不需要这些对象之间共享代码。</p>
+
+<ol>
+<li><p> 通过<strong>继承</strong>可以在两种类型之间建立<strong>父子关系</strong>。</p></li>
+<li><p> <strong>继承关系</strong>中的子类捡回获得父类中所有<strong>字段</strong>和<strong>方法</strong>的一份拷贝。子类可以扩展父类，因为它可以在父类的基础上添加新的字段和方法。子类也可以覆盖从父类继承来的方法。</p></li>
+<li><p> Java中，几种不同类型的独享可以互相替换的特性成为<strong>多态性</strong>。</p></li>
+<li><p> 子类可以通过<strong>super关键字</strong>调用父类的<strong>构造函数</strong>和<strong>方法</strong>。</p></li>
+<li><p> Object类是所有类共同的父类。它包含了每个对象都应该具有的行为，如equals和toString方法。</p></li>
+<li><p> 继承让两个类之间具有<strong>“is-a”</strong>关系。如果两个类没有这种紧密的内在联系，那么继承可能并不是一个好的设计方案，在两者之间使用<strong>“has-a”</strong>关系可能是更好的选择。</p></li>
+<li><p> <strong>接口</strong>是一系列方法声明的集合。接口中指明了方法名称、参数和返回值的类型，但是没有给出方法具体的实现。类可以实现接口，并且可以实现多个接口。</p></li>
+<li><p> <strong>接口</strong>有助于实现<strong>多态性</strong>。如果两个或更多类都实现了某个接口，我们便可以用任何一个类来调用接口中声明的方法。</p></li>
+<li><p> <strong>抽象类</strong>是一种不能被实例化的类，不能创建这种类的对象。但抽象类可以作为父类继承，也可以为子类定义一些抽象的方法。</p></li>
+<li><p>. 抽象类可以包含抽象方法。但其所有子类必须是想其中定义的抽象方法。</p></li>
+</ol>
+
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="/08_02_313.html">http://baham.co/08_02_313.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/08_02_310.html">《Building Java Programs》-“类”小结</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-02T11:03:53+00:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><strong>面向对象程序设计方法</strong>基于一种不同的设计哲学，它将重点放在程序中要用到的<strong>实体</strong>（名词），而非<strong>动作</strong>（动词）。采用面向对象程序设计时，会将状态和行为放在一起组成对象。</p>
+
+<ol>
+<li><p> <strong>类</strong>是定义一种新的对象类型的蓝图，描述了对象中<strong>数据和行为</strong>。可以根据类来创建多个对象。</p></li>
+<li><p> 对象中用于表示数据的变量称为<strong>字段</strong>。</p></li>
+<li><p> 对象的行为通过类的实例方法来实现。实例方法属于某个对象，可以访问或修改对象的内部状态。</p></li>
+<li><p> 类中可以定义一个特殊的方法：<strong>构造函数</strong>。构造函数用于创建一个新的对象，并负责初始化新对象的状态。当客户代码使用关键字new来创建对象实例时，会自动调用构造函数。一个雷可以有多个构造函数；如果没有Java会提供一个默认构造函数。</p></li>
+<li><p> 通常，一个对象可以在不知道其他对象内部工作原理的情况下，与那些对象进行正常的交互。这种特性被称为“<strong>抽象</strong>”。大多数对象都会保护自己的内部状态不会被外界随意修改，这种特性被称为“<strong>封装</strong>”。要提供封装性，你可将字段设为私有（使用private）。</p></li>
+<li><p> 对象有两种常用的方法-访问器、修改器：<strong>访问器</strong>可以返回对象的一些信息。例如String对象的length方法和Point对象的getX、getY方法。<strong>修改器</strong>可以修改对象的状态，例如Point对象的translate方法。</p></li>
+<li><p> 如果需要更好的打印对象，必须提供独有的toString方法。要让对象比较相等性，必须提供equals方法。</p></li>
+<li><p> <strong>关键字this</strong>可以表示对象自己的引用。如果一个类有多个构造函数，而且其中一个需要调用另一个，也需要使用this关键字。</p></li>
+<li><p> <strong>不可变对象</strong>在创建后就不能再修改。（如String对象）</p></li>
+<li><p>. 一个类应该只表示一种抽象，只包括这种抽象所必须的数据和行为，并且应该与使用对象的客户无关。</p></li>
+</ol>
+
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="/08_02_310.html">http://baham.co/08_02_310.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -207,166 +386,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/07_29_271.html">BearFox Browser-熊狐浏览器</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-29T13:13:27+00:00" pubdate data-updated="true">Jul 29<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><strong>BearFox Browser</strong>（<strong>熊狐浏览器</strong>），来自<a href="http://baham.co">Baham.co</a>， 由Baham定制。 插件包括 Adblock Plus，Auto Proxy，NoScript，Flagfox等安全插件； DownThemAll，IE Tab+，NetVideoHunter，Firebug，Xthunder，TabMixPlus，CreaseMonkey等其他常用插件。 书签包括Baham’s Blog，英文（NCR）、英文（印度）、印地语、德文、法文、中文（简繁）、日文俄语、西班牙语Google站点，以及MIT杂志的中文站、 EDXonline在线教育网站……以及一些其他很有用但国内访问量较少的网站。 主题及皮肤均采用默认。</p>
-
-<p>BearFox 1.0对应Firefox14.1，随火狐更新BearFox会动态更新。</p>
-
-<p>BearFox2.2 于2012年11月6日发布。</p>
-
-<p>下载地址：</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/07_29_271.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/07_29_251.html">iQQ-开源Java版qq客户端</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-29T00:42:26+00:00" pubdate data-updated="true">Jul 29<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="https://iqq-java.googlecode.com/files/loginProccess.jpg" alt="iQQ登陆界面" />        用过Linux的都知道，QQForLinux处于长期不更新状态，而且存在很多小bug，并且很多QQ该有的功能都没有。于是乎，许多人开始使用第三方QQ插件，比如<a href="http://libqq-pidgin.googlecode.com/">libqq-pidgin</a>，不得不说pidgin是一款很好的IM软件，但libqq-pidgin和QQforLinux一样，很多小问题没有解决。问题主要原因显然不在软件，而在腾讯方面。</p>
-
-<p>今天无意中，看到了iQQ的介绍，这是一个新项目，距离谷歌Code的项目提交只有几天。看了一些iQQ的截图，至少觉着这个图形界面，要比QQforLinux或者其他第三方客户端要好那么一点。</p>
-
-<p>iQQ是一项<strong>开源项目</strong>，源码托管在google code上，基于腾讯<strong>WebQQ 3.0网络协议</strong>，可以通过JRE运行在任何平台上，作者基于Linux(Ubuntu 12.04)系统，使用IDE NetBeans开发。项目伊始，作者（<em>chengnuo128@gmail.com</em>）将源代码公开，希望寻找爱好者一同开发。</p>
-
-<p>截至目前，iQQ仍处于<strong>Beta测试</strong>阶段，通过项目问题也看到，仍有部分小问题没有解决。</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/07_29_251.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/07_28_241.html">Java文件处理-调整Java源程序缩进</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-28T18:15:51+00:00" pubdate data-updated="true">Jul 28<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>编写程序提示用户输入文件名，假设该文件是一个<strong>Java源程序</strong>。你的程序会在调整其代码缩进后将该Java源程序代码重新输出。要求如下：</p>
-
-<ol>
-<li><p> 当读到&#8221;{&ldquo;时，增加4个空格作为缩进。</p></li>
-<li><p> 当读到&#8221;}&ldquo;时，减少4个空格作为缩进。</p></li>
-</ol>
-
-
-<p>假设条件如下：</p>
-
-<ol>
-<li><p> 每一行最多只会出现一个&#8221;{&ldquo;或&rdquo;}&ldquo;。</p></li>
-<li><p> 每一段代码块均为省略大括号（如if或for语句）。</p></li>
-<li><p> 所有大括号均出现在行尾。</p></li>
-</ol>
-
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="/07_28_241.html">http://baham.co/07_28_241.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/52/">&larr; Older</a>
@@ -396,11 +415,19 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     <h2 class="panel-title">Category Cloud</h2>
   </div>
 <div id="recent_posts" class="list-group">
-	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 118.0%'>Announcement(9)</a> <a href='/blog/categories/baham' style='font-size: 124.0%'>Baham(12)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 112.0%'>Blender(6)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 108.0%'>CUMT(4)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 134.0%'>Faith(17)</a> <a href='/blog/categories/fate' style='font-size: 102.0%'>Fate(1)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 114.0%'>Game(7)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 102.0%'>Google(1)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 104.0%'>Job(2)</a> <a href='/blog/categories/linux' style='font-size: 152.0%'>Linux(26)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 118.0%'>Memo(9)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 112.0%'>Mineral Processing(6)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 108.0%'>Translation(4)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 110.0%'>Video(5)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
+	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 120.0%'>Announcement(10)</a> <a href='/blog/categories/baham' style='font-size: 124.0%'>Baham(12)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 112.0%'>Blender(6)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 108.0%'>CUMT(4)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 134.0%'>Faith(17)</a> <a href='/blog/categories/fate' style='font-size: 102.0%'>Fate(1)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 102.0%'>Google(1)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 104.0%'>Job(2)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 118.0%'>Memo(9)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 112.0%'>Mineral Processing(6)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 110.0%'>Video(5)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
 </div>
 </section><section>
   <h2>Recent Posts</h2>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/05_14_about-the-translation-category.html">About the Translation Category</a>
+      </li>
+    
+      <li class="post">
+        <a href="/05_11_do-you-remember-that-game-on-linux.html">Do you remember that game on linux</a>
+      </li>
     
       <li class="post">
         <a href="/05_08_add-original-link.html">Octopress add Original Link after post Version2</a>
@@ -472,14 +499,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     
       <li class="post">
         <a href="/04_21_18-44-52.html">In these days</a>
-      </li>
-    
-      <li class="post">
-        <a href="/04_21_18-00-28.html">Take the mensa test</a>
-      </li>
-    
-      <li class="post">
-        <a href="/04_20_21-29-52.html">The last day in Guangzhou &#8211; Easter Day </a>
       </li>
     
   </ul>
