@@ -4,15 +4,7 @@
   <title><![CDATA[Category: Announcement | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/announcement/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-<<<<<<< HEAD
-  <updated>2014-05-09T06:35:44+00:00</updated>
-=======
-<<<<<<< HEAD
-  <updated>2014-05-09T06:29:49+00:00</updated>
-=======
-  <updated>2014-05-09T06:22:09+00:00</updated>
->>>>>>> 9965554227a9168e925c0fc3cae65a6ebc2e0dd2
->>>>>>> 3399caa1cbe967ec6120f436bdff1733f66bb273
+  <updated>2014-05-14T11:22:22+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -20,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[About the Translation Category]]></title>
+    <link href="http://baham.co/05_14_about-the-translation-category.html"/>
+    <updated>2014-05-14T06:02:00+00:00</updated>
+    <id>http://baham.co/about-the-translation-category</id>
+    <content type="html"><![CDATA[<p>After I move the language on this site from Chinese to English.</p>
+
+<p>I decide to make a subpage or subdomian to include some Chinese translations from English.</p>
+
+<p>And the translation articles mouved to <a href="http://translation.baham.co">baham&rsquo;s translation</a></p>
+
+<!--more-->
+
+
+<p>And this category <a href="/blog/categories/translation/">translation</a> maybe will include some articles translated from Chinese.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Use English to Write Articles]]></title>
@@ -90,55 +100,6 @@
 
 <p>不过，还好，网站没有以盈利为目的，也部在乎百度是否收录，不在乎访问量什么的。
 虽然，刚开始我也想过建一个以盈利为目的的网站，不过，今天看来，不盈利也挺好，有时间就更新点内容，不用在乎SEO规则，自由自在地写点自己的东西，每年都为域名续一次费，只要<a href="https://github.com">Github</a>不倒，就这么一直写下去……</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[又是很久没有更新博客]]></title>
-    <link href="http://baham.co/04_25_you-shi-hen-jiu-mei-you-geng-xin-bo-ke.html"/>
-    <updated>2013-04-25T23:20:00+00:00</updated>
-    <id>http://baham.co/you-shi-hen-jiu-mei-you-geng-xin-bo-ke</id>
-    <content type="html"><![CDATA[<p>考试在即,本来不应该来写博客的.只是对于最近发生的事,还是应该写写.</p>
-
-<p>学校更新了上网客户端,本来在linux上的算密码程序不能用了.</p>
-
-<p>这不是重点,重点是,我在一次强关后硬盘坏了.</p>
-
-<p>开始以为是内存,后来借了别人移动硬盘,把自己的硬盘拆下来装进去,发现,只要硬盘拆下来,live usb就可用.
-插上硬盘,就不可用,包括光盘启动叶是停止不前.</p>
-
-<p>后来,去笔记本的售后服务.</p>
-
-<p>等了2个小时左右的mhdd检测,最后证明硬盘本身没有坏.</p>
-
-<p>最后和售后的工作人员讨论了许久,发现是分区表坏了.</p>
-
-<p>强关之后,我的/分区和/usr/local分区丢了.</p>
-
-<p>只是不知道为什么用live usb进不去live模式????(尚未解决的疑问)</p>
-
-<p>最后格了"/&ldquo;分区.(悲剧的/usr/local啊,里边有一些私密数据啊)</p>
-
-<p>回来之后,把/home分区里的文件删掉一部分(误把.git给删了,刚刚还在重新配置git),剩下的copy到移动硬盘上.</p>
-
-<p>重新格式化了整块硬盘.</p>
-
-<p>然后装上了我的大</p>
-
-<!--more-->
-
-
-<p>[Chakra Linux]<a href="http://chakraos.org/">http://chakraos.org/</a></p>
-
-<p>之前也装过Chakra Linux.出了点问题,就是安装完之后,无法进入系统.</p>
-
-<p>搜索了一下,知道了原因是因为 systemd 和独立的/usr分区的一个小bug.</p>
-
-<p>总之Chakra Linux/Arch Linux最好不要将/usr单独分区.</p>
-
-<p>会导致系统无法进入.</p>
-
-<p>关于Chakra Linux的介绍,以后会有详述.</p>
 ]]></content>
   </entry>
   
