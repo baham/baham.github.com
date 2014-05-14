@@ -4,7 +4,39 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
+<<<<<<< HEAD
   <updated>2014-05-14T09:59:05+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-14T09:56:01+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-14T09:52:39+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-14T09:48:21+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-14T09:28:54+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-13T15:41:09+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-10T14:29:38+00:00</updated>
+=======
+<<<<<<< HEAD
+  <updated>2014-05-09T08:04:53+00:00</updated>
+=======
+  <updated>2014-05-09T07:51:13+00:00</updated>
+>>>>>>> 22f19b1eca3855502d3d78da9c3fb735767fe410
+>>>>>>> 86196436ad6547fcb3bc629a611e2b21d063c3e9
+>>>>>>> 91be7c6effccd693b350415d10bac31f8204b779
+>>>>>>> b93ae7e360507df6f770c409171311f98f14048d
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
+>>>>>>> 40f6a1c95c8ebc3ef520d4871332905a31c8208f
+>>>>>>> 3fbaa123c98a19e6c31b0c1fd6eebb9e168f4cb4
+>>>>>>> 49780dd9356fb4e17a75b16aa6451c908b594bfe
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -14,6 +46,19 @@
 
   
   <entry>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
+>>>>>>> 40f6a1c95c8ebc3ef520d4871332905a31c8208f
+>>>>>>> 3fbaa123c98a19e6c31b0c1fd6eebb9e168f4cb4
+>>>>>>> 49780dd9356fb4e17a75b16aa6451c908b594bfe
     <title type="html"><![CDATA[About the Translation Category]]></title>
     <link href="http://baham.co/05_14_about-the-translation-category.html"/>
     <updated>2014-05-14T06:02:00+00:00</updated>
@@ -22,7 +67,11 @@
 
 <p>I decide to make a subpage or subdomian to include some Chinese translations from English.</p>
 
+<<<<<<< HEAD
 <p>And the translation articles mouved to <a href="http://translation.baham.co">baham&rsquo;s translation</a></p>
+=======
+<p>And the translation articles mouved to <a href="http://translation.baham.co">Translation.baham.co</a></p>
+>>>>>>> 49780dd9356fb4e17a75b16aa6451c908b594bfe
 
 <!--more-->
 
@@ -46,11 +95,37 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
   </entry>
   
   <entry>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b93ae7e360507df6f770c409171311f98f14048d
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
+>>>>>>> 40f6a1c95c8ebc3ef520d4871332905a31c8208f
+>>>>>>> 3fbaa123c98a19e6c31b0c1fd6eebb9e168f4cb4
+>>>>>>> 49780dd9356fb4e17a75b16aa6451c908b594bfe
     <title type="html"><![CDATA[Do you remember that game on linux]]></title>
     <link href="http://baham.co/05_11_do-you-remember-that-game-on-linux.html"/>
     <updated>2014-05-11T08:40:00+00:00</updated>
     <id>http://baham.co/do-you-remember-that-game-on-linux</id>
+<<<<<<< HEAD
     <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="https://en.wikipedia.org/wiki/Linux_gaming">list</a>.</p>
+=======
+<<<<<<< HEAD
+    <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="https://en.wikipedia.org/wiki/Linux_gaming">list</a>.</p>
+=======
+<<<<<<< HEAD
+    <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="https://en.wikipedia.org/wiki/Linux_gaming">list</a>.</p>
+=======
+    <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="">list</a>.</p>
+>>>>>>> 40f6a1c95c8ebc3ef520d4871332905a31c8208f
+>>>>>>> 3fbaa123c98a19e6c31b0c1fd6eebb9e168f4cb4
+>>>>>>> 49780dd9356fb4e17a75b16aa6451c908b594bfe
 
 <h2>Tetris&mdash;<a href="https://help.gnome.org/users/quadrapassel/stable/index.html.en">Quadrapassel</a></h2>
 
@@ -1503,4 +1578,71 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 ]]></content>
   </entry>
   
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+  <entry>
+    <title type="html"><![CDATA[Take the mensa test]]></title>
+    <link href="http://baham.co/04_21_18-00-28.html"/>
+    <updated>2014-04-21T10:00:00+00:00</updated>
+    <id>http://baham.co/18-00-28</id>
+    <content type="html"><![CDATA[<p>About 2 years ago, I wanted to join mensa. Cause in <a href="http://iqtest.dk">iqtest.dk</a>, I have gotten a 130 score.</p>
+
+<p>But you know in 2012, the mensa.org.cn showed the number in 2012 is to achieve the max number. So I waited.</p>
+
+<p>And the mensa.org.cn showed test will open in 2013.</p>
+
+<p>But in 2013, the test did not open until the December in 2013.</p>
+
+<p>And I knew there was something happen in mensa-china. But recently, the <a href="http://mensa-china.com">mensa-china.com</a> opened, although I would be in internship in April 19, I still decided to ask for leave to take the test.</p>
+
+<p>But I found this test must be paid by paypal, and the method of paying the fee doesn&rsquo;t support alipay or unipay card.</p>
+
+<p>So i asked Brother Jun to help me pay the fee by using his credit card(both visa and unipay). But I ignored one thing that paypal need use the credit card of the account register.</p>
+
+<p>Then one bad thing happend. I did not pay the fee successfully, and the credit card of Brother Jun was freezed.</p>
+
+<p>After that day, I called paypal to solve this.</p>
+
+<!--more-->
+
+
+<p>So I decide to registe a visa card, but I was just a student, so I could only a debit card, so I registed Minsheng Back Internation Debit Card(The program of regist needs 7 work days). And I asked more 2 days for leave to get the card.</p>
+
+<p>When I came Xuzhou to get the card, I failed, cause the card did not arrive Minsheng Bank Xuzhou. I found one to transfer some dollars to my paypal account.</p>
+
+<p>And I paid the fee.</p>
+
+<p>In April 17, I left Pingdingshan City to Guangzhou City to take the test. In April 19, I took the test. And in the quiz after the test and a book, I got a highest score in who submit less in 25 minutes in my test batch(批次). It is really lucky, and may this little honor belong to God.</p>
+
+<p>You know during the test, I got five or six questions too hard to solve them, just like I took the test in <a href="http://iqtest.dk">iqtest.dk</a>. But still thanks God. Because finally I paid successfully, I took the test successfully, and I arrived in Guangzhou on time and so on.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/04_21_18-00-28.html">http://baham.co/04_21_18-00-28.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+>>>>>>> b93ae7e360507df6f770c409171311f98f14048d
+>>>>>>> 69ccb24d4e3f1da310be6b98df3a5977c09d0e9a
+>>>>>>> 40f6a1c95c8ebc3ef520d4871332905a31c8208f
+>>>>>>> 3fbaa123c98a19e6c31b0c1fd6eebb9e168f4cb4
+>>>>>>> 49780dd9356fb4e17a75b16aa6451c908b594bfe
 </feed>
