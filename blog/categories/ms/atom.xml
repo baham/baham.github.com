@@ -4,15 +4,7 @@
   <title><![CDATA[Category: MS | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/ms/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-<<<<<<< HEAD
-  <updated>2014-05-09T06:35:44+00:00</updated>
-=======
-<<<<<<< HEAD
-  <updated>2014-05-09T06:29:49+00:00</updated>
-=======
-  <updated>2014-05-09T06:22:09+00:00</updated>
->>>>>>> 9965554227a9168e925c0fc3cae65a6ebc2e0dd2
->>>>>>> 3399caa1cbe967ec6120f436bdff1733f66bb273
+  <updated>2014-05-14T10:46:00+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -28,7 +20,7 @@
     <id>http://baham.co/wei-ruan-illumiroomyan-shi-shi-pin-,liang-xian-kai-yuan-you-xi-tuxracer</id>
     <content type="html"><![CDATA[<p>废话不多说，有图为证。</p>
 
-<p>{% img  <a href="http://a.36krcnd.com/photo/044fae751c0966b136ad72ae0191fb8b.png">http://a.36krcnd.com/photo/044fae751c0966b136ad72ae0191fb8b.png</a> 360 240 截图 微软演示视频截图 %}</p>
+<p><img class="<a" src="href="http://a.36krcnd.com/photo/044fae751c0966b136ad72ae0191fb8b.png">http://a.36krcnd.com/photo/044fae751c0966b136ad72ae0191fb8b.png</a>" width="360" height="240" title="截图 微软演示视频截图" ></p>
 
 <p>在今天的CES大会上，微软正式公布了一个叫做 IllumiRoom 的项目，围绕一个电视，它能将你的整个客厅变成一个沉浸式 3D 游戏影院。
 不过，仔细观察演示视频，出现了非常著名的<strong>开源赛车游戏</strong>SuperTuxKart。</p>
