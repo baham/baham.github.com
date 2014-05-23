@@ -4,7 +4,11 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
+<<<<<<< HEAD
   <updated>2014-05-23T06:22:57+00:00</updated>
+=======
+  <updated>2014-05-14T15:50:43+00:00</updated>
+>>>>>>> 070a34ecc85871f56eb28045c65778baa682c6e0
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -14,6 +18,7 @@
 
   
   <entry>
+<<<<<<< HEAD
     <title type="html"><![CDATA[Ordination-The First Time I joined]]></title>
     <link href="http://baham.co/05_23_ordination-the-first-time-i-joined.html"/>
     <updated>2014-05-23T01:12:00+00:00</updated>
@@ -59,6 +64,8 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
   </entry>
   
   <entry>
+=======
+>>>>>>> 070a34ecc85871f56eb28045c65778baa682c6e0
     <title type="html"><![CDATA[About the Translation Category]]></title>
     <link href="http://baham.co/05_14_about-the-translation-category.html"/>
     <updated>2014-05-14T06:02:00+00:00</updated>
@@ -99,7 +106,11 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
 <h2>Tetris&mdash;<a href="https://help.gnome.org/users/quadrapassel/stable/index.html.en">Quadrapassel</a></h2>
 
+<<<<<<< HEAD
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/GNOME_Quadrapassel_3.11.92.png/613px-GNOME_Quadrapassel_3.11.92.png" alt="tetris" /></p>
+=======
+<p><img src="https://help.gnome.org/users/quadrapassel/stable/media/part2.jpg" alt="tetris" /></p>
+>>>>>>> 070a34ecc85871f56eb28045c65778baa682c6e0
 
 <!--more-->
 
@@ -1500,4 +1511,55 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 ]]></content>
   </entry>
   
+<<<<<<< HEAD
+=======
+  <entry>
+    <title type="html"><![CDATA[In these days]]></title>
+    <link href="http://baham.co/04_21_18-44-52.html"/>
+    <updated>2014-04-21T10:44:00+00:00</updated>
+    <id>http://baham.co/18-44-52</id>
+    <content type="html"><![CDATA[<p>From April 17 to April 21, I traveled about 3600 kilometers and 4 cities. They are the start Pingdingshan, the stop Xuzhou and Guangzhou and Shenzhen.</p>
+
+<p>It is a really busy and cool experience. Thanks God, I am safe and feel happy.</p>
+
+<h3>Guangzhou</h3>
+
+<ol>
+<li><a href="http://baham.co/04_26_exchange-dream-by-jiaqian.html">Exchange Dream by Jiaqian</a></li>
+<li><a href="http://baham.co/04_21_18-00-28.html">Take the mensa test</a></li>
+</ol>
+
+
+<h3>Shenzhen</h3>
+
+<ol>
+<li><a href="http://baham.co/04_21_go-to-shenzhen.html">Go to Shenzhen</a></li>
+<li><a href="http://baham.co/04_24_shenzhen.html">Travel in Shenzhen</a></li>
+</ol>
+
+
+<h3>Other Cities in April</h3>
+
+<ol>
+<li><a href="http://baham.co/04_27_3-hours-in-zhengzhou.html">3 hours in Zhengzhou</a></li>
+<li><a href="04_26_internship-in-pingdingshan.html">Pingdingshan Internship</a> <p class='post-footer' style="font-size:70%;" ></li>
+</ol>
+
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/04_21_18-44-52.html">http://baham.co/04_21_18-44-52.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+>>>>>>> 070a34ecc85871f56eb28045c65778baa682c6e0
 </feed>

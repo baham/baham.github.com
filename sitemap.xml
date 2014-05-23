@@ -1122,15 +1122,22 @@
     </url>
     <url>
         <loc>http://baham.co/05_11_do-you-remember-that-game-on-linux.html</loc>
+<<<<<<< HEAD
         <lastmod>2014-05-16T05:54:35+00:00</lastmod>
+=======
+        <lastmod>2014-05-14T11:31:34+00:00</lastmod>
+>>>>>>> 070a34ecc85871f56eb28045c65778baa682c6e0
     </url>
     <url>
         <loc>http://baham.co/05_14_about-the-translation-category.html</loc>
         <lastmod>2014-05-14T11:31:35+00:00</lastmod>
+<<<<<<< HEAD
     </url>
     <url>
         <loc>http://baham.co/05_23_ordination-the-first-time-i-joined.html</loc>
         <lastmod>2014-05-23T06:22:41+00:00</lastmod>
+=======
+>>>>>>> 070a34ecc85871f56eb28045c65778baa682c6e0
     </url>
     <url>
         <loc>http://baham.co/friendly-links/</loc>
@@ -1158,7 +1165,11 @@
     </url>
     <url>
         <loc>http://baham.co/assets/bootstrap/docs/</loc>
+<<<<<<< HEAD
         <lastmod>2014-05-23T06:22:41+00:00</lastmod>
+=======
+        <lastmod>2014-05-14T11:31:35+00:00</lastmod>
+>>>>>>> 070a34ecc85871f56eb28045c65778baa682c6e0
     </url>
     <url>
         <loc>http://baham.co/assets/bootstrap/docs/css.html</loc>
@@ -1190,11 +1201,19 @@
     </url>
     <url>
         <loc>http://baham.co/blog/archives/</loc>
+<<<<<<< HEAD
         <lastmod>2014-05-23T06:22:41+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/blog/categories/</loc>
         <lastmod>2014-05-23T06:22:41+00:00</lastmod>
+=======
+        <lastmod>2014-05-14T11:31:35+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://baham.co/blog/categories/</loc>
+        <lastmod>2014-05-14T11:31:35+00:00</lastmod>
+>>>>>>> 070a34ecc85871f56eb28045c65778baa682c6e0
     </url>
     <url>
         <loc>http://baham.co/contactme/</loc>
@@ -1210,7 +1229,11 @@
     </url>
     <url>
         <loc>http://baham.co/</loc>
+<<<<<<< HEAD
         <lastmod>2014-05-23T06:22:41+00:00</lastmod>
+=======
+        <lastmod>2014-05-14T11:31:35+00:00</lastmod>
+>>>>>>> 070a34ecc85871f56eb28045c65778baa682c6e0
     </url>
     <url>
         <loc>http://baham.co/contactme-en/</loc>
