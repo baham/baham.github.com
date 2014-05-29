@@ -9,7 +9,8 @@ verse[6]=["But he was wounded for our transgressions, he was bruised for our ini
 verse[7]=["The Spirit of the Lord GOD is upon me; because the LORD hath anointed me to preach good tidings unto the meek; he hath sent me to bind up the brokenhearted, to proclaim liberty to the captives, and the opening of the prison to them that are bound;","Isaiah 61:1"];
 verse[8]=["To proclaim the acceptable year of the LORD, and the day of vengeance of our God; to comfort all that mourn;  To appoint unto them that mourn in Zion, to give unto them beauty for ashes, the oil of joy for mourning, the garment of praise for the spirit of heaviness; that they might be called trees of righteousness, the planting of the LORD, that he might be glorified.", "Isaiah 61:2-3"];
 verse[9]=["Doubtless thou art our father, though Abraham be ignorant of us, and Israel acknowledge us not: thou, O LORD, art our father, our redeemer; thy name is from everlasting.", "Isaiah 63:16"];
-
+verse[10]=[" I know thy works, that thou art neither cold nor hot: I would thou wert cold or hot.   [16]  So then because thou art lukewarm, and neither cold nor hot, I will spue thee out of my mouth.","Revelation of John 3:15-16"];
+verse[11]=[" As many as I love, I rebuke and chasten: be zealous therefore, and repent.","Revelation of John 3:19"];
 var i = gerRandomNumbers(verse.length);
 document.write("<H1>" + verse[i][1] + "</H1>");
 document.write(verse[i][0]);
