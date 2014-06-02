@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-05-30T14:10:09+00:00</updated>
+  <updated>2014-06-02T09:09:21+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,65 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Upgrade Linux mint16 to Linux mint 17 Qiana]]></title>
+    <link href="http://baham.co/06_01_upgrade-linux-mint16-to-linux-mint-17-qiana.html"/>
+    <updated>2014-06-01T00:48:00+00:00</updated>
+    <id>http://baham.co/upgrade-linux-mint16-to-linux-mint-17-qiana</id>
+    <content type="html"><![CDATA[<p><img src="http://www.linuxmint.com/pictures/screenshots/qiana/thumb_cinnamon.png" alt="mint 17" /></p>
+
+<p>Linux mint 17 -Qiana released with Cinnamon or Mate Desktop Environment.</p>
+
+<p>And I was using Min16 to write this article.</p>
+
+<p>And the <code>dist-upgrade</code> is running.</p>
+
+<p>But how to upgrade the linux mint to a newer version.</p>
+
+<h2>1 Backup Your Files</h2>
+
+<!--more-->
+
+
+<p>This a very important step, although I did not back up my files. Cause I did not have a hardisk or webdrive with enough space.</p>
+
+<p>And back your source like these:</p>
+
+<pre><code>$ sudo cp /etc/apt/sources.list  /etc/apt/sources.list.bak
+$ sudo cp /etc/apt/sources.list.d/official-package-repositories.list  /etc/apt/sources.list.d/official-package-repositories.list.bak
+</code></pre>
+
+<h2>2 Change your source</h2>
+
+<p>Just replace <code>petra</code> with <code>qiana</code> and <code>saucy</code> with <code>trusty</code></p>
+
+<h2>3 Upgrade</h2>
+
+<pre><code>$ sudo apt-get update
+$ sudo apt-get dist-upgrade
+$ sudo apt-get upgrade
+</code></pre>
+
+<p>This is all.</p>
+
+<p>And maybe you want to read this post too&mdash; <a href="http://www.tecmint.com/upgrade-linux-mint-16-to-linux-mint-17/">Upgrade Linux  mint</a>
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/06_01_upgrade-linux-mint16-to-linux-mint-17-qiana.html">http://baham.co/06_01_upgrade-linux-mint16-to-linux-mint-17-qiana.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Teach children to prevent sexual assault]]></title>
@@ -181,6 +240,106 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
 
 <p>The Original Link: <a href="http://baham.co/05_23_ordination-the-first-time-i-joined.html">http://baham.co/05_23_ordination-the-first-time-i-joined.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[6 Tips to Writing More Beautiful Python Codes(For Beginners)]]></title>
+    <link href="http://baham.co/05_15_6-tips-to-writing-more-beautiful-python-codes.html"/>
+    <updated>2014-05-15T06:12:00+00:00</updated>
+    <id>http://baham.co/6-tips-to-writing-more-beautiful-python-codes</id>
+    <content type="html"><![CDATA[<p>Python is an easy-learning programming language.  Its design philosophy emphasizes code readability. And if you did not know python, you can get the base knowledge on <a href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">Wikipedia</a>.</p>
+
+<h2>1 &ldquo;&rdquo;&ldquo;  use Three quotes</h2>
+
+<p>In python 3 quotes is not just used to show <em>mutiline strings</em>, but also for <em>doc</em> in a function.</p>
+
+<p>This will help users to understand this function.</p>
+
+<p>Like: <!--more--></p>
+
+<pre><code>def hw():
+    """Output 'Hellow World'
+    For example:
+    &gt;&gt;&gt; hw()
+    Hellow World!
+    """
+    print("Hellow World")
+    return "Hellow World"
+</code></pre>
+
+<p>And the strings between 2 three quotes, not just commits but also an introduction for the function.</p>
+
+<p>You can get the strings by <code>print(hw.__doc__)</code></p>
+
+<pre><code>    Output 'Hellow World'
+    For example:
+    &gt;&gt;&gt; hw()
+    Hellow World!
+</code></pre>
+
+<h2>2 Use Return    &mdash;functional programming</h2>
+
+<p>Not every function need a <code>return</code>(just like the function <code>greet()</code>below the title &lsquo;use keywords as default parameter&rsquo;), if you do not type a <code>return</code>, python consider you typed a <code>return None</code>.</p>
+
+<p>But if you like <code>functional programming</code>, like <em>Scale</em>, <em>R</em> and so on. You need add <code>return</code> in every function.</p>
+
+<h3>2.1functional programming</h3>
+
+<pre><code>There are not variables or side effect, you can only edit things by the `return`.
+</code></pre>
+
+<h2>3 Use <code>main()</code></h2>
+
+<p>You know <code>main</code> is not necessary. Using <code>main()</code>is just an agreement.</p>
+
+<p>Just make python&rsquo;s code more comfortable for who have learned Java or C++.</p>
+
+<h2>4 Use keywords as default parameter</h2>
+
+<ol>
+<li>It will show the parameter&rsquo;s value directly;</li>
+<li>The order of the parameter with keywords doesn&rsquo;t matter.</li>
+</ol>
+
+
+<p>Just like this:</p>
+
+<pre><code>def greet(name='Bob', greeting='Hellow'):
+    print(greeting, name+'!')
+</code></pre>
+
+<h2>5 Import Package name like <code>import packagename</code></h2>
+
+<p>Cause when you import package like: <code>from packagename import *</code></p>
+
+<p>When there is a same name in your own code with in the packege, it will overwrite it.</p>
+
+<p>So use <code>import packagename</code> insted of using <code>from packagename import *</code>.</p>
+
+<p>And use <code>packagename.functionname</code> to use the function.</p>
+
+<h2>6 Using negative number for an index</h2>
+
+<pre><code>a   p   p   l   e
+0   1   2   3   4
+-5  -4  -3  -2  -1
+</code></pre>
+
+<p>Maybe it will take more time to find the exact the negative index. But it will avoid some mistakes when you operate an array or string with <code>delete</code>. <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/05_15_6-tips-to-writing-more-beautiful-python-codes.html">http://baham.co/05_15_6-tips-to-writing-more-beautiful-python-codes.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
@@ -1327,133 +1486,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
 
 <p>The Original Link: <a href="http://baham.co/04_27_3-hours-in-zhengzhou.html">http://baham.co/04_27_3-hours-in-zhengzhou.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Internship in Pingdingshan]]></title>
-    <link href="http://baham.co/04_26_internship-in-pingdingshan.html"/>
-    <updated>2014-04-26T12:32:00+00:00</updated>
-    <id>http://baham.co/internship-in-pingdingshan</id>
-    <content type="html"><![CDATA[<p>Pingdingshan city is also called Eagle City. And it is rich with coal, most are for coking.</p>
-
-<p>I had an about 20 days internship here.</p>
-
-<p>So if I describe the story with nothing omitted, it will take a long time.</p>
-
-<p>So I just try to keep ths story short.</p>
-
-<p>Where we lived is Tianhong Hotel. Where we watch were Tianzhuang Coal Preparation Plant and Tianhong Coal Preparation Plant.</p>
-
-<p>And we also went to Beijing Huayu Company.</p>
-
-<!--more-->
-
-
-<p></p>
-
-<h2>Huayu</h2>
-
-<p><img src="http://baham.co/images/pds/huayu.jpg" alt="huayudoor" /></p>
-
-<p>Huayu is a company to design a coal preparation plant.</p>
-
-<p>It is one of the best in China.</p>
-
-<h2>Tianzhuang Coal Preparation Plant</h2>
-
-<p>It is very old plant, there are about 2 thousand workers.</p>
-
-<p>And it is very jam-packed. So we could not watch everywhere in the plant.</p>
-
-<p>So I learned the most in Tianhong Coal Preparation Plant among 3 places.</p>
-
-<p>The load and transport system.</p>
-
-<p><img src="http://baham.co/images/pds/load.jpg" alt="loan and transport" /></p>
-
-<h2>Tianghong Coal Preparation Plant</h2>
-
-<p>It is not like Tianzhuang, it is too new to produce coal product.</p>
-
-<p>So we although stayed there less in time, we watched and learned more.</p>
-
-<p>We took some pictures and drawed some images to show the plant.</p>
-
-<p>If you want to know it and learn it, you can <a href="http://baham.co/contactme-en">ask me</a> for it.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/04_26_internship-in-pingdingshan.html">http://baham.co/04_26_internship-in-pingdingshan.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Exchange Dream by Jiaqian]]></title>
-    <link href="http://baham.co/04_26_exchange-dream-by-jiaqian.html"/>
-    <updated>2014-04-26T01:46:00+00:00</updated>
-    <id>http://baham.co/exchange-dream-by-jiaqian</id>
-    <content type="html"><![CDATA[<p>The first day in Guangzhou City, there is the Exchange Dream by Jiaqian.</p>
-
-<p>So when I went to Sun Yat-sen University to join in it.</p>
-
-<p>It is my second time to take Guangzhou Train. And when got there, I didn&rsquo;t know where is north. So I thount and found it by the building&rsquo;s  window(You know although in sourth of China, people still build the big window to sourth).</p>
-
-<p>And with the map, I found the university. But I did not get it, so I asked a passby, he told me the position.</p>
-
-<p><img src="http://baham.co/images/guangdong/sunyatsen.jpg" alt="sun-yat-sen-university" /></p>
-
-<!--more-->
-
-
-<p>So I went to the classroom where the Exchange Dream started. I foung it before the activity started. And I was hungry, though I had a Niunan Noodle on the road to train stop, the noodle tasted really bad. So I asked a girl where is refectory or dining hall.</p>
-
-<p>She gave me a direction but it is not very clear. Then I went out of the classroom to the refectory.</p>
-
-<p>I did not found it, I walked back and asked a passby. She told me she went there too that I can followed her. And we went the refectory together.</p>
-
-<p>On the road, we talk a few things about the Sun Yat-sen University , her major and why I was here.</p>
-
-<p>Then I arrived in the refectory, I bought a meal ticket, and took some rice and some vegetables to eat(like Popeye the Sailor).</p>
-
-<p>After the dinner, I went back to the calssroom. It is about 7 pm, but Jiaqian was still not arrive.</p>
-
-<p>We waited for about 2/3 hour. She came. And I shared a story about my entering a higher school. And listend more stories from others.</p>
-
-<p>The number of viewers in Sun Yat-sen is less than CUMT. But there are more interesting stories.</p>
-
-<p>And the two girls who was left from me are just hign school students, so young and so cute.</p>
-
-<p>A girl shared her childhood and love story, another girl shared her hairstyle and she how to bet with her deskmate, a boy just standed there until the activity stoped &hellip;
-<img src="http://baham.co/images/guangdong/jiaqian.jpg" alt="exchangedream" />
-After it, I went back by train. It is so late, so I took a shower, watche a little TV and just slept for tomorrow&rsquo;s test.</p>
-
-<p>Oh there is a very cool thing in Sun Yat-Sen University, an old style&rsquo;s washing room.
-<img src="http://baham.co/images/guangdong/wc.jpg" alt="wc" />
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/04_26_exchange-dream-by-jiaqian.html">http://baham.co/04_26_exchange-dream-by-jiaqian.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>

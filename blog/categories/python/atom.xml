@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Python | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/python/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2014-06-02T09:09:21+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[6 Tips to Writing More Beautiful Python Codes(For Beginners)]]></title>
+    <link href="http://baham.co/05_15_6-tips-to-writing-more-beautiful-python-codes.html"/>
+    <updated>2014-05-15T06:12:00+00:00</updated>
+    <id>http://baham.co/6-tips-to-writing-more-beautiful-python-codes</id>
+    <content type="html"><![CDATA[<p>Python is an easy-learning programming language.  Its design philosophy emphasizes code readability. And if you did not know python, you can get the base knowledge on <a href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">Wikipedia</a>.</p>
+
+<h2>1 &ldquo;&rdquo;&ldquo;  use Three quotes</h2>
+
+<p>In python 3 quotes is not just used to show <em>mutiline strings</em>, but also for <em>doc</em> in a function.</p>
+
+<p>This will help users to understand this function.</p>
+
+<p>Like: <!--more--></p>
+
+<pre><code>def hw():
+    """Output 'Hellow World'
+    For example:
+    &gt;&gt;&gt; hw()
+    Hellow World!
+    """
+    print("Hellow World")
+    return "Hellow World"
+</code></pre>
+
+<p>And the strings between 2 three quotes, not just commits but also an introduction for the function.</p>
+
+<p>You can get the strings by <code>print(hw.__doc__)</code></p>
+
+<pre><code>    Output 'Hellow World'
+    For example:
+    &gt;&gt;&gt; hw()
+    Hellow World!
+</code></pre>
+
+<h2>2 Use Return    &mdash;functional programming</h2>
+
+<p>Not every function need a <code>return</code>(just like the function <code>greet()</code>below the title &lsquo;use keywords as default parameter&rsquo;), if you do not type a <code>return</code>, python consider you typed a <code>return None</code>.</p>
+
+<p>But if you like <code>functional programming</code>, like <em>Scale</em>, <em>R</em> and so on. You need add <code>return</code> in every function.</p>
+
+<h3>2.1functional programming</h3>
+
+<pre><code>There are not variables or side effect, you can only edit things by the `return`.
+</code></pre>
+
+<h2>3 Use <code>main()</code></h2>
+
+<p>You know <code>main</code> is not necessary. Using <code>main()</code>is just an agreement.</p>
+
+<p>Just make python&rsquo;s code more comfortable for who have learned Java or C++.</p>
+
+<h2>4 Use keywords as default parameter</h2>
+
+<ol>
+<li>It will show the parameter&rsquo;s value directly;</li>
+<li>The order of the parameter with keywords doesn&rsquo;t matter.</li>
+</ol>
+
+
+<p>Just like this:</p>
+
+<pre><code>def greet(name='Bob', greeting='Hellow'):
+    print(greeting, name+'!')
+</code></pre>
+
+<h2>5 Import Package name like <code>import packagename</code></h2>
+
+<p>Cause when you import package like: <code>from packagename import *</code></p>
+
+<p>When there is a same name in your own code with in the packege, it will overwrite it.</p>
+
+<p>So use <code>import packagename</code> insted of using <code>from packagename import *</code>.</p>
+
+<p>And use <code>packagename.functionname</code> to use the function.</p>
+
+<h2>6 Using negative number for an index</h2>
+
+<pre><code>a   p   p   l   e
+0   1   2   3   4
+-5  -4  -3  -2  -1
+</code></pre>
+
+<p>Maybe it will take more time to find the exact the negative index. But it will avoid some mistakes when you operate an array or string with <code>delete</code>.</p>
+]]></content>
+  </entry>
+  
+</feed>

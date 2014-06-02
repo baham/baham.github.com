@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Linux | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-05-30T14:10:09+00:00</updated>
+  <updated>2014-06-02T09:09:21+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,51 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Upgrade Linux mint16 to Linux mint 17 Qiana]]></title>
+    <link href="http://baham.co/06_01_upgrade-linux-mint16-to-linux-mint-17-qiana.html"/>
+    <updated>2014-06-01T00:48:00+00:00</updated>
+    <id>http://baham.co/upgrade-linux-mint16-to-linux-mint-17-qiana</id>
+    <content type="html"><![CDATA[<p><img src="http://www.linuxmint.com/pictures/screenshots/qiana/thumb_cinnamon.png" alt="mint 17" /></p>
+
+<p>Linux mint 17 -Qiana released with Cinnamon or Mate Desktop Environment.</p>
+
+<p>And I was using Min16 to write this article.</p>
+
+<p>And the <code>dist-upgrade</code> is running.</p>
+
+<p>But how to upgrade the linux mint to a newer version.</p>
+
+<h2>1 Backup Your Files</h2>
+
+<!--more-->
+
+
+<p>This a very important step, although I did not back up my files. Cause I did not have a hardisk or webdrive with enough space.</p>
+
+<p>And back your source like these:</p>
+
+<pre><code>$ sudo cp /etc/apt/sources.list  /etc/apt/sources.list.bak
+$ sudo cp /etc/apt/sources.list.d/official-package-repositories.list  /etc/apt/sources.list.d/official-package-repositories.list.bak
+</code></pre>
+
+<h2>2 Change your source</h2>
+
+<p>Just replace <code>petra</code> with <code>qiana</code> and <code>saucy</code> with <code>trusty</code></p>
+
+<h2>3 Upgrade</h2>
+
+<pre><code>$ sudo apt-get update
+$ sudo apt-get dist-upgrade
+$ sudo apt-get upgrade
+</code></pre>
+
+<p>This is all.</p>
+
+<p>And maybe you want to read this post too&mdash; <a href="http://www.tecmint.com/upgrade-linux-mint-16-to-linux-mint-17/">Upgrade Linux  mint</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Do you remember that game on linux]]></title>
@@ -142,19 +187,6 @@ Though a lot of men do not like it.</p>
 <p>And now I add <strong>_post</strong> to my deja-backup backing floder.</p>
 
 <p>And maybe I need use &ldquo;mv&rdquo; to replace &ldquo;rm&rdquo;.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[A Very Important thing--Usability of OS]]></title>
-    <link href="http://baham.co/09_25_a-very-important-thing-usability-of-os.html"/>
-    <updated>2013-09-25T23:00:00+00:00</updated>
-    <id>http://baham.co/a-very-important-thing-usability-of-os</id>
-    <content type="html"><![CDATA[<p> Alot of people said “Arch is fast !”,so I choose Chakra which is based on Arch and has a half-scroll feature dictribution. It is pretty cool,but after about 4~6 months, I found some bugs,when I smooth my mouse to up-left,kde will crack,It is very serious ,because kde is a GUI,and I use it everytime.</p>
-
-<p>but why,why before “pacman -Syu” is ok,but after kde is crack ,because the new version kde has bugs and Chakra Linux update very frequently.</p>
-
-<p>So I just want to say ,how to choose an os. you must concern more ,not only fast or not ,cool or not, there is another very important feature satble and easy of use.</p>
 ]]></content>
   </entry>
   

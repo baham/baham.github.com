@@ -90,6 +90,103 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/12_06_goyu-yan-wang-luo-zi-yuan-fen-xiang.html">Go语言网络资源分享</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-06T11:45:00+00:00" pubdate data-updated="true">Dec 6<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>[官方网站]<a href="http://golang.org/">http://golang.org/</a></p>
+
+<p><a href="http://zh.wikipedia.org/zh/Go">Go语言-维基百科</a></p>
+
+<p><a href="http://tieba.baidu.com/f?kw=go%D3%EF%D1%D4">Go语言吧</a> &mdash;但是非常冷清</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/12_06_goyu-yan-wang-luo-zi-yuan-fen-xiang.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/12_05_goyu-yan-deferya-hou.html">Go语言-defer压后</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-05T03:14:00+00:00" pubdate data-updated="true">Dec 5<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><em>defer</em>压后的作用是使<code>defer</code>语句在所在函数返回后才执行。
+比如：</p>
+
+<pre><code>func f() (result int){
+    defer func(){
+        result++
+    }()
+    return 1
+}//本段代码来自《Go语言云动力》4.6
+
+最终f将会2,而不是1,因为return 1之后,result++执行
+</code></pre>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/12_05_goyu-yan-deferya-hou.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/12_04_mi-wu-slash-wu-di-yi-sha-suo-biao-shu-de-shi-wu-shen-guan-dian-ma-%3F.html">迷雾/雾地异煞中的Comody</a></h1>
     
     
@@ -234,117 +331,6 @@ func main() {
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/12_03_goyu-yan-liang-chong-fan-hui-fang-shi.html">Go语言-两种返回方式</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-12-03T13:28:00+00:00" pubdate data-updated="true">Dec 3<span>rd</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Go的函数中，可以存在多个返回值，但是多个返回值务必使用<code>( )</code></p>
-
-<pre><code>func TempFile(dir, prefix string) (f *os.File, err error)
-</code></pre>
-
-<p>函数声明时，也可以不声明<strong>返回变量</strong></p>
-
-<pre><code>func TempFile(dir, prefix string) (*os.File, error)
-</code></pre>
-
-<p><em>参见《Go语言云动力》93页返回语句。</em>
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="/12_03_goyu-yan-liang-chong-fan-hui-fang-shi.html">http://baham.co/12_03_goyu-yan-liang-chong-fan-hui-fang-shi.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/12_02_goyu-yan-go1-dot-2.html">Go语言-Go1.2</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-12-02T13:22:00+00:00" pubdate data-updated="true">Dec 2<span>nd</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="/images/golang12.png" alt="golang" /></p>
-
-<p>12月1日，Go语言更新到1.2，距离go1.1发布有7个月时间。语言的改变相比于1.1和1.0之间也较小</p>
-
-<p>Go1.2包括几处小的语言变化，一些语言实现、工具的改进，性能的提升，以及标准库里的附加功能以及改变（向后兼容）:</p>
-
-<ol>
-<li>nil的使用</li>
-<li>三下标的切片</li>
-<li>cgo</li>
-<li>godoc, vet的位置</li>
-<li>godoc命令
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/12_02_goyu-yan-go1-dot-2.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/12/">&larr; Older</a>
@@ -374,11 +360,15 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     <h2 class="panel-title">Category Cloud</h2>
   </div>
 <div id="recent_posts" class="list-group">
-	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 120.0%'>Announcement(10)</a> <a href='/blog/categories/baham' style='font-size: 126.0%'>Baham(13)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 112.0%'>Blender(6)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 108.0%'>CUMT(4)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 138.0%'>Faith(19)</a> <a href='/blog/categories/fate' style='font-size: 102.0%'>Fate(1)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 102.0%'>Google(1)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 104.0%'>Job(2)</a> <a href='/blog/categories/linux' style='font-size: 154.0%'>Linux(27)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 118.0%'>Memo(9)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 112.0%'>Mineral Processing(6)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 112.0%'>Video(6)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
+	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 120.0%'>Announcement(10)</a> <a href='/blog/categories/baham' style='font-size: 126.0%'>Baham(13)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 112.0%'>Blender(6)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 108.0%'>CUMT(4)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 138.0%'>Faith(19)</a> <a href='/blog/categories/fate' style='font-size: 102.0%'>Fate(1)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 102.0%'>Google(1)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 104.0%'>Job(2)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 118.0%'>Memo(9)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 112.0%'>Mineral Processing(6)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/python' style='font-size: 102.0%'>Python(1)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 112.0%'>Video(6)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
 </div>
 </section><section>
   <h2>Recent Posts</h2>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/06_01_upgrade-linux-mint16-to-linux-mint-17-qiana.html">Upgrade Linux mint16 to Linux mint 17 Qiana</a>
+      </li>
     
       <li class="post">
         <a href="/05_30_teach-children-to-prevent-sexual-assault.html">Teach children to prevent sexual assault</a>
@@ -394,6 +384,10 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     
       <li class="post">
         <a href="/05_23_ordination-the-first-time-i-joined.html">Ordination-The First Time I joined</a>
+      </li>
+    
+      <li class="post">
+        <a href="/05_15_6-tips-to-writing-more-beautiful-python-codes.html">6 Tips to Writing More Beautiful Python Codes(For Beginners)</a>
       </li>
     
       <li class="post">
@@ -450,14 +444,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     
       <li class="post">
         <a href="/04_27_3-hours-in-zhengzhou.html">About 3 hours in Zhengzhou</a>
-      </li>
-    
-      <li class="post">
-        <a href="/04_26_internship-in-pingdingshan.html">The Internship in Pingdingshan</a>
-      </li>
-    
-      <li class="post">
-        <a href="/04_26_exchange-dream-by-jiaqian.html">Exchange Dream by Jiaqian</a>
       </li>
     
   </ul>
