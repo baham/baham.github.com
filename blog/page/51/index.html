@@ -90,6 +90,71 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/08_06_389.html">《Building Java Programs》-Java集合框架（Java Collection Framework）</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-06T23:00:55+00:00" pubdate data-updated="true">Aug 6<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework-300x161.png" alt="Java集合框架-java collection framework-示意图" />(<a href="http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework.png">http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework.png</a>) Java集合框架（点击浏览大图）</p>
+
+<p>ArrayList的优点在于可以随机访问每一个元素，也可以快速在尾部添加或删除元素。但在头部添加、删除元素时，ArrayList的执行效率很低，因为每次从列表中删除或添加一个元素，都要将该元素所有后继元素向前后向后移动一个位置，此时需要通过使用<strong>node（节点）</strong>存储元素的<strong>LinkedList（链表）</strong>。LinkedList满足<strong>Collection接口</strong>，而<strong>Collection接口</strong>和<strong>Map接口</strong>构成了<strong>Java集合框架</strong>的主体。</p>
+
+<ol>
+<li><p> 集合对象中保存着一族其他对象。Java的集合对象包括ArrayList、HashSet和TreeSet等等。集合对象主要用于<strong>保存、组织和查询</strong>数据。</p></li>
+<li><p> <strong>链表(LinkedList)</strong>是一种集合对象，它与ArrayList很相似，但在内部实现上采用了“<strong>节点</strong>”保存每一个元素。对于某些操作，如在列表开头插入或删除元素，链表的执行效率远高于ArrayList。</p></li>
+<li><p> <strong>迭代器（Iterator）</strong>是一种对象，它可以保存访问列表过程中的当前位置，因此可以加快<strong>顺序访问</strong>列表元素的速度。通常采用迭代器来提高访问链表（LinkedList）操作的效率。</p></li>
+<li><p> <strong>抽象数据类型（ADT）</strong>，例如List、Set，定义了一族相关的操作，Java集合框架中用接口来表示ADT（例如List接口，ArrayList和LinkedList均实现了该接口）。</p></li>
+<li><p> <strong>数学集合（Set）</strong>中不允许出现重复元素。Set可以快速查找一个给定值是否在集合中存在。Java中用Set接口表示数学集合。</p></li>
+<li><p> Java中有两个主要的数学集合类：<strong>TreeSet</strong>和<strong>HashSet</strong>。TreeSet以某种顺序来保存一些可以进行比较的数据。HashSet可以保存任何数据，包括未满足Comparable接口的元素，而且检索速度更快，但不能控制集合中元素的顺序。</p></li>
+<li><p> <strong>映射</strong>将一组<strong>键（Key）</strong>对象关联（映射）到一组<strong>值（Value）</strong>对象上。它用来保存一对拥有特定关系的数据，例如某人的姓名和他的身份证号。</p></li>
+<li><p> Java中使用<strong>Map接口</strong>表示映射，其中有两个主要的映射类：<strong>TreeMap</strong>和<strong>HashMap</strong>。类似于数学集合（Set），TreeMap以某种顺序保存可以进行比较的键对象。HashMap可以保存任何键对象，而且检索素的更快，但却不能控制对象存放的顺序。在不考虑键对象顺序时，Sun推荐使用HashMap。</p></li>
+</ol>
+
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="/08_06_389.html">http://baham.co/08_06_389.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/08_06_370.html">JavaZone视频集锦2-JavaZone四个最受欢迎的演讲视频</a></h1>
     
     
@@ -286,67 +351,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/08_03_353.html">《Building Java Programs》-ArrayList小结</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-03T19:52:23+00:00" pubdate data-updated="true">Aug 3<span>rd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><em>java.util</em>包中的<strong>ArrayList</strong>类表示一个大小可以自动增长的对象列表，它在内部用数组来实现这个列表。可以用ArrayList顺序地保存对象元素，其元素索引从0开始。</p>
-
-<ol>
-<li><p> ArrayList是一个<strong>泛型类</strong>，创建泛型类对象时需要指定一种数据类型，例如，<strong>ArrayList<String></strong>。</p></li>
-<li><p> ArrayList可以自己维护列表的大小，可以在任何索引位置插入或删除元素。ArrayList还支持<em>get、set、clear、、toString</em>等方法。</p></li>
-<li><p> 可以用<em>contains、indexOf、lastIndexOf</em>方法查找ArrayList中的元素。</p></li>
-<li><p> 可以用<strong>for-each循环</strong>来<strong>遍历</strong>ArrayList中的元素。但在这个过程中不能修改列表的内容。</p></li>
-<li><p> 如果要在ArrayList中保存基本类型的数据，如int或double等，就必须在创建对象时，使用其对应的<strong>包装类</strong>，如Integert和Double。</p></li>
-<li><p> <strong>Comparable接口</strong>定义了可以实现自然排序的compareTo方法。实现了Comparable接口的类可以保存到ArrayList对象中，很多常用类型（如：String，Integer）都实现了Comparable接口，也可以在自定义类中实现Comparable接口。</p></li>
-</ol>
-
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="/08_03_353.html">http://baham.co/08_03_353.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/52/">&larr; Older</a>
@@ -376,11 +380,15 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     <h2 class="panel-title">Category Cloud</h2>
   </div>
 <div id="recent_posts" class="list-group">
-	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 120.0%'>Announcement(10)</a> <a href='/blog/categories/baham' style='font-size: 126.0%'>Baham(13)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 112.0%'>Blender(6)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 108.0%'>CUMT(4)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 138.0%'>Faith(19)</a> <a href='/blog/categories/fate' style='font-size: 102.0%'>Fate(1)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 102.0%'>Google(1)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 104.0%'>Job(2)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 120.0%'>Memo(10)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 112.0%'>Mineral Processing(6)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/python' style='font-size: 102.0%'>Python(1)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 112.0%'>Video(6)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
+	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 120.0%'>Announcement(10)</a> <a href='/blog/categories/baham' style='font-size: 128.0%'>Baham(14)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 112.0%'>Blender(6)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 108.0%'>CUMT(4)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 138.0%'>Faith(19)</a> <a href='/blog/categories/fate' style='font-size: 102.0%'>Fate(1)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 102.0%'>Google(1)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 104.0%'>Job(2)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 120.0%'>Memo(10)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 112.0%'>Mineral Processing(6)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/python' style='font-size: 102.0%'>Python(1)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 112.0%'>Video(6)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
 </div>
 </section><section>
   <h2>Recent Posts</h2>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/06_07_what-a-foolish-thing-i-made.html">What a Foolish Thing I made</a>
+      </li>
     
       <li class="post">
         <a href="/06_06_when-the-block-will-end.html">When the block will end?</a>
@@ -456,10 +464,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     
       <li class="post">
         <a href="/04_28_the-ruby-community.html">The ruby community</a>
-      </li>
-    
-      <li class="post">
-        <a href="/04_28_ruby-multi-line.html">Ruby&#8217;s Multiline</a>
       </li>
     
   </ul>
