@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-06-10T13:38:18+00:00</updated>
+  <updated>2014-06-10T14:15:09+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,51 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[google in china 2014]]></title>
+    <link href="http://baham.co/06_10_google-in-china-2014.html"/>
+    <updated>2014-06-10T14:06:00+00:00</updated>
+    <id>http://baham.co/google-in-china-2014</id>
+    <content type="html"><![CDATA[<p>These days, google is blocked by firewall in China.</p>
+
+<p>You can not use gmail, access goagent, although this a new leader, but the range of block is more and more varient.</p>
+
+<p>And now google is blocked.</p>
+
+<h2>Resolve Google&rsquo;s Block in China<!--more--></h2>
+
+<h3>ping the ip</h3>
+
+<p><a href="http://www.super-ping.com">super ping</a></p>
+
+<h3>use goagent</h3>
+
+<p><a href="https://github.com/goagent/goagent">goagent</a></p>
+
+<p>it is hosted on github, if you can not get it, try find host to github.</p>
+
+<h2>The relevent articles in Chinese</h2>
+
+<p>Chrome&rsquo;s quic:  <a href="http://www.williamlong.info/archives/3879.html">http://www.williamlong.info/archives/3879.html</a>
+Find Google hosts: <a href="http://www.williamlong.info/archives/3878.html">http://www.williamlong.info/archives/3878.html</a>
+google <a href="https:">https:</a> <a href="http://www.williamlong.info/archives/3872.html">http://www.williamlong.info/archives/3872.html</a>
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/06_10_google-in-china-2014.html">http://baham.co/06_10_google-in-china-2014.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rhinoceros in Love]]></title>
@@ -1207,212 +1252,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
 
 <p>The Original Link: <a href="http://baham.co/05_01_21-24-octopress-orinal-link-bug-fix.html">http://baham.co/05_01_21-24-octopress-orinal-link-bug-fix.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Some Octopress tools: SEO, add the original link]]></title>
-    <link href="http://baham.co/04_29_octopress-seo.html"/>
-    <updated>2014-04-29T09:02:00+00:00</updated>
-    <id>http://baham.co/octopress-seo</id>
-    <content type="html"><![CDATA[<p>Octopress is a very cool blog system, you can generae posts by jeklly.</p>
-
-<p>And push your site to github.</p>
-
-<p>Since I found my blog get a pr 2, I always think how to SEO my blog. And thkans to Google, I found some tools.</p>
-
-<h2>Add Original Link after the Post</h2>
-
-<p>Mr Sunshine write an article about how to add space between Chinese Word and English Word.  Inspired by this, Kevin write a ruby plugin to add the <em>original link</em> after the octopress post. It is awesome.</p>
-
-<p>And Tiny change the plugin to add the keyword after the <em>octopress post</em> also. So I just read the source code and add edit it for myself.</p>
-
-<p>These are the source code for <em>octopress-add-original-link.rb</em></p>
-
-<!--more-->
-
-
-
-
-<figure class='code'><figcaption><span>octopress-add-original-link</span><a href='http://baham.co/files/code/octopress-add-original-link.rb'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-<span class='line-number'>32</span>
-<span class='line-number'>33</span>
-<span class='line-number'>34</span>
-<span class='line-number'>35</span>
-<span class='line-number'>36</span>
-<span class='line-number'>37</span>
-<span class='line-number'>38</span>
-<span class='line-number'>39</span>
-<span class='line-number'>40</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># To change this license header, choose License Headers in Project Properties.</span>
-</span><span class='line'><span class="c1"># To change this template file, choose Tools | Templates</span>
-</span><span class='line'><span class="c1"># and open the template in the editor.</span>
-</span><span class='line'>
-</span><span class='line'><span class="nb">require</span> <span class="s1">&#39;./plugins/post_filters&#39;</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">module</span> <span class="nn">AppendFooterFilter</span>
-</span><span class='line'>  <span class="k">def</span> <span class="nf">append</span><span class="p">(</span><span class="n">post</span><span class="p">)</span>
-</span><span class='line'>     <span class="n">author</span> <span class="o">=</span> <span class="n">post</span><span class="o">.</span><span class="n">site</span><span class="o">.</span><span class="n">config</span><span class="o">[</span><span class="s1">&#39;author&#39;</span><span class="o">]</span>
-</span><span class='line'>     <span class="n">url</span> <span class="o">=</span> <span class="n">post</span><span class="o">.</span><span class="n">site</span><span class="o">.</span><span class="n">config</span><span class="o">[</span><span class="s1">&#39;url&#39;</span><span class="o">]</span>
-</span><span class='line'>     <span class="n">pre</span> <span class="o">=</span> <span class="n">post</span><span class="o">.</span><span class="n">site</span><span class="o">.</span><span class="n">config</span><span class="o">[</span><span class="s1">&#39;original_url_pre&#39;</span><span class="o">]</span>
-</span><span class='line'>     <span class="n">license</span> <span class="o">=</span> <span class="n">post</span><span class="o">.</span><span class="n">site</span><span class="o">.</span><span class="n">config</span><span class="o">[</span><span class="s1">&#39;license_url&#39;</span><span class="o">]</span>
-</span><span class='line'>     <span class="n">lic_name</span> <span class="o">=</span> <span class="n">post</span><span class="o">.</span><span class="n">site</span><span class="o">.</span><span class="n">config</span><span class="o">[</span><span class="s1">&#39;license_name&#39;</span><span class="o">]</span>
-</span><span class='line'>     <span class="n">post</span><span class="o">.</span><span class="n">content</span> <span class="o">+</span>  <span class="s2">&quot; &quot;</span><span class="o">+</span> <span class="o">&lt;&lt;</span><span class="no">_here2start</span>
-</span><span class='line'><span class="sh">&lt;p class=&#39;post-footer&#39; style=&quot;font-size:70%;&quot; &gt;</span>
-</span><span class='line'><span class="sh">&lt;br/&gt;</span>
-</span><span class='line'><span class="sh">&lt;br/&gt;</span>
-</span><span class='line'><span class="sh">&lt;br/&gt;</span>
-</span><span class='line'><span class="sh">#{pre or &quot;The Original Link:&quot;}</span>
-</span><span class='line'><span class="sh">&lt;a href=&#39;#{post.full_url}&#39; rel=&quot;bookmark&quot;&gt;#{post.full_url}&lt;/a&gt;&lt;br/&gt;</span>
-</span><span class='line'><span class="sh">If you want to reprint it, please do under the  &lt;a href=#{license} &gt;#{lic_name}&lt;/a&gt;. </span>
-</span><span class='line'><span class="sh">&lt;/p&gt;</span>
-</span><span class='line'><span class="no">_here2start</span>
-</span><span class='line'>
-</span><span class='line'>            <span class="c1">#&amp;nbsp;Posted at &lt;a href=&#39;#{url}&#39;&gt;#{url}&lt;/a&gt;&lt;br/&gt;</span>
-</span><span class='line'>            <span class="c1">#&amp;nbsp;Written by &lt;a href=&#39;#{url}&#39;&gt;#{author}&lt;/a&gt;</span>
-</span><span class='line'>            <span class="c1">#&amp;nbsp;Keywords : SEO, Original Link</span>
-</span><span class='line'>  <span class="k">end</span>
-</span><span class='line'><span class="k">end</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">module</span> <span class="nn">Jekyll</span>
-</span><span class='line'>  <span class="k">class</span> <span class="nc">AppendFooter</span> <span class="o">&lt;</span> <span class="no">PostFilter</span>
-</span><span class='line'>    <span class="kp">include</span> <span class="no">AppendFooterFilter</span>
-</span><span class='line'>    <span class="k">def</span> <span class="nf">pre_render</span><span class="p">(</span><span class="n">post</span><span class="p">)</span>
-</span><span class='line'>      <span class="n">post</span><span class="o">.</span><span class="n">content</span> <span class="o">=</span> <span class="n">append</span><span class="p">(</span><span class="n">post</span><span class="p">)</span> <span class="k">if</span> <span class="n">post</span><span class="o">.</span><span class="n">is_post?</span>
-</span><span class='line'>    <span class="k">end</span>
-</span><span class='line'>  <span class="k">end</span>
-</span><span class='line'><span class="k">end</span>
-</span><span class='line'>
-</span><span class='line'><span class="ss">Liquid</span><span class="p">:</span><span class="ss">:Template</span><span class="o">.</span><span class="n">register_filter</span> <span class="no">AppendFooterFilter</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>The file is here&mdash;<a href="http://baham.co/files/code/octopress-add-original-link.rb">octopress-add-original-link.rb</a>  <code>please use the below link to download the newer one</code></p>
-
-<p>And the newer version that fix a bug is in <a href="http://baham.co/files/code/octopress-add-original-link-v2.rb">add-original-link version2</a></p>
-
-<p>And after I modified, It is only can show the post&rsquo;s original link.</p>
-
-<p>Before you use it, you need to edit your <code>_config.yml</code>, and add these.</p>
-
-<pre><code>original_url_pre: "The Original Link: "
-license_url: /license
-license_name: "CC BY-NC-SA 4.0"
-</code></pre>
-
-<p>The contents after <code>:</code> , you need edit them by yourself for your site.</p>
-
-<h2>Add Keywords and Description for the Post and the Page</h2>
-
-<p>It will look like this:</p>
-
-<p><img src="http://baham.co/images/baham/keywords.jpg" alt="keyword" /></p>
-
-<p>And what you need to do is just add <code>post.puts "keywords: "</code>  <code>post.puts "description: "</code> in your <code>Rakefile</code></p>
-
-<p>Like this</p>
-
-<pre><code>
-  puts "Creating new post: #{filename}"
-  open(filename, 'w') do |post|
-    post.puts "---"
-    post.puts "layout: post"
-    post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-    post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
-    post.puts "comments: true"
-    post.puts "categories: "
-    post.puts "keywords: "
-    post.puts "description: "
-    post.puts "---"
-</code></pre>
-
-
-<p>Maybe you will need <code>CTRL+F</code>to find the <code>post.puts</code></p>
-
-<p>And it is the same as adding the <strong>keywords and description</strong> to the <code>page</code> in octopress.</p>
-
-<h2>Add the Keywords And Description to The Whole Octopress Site</h2>
-
-<p>It is more easy, just add</p>
-
-<pre><code>description: "Description for the website"
-keywords: "keywords, for, the, website"
-</code></pre>
-
-<p>in your octopress&rsquo;s <code>_config.yml</code> file, and modify the <code>source/_includes/head.html</code> after the author meta like this:</p>
-
-<figure class='code'><figcaption><span> (add_keywords_and_description.rb)</span> <a href='http://baham.co/files/code/add_keywords_and_description.rb'>download</a></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='rb'><span class='line'>   <span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">site</span><span class="o">.</span><span class="n">description</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
-</span><span class='line'>  <span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
-</span><span class='line'><span class="sr"> {% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif site.keywords %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
-</span><span class='line'><span class="sr"> &lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>After the modifying, when you check the <code>keywords</code> and <code>Description</code>, they will show what you add in <code>_config.yml</code></p>
-
-<p>The above code was optimizated by myself, this is <a href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html">the new version with optimization about site&rsquo;s description and keywords </a>.</p>
-
-<p><a href="http://baham.co/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html">Add description and keywords version3</a></p>
-
-<p><strong>I think you will like it, my octopressers.</strong></p>
-
-<p>Reference Articles:</p>
-
-<p><a href="http://codemacro.com/2012/07/26/post-footer-plugin-for-octopress/">Kevin Lynx&rsquo;s Blog</a></p>
-
-<p><a href="http://blog.tinyxd.me/blog/2013/01/16/add-article-info-footer/">Tiny</a></p>
-
-<p><a href="http://xit0.org/2013/05/seo-for-octopress-websites/">Irshad Pananilath</a></p>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/04_29_octopress-seo.html">http://baham.co/04_29_octopress-seo.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
