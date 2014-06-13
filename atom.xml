@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-06-10T14:15:09+00:00</updated>
+  <updated>2014-06-13T15:45:49+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,44 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Fix a harmonica tab's bugs]]></title>
+    <link href="http://baham.co/06_13_fix-a-harmonica-tabs-bugs.html"/>
+    <updated>2014-06-13T15:35:00+00:00</updated>
+    <id>http://baham.co/fix-a-harmonica-tabs-bugs</id>
+    <content type="html"><![CDATA[<p>Skeeter&rsquo;s song <em>The end of the world</em> is a beautiful song. I want to play is with my harmonica. So I find id by startpage.</p>
+
+<p>And there is a tab on harptabs.</p>
+
+<p>It is a site to index a lot of harmonica tabs, and it is easy to use and kepp the <em>KISS</em> rule.</p>
+
+<p>The tab is here<!--more--></p>
+
+<p>The tab by <a href="https://www.harptabs.com/song.php?ID=2587">aussie</a></p>
+
+<p>But this is something wrong with it.</p>
+
+<p>So I find the bugs and fix them.</p>
+
+<p>And submit a new <em>The end of the world harmonica tab</em>(<a href="https://www.harptabs.com/song.php?ID=21985">https://www.harptabs.com/song.php?ID=21985</a>)</p>
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/06_13_fix-a-harmonica-tabs-bugs.html">http://baham.co/06_13_fix-a-harmonica-tabs-bugs.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[google in china 2014]]></title>
@@ -1208,50 +1246,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
 
 <p>The Original Link: <a href="http://baham.co/05_02_church-meeting-in-worker-s-day.html">http://baham.co/05_02_church-meeting-in-worker-s-day.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Fix a bug to add an original link]]></title>
-    <link href="http://baham.co/05_01_21-24-octopress-orinal-link-bug-fix.html"/>
-    <updated>2014-05-01T13:24:00+00:00</updated>
-    <id>http://baham.co/21-24-octopress-orinal-link-bug-fix</id>
-    <content type="html"><![CDATA[<p>When you use the original post footer plugin, some bug will happen, I do not know the bug&rsquo;s detail, but I still find a way to fix it.</p>
-
-<p>Cause when the bug happend, this will show:</p>
-
-<p><img src="http://baham.co/images/octopress/plugin-bug.jpg" alt="post afer footer" /></p>
-
-<p>The code will show, when the article&rsquo;s end is a link or a picture.</p>
-
-<p>Why does this happen?</p>
-
-<!--more-->
-
-
-<p>  It is the crash of language&rsquo;s syntax. When you use the octopress to <code>generate</code> the posts, ruby&rsquo;s script run, and some html&rsquo;s commna code is not a common code. And the commit&rsquo;s symbol is different too.</p>
-
-<p>So I modify this plugin to avoid this bug.</p>
-
-<p>I just take place of <code>%Q{}</code> with <code>&lt;&lt;_here2start _here2start</code></p>
-
-<p>And now, the code after the article will not show, and just show the normal content.</p>
-
-<p>Like the below. And the source is here:  <a href="http://baham.co/04_29_octopress-seo.html">SEO tool to octopress</a>
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/05_01_21-24-octopress-orinal-link-bug-fix.html">http://baham.co/05_01_21-24-octopress-orinal-link-bug-fix.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
