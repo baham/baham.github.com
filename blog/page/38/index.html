@@ -90,7 +90,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/03_12_blender-wiki-pdfwen-dang-fen-xiang.html">Blender Wiki PDF文档分享</a></h1>
+      <h1 class="entry-title"><a href="/04_03_torzhen-de-ni-ming-he-an-quan-ma-%3F.html">Tor真的匿名和安全吗?</a></h1>
     
     
       <p class="meta">
@@ -106,24 +106,25 @@
   
 
 
-<time datetime="2013-03-12T15:01:00+00:00" pubdate data-updated="true">Mar 12<span>th</span>, 2013</time>
+<time datetime="2013-04-03T16:11:00+00:00" pubdate data-updated="true">Apr 3<span>rd</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>从网上找到的，Blender Wiki的离线版，毕竟时刻在线看Wiki对于非包月上网用户实在不划算。</p>
+  <div class="entry-content"><p><img src="/images/cctv.jpg" alt="CCTV TOR" /></p>
 
-<p>找了很久，不过功夫不负有心人，总算找到了。</p>
+<p>  很多人相信<strong>Tor</strong>是完全匿名，隐私，安全的，是能够完全杜绝别人的监控和跟踪的上网方式。
+但真是这样吗？显然，答案并不那么简单。</p>
 
-<p>英文版。</p>
+<p>  Tor并非完全匿名和隐私的解决方案，如果你使用Tor的话有几点需要注意：</p>
 
 </div>
   
   
     <footer>
-      <a rel="full-article" href="/03_12_blender-wiki-pdfwen-dang-fen-xiang.html">Read on &rarr;</a>
+      <a rel="full-article" href="/04_03_torzhen-de-ni-ming-he-an-quan-ma-%3F.html">Read on &rarr;</a>
     </footer>
   
 
@@ -135,7 +136,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/03_12_ubuntuzhong-an-zhuang-pei-zhi-octopresspeng-dao-de-wen-ti.html">Ubuntu中安装配置Octopress碰到的问题</a></h1>
+      <h1 class="entry-title"><a href="/03_22_zhao-ben-shan-xiao-pin-%3C%3Cxin-bing-%3E%3E-yu-wang-yang-ming-chuan-si-lu-zhong-de-si-sheng-zhi-dao.html">赵本山小品《心病》与王阳明传思录中的死生之道</a></h1>
     
     
       <p class="meta">
@@ -151,169 +152,34 @@
   
 
 
-<time datetime="2013-03-12T10:55:00+00:00" pubdate data-updated="true">Mar 12<span>th</span>, 2013</time>
+<time datetime="2013-03-22T22:31:00+00:00" pubdate data-updated="true">Mar 22<span>nd</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>  由于openSuse过于臃肿，导致开机速度较慢，最终决定换一个系统，选择了Bodhi Linux，翻译成中文就是“菩提”，一款基于Ubunt的linux发行版，特点在于Enlightment 环境，以及长期支援（基于Ubutnu的LTS－长期支援版，最新为2.2基于ubuntu12.04）。</p>
+  <div class="entry-content"><p>  看过春晚《心病》这部小品的，应该都记得这样一个情节，高秀敏（死者为大，实无冒犯之意）带着范伟去赵本山处看病。高秀敏告诉赵本山要想办法让范伟接受这笔钱。于是山开始大谈生命，于是范围说了一句话——“<strong>我不想知道我是怎么来的，我只想知道我是怎么没的。</strong>”</p>
 
-<p>  切换系统后，需要重新配置Octopress的安装环境，ruby、git  and  so on。</p>
+<p>可以参看视频。
+<embed src="http://player.youku.com/player.php/sid/XMjQxMzE4MDg4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
 
-<p>  不过，不像在Fedora中配置那么容易，在Ubutnu中发现（Bodhi）了这样一个问题，当在安装ruby之后，使用<code>gem install bundle</code>时：</p>
+<p>在<strong>传思录</strong>中（最近王阳明很热，心学大师，大明贤哲，我自是从读《明朝那些事儿》中介绍起处就开始对其佩服得五体投地，只不过我认为，哲学理论是永远飞不进寻常百姓家的，<strong>读之可以，迷之则过。</strong>），有这样一段对话：</p>
 
-<pre><code>$ gem install bundler
-ERROR:  Loading command: install (LoadError)
-    no such file to load -- zlib
-ERROR:  While executing gem ... (NameError)
-    uninitialized constant Gem::Commands::InstallCommand
+<pre><code>萧惠问死生之道
+先生曰：知昼夜即知死生
+问昼夜之道
+曰：知昼则知夜
+曰：昼亦有所不知乎
 </code></pre>
 
-<p>  最终，通过<a href="http://blog.bigdinosaur.org/setting-up-octopress/">这篇文章</a>得知，需要安装以下内容。</p>
-
-<p><code>sudo apt-get  install  build-essential zlib1g-dev libssl-dev</code></p>
-
-<p>文章大义为：</p>
-
-<p>先介绍了Octopress的优点，随后，说了一下这个error的问题，最后，写了解决方案——<strong>缺什么就安什么</strong>。</p>
-
-<p>对于，关于Bodhi以及Enlightment环境的问题，会在以后介绍。总之，Enlightment 17给我的感觉和印象都不错，有不足，但也有不少其他DE不具备的优点。</p>
-
-<p>敬请期待！</p>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="/03_12_ubuntuzhong-an-zhuang-pei-zhi-octopresspeng-dao-de-wen-ti.html">http://baham.co/03_12_ubuntuzhong-an-zhuang-pei-zhi-octopresspeng-dao-de-wen-ti.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/03_04_xin-nian-ji-yu.html">新年寄语</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-03-04T22:11:00+00:00" pubdate data-updated="true">Mar 4<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>许久不更新博客，全怪自己贪玩。虽然，不久就要毕业，但是总觉得自己和这个社会上多数人走不到一块去。</p>
-
-<p>这么讲吧，道不同，不相与谋。孔夫子，两千多年前就这么告诉世人。</p>
-
-<p>和别人不同就是错吗？</p>
-
-<p>屈子说：“举世皆浊我独清，众人皆醉我独醒”</p>
-
-<p>投汨罗江自尽，而留万世芳名。</p>
-
-<p>虽然，有历史学家认为，屈原自尽，系受搞基的楚王冷落。</p>
-
-<p>不过，屈子之名，终究已经定格。恐怕无论真假，都改不了了。</p>
-
-<p>很多话说不得，更写不得。</p>
-
-<p>写不得，就不写。说不得，就不说。玩不起，就不玩呗！</p>
-
-<p>敬献给少数关注我博客的人，住你们在大雾天气中，总能记得带着口罩。</p>
-
-<pre><code>                ——Baham（我这蹩脚的英文代号）
-</code></pre>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="/03_04_xin-nian-ji-yu.html">http://baham.co/03_04_xin-nian-ji-yu.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/02_01_binix-1-dot-1-shi-chu.html">Binix 1.1 释出</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-02-01T09:11:00+00:00" pubdate data-updated="true">Feb 1<span>st</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Binix 基于openSuse12.2，默认桌面环境为KDE，提供Live模式，具体更新，支持图形化的KMS配置，自动挂载USB设备，具体请见——(<a href="https://www.suse.com/releasenotes/x86_64/openSUSE/12.2/">https://www.suse.com/releasenotes/x86_64/openSUSE/12.2/</a>)</p>
-
-<p><a href="/binix-baham-linux-os">下载地址</a>
-md5: <code>a5ab5c4a373d2e8000e5f6cb5af4c365</code></p>
+<p><strong>先生曰：汝能知昼，懵懵而兴，蠢蠢而食，行不著，习不察<del>（不会被当作诬蔑国家领导吧？ 此处大意为：学习或温习或指思考时不清醒）</del>，终日昏昏，只是梦昼<del>（白日梦看来早有出处啊，此处书中翻译为梦中的白天）</del>，惟息有养，瞬有存，此心悻悻明明，天理无一息间断，才是能知昼，这便是天德，便是通乎昼夜之道而知，便有什么生死<del>（此处全以逗号断句，是我觉得古书本无标点，如果因为今人标错标点，而使意义大变，那标注之人即为罪人，故权以逗号断句，而且断句也未必断得对）</del></strong></p>
 
 </div>
   
   
     <footer>
-      <a rel="full-article" href="/02_01_binix-1-dot-1-shi-chu.html">Read on &rarr;</a>
+      <a rel="full-article" href="/03_22_zhao-ben-shan-xiao-pin-%3C%3Cxin-bing-%3E%3E-yu-wang-yang-ming-chuan-si-lu-zhong-de-si-sheng-zhi-dao.html">Read on &rarr;</a>
     </footer>
   
 
@@ -325,7 +191,7 @@ md5: <code>a5ab5c4a373d2e8000e5f6cb5af4c365</code></p>
       
   <header>
     
-      <h1 class="entry-title"><a href="/01_30_opensuseshi-yong-tumbleweedyuan-%2Cshi-xian-gun-dong-geng-xin.html">openSUSE使用Tumbleweed源，实现滚动更新</a></h1>
+      <h1 class="entry-title"><a href="/03_20_wo-wei-shi-yao-yong-linux.html">我为什么用Linux</a></h1>
     
     
       <p class="meta">
@@ -341,66 +207,119 @@ md5: <code>a5ab5c4a373d2e8000e5f6cb5af4c365</code></p>
   
 
 
-<time datetime="2013-01-30T16:32:00+00:00" pubdate data-updated="true">Jan 30<span>th</span>, 2013</time>
+<time datetime="2013-03-20T21:27:00+00:00" pubdate data-updated="true">Mar 20<span>th</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>openSUSE很早就支持，通过Tumbleweed源，实现滚动更新。
-官方Wiki很早就给出了，如何配置，以及注意事项。不过，这段时间使用openSUSE的经历，告诉我，Wiki不是总是对的。
-至少，我已经发现两处，一是，openSUSE Wiki中关于使用Tumbleweed源的问题，一个是在Tumbleweed如何安装Virtualbox。配置Virtualbox，以后再说，今天，先讲讲Tumbleweed源的配置。</p>
+  <div class="entry-content"><p>  多久前，我不记得了，也懒得百度了（20多年前），Linus 看着minix很不爽，就写了一个linux，在遥远的美国，Richard Stallman的GNU恰好却一个内核，然后，Gnu／linux诞生了。
+ 最早的发行版，名唤Slackware，貌似在94年诞生。后来又有redhat，再后来redhat在纽交所上市，华尔街的资本家们，开始对开源的东西刮目相看。然后呢，南非富翁搞了个以桌面为目的的
+ 发行版，名唤Ubuntu。没人生活能离开linux，Amazon背后的服务器，Google对搜索每次的处理，也包括我校的饭卡充值机……</p>
 
-<p><img src="/images/tumbleweed_en.png" alt="tumbleweed英文Wiki" /></p>
+<p>  人永远不要做违背原则的事，《权力的游戏》里，Stark最后一集，放弃了自己坚持一辈子的荣誉，然后，一辈子就结束了。我也犯了个错误，就是不该在贴吧发那个该死的帖子。Linux社区里，有一种默契，但凡有人发win lin对比的帖子，就不会有人去真正在意。</p>
 
-<p><img src="/images/tumbleweed_zh.png" alt="tumbleweed中文维基" /></p>
+<p>说正题吧：</p>
 
-<p><strong>在官方Wiki英文版中，写着要添加4个源。
-而中文的，却写着5个。</strong></p>
+<h2>如何在学校里上网</h2>
 
-<p>后来，我才知道，适用Tumbleweed的关键不是源的多少，像中文wiki中写的,non-oss-current-os源，是后来添加的。但是openSuse英文Wiki并没有添加进去。就像没有维基教程将packman和为Virtualbox准备的虚拟化相关的源添加进去一样。</p>
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/03_20_wo-wei-shi-yao-yong-linux.html">Read on &rarr;</a>
+    </footer>
+  
 
-<p>这些源都是，在Google后openSUSE论坛中找到的。</p>
 
-<p>所以，像我之前所说的，不要一切靠Wiki。</p>
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/03_13_bodhi-linux-enlightment-huan-jing-shi-yong.html">Bodhi Linux Enlightment 环境试用</a></h1>
+    
+    
+      <p class="meta">
+        
 
-<p>现在，Tumbleweed有以下7个源。
-(<a href="http://download.opensuse.org/repositories/openSUSE:/Tumbleweed/standard/">http://download.opensuse.org/repositories/openSUSE:/Tumbleweed/standard/</a>)Tumpleweed最主要的一个源，国内镜像站，均未提供镜像，不过，官方的速度也不慢。</p>
 
-<p>(<a href="http://mirrors.sohu.com/opensuse/distribution/openSUSE-current/repo/oss/">http://mirrors.sohu.com/opensuse/distribution/openSUSE-current/repo/oss/</a>)</p>
 
-<p>(<a href="http://mirrors.sohu.com/opensuse/distribution/openSUSE-current/repo/non-oss/">http://mirrors.sohu.com/opensuse/distribution/openSUSE-current/repo/non-oss/</a>)</p>
 
-<p>(<a href="http://mirrors.sohu.com/opensuse/update/openSUSE-current/">http://mirrors.sohu.com/opensuse/update/openSUSE-current/</a>) 搜狐提供的3个CurrentOs源，速度较快</p>
 
-<p>(<a href="http://mirrors.ustc.edu.cn/opensuse/update/openSUSE-non-oss-current/">http://mirrors.ustc.edu.cn/opensuse/update/openSUSE-non-oss-current/</a>) 中科大的non-oss更新源</p>
 
-<p>(<a href="http://packman.inode.at/suse/openSUSE_Tumbleweed">http://packman.inode.at/suse/openSUSE_Tumbleweed</a>) packman的Tumbleweed源</p>
 
-<p>(<a href="http://download.opensuse.org/repositories/Virtualization:/VirtualBox_Tumbleweed/openSUSE_Tumbleweed/">http://download.opensuse.org/repositories/Virtualization:/VirtualBox_Tumbleweed/openSUSE_Tumbleweed/</a>)虚拟化的源</p>
 
-<p>zypper更新到Tumbleweed时，需要这七个源，其中，后两个是非必须的。</p>
+  
 
-<p>其实，第一次，升Tumbleweed并非因为源的问题，而是因为Wiki中，少写了一步，就是，升级你的软件为当前opensuse版本的最新版，不用补丁最新，只需要软件均为最新。</p>
 
-<p>然后，才可以安全的</p>
+<time datetime="2013-03-13T12:10:00+00:00" pubdate data-updated="true">Mar 13<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
 
-<p><code>sudo zypper dup --from Tumbleweed</code>更新到tumbleweed</p>
 
-<p>总结Tumbleweed更新步骤：</p>
+  <div class="entry-content"><p><img src="/images/efm.png" alt="EFM enlightment桌面环境默认文件管理器" /></p>
 
-<h2>1 更新所有软件为当前版本最新</h2>
+<p>上图为<strong>EFM</strong>，即Enlightment File Manager，Bodhi默认的文件管理器。</p>
 
-<h2>2 移出所有当前版本的openSUSE源</h2>
+<p>现在还不稳定，官方推荐使用pcmanfm,（曾在打开大文件时崩溃，但是多数情况还是可用的）。</p>
 
-<h2>3 添加以上七个Tumbleweed需要的源</h2>
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/03_13_bodhi-linux-enlightment-huan-jing-shi-yong.html">Read on &rarr;</a>
+    </footer>
+  
 
-<h2>4 zypper duo &mdash;from Tumbleweed</h2>
 
-<p>对于，配置Virtualbox以后再讲。</p>
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/03_13_opensusezhong-de-virtualboxpei-zhi.html">openSuse中的Virtualbox配置</a></h1>
+    
+    
+      <p class="meta">
+        
 
-<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-13T12:01:00+00:00" pubdate data-updated="true">Mar 13<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>  在Ubuntu的源中，直接有Virtualbox ose版，以及Oracle版。两者大致相同，但我个人更倾向于Oracle版。</p>
+
+<p>  不过，在openSUSE中，源里<strong>只有OSE版的Virtualbox</strong>，不过，还好，openSUSE中有对应的虚拟化源，添加即可（具体见以前的openSUSE文章，里边有地址）。</p>
+
+<p>  而且，也有对应Tumblewee的虚拟化源。</p>
+
+<p>  只不过，在我添加对应源之后，Virtualbox依旧不能完美运行，后来索性去VBox官网，下载对应的rpm包，成功安装成功，且功能齐备。</p>
+
+<p>  不过，据wiki中的一篇文章，专门讲关于Virtualbox的介绍，Virtualbox在Tumbleweed更新时，会有冲突。不过，具体，不清楚，因为，现在已经不用openSUSE了，也没用openSUSE在Tumbleweed源下，做过版本升级。</p>
+
+<p>PS:openSUSE 12.3释出之后，好评不少，而且新颖的安装界面，强大的YAST工具的确很吸引人，推荐使用。
+ <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
 
@@ -411,7 +330,7 @@ md5: <code>a5ab5c4a373d2e8000e5f6cb5af4c365</code></p>
 <br/>
 
 
-<p>The Original Link: <a href="/01_30_opensuseshi-yong-tumbleweedyuan-%2Cshi-xian-gun-dong-geng-xin.html">http://baham.co/01_30_opensuseshi-yong-tumbleweedyuan-%2Cshi-xian-gun-dong-geng-xin.html</a><br/>
+<p>The Original Link: <a href="/03_13_opensusezhong-de-virtualboxpei-zhi.html">http://baham.co/03_13_opensusezhong-de-virtualboxpei-zhi.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 </div>
@@ -450,11 +369,35 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     <h2 class="panel-title">Category Cloud</h2>
   </div>
 <div id="recent_posts" class="list-group">
-	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 120.0%'>Announcement(10)</a> <a href='/blog/categories/baham' style='font-size: 128.0%'>Baham(14)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 112.0%'>Blender(6)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 112.0%'>CUMT(6)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 144.0%'>Faith(22)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 104.0%'>Google(2)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/harmonica' style='font-size: 102.0%'>Harmonica(1)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 104.0%'>Job(2)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 120.0%'>Memo(10)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 112.0%'>Mineral Processing(6)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/python' style='font-size: 102.0%'>Python(1)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 112.0%'>Video(6)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
+	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 120.0%'>Announcement(10)</a> <a href='/blog/categories/baham' style='font-size: 128.0%'>Baham(14)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 112.0%'>Blender(6)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 114.0%'>CUMT(7)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 146.0%'>Faith(23)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 104.0%'>Google(2)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/harmonica' style='font-size: 102.0%'>Harmonica(1)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 104.0%'>Job(2)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 124.0%'>Memo(12)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 112.0%'>Mineral Processing(6)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/python' style='font-size: 102.0%'>Python(1)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/teofl' style='font-size: 102.0%'>Teofl(1)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 112.0%'>Video(6)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
 </div>
 </section><section>
   <h2>Recent Posts</h2>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/07_10_driving.html">Driving</a>
+      </li>
+    
+      <li class="post">
+        <a href="/07_10_toefl-test-i-took.html">Toefl Test I Took.</a>
+      </li>
+    
+      <li class="post">
+        <a href="/07_08_the-train-to-the-dandong.html">The Train to the Dandong</a>
+      </li>
+    
+      <li class="post">
+        <a href="/07_01_smart-phone.html">Smartphone</a>
+      </li>
+    
+      <li class="post">
+        <a href="/06_25_first-time-to-read-all-contents-of-bible.html">First Time To Read All Contents of Bible</a>
+      </li>
+    
+      <li class="post">
+        <a href="/06_25_back-home.html">back home</a>
+      </li>
     
       <li class="post">
         <a href="/06_22_church-meeting-and-baptsim.html">Church Meeting and Baptsim</a>
@@ -510,30 +453,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     
       <li class="post">
         <a href="/05_14_about-the-translation-category.html">About the Translation Category</a>
-      </li>
-    
-      <li class="post">
-        <a href="/05_11_do-you-remember-that-game-on-linux.html">Do you remember that game on linux</a>
-      </li>
-    
-      <li class="post">
-        <a href="/05_08_add-original-link.html">Octopress add Original Link after post Version2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html">Add Descritpion and Keywords to octopress site plugin Version 3</a>
-      </li>
-    
-      <li class="post">
-        <a href="/05_07_octopress-add-description-keywords-plugin-optimization.html">Octopress Add Description Keywords Plugin Optimization</a>
-      </li>
-    
-      <li class="post">
-        <a href="/05_06_what-an-amazing-software.html">What An Amazing Software</a>
-      </li>
-    
-      <li class="post">
-        <a href="/05_06_ruby-multidimensional-arrays.html">Ruby Multidimensional Arrays</a>
       </li>
     
   </ul>
