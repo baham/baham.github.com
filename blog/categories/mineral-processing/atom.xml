@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Mineral Processing | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/mineral-processing/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-07-12T03:40:22+00:00</updated>
+  <updated>2014-08-02T07:27:31+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,51 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[I built a Flotation Separator with blender]]></title>
+    <link href="http://baham.co/08_01_i-built-a-floation-separator-with-blender.html"/>
+    <updated>2014-08-01T00:58:00+00:00</updated>
+    <id>http://baham.co/i-built-a-floation-separator-with-blender</id>
+    <content type="html"><![CDATA[<p><img src="/images/mineral/flotation1.jpg" alt="Flotation Separator" />
+Boss Xie had talked with us fresh men about the 3D moduling, he thought the studio need men to build 3D module. And I can kind of use <em>Blender</em>, I told him this.</p>
+
+<p>After this talk, I started learning and using blender again. Though I had no books to watch. But there are many tutorials in my disk, after all, blender is an open software. A few days ago, I finished this flotation separator.<!--more--></p>
+
+<p><img src="/images/mineral/flotation2.jpg" alt="FS" /></p>
+
+<p>It is not very cool, or verisimilitude. But at least, when I show this to Biao, he can recognize it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The difference between Coal Preparation and the Metal Preparation]]></title>
+    <link href="http://baham.co/07_25_the-difference-between-coal-preparation-and-the-metal-preparation.html"/>
+    <updated>2014-07-25T12:51:00+00:00</updated>
+    <id>http://baham.co/the-difference-between-coal-preparation-and-the-metal-preparation</id>
+    <content type="html"><![CDATA[<p>Most of what I learned in university is coal processing, though my major is called mineral processing. And trully, I just learned fewer knowledge about other mineral&rsquo;s processing than coal. But the company&rsquo;s business is more relative about metal. And there was mineral processing training these days. It is about mineral, especially metal. After the company&rsquo;s train and learning in school, I want to talk about the things about the difference between coal and metal. And I want to tell you directly,
+<em>There is no difference originally.</em></p>
+
+<!--more-->
+
+
+<h2>Some teachers' mislead</h2>
+
+<p>Neally all teachers in CUMT tell us most of the CUMT&rsquo;s courses are about coal. Though there are courses about non-metal minerals, iron and smelting, though some teachers disagree.</p>
+
+<p>But they ignore one thing, the methods to prepare minerals is the same.</p>
+
+<h2>There is only one teaching material about Mineral Processing in China</h2>
+
+<p>Not only the method is the same, but the teaching material. I found the students from NEU, CUMTB, HPU who learn Mineral Processing were all using the same book <em>Mineral Processing</em> edited in chage by Xie Guangyuan. Who is the dean of my college.</p>
+
+<h2>The same mechines are used in metal and coal</h2>
+
+<p>Jinjing, Haiwang, Derick the same companies are chosen to choose the mechines during directing plant. In old time, I think there is a lot of difference between designing a mineral praparation plant and a coal preparation plant. After the train, I found it is not, most of the companies' mechines are for coal or metal or other minerals.</p>
+
+<p>In other words, I hope the graduate from CUMT remember our school&rsquo;s name is CUMT not China&rsquo;s University of Coal and Technology. And I hope the social, the non-coal preparation plant trust graduate from CUMT. We can not only prepare coal but also metal, non-coal.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[最近几天面试得到的经验]]></title>
@@ -139,48 +184,6 @@
 
 
 <p><a href="https://github.com/minghub/gss.git">github clone</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[大师风范]]></title>
-    <link href="http://baham.co/06_25_da-shi-feng-fan.html"/>
-    <updated>2013-06-25T02:08:00+00:00</updated>
-    <id>http://baham.co/da-shi-feng-fan</id>
-    <content type="html"><![CDATA[<p>今天，参加了美国犹他大学 Melor教授的演讲，全名记不清了，演讲题目也记不清了，总之是关于浮选和X射线在选矿中的应用，听得不是很认真，抱歉。</p>
-
-<p>不过，从演讲中却得到了些许感悟。</p>
-
-<p>1 教授的裤子，和比尔盖茨的一样，那种极宽大的裤子，舒服但不修型那种;</p>
-
-<p>2 演讲中间的提问环节，教授的学生帮助听众翻译，Melor教授索性坐在了讲台上，毕竟年纪大了，站得久了会累，虽然很多人有吃惊的目光，但Melor教授却一点都不以为意;</p>
-
-<p>3 第一个主题讲完之后，提问之前，Melor教授对着后排的听众大声说到：“Hey Wake up!"</p>
-
-<p>由上，我得出了一点感悟：</p>
-
-<p>学术自由，对于高等教育极其重要;</p>
-
-<p>学术成就，和自己衣着无关;</p>
-
-<p>人人都需要有自己的个性，自己的爱好，而且不受外界影响。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[跳汰过程物料分层经过]]></title>
-    <link href="http://baham.co/01_03_782.html"/>
-    <updated>2013-01-03T16:25:00+00:00</updated>
-    <id>http://baham.co/782</id>
-    <content type="html"><![CDATA[<p>被选物料给入跳汰机内落到筛板上，便形成一个密集的物料展。在给料的同时，从跳汰机下部周期性的给入上下交变的水流，垂直变速水流透过筛孔进入床层，物料就是在这种水流中经受跳汰的分选过程。</p>
-
-<p>1）当水流上升时，床层被冲起，呈现松散及悬浮的状态。此时，床层中的矿粒，按其自身的特性（密度、粒度和形状），彼此作相对运动，开始进行分层。</p>
-
-<p>2）在水流已停止上升，但还没有转为下降水流之前，由于惯性力的作用，矿粒仍在运动，床层继续松散、分层。</p>
-
-<p>3）水流转为下降，床层逐渐紧密，但分层仍在继续。当全部矿粒落回筛面，它们彼此之间已丧失相对运动的可能，则分层作用基本停止。此时，只有那些密度较高、粒度很细的矿粒，穿过床层中大块物料的间隙，仍在向下运动。</p>
-
-<p>4）下降水流结束，床层完全紧密，分层便暂告终止。在一个跳汰周期内，床层经历了从紧密到松散分层再紧密的过程，颗粒受到了分选作用。只有经过多个跳汰周期之后，分层才逐趋完善。最后，高密度矿粒集中在床层下部，低密度矿粒则聚集在上层。然后，从跳汰机分别排放出来，从而获得了两种密度不同，即质量不同的产物。</p>
 ]]></content>
   </entry>
   

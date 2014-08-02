@@ -52,7 +52,7 @@
   <header role="banner"><hgroup>
 	<h1><a href="/">Baham's Blog</a></h1>
   
-	<h2>Baham的个人博客</h2>
+	<h2>Above all else, guard your heart.</h2>
   
 </hgroup>
 </header>
@@ -90,7 +90,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/04_28_the-ruby-community.html">The Ruby Community</a></h1>
+      <h1 class="entry-title"><a href="/05_07_octopress-add-description-keywords-plugin-optimization.html">Octopress Add Description Keywords Plugin Optimization</a></h1>
     
     
       <p class="meta">
@@ -106,22 +106,28 @@
   
 
 
-<time datetime="2014-04-28T09:50:00+00:00" pubdate data-updated="true">Apr 28<span>th</span>, 2014</time>
+<time datetime="2014-05-07T01:22:00+00:00" pubdate data-updated="true">May 7<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>In these days, I read a book about ruby.</p>
+  <div class="entry-content"><p>Yesterday, when I just google my own site. I find the results show like this:</p>
 
-<p>And there are some ruby communities and blogs.</p>
+<p><img src="/images/baham/old-descripiton.jpg" alt="The Site's meta description" /></p>
+
+<p>But I did not want every page without description shows the site&rsquo;s description.</p>
+
+<p>Cause it is not good to index pages by search engine.</p>
+
+<p>So I want to optimizate the octopress plugin or called code to add the description and keywords.</p>
 
 </div>
   
   
     <footer>
-      <a rel="full-article" href="/04_28_the-ruby-community.html">Read on &rarr;</a>
+      <a rel="full-article" href="/05_07_octopress-add-description-keywords-plugin-optimization.html">Read on &rarr;</a>
     </footer>
   
 
@@ -133,7 +139,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/04_28_ruby-multi-line.html">Ruby&#8217;s Multiline</a></h1>
+      <h1 class="entry-title"><a href="/05_06_what-an-amazing-software.html">What an Amazing Software</a></h1>
     
     
       <p class="meta">
@@ -149,33 +155,26 @@
   
 
 
-<time datetime="2014-04-28T01:11:00+00:00" pubdate data-updated="true">Apr 28<span>th</span>, 2014</time>
+<time datetime="2014-05-06T11:06:00+00:00" pubdate data-updated="true">May 6<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>How to show<em> mutilines</em> in <em>Ruby&rsquo;s code</em></p>
+  <div class="entry-content"><p><strong>Sage</strong> I knew this software about 2 years ago. When I was on a cryptology calss. And the reacher notice this amazing math software. He showed it with virtual mechine. Cause he use windows as his os. But you know that time, I already started to use linux.</p>
 
-<p>In summary, there are 2 ways:</p>
+<p>And after that class, I installed sage, but nearlly not use it.</p>
 
-<h3>1 use %q{}</h3>
+<p>Until in these days, I heard a friend talk about using <em>Matlab</em> to calculate something for his paper. And I decided to learn a math software seriously.</p>
 
-<p>For example:</p>
-
-<pre><code>x = %q{ line1
-line2
-line3}
-</code></pre>
-
-<p><em>or use %q!! %q() and so on</em></p>
+<p>Like him, I want to choose Matlab, but it is not free. Although my friend tell me matlab is easy to learn.</p>
 
 </div>
   
   
     <footer>
-      <a rel="full-article" href="/04_28_ruby-multi-line.html">Read on &rarr;</a>
+      <a rel="full-article" href="/05_06_what-an-amazing-software.html">Read on &rarr;</a>
     </footer>
   
 
@@ -187,7 +186,7 @@ line3}
       
   <header>
     
-      <h1 class="entry-title"><a href="/04_27_3-hours-in-zhengzhou.html">About 3 Hours in Zhengzhou</a></h1>
+      <h1 class="entry-title"><a href="/05_06_ruby-multidimensional-arrays.html">Ruby Multidimensional Arrays</a></h1>
     
     
       <p class="meta">
@@ -203,26 +202,46 @@ line3}
   
 
 
-<time datetime="2014-04-27T02:57:00+00:00" pubdate data-updated="true">Apr 27<span>th</span>, 2014</time>
+<time datetime="2014-05-06T06:19:00+00:00" pubdate data-updated="true">May 6<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>When I was in Pingdingshan, I need to came back to Xuzhou City to get my debit card.</p>
+  <div class="entry-content"><p>Today, when I use Two-dimensional array with ruby.</p>
 
-<p>So I asked 2 day for leave.</p>
+<p>Like:</p>
 
-<p>But the ticket of train from Pingdingshan to Xuzhou with a chair is gone. So I bought a ticket from Pingdingshan to Zhengzhou and a ticket from Zhengzhou to Xuzhou.</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">arr</span><span class="o">=[]</span>
+</span><span class='line'><span class="n">arr2</span><span class="o">=[]</span>
+</span><span class='line'><span class="mi">3</span><span class="o">.</span><span class="n">times</span>  <span class="p">{</span> <span class="n">arr2</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot;_&quot;</span> <span class="p">}</span>
+</span><span class='line'><span class="mi">3</span><span class="o">.</span><span class="n">time</span>   <span class="p">{</span><span class="n">arr</span> <span class="o">&lt;&lt;</span> <span class="n">arr2</span><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
 
-<p>So I have about 3 hours to travel in Zhengzhou and to wait for the train.</p>
+
+<p>And when I change the <code>arr[1][1] to "-"</code></p>
+
+<p>It will show:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'> <span class="n">_</span> <span class="o">-</span> <span class="n">_</span>
+</span><span class='line'> <span class="n">_</span> <span class="o">-</span> <span class="n">_</span>
+</span><span class='line'> <span class="n">_</span> <span class="o">-</span> <span class="n">_</span>
+</span></code></pre></td></tr></table></div></figure>
+
 
 </div>
   
   
     <footer>
-      <a rel="full-article" href="/04_27_3-hours-in-zhengzhou.html">Read on &rarr;</a>
+      <a rel="full-article" href="/05_06_ruby-multidimensional-arrays.html">Read on &rarr;</a>
     </footer>
   
 
@@ -234,7 +253,7 @@ line3}
       
   <header>
     
-      <h1 class="entry-title"><a href="/04_26_internship-in-pingdingshan.html">The Internship in Pingdingshan</a></h1>
+      <h1 class="entry-title"><a href="/05_05_the-great-hypnotist.html">The Great Hypnotist Feedback</a></h1>
     
     
       <p class="meta">
@@ -250,30 +269,35 @@ line3}
   
 
 
-<time datetime="2014-04-26T12:32:00+00:00" pubdate data-updated="true">Apr 26<span>th</span>, 2014</time>
+<time datetime="2014-05-05T01:48:00+00:00" pubdate data-updated="true">May 5<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>Pingdingshan city is also called Eagle City. And it is rich with coal, most are for coking.</p>
+  <div class="entry-content"><p><img src="http://img3.douban.com/view/movie_poster_cover/spst/public/p2181062460.jpg" alt="The Great Hypnotist" />
+<em>The Great Hypnotist</em> in Chineseit is called  <strong>催眠大师</strong>.</p>
 
-<p>I had an about 20 days internship here.</p>
+<p>A movie about a successfull Psychiatrist. And It is B-Movies. They only frame an old house, a bar and a car &hellip; It is very low-cost.</p>
 
-<p>So if I describe the story with nothing omitted, it will take a long time.</p>
+<p>But in China, this is not normol.</p>
 
-<p>So I just try to keep ths story short.</p>
+<p>Cause since theater allows playing American movies, people knew high cost of films, and more and more pictures companies prone to shoot high-cost films and earn more.</p>
 
-<p>Where we lived is Tianhong Hotel. Where we watch were Tianzhuang Coal Preparation Plant and Tianhong Coal Preparation Plant.</p>
+<p>But this movie is different. It is a low-cost movie.</p>
 
-<p>And we also went to Beijing Huayu Company.</p>
+<p>Further, not only the cost is different.</p>
+
+<p>In China, there is nearlly no thriller or horror films. Because the SARFT dislike. They like <em>Red Films</em> and <em>Disaster in Foreign nations movies</em>. And most of thriller or horror film would not be approved.</p>
+
+<p>But this thriller and suspense is approved.</p>
 
 </div>
   
   
     <footer>
-      <a rel="full-article" href="/04_26_internship-in-pingdingshan.html">Read on &rarr;</a>
+      <a rel="full-article" href="/05_05_the-great-hypnotist.html">Read on &rarr;</a>
     </footer>
   
 
@@ -285,7 +309,7 @@ line3}
       
   <header>
     
-      <h1 class="entry-title"><a href="/04_26_exchange-dream-by-jiaqian.html">Exchange Dream by Jiaqian</a></h1>
+      <h1 class="entry-title"><a href="/05_02_church-meeting-in-worker-s-day.html">Labor Day&#8217;s Church Meeting</a></h1>
     
     
       <p class="meta">
@@ -301,28 +325,32 @@ line3}
   
 
 
-<time datetime="2014-04-26T01:46:00+00:00" pubdate data-updated="true">Apr 26<span>th</span>, 2014</time>
+<time datetime="2014-05-02T02:38:00+00:00" pubdate data-updated="true">May 2<span>nd</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>The first day in Guangzhou City, there is the Exchange Dream by Jiaqian.</p>
+  <div class="entry-content"><p>In Labor Day, there are 2 meetings, One is Niu&rsquo;s web meeting, the othe is church&rsquo;s meeting in Xuzhou countryside.</p>
 
-<p>So when I went to Sun Yat-sen University to join in it.</p>
+<p>I wake up at about 6:40 am and call Qing wake up.</p>
 
-<p>It is my second time to take Guangzhou Train. And when got there, I didn&rsquo;t know where is north. So I thount and found it by the building&rsquo;s  window(You know although in sourth of China, people still build the big window to sourth).</p>
+<p>And eat, and take iron plates with Qing to the school&rsquo;s door. Waited for others to go to the church meeting.</p>
 
-<p>And with the map, I found the university. But I did not get it, so I asked a passby, he told me the position.</p>
+<p>The place there is called 4 Pu, it means <code>Castel 4</code>, but there are not castels, lol.</p>
 
-<p><img src="/images/guangdong/sunyatsen.jpg" alt="sun-yat-sen-university" /></p>
+<p>When we get there, the others from our fellowship was still in the web meeting.</p>
+
+<p>And I help to take the meat off from bamboo slip and string them up with iron slip.</p>
+
+<p>It is an easy job but boring. But I am tired cause it is a good thing for others.</p>
 
 </div>
   
   
     <footer>
-      <a rel="full-article" href="/04_26_exchange-dream-by-jiaqian.html">Read on &rarr;</a>
+      <a rel="full-article" href="/05_02_church-meeting-in-worker-s-day.html">Read on &rarr;</a>
     </footer>
   
 
@@ -358,11 +386,39 @@ line3}
     <h2 class="panel-title">Category Cloud</h2>
   </div>
 <div id="recent_posts" class="list-group">
-	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 120.0%'>Announcement(10)</a> <a href='/blog/categories/baham' style='font-size: 128.0%'>Baham(14)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 112.0%'>Blender(6)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 114.0%'>CUMT(7)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 146.0%'>Faith(23)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 104.0%'>Google(2)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/harmonica' style='font-size: 102.0%'>Harmonica(1)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 104.0%'>Job(2)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 124.0%'>Memo(12)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 112.0%'>Mineral Processing(6)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/python' style='font-size: 102.0%'>Python(1)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/teofl' style='font-size: 102.0%'>Teofl(1)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 112.0%'>Video(6)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
+	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 120.0%'>Announcement(10)</a> <a href='/blog/categories/baham' style='font-size: 128.0%'>Baham(14)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 114.0%'>Blender(7)</a> <a href='/blog/categories/book' style='font-size: 112.0%'>Book(6)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 114.0%'>CUMT(7)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 146.0%'>Faith(23)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 132.0%'>Geek(16)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 104.0%'>Google(2)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/harmonica' style='font-size: 102.0%'>Harmonica(1)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 112.0%'>Job(6)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 124.0%'>Memo(12)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 116.0%'>Mineral Processing(8)</a> <a href='/blog/categories/mooc' style='font-size: 106.0%'>MOOC(3)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/python' style='font-size: 102.0%'>Python(1)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 104.0%'>Software(2)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/teofl' style='font-size: 102.0%'>Teofl(1)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 124.0%'>Travel(12)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 112.0%'>Video(6)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
 </div>
 </section><section>
   <h2>Recent Posts</h2>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/08_01_the-feeling-of-using-the-kobo-glo.html">The feeling of using the kobo glo</a>
+      </li>
+    
+      <li class="post">
+        <a href="/08_01_i-built-a-floation-separator-with-blender.html">I built a Flotation Separator with blender</a>
+      </li>
+    
+      <li class="post">
+        <a href="/07_31_3-churches-i-met-in-dandong.html">3 Churches I met in Dandong</a>
+      </li>
+    
+      <li class="post">
+        <a href="/07_25_the-difference-between-coal-preparation-and-the-metal-preparation.html">The difference between Coal Preparation and the Metal Preparation</a>
+      </li>
+    
+      <li class="post">
+        <a href="/07_25_the-first-weeks-salary.html">The First Week&#8217;s Salary</a>
+      </li>
+    
+      <li class="post">
+        <a href="/07_17_seven-days-train.html">Seven Days&#8217; Train</a>
+      </li>
+    
+      <li class="post">
+        <a href="/07_15_a-muslim-girl-i-know.html">A Muslim Girl I Know</a>
+      </li>
     
       <li class="post">
         <a href="/07_10_driving.html">Driving</a>
@@ -414,34 +470,6 @@ line3}
     
       <li class="post">
         <a href="/06_06_when-the-block-will-end.html">When the block will end?</a>
-      </li>
-    
-      <li class="post">
-        <a href="/06_01_upgrade-linux-mint16-to-linux-mint-17-qiana.html">Upgrade Linux mint16 to Linux mint 17 Qiana</a>
-      </li>
-    
-      <li class="post">
-        <a href="/05_30_teach-children-to-prevent-sexual-assault.html">Teach children to prevent sexual assault</a>
-      </li>
-    
-      <li class="post">
-        <a href="/05_30_one-accosting.html">one accosting</a>
-      </li>
-    
-      <li class="post">
-        <a href="/05_29_jesus-knows-your-pain.html">Jesus knows Your pain</a>
-      </li>
-    
-      <li class="post">
-        <a href="/05_23_ordination-the-first-time-i-joined.html">Ordination-The First Time I joined</a>
-      </li>
-    
-      <li class="post">
-        <a href="/05_15_6-tips-to-writing-more-beautiful-python-codes.html">6 Tips to Writing More Beautiful Python Codes(For Beginners)</a>
-      </li>
-    
-      <li class="post">
-        <a href="/05_14_about-the-translation-category.html">About the Translation Category</a>
       </li>
     
   </ul>

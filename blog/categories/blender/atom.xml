@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Blender | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/blender/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-07-12T03:40:22+00:00</updated>
+  <updated>2014-08-02T07:27:31+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[I built a Flotation Separator with blender]]></title>
+    <link href="http://baham.co/08_01_i-built-a-floation-separator-with-blender.html"/>
+    <updated>2014-08-01T00:58:00+00:00</updated>
+    <id>http://baham.co/i-built-a-floation-separator-with-blender</id>
+    <content type="html"><![CDATA[<p><img src="/images/mineral/flotation1.jpg" alt="Flotation Separator" />
+Boss Xie had talked with us fresh men about the 3D moduling, he thought the studio need men to build 3D module. And I can kind of use <em>Blender</em>, I told him this.</p>
+
+<p>After this talk, I started learning and using blender again. Though I had no books to watch. But there are many tutorials in my disk, after all, blender is an open software. A few days ago, I finished this flotation separator.<!--more--></p>
+
+<p><img src="/images/mineral/flotation2.jpg" alt="FS" /></p>
+
+<p>It is not very cool, or verisimilitude. But at least, when I show this to Biao, he can recognize it.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Blender新开源短片]]></title>
@@ -90,34 +106,6 @@
 
 <p><a href="https://docs.google.com/file/d/0B4GRRqxWzRx7LUZvRkwtLTJDREU/edit?usp=sharing">blender wiki </a>
 <a href="https://docs.google.com/file/d/0B4GRRqxWzRx7T0Y5R0thRlJqeTQ/edit?usp=sharing">blender book</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Blender视频教程收集整理]]></title>
-    <link href="http://baham.co/09_14_595.html"/>
-    <updated>2012-09-14T23:49:43+00:00</updated>
-    <id>http://baham.co/595</id>
-    <content type="html"><![CDATA[<h1>1 Super3Boy系列教程：</h1>
-
-<!-- more -->
-
-
-<p><em>Super3Boy</em>系列<strong>Blender教程</strong>Youku播放地址：<a href="http://www.youku.com/playlist_show/id_4120562.html">http://www.youku.com/playlist_show/id_4120562.html</a></p>
-
-<p>总时长约4小时。</p>
-
-<h1>2 Sintel全系列教程</h1>
-
-<p>网易公开课视频教程:<a href="http://open.sina.com.cn/Sintel.html">http://open.sina.com.cn/Sintel.html</a></p>
-
-<p>已经翻译完成，共27集</p>
-
-<h1>3 火星网Blender相关中文教程</h1>
-
-<p><a href="http://www.vhxsd.com/list/483">http://www.vhxsd.com/list/483</a></p>
-
-<p>纯中文教程，比较初级，时长较短，内容较少，总共15集。</p>
 ]]></content>
   </entry>
   
