@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-08-02T07:27:31+00:00</updated>
+  <updated>2014-08-04T09:49:26+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -14,11 +14,51 @@
 
   
   <entry>
-    <title type="html"><![CDATA[The feeling of using the kobo glo]]></title>
+    <title type="html"><![CDATA[I built a Flotation Separator with blender]]></title>
+    <link href="http://baham.co/08_01_i-built-a-floation-separator-with-blender.html"/>
+    <updated>2014-08-01T00:58:00+00:00</updated>
+    <id>http://baham.co/i-built-a-floation-separator-with-blender</id>
+    <content type="html"><![CDATA[<p><img src="http://baham.co/images/mineral/flotation1.jpg" alt="Flotation Separator" />
+Boss Xie had talked with us fresh men about the 3D moduling, he thought the studio need men to build 3D module. And I can kind of use <em>Blender</em>, I told him this.</p>
+
+<p>After this talk, I started learning and using blender again. Though I had no books to watch. But there are many tutorials in my disk, after all, blender is an open software. A few days ago, I finished this flotation separator.<!--more--></p>
+
+<p><img src="http://baham.co/images/mineral/flotation2.jpg" alt="FS" /></p>
+
+<p>It is not very cool, or verisimilitude. But at least, when I show this to Biao, he can recognize it.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/08_01_i-built-a-floation-separator-with-blender.html">http://baham.co/08_01_i-built-a-floation-separator-with-blender.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Feeling Of Using The Kobo Glo]]></title>
     <link href="http://baham.co/08_01_the-feeling-of-using-the-kobo-glo.html"/>
-    <updated>2014-08-01T08:18:00+00:00</updated>
+    <updated>2014-08-01T00:00:00+00:00</updated>
     <id>http://baham.co/the-feeling-of-using-the-kobo-glo</id>
-    <content type="html"><![CDATA[<p>I wanted to buy an elink ereader long long ago. But I did not buy it, cause I did not have enough money.</p>
+    <content type="html"><![CDATA[<p>﻿&mdash;&ndash;
+layout: post
+title: &ldquo;The feeling of using the kobo glo&rdquo;
+date: 2014-08-01 08:18
+comments: true
+categories: [Book]
+keywords: kobo, glo, elink, ereader</p>
+
+<h2>description: </h2>
+
+<p>I wanted to buy an elink ereader long long ago. But I did not buy it, cause I did not have enough money.</p>
 
 <p>After I got my first week salary, I wanted to buy something for myself. I find my roomate Ning has a Kindle 3 ereader. I try to use it, it is pretty cool. And I find it has a enough good reading experienment, though it is an old version of Kindle. You know my salary is not enough to buy a Kindle Paperwhite. When I saw this ereaker, I decided not to buy kpw. After the contrasting with different ereaders, Kindle, kobo, nook. Finally, I decided to buy kobo glo.<!--more--></p>
 
@@ -47,36 +87,6 @@
 
 
 <p>The Original Link: <a href="http://baham.co/08_01_the-feeling-of-using-the-kobo-glo.html">http://baham.co/08_01_the-feeling-of-using-the-kobo-glo.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[I built a Flotation Separator with blender]]></title>
-    <link href="http://baham.co/08_01_i-built-a-floation-separator-with-blender.html"/>
-    <updated>2014-08-01T00:58:00+00:00</updated>
-    <id>http://baham.co/i-built-a-floation-separator-with-blender</id>
-    <content type="html"><![CDATA[<p><img src="http://baham.co/images/mineral/flotation1.jpg" alt="Flotation Separator" />
-Boss Xie had talked with us fresh men about the 3D moduling, he thought the studio need men to build 3D module. And I can kind of use <em>Blender</em>, I told him this.</p>
-
-<p>After this talk, I started learning and using blender again. Though I had no books to watch. But there are many tutorials in my disk, after all, blender is an open software. A few days ago, I finished this flotation separator.<!--more--></p>
-
-<p><img src="http://baham.co/images/mineral/flotation2.jpg" alt="FS" /></p>
-
-<p>It is not very cool, or verisimilitude. But at least, when I show this to Biao, he can recognize it.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/08_01_i-built-a-floation-separator-with-blender.html">http://baham.co/08_01_i-built-a-floation-separator-with-blender.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
@@ -703,7 +713,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     <link href="http://baham.co/06_09_rhinoceros-in-love.html"/>
     <updated>2014-06-09T09:51:00+00:00</updated>
     <id>http://baham.co/rhinoceros-in-love</id>
-    <content type="html"><![CDATA[<p>Every year, Stage Play Corporation in CUMT put a stage play. This year, my last year in University, the stage show is called &ldquo;Rhinoceros in Love&rdquo;, and the four years in university, I watched the stage show from this corporation 3 times, this is the third time. And  only this time I got a girl partener with me to watch it.</p>
+    <content type="html"><![CDATA[<p>Every year, Stage Play Corporation in CUMT put a stage play. This year, my last year in University, the stage show is called &ldquo;Rhinoceros in Love&rdquo;, and the four years in university, I watched the stage show from this corporation 3 times, this is the third time.</p>
 
 <p>The first stage show I watched in CUMT is called &ldquo;暗恋桃花源&rdquo; in Chinese, the second was &ldquo;红玫瑰与白玫瑰&rdquo;, writed by Ailing Zhang, the title means &ldquo;Red Rose and White Rose&rdquo;. You know, all these three are about love.</p>
 
@@ -717,17 +727,19 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
 <p> I woke up about 6 am on Sunday, and I did not watch the phone.</p>
 
-<p> On the road to the fellowship, I saw Ren, but he walked so fast that I could not get him, after I turned right out the sourth gate, I heard some steps, and I turn back, there is a girl, Yan. She told me maybe I did not receive the message she sent, I took out my phone from my pocket, I found she told me she get 2 tickets and invite me to watch the show with her.</p>
+<p> On the road to the fellowship, I saw Ren, but he walked so fast that I could not get him, after I turned right out the sourth gate, I heard some steps, and I turn back, there is a girl, Yan. She told me maybe I did not receive the message she sent, I took out my phone from my pocket, I found she told me she get 2 tickets and invite me to watch the show.</p>
 
-<p> <code>What a surprise God give me,  thanks God.</code></p>
+<p> <code>What a surprise.</code></p>
 
-<p> Before the time the show started, we get on the bus hiredby Materail College and we talked a lot on the road, about TV, driving exam, movies, novels and so on.</p>
+<p> Before the time the show started, we get on the bus hired by Materail College and we talked a lot on the road, about TV, driving exam, movies, novels and so on. And she tell me the captain teacher, that who really like the show, the art and literature.</p>
 
-<p> Even between the show, we still talked about the show, the plot of show, the music. The song from Skeeter Davis&mdash; &lsquo;the end of the world&rsquo; the song I really like.</p>
+<p> When we arrived in Wenchang Camp, the theatre is neally full filled. And there are many my classmates, Jin, Ren, Jiao, Wu and so on.</p>
 
-<p> On the back road, we still talked a lot, and she came with me to Xing 1 to get the onda pad, Cause I knew she did not get throuth the driving exam and I wanted to  lend her the pad to help her to get through the driving exam.</p>
+<p> In the show, there is an interlude, the song from Skeeter Davis&mdash; &lsquo;the end of the world&rsquo;, the song I really like, (And this song is used in Hanhan’s film &mdash; <em>Hou Hui Wu Qi</em>, It means ‘never meet again’. And it is used in ‘Under the Doom’ too. )</p>
 
-<p> What a happy day and a meaningful experience, and thanks God to give me this happy experience and such beautiful friendship, such a kind friend.</p>
+<p> When we got back to the Nanhu Camp, I lent my onda pad for Yan, Cause I found she did not get throuth the driving exam and had a android pad not used for a long time, though that time I found my pad’s battery is empty, and the app was uninstalled.</p>
+
+<p> What a happy day and a meaningful experience, and thanks God to give me this happy experience and such beautiful friendship.</p>
 
 <p>And thanks  Yan&rsquo;s help. <p class='post-footer' style="font-size:70%;" ></p>
 
