@@ -1227,12 +1227,12 @@
         <lastmod>2014-07-31T09:37:09+00:00</lastmod>
     </url>
     <url>
-        <loc>http://baham.co/08_01_the-feeling-of-using-the-kobo-glo.html</loc>
-        <lastmod>2014-08-04T01:06:21+00:00</lastmod>
-    </url>
-    <url>
         <loc>http://baham.co/08_01_i-built-a-floation-separator-with-blender.html</loc>
         <lastmod>2014-08-01T01:18:45+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://baham.co/08_04_using-the-kobo-glo.html</loc>
+        <lastmod>2014-08-04T13:46:29+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/friendly-links/</loc>
@@ -1260,7 +1260,7 @@
     </url>
     <url>
         <loc>http://baham.co/assets/bootstrap/docs/</loc>
-        <lastmod>2014-08-04T07:37:48+00:00</lastmod>
+        <lastmod>2014-08-04T13:46:29+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/assets/bootstrap/docs/css.html</loc>
@@ -1292,11 +1292,11 @@
     </url>
     <url>
         <loc>http://baham.co/blog/archives/</loc>
-        <lastmod>2014-08-04T07:37:48+00:00</lastmod>
+        <lastmod>2014-08-04T13:46:29+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/blog/categories/</loc>
-        <lastmod>2014-08-04T07:37:48+00:00</lastmod>
+        <lastmod>2014-08-04T13:46:29+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/contactme/</loc>
@@ -1312,7 +1312,7 @@
     </url>
     <url>
         <loc>http://baham.co/</loc>
-        <lastmod>2014-08-04T07:37:48+00:00</lastmod>
+        <lastmod>2014-08-04T13:46:29+00:00</lastmod>
     </url>
     <url>
         <loc>http://baham.co/contactme-en/</loc>
