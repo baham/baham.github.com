@@ -61,7 +61,7 @@
   
 </ul>
   
-<form action="http://google.com/search" method="get">
+<form action="https://google.com/search" method="get">
   <fieldset role="search">
     <input type="hidden" name="q" value="site:baham.co" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
@@ -90,7 +90,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/08_05_362.html">Java题目-使用ArrayList-实现词汇表比较</a></h1>
+      <h1 class="entry-title"><a href="/08_09_402.html">编程练习-稳定婚姻问题（Stable Marriage）</a></h1>
     
     
       <p class="meta">
@@ -106,73 +106,26 @@
   
 
 
-<time datetime="2012-08-05T16:03:23+00:00" pubdate data-updated="true">Aug 5<span>th</span>, 2012</time>
+<time datetime="2012-08-09T22:06:35+00:00" pubdate data-updated="true">Aug 9<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>要求：</p>
+  <div class="entry-content"><p>对于给定的一群男女，在他们当中建立尽可能多的<strong>稳定婚姻</strong>。如果现在一对夫妻能找到比他们的配偶更适合的异性，则他们的混为<strong>不稳定婚姻</strong>。</p>
 
-<p>程序可以读取两个不同的文件并比较它们使用的词汇，具体说来就是要统计出每个文件中出现的<strong>不同的单词集合</strong>，并计算两个文件中<strong>交集的部分</strong>。</p>
+<p>输入文件中所有男人信息放在一起，没人一行，然后是空行，后面是女人的信息，也是没人一行。每个人根据他们的行号进行编号（如，第一个男人为1号）。输入文件的每一行的开头都是人命（男女间空行除外），后面是冒号，在后面是<strong>一串整数</strong>，用以保存每个人对配偶的偏好。例如：</p>
 
-<p>可以通过该程序估计作品A与作品B是否是同一作者。</p>
+<p>Java: 10 8 5 6</p>
 
-<p> <p class='post-footer' style="font-size:70%;" ></p>
+<p>名为<strong>Java</strong>的人，和异性中10号是最好的组合，8号其次，不再列表上的无法组合。</p>
 
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="/08_05_362.html">http://baham.co/08_05_362.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/08_03_356.html">Baham&#8217;s Blog七月文章整理</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-03T22:30:29+00:00" pubdate data-updated="true">Aug 3<span>rd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h2><a href="http://baham.co/07_20_51.html"></div>
+<p>完整示例如下：</div>
   
   
     <footer>
-      <a rel="full-article" href="/08_03_356.html">Read on &rarr;</a>
+      <a rel="full-article" href="/08_09_402.html">Read on &rarr;</a>
     </footer>
   
 
@@ -184,7 +137,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
       
   <header>
     
-      <h1 class="entry-title"><a href="/08_03_353.html">《Building Java Programs》-ArrayList小结</a></h1>
+      <h1 class="entry-title"><a href="/08_07_398.html">Java集合框架练习-计算素数</a></h1>
     
     
       <p class="meta">
@@ -200,22 +153,141 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
   
 
 
-<time datetime="2012-08-03T19:52:23+00:00" pubdate data-updated="true">Aug 3<span>rd</span>, 2012</time>
+<time datetime="2012-08-07T20:06:05+00:00" pubdate data-updated="true">Aug 7<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p><em>java.util</em>包中的<strong>ArrayList</strong>类表示一个大小可以自动增长的对象列表，它在内部用数组来实现这个列表。可以用ArrayList顺序地保存对象元素，其元素索引从0开始。</p>
+  <div class="entry-content"><h2>要求：</h2>
+
+<ul>
+<li><p>使用<strong>链表</strong>（LinkedList）；</p></li>
+<li><p>使用“<strong>埃拉托塞尼筛法</strong>”（源自古希腊数学家Eratosthenes）。使用两个列表，一个存储所有待检查数（要求第一个数必须为素数），一个存储发现的素数。步骤如下：</p></li>
+</ul>
+
+
+<blockquote><ol>
+<li><p> 第一步是将数字列表中第一个书删除并将其加入素数列表；</p></li>
+<li><p> 将列表中所有被删除输的数的倍数删除；</p></li>
+<li><p> 删除下一个素数并将其加入素数列表，然后重复第二步。</p></li>
+</ol>
+</blockquote>
+
+<h2>示例：</h2>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/08_07_398.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/08_07_395.html">List、Set和Map之间的比较</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-07T11:25:56+00:00" pubdate data-updated="true">Aug 7<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h1>列表、数学集合、映射（List、Set和Map）对比</h1>
+
+<h1>List</h1>
+
+<h2>实现</h2>
+
+<p>ArrayList、LinkedList</p>
+
+<h2>描述/优点</h2>
+
+<p>元素按照插入顺序排列</p>
+
+<h2>缺点</h2>
+
+<p>查询速度慢，在任意位置插入、删除元素也很慢</p>
+
+<h2>使用实例</h2>
+
+<p>账户列表、等待队列、文件中的内容行。</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/08_07_395.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/08_06_389.html">《Building Java Programs》-Java集合框架（Java Collection Framework）</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-06T23:00:55+00:00" pubdate data-updated="true">Aug 6<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework-300x161.png" alt="Java集合框架-java collection framework-示意图" />(<a href="http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework.png">http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework.png</a>) Java集合框架（点击浏览大图）</p>
+
+<p>ArrayList的优点在于可以随机访问每一个元素，也可以快速在尾部添加或删除元素。但在头部添加、删除元素时，ArrayList的执行效率很低，因为每次从列表中删除或添加一个元素，都要将该元素所有后继元素向前后向后移动一个位置，此时需要通过使用<strong>node（节点）</strong>存储元素的<strong>LinkedList（链表）</strong>。LinkedList满足<strong>Collection接口</strong>，而<strong>Collection接口</strong>和<strong>Map接口</strong>构成了<strong>Java集合框架</strong>的主体。</p>
 
 <ol>
-<li><p> ArrayList是一个<strong>泛型类</strong>，创建泛型类对象时需要指定一种数据类型，例如，<strong>ArrayList<String></strong>。</p></li>
-<li><p> ArrayList可以自己维护列表的大小，可以在任何索引位置插入或删除元素。ArrayList还支持<em>get、set、clear、、toString</em>等方法。</p></li>
-<li><p> 可以用<em>contains、indexOf、lastIndexOf</em>方法查找ArrayList中的元素。</p></li>
-<li><p> 可以用<strong>for-each循环</strong>来<strong>遍历</strong>ArrayList中的元素。但在这个过程中不能修改列表的内容。</p></li>
-<li><p> 如果要在ArrayList中保存基本类型的数据，如int或double等，就必须在创建对象时，使用其对应的<strong>包装类</strong>，如Integert和Double。</p></li>
-<li><p> <strong>Comparable接口</strong>定义了可以实现自然排序的compareTo方法。实现了Comparable接口的类可以保存到ArrayList对象中，很多常用类型（如：String，Integer）都实现了Comparable接口，也可以在自定义类中实现Comparable接口。</p></li>
+<li><p> 集合对象中保存着一族其他对象。Java的集合对象包括ArrayList、HashSet和TreeSet等等。集合对象主要用于<strong>保存、组织和查询</strong>数据。</p></li>
+<li><p> <strong>链表(LinkedList)</strong>是一种集合对象，它与ArrayList很相似，但在内部实现上采用了“<strong>节点</strong>”保存每一个元素。对于某些操作，如在列表开头插入或删除元素，链表的执行效率远高于ArrayList。</p></li>
+<li><p> <strong>迭代器（Iterator）</strong>是一种对象，它可以保存访问列表过程中的当前位置，因此可以加快<strong>顺序访问</strong>列表元素的速度。通常采用迭代器来提高访问链表（LinkedList）操作的效率。</p></li>
+<li><p> <strong>抽象数据类型（ADT）</strong>，例如List、Set，定义了一族相关的操作，Java集合框架中用接口来表示ADT（例如List接口，ArrayList和LinkedList均实现了该接口）。</p></li>
+<li><p> <strong>数学集合（Set）</strong>中不允许出现重复元素。Set可以快速查找一个给定值是否在集合中存在。Java中用Set接口表示数学集合。</p></li>
+<li><p> Java中有两个主要的数学集合类：<strong>TreeSet</strong>和<strong>HashSet</strong>。TreeSet以某种顺序来保存一些可以进行比较的数据。HashSet可以保存任何数据，包括未满足Comparable接口的元素，而且检索速度更快，但不能控制集合中元素的顺序。</p></li>
+<li><p> <strong>映射</strong>将一组<strong>键（Key）</strong>对象关联（映射）到一组<strong>值（Value）</strong>对象上。它用来保存一对拥有特定关系的数据，例如某人的姓名和他的身份证号。</p></li>
+<li><p> Java中使用<strong>Map接口</strong>表示映射，其中有两个主要的映射类：<strong>TreeMap</strong>和<strong>HashMap</strong>。类似于数学集合（Set），TreeMap以某种顺序保存可以进行比较的键对象。HashMap可以保存任何键对象，而且检索素的更快，但却不能控制对象存放的顺序。在不考虑键对象顺序时，Sun推荐使用HashMap。</p></li>
 </ol>
 
 
@@ -230,7 +302,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 <br/>
 
 
-<p>The Original Link: <a href="/08_03_353.html">http://baham.co/08_03_353.html</a><br/>
+<p>The Original Link: <a href="/08_06_389.html">http://baham.co/08_06_389.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 </div>
@@ -245,7 +317,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
       
   <header>
     
-      <h1 class="entry-title"><a href="/08_02_328.html">详解Tic-Tac-Toe人工智能实现</a></h1>
+      <h1 class="entry-title"><a href="/08_06_370.html">JavaZone视频集锦2-JavaZone四个最受欢迎的演讲视频</a></h1>
     
     
       <p class="meta">
@@ -261,87 +333,26 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
   
 
 
-<time datetime="2012-08-02T21:12:39+00:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2012</time>
+<time datetime="2012-08-06T00:00:57+00:00" pubdate data-updated="true">Aug 6<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_18-53-21.png" alt="井字棋棋盘 tic-tac-toe 棋盘" /> 井字棋棋盘</p>
-
-<p><strong>Tic-Tac-Toe</strong>又称<strong>井字棋</strong>，即在3X3的棋盘上，双方轮流落子，先将3枚棋子连成一线的一方获得胜利。</p>
-
-<p>Tic-Tac-Toe变化简单，只有765个可能局面，26830个棋局，因此常成为<a href="https://zh.wikipedia.org/wiki/%E5%8D%9A%E5%BC%88%E8%AE%BA">博弈论</a>和<a href="https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E6%A8%B9">游戏树</a>搜寻的教学例子，同时也是<a href="https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD">人工智能</a>的一道好题目。</p>
+  <div class="entry-content"><h1><img src="http://baham.co/wp-content/uploads/2012/08/JavaZone-coolcode-300x219.png" alt="JavaZone视频演讲-Coolcode" /></h1>
 
 <h1></h1>
 
-<h1>关于棋盘：</h1>
+<h1></h1>
 
-<p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_18-58-43.png" alt="Tic-tac-toe棋盘坐标 井字棋 坐标" /> 井字棋棋盘坐标版</p>
+<h1></h1>
 
-<p>整个棋盘可以连接出<strong>8条线</strong>。<a href="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-12-42.png">tic-tac-toe 井字棋 胜利方式</a>（如右图）&mdash;&mdash;></p>
-
-<p>在中心的位置（2，2）有<strong>四条线</strong>穿过。</p>
-
-<p>在所有棱位（1，2），（2，1），（2，3），（3，2），均有<strong>两条线</strong>穿过。</p>
-
-<p>在所有角位（1，1），（1，3），（3，1），（3，3），均有<strong>三条线</strong>。</div>
+<h1></div>
   
   
     <footer>
-      <a rel="full-article" href="/08_02_328.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/08_02_318.html">Learn to Hack-如何成为一个黑客</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-02T12:19:34+00:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><strong><a href="http://baham.co/wp-content/uploads/2012/08/security.png"><img src="http://baham.co/wp-content/uploads/2012/08/security.png" alt="安全-learn to hack-如何成为黑客" /></a>攻击服务器</strong>、<strong>爆破密码</strong>、<strong>利用漏洞</strong>、<strong>破解加密</strong>，和所有一切保护你图里邪恶的东西。</p>
-
-<p>安全的计算机需要两种规则可以实现，</p>
-
-<ol>
-<li><p> <strong>不买，</strong></p></li>
-<li><p> <strong>买来计算机后，不去开机</strong></p></li>
-</ol>
-
-
-<p>打破其中任何一条，你就将面临着安全问题。在黑客眼里，没有一台计算机是100%安全的，但是你只需要简单几步，就能让你的计算机更难被破坏。</p>
-
-<p><strong>黑客行为</strong>是一门获取本没有访问权限的计算机系统权限的艺术，其间需要利用bug，本文将向您展示两种达到目的的方法，并且将教你如何避免成为受害者，我们将通过获取<strong>root权限</strong>（类Unix系统中最高权限）的方式达到我们想做的一切-<strong>盗取信息</strong>、<strong>破坏硬件</strong>。</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/08_02_318.html">Read on &rarr;</a>
+      <a rel="full-article" href="/08_06_370.html">Read on &rarr;</a>
     </footer>
   
 
@@ -377,11 +388,35 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     <h2 class="panel-title">Category Cloud</h2>
   </div>
 <div id="recent_posts" class="list-group">
-	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 120.0%'>Announcement(10)</a> <a href='/blog/categories/baham' style='font-size: 128.0%'>Baham(14)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 114.0%'>Blender(7)</a> <a href='/blog/categories/book' style='font-size: 114.0%'>Book(7)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 114.0%'>CUMT(7)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 148.0%'>Faith(24)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 134.0%'>Geek(17)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 104.0%'>Google(2)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/harmonica' style='font-size: 102.0%'>Harmonica(1)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 116.0%'>Job(8)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 128.0%'>Memo(14)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 116.0%'>Mineral Processing(8)</a> <a href='/blog/categories/mooc' style='font-size: 108.0%'>MOOC(4)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/python' style='font-size: 102.0%'>Python(1)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 106.0%'>Software(3)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/teofl' style='font-size: 102.0%'>Teofl(1)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 126.0%'>Travel(13)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 112.0%'>Video(6)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
+	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 122.0%'>Announcement(11)</a> <a href='/blog/categories/baham' style='font-size: 128.0%'>Baham(14)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 114.0%'>Blender(7)</a> <a href='/blog/categories/book' style='font-size: 114.0%'>Book(7)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 114.0%'>CUMT(7)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 148.0%'>Faith(24)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 134.0%'>Geek(17)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 104.0%'>Google(2)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/harmonica' style='font-size: 102.0%'>Harmonica(1)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 118.0%'>Job(9)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 128.0%'>Memo(14)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 118.0%'>Mineral Processing(9)</a> <a href='/blog/categories/mooc' style='font-size: 110.0%'>MOOC(5)</a> <a href='/blog/categories/movie' style='font-size: 112.0%'>Movie(6)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/python' style='font-size: 102.0%'>Python(1)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 106.0%'>Software(3)</a> <a href='/blog/categories/technology' style='font-size: 104.0%'>Technology(2)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/teofl' style='font-size: 102.0%'>Teofl(1)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 126.0%'>Travel(13)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 112.0%'>Video(6)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
 </div>
 </section><section>
   <h2>Recent Posts</h2>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/11_01_model-thinking-on-coursera.html">Model Thinking on coursera</a>
+      </li>
+    
+      <li class="post">
+        <a href="/11_01_use-cloudflare-as-the-sites-cdn-again.html">Use CloudFlare as the site&#8217;s CDN again</a>
+      </li>
+    
+      <li class="post">
+        <a href="/10_28_2-movies-i-watched-these-days.html">2 movies I watched these days</a>
+      </li>
+    
+      <li class="post">
+        <a href="/10_28_the-third-time-a-cowork-advise-me-to-do-research-direction.html">The Third Time a cowork advise me to do research direction</a>
+      </li>
+    
+      <li class="post">
+        <a href="/10_28_dr-gaos-report.html">Dr Gao&#8217;s report</a>
+      </li>
+    
+      <li class="post">
+        <a href="/10_28_chinas-transgenic-calibration.html">China&#8217;s Transgenic Calibration</a>
+      </li>
     
       <li class="post">
         <a href="/10_09_model-thinking-universoty-of-michigan.html">Notes 1 of Model Thinking -Universoty of Michigan</a>
@@ -437,30 +472,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     
       <li class="post">
         <a href="/07_25_the-first-weeks-salary.html">The First Week&#8217;s Salary</a>
-      </li>
-    
-      <li class="post">
-        <a href="/07_17_seven-days-train.html">Seven Days&#8217; Train</a>
-      </li>
-    
-      <li class="post">
-        <a href="/07_15_a-muslim-girl-i-know.html">A Muslim Girl I Know</a>
-      </li>
-    
-      <li class="post">
-        <a href="/07_10_driving.html">Driving</a>
-      </li>
-    
-      <li class="post">
-        <a href="/07_10_toefl-test-i-took.html">Toefl Test I Took.</a>
-      </li>
-    
-      <li class="post">
-        <a href="/07_08_the-train-to-the-dandong.html">The Train to the Dandong</a>
-      </li>
-    
-      <li class="post">
-        <a href="/07_01_smart-phone.html">Smartphone</a>
       </li>
     
   </ul>

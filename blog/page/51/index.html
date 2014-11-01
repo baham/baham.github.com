@@ -61,7 +61,7 @@
   
 </ul>
   
-<form action="http://google.com/search" method="get">
+<form action="https://google.com/search" method="get">
   <fieldset role="search">
     <input type="hidden" name="q" value="site:baham.co" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
@@ -90,7 +90,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/10_27_658.html">娱乐之上-江南Style大集合</a></h1>
+      <h1 class="entry-title"><a href="/11_07_718.html">如何删除libgooglepinyin和ibus-googlepinyin</a></h1>
     
     
       <p class="meta">
@@ -106,22 +106,41 @@
   
 
 
-<time datetime="2012-10-27T16:03:45+00:00" pubdate data-updated="true">Oct 27<span>th</span>, 2012</time>
+<time datetime="2012-11-07T15:53:59+00:00" pubdate data-updated="true">Nov 7<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>1  娱乐之上-<strong>江南Style大集合</strong>-PSY &ndash; GANGNAM STYLE</p>
+  <div class="entry-content"><p><em>How to remove libgooglepinyin and ibus-google pinyin?</em></p>
 
-<p><embed src="http://player.youku.com/player.php/sid/XNDY3NTU5NjEy/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
+<p>之前用Xubuntu，配置安装<a href="http://code.google.com/p/libgooglepinyin/">goolgepinyin</a>，很容易。后来换到了KDE桌面的Fedora，使用googlepinyin，就不那么简单了。</p>
 
-</div>
+<p>首先安装，需要<a href="http://code.google.com/p/libgooglepinyin/wiki/INSTALL">编译安装</a>。</p>
+
+<p>安装很简单，只有几条命令，复制粘贴即可。问题是，如何卸载？</p>
+
+<p>sudo make uninstall</p>
+
+<p>不能直接卸载。后来搜索了一下，才知道，cmake不支持直接make uninstall</p>
+
+<p>万幸，最终还是找到了解决办法。</p>
+
+<h2>1 对于ibus-google-pinyin</h2>
+
+<p>只需要删除一个目录、一个文件。</p>
+
+<pre><code>sudo rm -fr /usr/share/ibus-googlepinyin
+
+sudo rm /usr/share/ibus/component/googlepinyin.xml
+</code></pre>
+
+<h2>2 对于libgooglepinyin</div>
   
   
     <footer>
-      <a rel="full-article" href="/10_27_658.html">Read on &rarr;</a>
+      <a rel="full-article" href="/11_07_718.html">Read on &rarr;</a>
     </footer>
   
 
@@ -133,7 +152,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/10_21_651.html">纪念文章-Baham Blog 第一篇通过客户端发布的博文</a></h1>
+      <h1 class="entry-title"><a href="/11_05_705.html">如何培养出人才</a></h1>
     
     
       <p class="meta">
@@ -149,16 +168,155 @@
   
 
 
-<time datetime="2012-10-21T00:00:59+00:00" pubdate data-updated="true">Oct 21<span>st</span>, 2012</time>
+<time datetime="2012-11-05T23:33:42+00:00" pubdate data-updated="true">Nov 5<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>下载并使用了Wordpress的客户端，不如在浏览器中功能强大，但是也已经很不错了。</p>
+  <div class="entry-content"><p>中国人一心想拿<strong>诺贝尔奖</strong>，就如同想拿奥运金牌、想举办奥运一样。结果呢，当你那了金牌、办了奥运。你才发现，其实你什么都没有得到，什么都没有改变。诺奖也一样。第一个拿诺奖的中国人（你我都清楚他不是莫言）。他拿到了，媒体也低调了，转变成了，要拿诺奖就拿<strong>自然科学</strong>上的诺奖，什么和平奖那是“工具”。不巧，2012年，<strong>莫言</strong>拿了一个非自然科学的诺奖，而且莫言不同于他拿些那非自科诺奖的中国人，他在国内，而且有“官职”，并且还是自由身。于是，一记耳光扇到了那些鼓吹拿自科诺奖的人身上，因为媒体开始盛赞莫言。我也顿觉害臊，为自己过去被灌进去的想法，以及还保留这想法的人害臊。</p>
 
-<p>支持 <strong>加粗</strong>，<em>斜体</em>，下划线，<del>删除线</del>，<a href="http://baham.co/10_21_651.html">链接</a>，<strong>引用</strong>，<strong>more标签</strong>。如果支持html代码可能会更好用。 另外支持上传照片及视频。 并且可以直接访问dashboard
+<p>其实，我可以很负责任地说，<strong>中国人不会拿到诺贝尔奖（自科），而且我也真心不希望有人拿到</strong>。拿到了又有什么用，奥运办过了，你的生活改变了吗？没有，日子照旧——<strong>赚钱，娶妻，贷款，买房，还房贷……</strong>还要盼着<strong>别金融危机啊，印钞厂少印点钱啊</strong>！空洞的、无意义的生活将一直这样下去，不会因为某人拿了诺奖而改变。</p>
+
+<p><strong>但是，什么能改变这些呢？</strong></p>
+
+<p><strong>——教育。</strong></div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/11_05_705.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/11_05_690.html">GooglePlay上四款很棒的圣经软件</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-05T22:10:22+00:00" pubdate data-updated="true">Nov 5<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>之前介绍过专为基督徒定制的linux发行版-<a href="http://baham.co/11_05_687.html">Ubuntu CE</a>，其实自从IPhone搅局以来，人们用在手机上的时间越来越多，PC上却越来越少，以下为个人手机的几款<strong>非常棒的圣经软件</strong>。鉴于国内网络环境，此处<strong>提供下载</strong>。</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/11_05_690.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/11_05_687.html">Ubuntu基督教版-Ubuntu Christian Edition</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-05T21:21:00+00:00" pubdate data-updated="true">Nov 5<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://ubuntuce.com/screenshots/12.04/login.png" alt="" /></p>
+
+<p><a href="https://zh.wikipedia.org/wiki/Ubuntu">Ubuntu</a>自从诞生以来，就有很多一期定制的发行版。</p>
+
+<p>比如非常火的<a href="http://www.linuxmint.com/">Linux Mint</a>，国内的YLMF，深度。</p>
+
+<p>对于<strong>基督徒</strong>，有一款专门为之设计的发行版，<a href="http://ubuntuce.com/">Ubuntu CE</a>。</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/11_05_687.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/11_05_680.html">英皇钦定版圣经(JKV)-中英epub电子书下载</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-05T20:56:06+00:00" pubdate data-updated="true">Nov 5<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>活了这么多年，突然发现自己根本没有<strong>信仰</strong>。真不知道自己为了什么而活？</p>
+
+<p>最近一直在读圣经</p>
+
+<p>找到了 <strong>King James Version</strong>的<strong>英</strong>文版</p>
+
+<p>分享给大家</p>
+
+<p>epub电子书格式：</p>
+
+<p><a href="http://bible.kuanye.net/langdu/kjv.htm">下载</a>
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -170,171 +328,11 @@
 <br/>
 
 
-<p>The Original Link: <a href="/10_21_651.html">http://baham.co/10_21_651.html</a><br/>
+<p>The Original Link: <a href="/11_05_680.html">http://baham.co/11_05_680.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 </div>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/10_08_645.html">莫言不会成为诺贝尔文学奖得主</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-10-08T18:44:33+00:00" pubdate data-updated="true">Oct 8<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>我预言。</p>
-
-<p>理由我保留。
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="/10_08_645.html">http://baham.co/10_08_645.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/10_06_626.html">骑马与砍杀：战团-各城市产出列表</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-10-06T16:08:09+00:00" pubdate data-updated="true">Oct 6<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><strong>骑马与砍杀：战团-各城市产出</strong></p>
-
-<h1>维吉亚王国</h1>
-
-<h2>库丹</h2>
-
-<p>面包、麦芽酒、皮革制品、工具、毛呢、陶器、油</p>
-
-<h2>日瓦丁</h2>
-
-<p>面包、麦芽酒、葡萄酒、皮革制品、工具、毛呢</p>
-
-<h2>库劳</h2>
-
-<p>面包、熏鱼、麦芽酒、葡萄酒、皮革制品、工具、生铁、毛呢、陶器</p>
-
-<h2>日瓦车则</h2>
-
-<p>面包、熏鱼、麦芽酒、葡萄酒、皮革制品、工具、毛呢、油</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/10_06_626.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/10_06_632.html">有机化学简明教程-天津大学出版社-课后习题-答案</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-10-06T15:39:49+00:00" pubdate data-updated="true">Oct 6<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://baham.co/wp-content/uploads/2012/10/518iSZ4IglL._SL500_AA300_.jpg"><img src="http://baham.co/wp-content/uploads/2012/10/518iSZ4IglL._SL500_AA300_-150x150.jpg" alt="有机化学简明教程-第四版-高鸿宾" /></a></p>
-
-<p><a href="http://baham.co/wp-content/uploads/2012/10/41WRt8Rp2EL._SL500_AA300_.jpg"><img src="http://baham.co/wp-content/uploads/2012/10/41WRt8Rp2EL._SL500_AA300_-150x150.jpg" alt="有机化学简明教程第二版-高鸿宾-齐欣-封面" /></a></p>
-
-<p>本书几经再版，已历时10余年。第二版为<strong>齐欣、高鸿宾</strong>主编，以后为高红宾主编。</p>
-
-<p>为多所高校用作有机化学教材。该答案为通用版，适用第2-第4版。</p>
-
-<p>全书按官能团体系，采用脂肪族和芳香族混合系统编写而成。共14章，此处提供<strong>2-9章课后习题答案</strong>。</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/10_06_632.html">Read on &rarr;</a>
-    </footer>
   
 
 
@@ -369,11 +367,35 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     <h2 class="panel-title">Category Cloud</h2>
   </div>
 <div id="recent_posts" class="list-group">
-	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 120.0%'>Announcement(10)</a> <a href='/blog/categories/baham' style='font-size: 128.0%'>Baham(14)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 114.0%'>Blender(7)</a> <a href='/blog/categories/book' style='font-size: 114.0%'>Book(7)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 114.0%'>CUMT(7)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 148.0%'>Faith(24)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 134.0%'>Geek(17)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 104.0%'>Google(2)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/harmonica' style='font-size: 102.0%'>Harmonica(1)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 116.0%'>Job(8)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 128.0%'>Memo(14)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 116.0%'>Mineral Processing(8)</a> <a href='/blog/categories/mooc' style='font-size: 108.0%'>MOOC(4)</a> <a href='/blog/categories/movie' style='font-size: 110.0%'>Movie(5)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/python' style='font-size: 102.0%'>Python(1)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 106.0%'>Software(3)</a> <a href='/blog/categories/technology' style='font-size: 102.0%'>Technology(1)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/teofl' style='font-size: 102.0%'>Teofl(1)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 126.0%'>Travel(13)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 112.0%'>Video(6)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
+	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 122.0%'>Announcement(11)</a> <a href='/blog/categories/baham' style='font-size: 128.0%'>Baham(14)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 114.0%'>Blender(7)</a> <a href='/blog/categories/book' style='font-size: 114.0%'>Book(7)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 114.0%'>CUMT(7)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 148.0%'>Faith(24)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 134.0%'>Geek(17)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 104.0%'>Google(2)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/harmonica' style='font-size: 102.0%'>Harmonica(1)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 118.0%'>Job(9)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 128.0%'>Memo(14)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 118.0%'>Mineral Processing(9)</a> <a href='/blog/categories/mooc' style='font-size: 110.0%'>MOOC(5)</a> <a href='/blog/categories/movie' style='font-size: 112.0%'>Movie(6)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/python' style='font-size: 102.0%'>Python(1)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 106.0%'>Software(3)</a> <a href='/blog/categories/technology' style='font-size: 104.0%'>Technology(2)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/teofl' style='font-size: 102.0%'>Teofl(1)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 126.0%'>Travel(13)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 112.0%'>Video(6)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
 </div>
 </section><section>
   <h2>Recent Posts</h2>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/11_01_model-thinking-on-coursera.html">Model Thinking on coursera</a>
+      </li>
+    
+      <li class="post">
+        <a href="/11_01_use-cloudflare-as-the-sites-cdn-again.html">Use CloudFlare as the site&#8217;s CDN again</a>
+      </li>
+    
+      <li class="post">
+        <a href="/10_28_2-movies-i-watched-these-days.html">2 movies I watched these days</a>
+      </li>
+    
+      <li class="post">
+        <a href="/10_28_the-third-time-a-cowork-advise-me-to-do-research-direction.html">The Third Time a cowork advise me to do research direction</a>
+      </li>
+    
+      <li class="post">
+        <a href="/10_28_dr-gaos-report.html">Dr Gao&#8217;s report</a>
+      </li>
+    
+      <li class="post">
+        <a href="/10_28_chinas-transgenic-calibration.html">China&#8217;s Transgenic Calibration</a>
+      </li>
     
       <li class="post">
         <a href="/10_09_model-thinking-universoty-of-michigan.html">Notes 1 of Model Thinking -Universoty of Michigan</a>
@@ -429,30 +451,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     
       <li class="post">
         <a href="/07_25_the-first-weeks-salary.html">The First Week&#8217;s Salary</a>
-      </li>
-    
-      <li class="post">
-        <a href="/07_17_seven-days-train.html">Seven Days&#8217; Train</a>
-      </li>
-    
-      <li class="post">
-        <a href="/07_15_a-muslim-girl-i-know.html">A Muslim Girl I Know</a>
-      </li>
-    
-      <li class="post">
-        <a href="/07_10_driving.html">Driving</a>
-      </li>
-    
-      <li class="post">
-        <a href="/07_10_toefl-test-i-took.html">Toefl Test I Took.</a>
-      </li>
-    
-      <li class="post">
-        <a href="/07_08_the-train-to-the-dandong.html">The Train to the Dandong</a>
-      </li>
-    
-      <li class="post">
-        <a href="/07_01_smart-phone.html">Smartphone</a>
       </li>
     
   </ul>

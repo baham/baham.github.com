@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Mineral Processing | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/mineral-processing/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-10-09T13:31:23+00:00</updated>
+  <updated>2014-11-01T14:42:31+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Dr Gao's report]]></title>
+    <link href="http://baham.co/10_28_dr-gaos-report.html"/>
+    <updated>2014-10-28T13:56:00+00:00</updated>
+    <id>http://baham.co/dr-gaos-report</id>
+    <content type="html"><![CDATA[<p>On one Sunday, I was at KFC in Wanda to learn some English lecture about words. Bo called me, told me go back to the company to have a meeting.</p>
+
+<p>When I knew the message, it is after 3 pm, and the meeting have already started. So I run my bicycle fast to come back.</p>
+
+<p>Luckily, when I reached, the meeting had not started.</p>
+
+<!--more-->
+
+
+<p>The reporter is Gao. who graduated from NEU and lived in AUS now. He report some new information and technology about the Australian Mineral Processing. Some bigger and newer machines.</p>
+
+<p>And some new theories in foreign.</p>
+
+<p>Like, SAG flowsheet, SAB, SABC flowsheet. And in froth flotation, how to control the separation and measure what.</p>
+
+<p>Which is the best bubble&rsquo;s diameter in flotation? And you know the company is building the Mineral Processing Expert System. So Gao said some about expert system and JKmetsim that I knew but never used and touched software.</p>
+
+<p>This is a good experiment.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[I built a Flotation Separator with blender]]></title>
@@ -143,47 +169,6 @@ Boss Xie had talked with us fresh men about the 3D moduling, he thought the stud
 
 
 <p><a href="https://github.com/minghub/line.git">gitclone</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[重选模拟-重选数学模型]]></title>
-    <link href="http://baham.co/06_25_zhong-xuan-mo-ni-zhong-xuan-shu-xue-mo-xing.html"/>
-    <updated>2013-06-25T23:05:00+00:00</updated>
-    <id>http://baham.co/zhong-xuan-mo-ni-zhong-xuan-shu-xue-mo-xing</id>
-    <content type="html"><![CDATA[<p>给定块煤、末煤的灰分、产率数据，数据所要求产品会分，计算出块煤、末煤产率。</p>
-
-<p>用到“三点插值”，“二分法”，“分配曲线正态分布模型”等知识。</p>
-
-<!--more-->
-
-
-<pre><code>
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>hjzy</title>
-        <!--link type="text/css" rel="stylesheet" href="stylesheet.css"/-->
-        <script type="text/javascript" src="javascripts/gss.js"></script>
-    </head>
-    <body>
-        <p>Cube:</p>
-        <textarea id="ta1"  rows="8"></textarea>
-        <br/>
-        <p>Dust:</p>
-        <textarea id="ta2" rows="8"></textarea>
-        <br/>
-        <input type="button" id ="bt" onclick="fnRun();"  value="Start"/>
-        <div id="d" >
-
-            <br/>
-        </div>
-    </body>
-</html>
-</code></pre>
-
-
-<p><a href="https://github.com/minghub/gss.git">github clone</a></p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Announcement | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/announcement/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-10-09T13:31:23+00:00</updated>
+  <updated>2014-11-01T14:42:31+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Use CloudFlare as the site's CDN again]]></title>
+    <link href="http://baham.co/11_01_use-cloudflare-as-the-sites-cdn-again.html"/>
+    <updated>2014-11-01T07:38:00+00:00</updated>
+    <id>http://baham.co/use-cloudflare-as-the-sites-cdn-again</id>
+    <content type="html"><![CDATA[<p><a href="http://baham.co/05_25_kai-shi-shi-yong-an-quan-bao-cdnfu-wu-liao.html">Anquanbao</a> CDN is a CDN provider. And there is the CDN point in HK.</p>
+
+<p>But today, I change the CDN provider to cloudflare like before. For I found the cloudflare is supportting free ssl.</p>
+
+<p>So I choose cloudflare. And I found there are more apps supported on cloudflare. Some are really cool and helpful.</p>
+
+<!--more-->
+
+
+<p>And you can use the https to visit <a href="https://baham.co">baham.co</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[About the Translation Category]]></title>
@@ -84,22 +102,6 @@
 虽然我觉得GithubPage，不用CDN访问速度也不错，不过还是用个CDN 吧，反正免费。</p>
 
 <p>现在是，香港节点，Ping值，比CloudFlare略快。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[昨天才发现我的站点被百度狠狠地惩罚了]]></title>
-    <link href="http://baham.co/05_06_zuo-tian-cai-fa-xian-wo-de-zhan-dian-bei-bai-du-hen-hen-di-cheng-fa-liao.html"/>
-    <updated>2013-05-06T23:38:00+00:00</updated>
-    <id>http://baham.co/zuo-tian-cai-fa-xian-wo-de-zhan-dian-bei-bai-du-hen-hen-di-cheng-fa-liao</id>
-    <content type="html"><![CDATA[<p>之前犯过一次错误，就是在从wordpress迁移到octopress时，把自己的一个二级目录/javatutorial扔了，也就是说，该二级目录下的内容并没有迁移过来，我知道对于这种情况搜索引擎一定会给电惩罚的，只是不知道这么严重。</p>
-
-<p><img src="/images/bd.png" alt="baidu" /></p>
-
-<p>谷歌收录也少了大约100多，我的站点最多时候谷歌有大约500左右的收录，现在有不到400。状态最好时候，在百度搜索<em>Baham</em>，主页会出现在第二或者第三的位置。</p>
-
-<p>不过，还好，网站没有以盈利为目的，也部在乎百度是否收录，不在乎访问量什么的。
-虽然，刚开始我也想过建一个以盈利为目的的网站，不过，今天看来，不盈利也挺好，有时间就更新点内容，不用在乎SEO规则，自由自在地写点自己的东西，每年都为域名续一次费，只要<a href="https://github.com">Github</a>不倒，就这么一直写下去……</p>
 ]]></content>
   </entry>
   

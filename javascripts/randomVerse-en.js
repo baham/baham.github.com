@@ -12,6 +12,7 @@ verse[9]=["Doubtless thou art our father, though Abraham be ignorant of us, and 
 verse[10]=[" I know thy works, that thou art neither cold nor hot: I would thou wert cold or hot.   [16]  So then because thou art lukewarm, and neither cold nor hot, I will spue thee out of my mouth.","Revelation of John 3:15-16"];
 verse[11]=[" As many as I love, I rebuke and chasten: be zealous therefore, and repent.","Revelation of John 3:19"];
 verse[12]=["We are troubled on every side, yet not distressed; we are perplexed, but not in despair;  [9] Persecuted, but not forsaken; cast down, but not destroyed;  [10] Always bearing about in the body the dying of the Lord Jesus, that the life also of Jesus might be made manifest in our body. ","2 Corinthians 4:8-10"];
+verse[13]=["Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God. ","Romans 13:1"];
 var i = gerRandomNumbers(verse.length);
 document.write("<H1>" + verse[i][1] + "</H1>");
 document.write(verse[i][0]);

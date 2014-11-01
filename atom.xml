@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-10-09T13:31:23+00:00</updated>
+  <updated>2014-11-01T14:42:31+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,226 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Model Thinking on coursera]]></title>
+    <link href="http://baham.co/11_01_model-thinking-on-coursera.html"/>
+    <updated>2014-11-01T12:45:00+00:00</updated>
+    <id>http://baham.co/model-thinking-on-coursera</id>
+    <content type="html"><![CDATA[<p>Though I always delay on the quiz test date. But I still finish the third quizs.</p>
+
+<p>Before this course, I only finished one mooc course.</p>
+
+<p>It is about Chinese history, and taught by Chinese.</p>
+
+<!--more-->
+
+
+<p>And I will do my best to insist on this course. And learn more moocs in this year.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/11_01_model-thinking-on-coursera.html">http://baham.co/11_01_model-thinking-on-coursera.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Use CloudFlare as the site's CDN again]]></title>
+    <link href="http://baham.co/11_01_use-cloudflare-as-the-sites-cdn-again.html"/>
+    <updated>2014-11-01T07:38:00+00:00</updated>
+    <id>http://baham.co/use-cloudflare-as-the-sites-cdn-again</id>
+    <content type="html"><![CDATA[<p><a href="http://baham.co/05_25_kai-shi-shi-yong-an-quan-bao-cdnfu-wu-liao.html">Anquanbao</a> CDN is a CDN provider. And there is the CDN point in HK.</p>
+
+<p>But today, I change the CDN provider to cloudflare like before. For I found the cloudflare is supportting free ssl.</p>
+
+<p>So I choose cloudflare. And I found there are more apps supported on cloudflare. Some are really cool and helpful.</p>
+
+<!--more-->
+
+
+<p>And you can use the https to visit <a href="https://baham.co">baham.co</a>
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/11_01_use-cloudflare-as-the-sites-cdn-again.html">http://baham.co/11_01_use-cloudflare-as-the-sites-cdn-again.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2 movies I watched these days]]></title>
+    <link href="http://baham.co/10_28_2-movies-i-watched-these-days.html"/>
+    <updated>2014-10-28T13:57:00+00:00</updated>
+    <id>http://baham.co/2-movies-i-watched-these-days</id>
+    <content type="html"><![CDATA[<p>These days, I watched 2 movies alone. LOL!!!</p>
+
+<p>All were from Hollywood.</p>
+
+<p>One is Guard of Galaxy. A cool and science film.</p>
+
+<!--more-->
+
+
+<p>Another is <em>Maze Runner</em>. A movie that main actors are teenagers. And revised by the same name sci-fi.</p>
+
+<p>Men aspire after freedom. Though aspiring is with danger.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/10_28_2-movies-i-watched-these-days.html">http://baham.co/10_28_2-movies-i-watched-these-days.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Third Time a cowork advise me to do research direction]]></title>
+    <link href="http://baham.co/10_28_the-third-time-a-cowork-advise-me-to-do-research-direction.html"/>
+    <updated>2014-10-28T13:56:00+00:00</updated>
+    <id>http://baham.co/the-third-time-a-cowork-advise-me-to-do-research-direction</id>
+    <content type="html"><![CDATA[<p> I am learning mineral processing in my university. When I graduate and started to work, I came here and got my first job.</p>
+
+<p> Maybe no position will satisfy a man in a company. And I believe all things depend on God. So I just follow the boss&rsquo;s opinion. And worked here do the designing direction job.</p>
+
+<p> <!--more-->
+ After the meeting between DFMC and <a href="andestc.cl">Andes</a> a young company from Chile, B and J told me maybe I was more suitable with the Researching direction job.</p>
+
+<p> And this is the third time I heard the advise from cowork. For B have told me the advise before. This time, J even said she can help me talk to boss.  Really thanks her, but I did not accept her good willing, after all I had talked this with the boss.</p>
+
+<p> For now, the researching direction job is building the <strong>Mineral Processing Expert System</strong> that I think I would do when I came here. But the boss let me do the designing direction, do some plant&rsquo;s automation solution design.</p>
+
+<p> Days ago, I talked to the boss, I told him I was good at programming and I had got some knowlege about matlab and metsim which softwares researchers in the company used. But he refused, he did not refuse directly, but he just said the researching job need the man who got Master Degree {in fact, not all of researchers got master degree.) and it is more difficult and hard. Though I express I can work hard and I did not fear hard. He still refuse.</p>
+
+<p> Between the talk, I found he already made decision and would not change. So I stop talking and just listen.</p>
+
+<pre><code> Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God.  Rom 13:1
+
+ So I took the boss's advise and still worked in disign direction. Not because of his talk, but God's word.
+
+ And thanks God.
+</code></pre>
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/10_28_the-third-time-a-cowork-advise-me-to-do-research-direction.html">http://baham.co/10_28_the-third-time-a-cowork-advise-me-to-do-research-direction.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dr Gao's report]]></title>
+    <link href="http://baham.co/10_28_dr-gaos-report.html"/>
+    <updated>2014-10-28T13:56:00+00:00</updated>
+    <id>http://baham.co/dr-gaos-report</id>
+    <content type="html"><![CDATA[<p>On one Sunday, I was at KFC in Wanda to learn some English lecture about words. Bo called me, told me go back to the company to have a meeting.</p>
+
+<p>When I knew the message, it is after 3 pm, and the meeting have already started. So I run my bicycle fast to come back.</p>
+
+<p>Luckily, when I reached, the meeting had not started.</p>
+
+<!--more-->
+
+
+<p>The reporter is Gao. who graduated from NEU and lived in AUS now. He report some new information and technology about the Australian Mineral Processing. Some bigger and newer machines.</p>
+
+<p>And some new theories in foreign.</p>
+
+<p>Like, SAG flowsheet, SAB, SABC flowsheet. And in froth flotation, how to control the separation and measure what.</p>
+
+<p>Which is the best bubble&rsquo;s diameter in flotation? And you know the company is building the Mineral Processing Expert System. So Gao said some about expert system and JKmetsim that I knew but never used and touched software.</p>
+
+<p>This is a good experiment.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/10_28_dr-gaos-report.html">http://baham.co/10_28_dr-gaos-report.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[China's Transgenic Calibration]]></title>
+    <link href="http://baham.co/10_28_chinas-transgenic-calibration.html"/>
+    <updated>2014-10-28T13:53:00+00:00</updated>
+    <id>http://baham.co/chinas-transgenic-calibration</id>
+    <content type="html"><![CDATA[<p>Maybe a few people care about China&rsquo;s trangenic calibration.</p>
+
+<h2>Before, China&rsquo;s transgenic food was qualitatively calibrated.</h2>
+
+<p>If the food include transgenic part, than calibrated it &lsquo;Transgenic&rsquo;.</p>
+
+<p>But in fact, like other regulations in China, a lot of people think the aim did not achieve. A lot of food whith &lsquo;Transgenic&rsquo; did not be calibrated. And the food without transgenic part calibrated with &lsquo;non-transgenic&rsquo;.</p>
+
+<h2>And Now, China&rsquo;s transgenic food will be quantitatively calibrated.</h2>
+
+<p>In fact, I thought this is a regression. But the medium did not say it is a regression, they said US/ Japan do like this too.</p>
+
+<p>So this is the problem.</p>
+
+<p>For me,
+I do not care how much transgenic part a food have, I just care whether it has or not. Although, I probably had aten transgenic food with I have no idea which food have.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/10_28_chinas-transgenic-calibration.html">http://baham.co/10_28_chinas-transgenic-calibration.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Notes 1 of Model Thinking -Universoty of Michigan]]></title>
@@ -555,248 +775,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
 
 <p>The Original Link: <a href="http://baham.co/07_25_the-first-weeks-salary.html">http://baham.co/07_25_the-first-weeks-salary.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Seven Days' Train]]></title>
-    <link href="http://baham.co/07_17_seven-days-train.html"/>
-    <updated>2014-07-17T09:19:00+00:00</updated>
-    <id>http://baham.co/seven-days-train</id>
-    <content type="html"><![CDATA[<p>I did not worked in 7 Days Hotel, not lived in &lsquo;7 Days&rsquo; either.</p>
-
-<p>Because the company prepare 7 days to train us, freshmen.</p>
-
-<p>What we do between the train, is learning and knowing each other.</p>
-
-<p>And you know, I am not very good at making friends, or remember new guys. So, in the first several days, I did not do well at knowing each other. But in the last several days, when we knew more about each other, our relashionship is more close.<!--more--></p>
-
-<p>Most of time, I did not drink to avoid being drunk, this time, I drink some beer. When you drink, you want to talk, so I talked more than ever, but I still have clear mind to control my mouth.</p>
-
-<p><code>Let us walk honestly, as in the day; not in rioting and drunkenness, not in chambering and wantonness, not in strife and envying. </code>  &mdash;Romans 13:13</p>
-
-<p>And between the 7 days train, there are 2 teachers/ministers&#8217; talk I can not forget. One is the minister of planning department &mdash; Mr Wang, the other is the vice general manager &mdash;Mr Fan.</p>
-
-<p>Wang talked one book&mdash;<em>Secret</em>, the book belongs to New Age Movement. Before I left CUMT, at the last church meeting,  Duan taught us how to distinguish heresy. And she remind us of the New Age Movement and the book <em>Secret</em>.  Maybe Mr Wang is member of the Party, maybe he is not. But what he talked really did not suit the communism, or athesim, and did not suit the Christianity either. And I really want to talk about the religion with him, make him know Jesus.</p>
-
-<p>As Mr Fan, he is smart. He talked a lot. About value of man, about wealth, about work, his experience and so on. And one thing he talked make me remember him. He said &ldquo;Men need Belief, professing a belief in Christianity is more than without belief.&rdquo; And as this word, I do not know wether he has join the Church meeting, and I did not know how to reply, or how to explain the difference of  the belief he said and the belief beliver profess in. So I said nothing, and just listened.</p>
-
-<p>And Fan said men shouldn&rsquo;t attach great importance to wealth, I agrre with him about this, though I am not wealthy. But, after his word, some one express different opinion, said his opinion is all by he is already wealthy.</p>
-
-<p>Men need belief, China needs belief. But communism is not a belief, money is not either. <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/07_17_seven-days-train.html">http://baham.co/07_17_seven-days-train.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[A Muslim Girl I Know]]></title>
-    <link href="http://baham.co/07_15_a-muslim-girl-i-know.html"/>
-    <updated>2014-07-15T05:41:00+00:00</updated>
-    <id>http://baham.co/a-muslim-girl-i-know</id>
-    <content type="html"><![CDATA[<p>There is a Muslim girl in company. I kind of knew her, but she did not. Because when we were still at school to find jobs. I saw her a lot of times in application meeting. And sometimes she introduce herself, I was still at the meeting. And got some information about her. Of cause, I did not do this by purpose. Maybe she did not remember me. But I remembered her. Because she is a Muslim and a Hui nationality girl, and has a boyfriend who is Han nationality, and she had joined one and only one students organization &mdash;Stage Show Organization. And you know I am fan of CUMT Stage Show.</p>
-
-<!--more-->
-
-
-<p>I did not knew her came to the same compony as me until I found her name in the QQ group. And I had talked to her about why came here so far away from her home, she replied me she got this offer firstly.</p>
-
-<p>In one application meeting, I found her is in too. And the HR asked her about her religion and what she is different form Han nationality girl. I generally remember she replied although she is a Hui nationality girl, but after she came to the university, she eat with classmates who are not Muslim, and she has a boyfriend who is a Han nantionality boy.</p>
-
-<p>Though the HR did not say his opinion, did not say why he did not accept her. But that time I felt the HR rejudice her. Not rejudice her grades, or her appearance or her ability. He rejudice her religion. He worried the difference between Han and Hui will make some mistake in the fulture in the compony, though she said she already adopt Han&rsquo;s traditions and habits. The HR&rsquo;s worry is not gone.</p>
-
-<p>Why I write this and why I remeber this, because one day when we ate in the same desktop. I found when she ate, she just eat a few kinds of dishes(without pork). Maybe when she came dfmc&rsquo;s application meeting, she did not emphasize her religion. And the company did not prepare the Islamic food for her. And when I saw this, I really really symphathize her. And I really want to tell her what you eat or waht you did not eat can not make you be saved, or make you be liked by God.</p>
-
-<p>I wanted to, but I really do not know how to, and dare not to. I am a Christian, when I introduce myself, I will tell the listeners, including her, a Muslim. And she is a Muslim, she did not emphasize this. But when she sat before the desktop, I really can not understand her feeling or her thoughts about the food with pork.</p>
-
-<p>I want to help her, not because she is a classmate of mine, not because she is a pretty girl, just because I want to, and not only  her, but also the Koren over the river, and the men who did not believe the God&hellip;&hellip;</p>
-
-<p>May God bless.</p>
-
-<p><code>For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.</code>  &mdash;John3:16 <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/07_15_a-muslim-girl-i-know.html">http://baham.co/07_15_a-muslim-girl-i-know.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Driving]]></title>
-    <link href="http://baham.co/07_10_driving.html"/>
-    <updated>2014-07-10T08:47:00+00:00</updated>
-    <id>http://baham.co/driving</id>
-    <content type="html"><![CDATA[<p>After I get the driving license, I neally ever drive.</p>
-
-<p>But there is a chance for me to drive.</p>
-
-<!--more-->
-
-
-<p>The day befor I take the Toefl Test, my siste and my brother in law came to join the wedding.</p>
-
-<p>Although the driver, my brother in law try to avoid dringking, but it failed. And he need to work tomorrow, and my sister too.</p>
-
-<p>So the driving burden came to me, I did not the lenth from my home to my sister and brother in law&rsquo;s apartment, but maybe 30 kilometers or more.</p>
-
-<p>This is my first time to drive so far after I get the driving license.</p>
-
-<p>Just write this article to remember this thing.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/07_10_driving.html">http://baham.co/07_10_driving.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Toefl Test I Took.]]></title>
-    <link href="http://baham.co/07_10_toefl-test-i-took.html"/>
-    <updated>2014-07-10T08:02:00+00:00</updated>
-    <id>http://baham.co/toefl-test-i-took</id>
-    <content type="html"><![CDATA[<p>This is my first time to take Toefl Test. After I graduated and left the camp. I prepared for the toefl test. But I didn&rsquo;t prepared it well. I even not finished the one whole office guide test. It is really a pity. Wahtever, the porpose I take it is just verified my English skill, although the scores did not public, but the I achive the porpose, my English-skill is bad.</p>
-
-<p>What I need do is learning and practicing.</p>
-
-<p>The 4 parts in toefl, I nearlly did not finished one of them well.</p>
-
-<!--more-->
-
-
-<p>In Reading Section, After I finished the first one, I found I did not have enought time . And I feel nervous, and you know, many answers are guessed by me.</p>
-
-<p>And the listening section, what I pay the muchest time to practice, but what I can understand is just a little. And I was too tired to concentrate on the convesations or lecture. This is a lesson, when you take the test, you must sleep well and enough.</p>
-
-<p>Then it is speaking, I found I can not read the paragraphes on time. As for the questions about speaking by oneself, I could not prepare them well in 15 seconds. I need to practice thinking in the heart with English.</p>
-
-<p>What is the last is Writing Section. Maybe it will gave me the best score in 4 parts. But you know, they are still not good articles, it&rsquo;s just like an articles that writen by a pupil. not like an article by a high school graduation.</p>
-
-<p>What I need to practice and learn is very much.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/07_10_toefl-test-i-took.html">http://baham.co/07_10_toefl-test-i-took.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Train to the Dandong]]></title>
-    <link href="http://baham.co/07_08_the-train-to-the-dandong.html"/>
-    <updated>2014-07-08T01:55:00+00:00</updated>
-    <id>http://baham.co/the-train-to-the-dandong</id>
-    <content type="html"><![CDATA[<p> I bought a train ticket from Heb to Dandng, though I can not get on the car in Heb City. Because I found I can buy a sleeper ticket from Heb, not from my hometown. So I bought this ticket.</p>
-
-<p>A few days later, when I went to get the ticket, I found I mmade a mistake, the ticket I bought is a student ticket. But you know I am not a student anymore. So the functionary asked me for the student card, I could not gave it. So what I can do is getting a refund for the ticket. And buy a chair ticket from my hometown. What the puzzle I will face with is I need sit on a chair more than 9 hours during the night. It will make me tired.</p>
-
-<p>Before I leaving home, I pray to God for my travel, my safety  and my job.</p>
-
-<p>I arrived at railway station about 6 pm, but the arrving in the raiway&rsquo;s time is about 5 hours later. So I went to Wanda Cinema to watch <em>Transform 4</em>. Though the ticket is expensive.<!--more--></p>
-
-<p>This is my first time to watch <em>Transform</em>.</p>
-
-<p>When the time is up, I went to the station to get on the railway. When I was on the railway, I found the functionary said there is an opportunity to buy a sleeper ticket. So I queue, although there is someone jumping the queue, There is an amazing thing happen, I bought the sleeper ticket, the last one.</p>
-
-<p>When I get the sleeper ticket, I went to the sleeper car. I through many sleeper cays. Some has a very bad smell from someone&rsquo;s feet. I said in my heart I do not want to meet the one with bad feet smell. Finally, it did. But I found another bad thing, someone near me  snored with a very big noise. I could not wake him up, we did not know each other. What I can do is praying, like Hu said his experience with his roommate, I pray for my sleep time. It worked, subway started, I fell in a sleep until the nexr day&rsquo;s morning.</p>
-
-<p>And there was another thing happen, when I queue to buy the sleeper ticket, I bought the last one, The functionary said, I got an amazing phone number and the ID number and the ticket number. And you know I bought the last sleeper ticket.</p>
-
-<p>Am I lucky?</p>
-
-<p>No! It is all on God&rsquo;s blessing.</p>
-
-<p>Because there is a word in Holy Bible&mdash;</p>
-
-<p><code>Hitherto have ye asked nothing in my name: ask, and ye shall receive, that your joy may be full.  </code>  &mdash; John 16:1
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/07_08_the-train-to-the-dandong.html">http://baham.co/07_08_the-train-to-the-dandong.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Smartphone]]></title>
-    <link href="http://baham.co/07_01_smart-phone.html"/>
-    <updated>2014-07-01T08:59:00+00:00</updated>
-    <id>http://baham.co/smart-phone</id>
-    <content type="html"><![CDATA[<p>My old android phone is broken, it can not start up. I did not know why? Because when I pluged in its battery on the night. It still could work. But when I wake up, it could not start up.</p>
-
-<p>So I just found out my old Windows Mobile phone, my first smart phone with 64Mhz cpu and 64M ram, but it rum more smoothly than most cheap android phones.</p>
-
-<!--more-->
-
-
-<p>But there is a problwem when I use the wm phone, cause it can not get a normal signal. The intensity it get is alwasy weak. So I need a new phone. Though I want to buy a new phone after I started to work originally.</p>
-
-<p>The Nokia X is my first choice, because of Nokia&rsquo;s fame. But most of markets did not sell it. So I bought a samsung android phone. And it is cheaper than nokia x. Cause I just need an android smart phone which can run smoothly. This samsung phone is enough for me. And I can not afford an expensive phone. So I choose it.</p>
-
-<p>Android, Firefox OS, Ubuntu Phone, Tizen &hellip; there are more and more phone os now. But the os I like mostly is wm.</p>
-
-<p>Smooth, Light, though ms would not support it. Writing this article is to remember the OSes, and the smartphones I used.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/07_01_smart-phone.html">http://baham.co/07_01_smart-phone.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
