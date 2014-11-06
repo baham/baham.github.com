@@ -90,6 +90,65 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/08_15_429.html">Java中的正则表达式（RegularExpression）</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-15T22:52:06+00:00" pubdate data-updated="true">Aug 15<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>前一段时间，想处理点文件，将其中特定自负提取出来，于是就想到了Scanner对象中的<strong>useDelimiter()</strong>方法。可是对正则表达式了解不多，然后，就去图书馆找了些资料，有谷歌了一下，算是有一点了解了吧。</p>
+
+<p>首先不得不说，<strong>正则表达式</strong>（Regular Expression）并非Java独有，Perl、PHP、Python、<strong>JavaScript</strong>和JScript均支持使用正则表达式。数据库检索、搜索引擎使用其实也会用到类似的知识。</p>
+
+<h1>特殊符号：</h1>
+
+<h2>连字符-</h2>
+
+<p>-表示连续的关系，比如a-z表示，a,b,c……z。</p>
+
+<h2>句点.</h2>
+
+<p>. 是个通配符，例如，c.r表示car，cor，cbr，c4r，cfr等。</p>
+
+<h2>或|</h2>
+
+<p>| 表示 或 的关系，不像在Java代码中用“||”表示或，正则表达式中用|表示或。例如：c|r表示c或者r。</p>
+
+<h2>否^</h2>
+
+<p>不同于代码中，正则表达式使用^表示非，而不是!。</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/08_15_429.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/08_15_424.html">《Building Java Program》-图形用户界面小结</a></h1>
     
     
@@ -321,56 +380,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/08_09_408.html">编程练习-递归-野蛮人与传教士</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-09T22:29:25+00:00" pubdate data-updated="true">Aug 9<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>三个传教士与三个野蛮人同时来到河边，发现只有一条可以同时搭载两人 的小船。而如果任何一边的野蛮人数多于传教士，传教士就会死掉。编写程序，解决<strong>传教士和野蛮人</strong>的过河问题。
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="/08_09_408.html">http://baham.co/08_09_408.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/57/">&larr; Older</a>
@@ -405,6 +414,10 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 </section><section>
   <h2>Recent Posts</h2>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/11_06_360wifi-be-evil.html">360wifi be evil</a>
+      </li>
     
       <li class="post">
         <a href="/11_02_travel-to-donggang-by-bicycle.html">Travel To Donggang by Bicycle</a>
@@ -480,10 +493,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     
       <li class="post">
         <a href="/07_31_3-churches-i-met-in-dandong.html">3 Churches I met in Dandong</a>
-      </li>
-    
-      <li class="post">
-        <a href="/07_25_the-difference-between-coal-preparation-and-the-metal-preparation.html">The difference between Coal Preparation and the Metal Preparation</a>
       </li>
     
   </ul>

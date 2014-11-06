@@ -90,6 +90,64 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/12_04_bi-bao-closureyu-dui-heap.html">闭包closure与堆heap</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-04T10:12:00+00:00" pubdate data-updated="true">Dec 4<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>闭包</h2>
+
+<p>Go的函数声明只能在最外层，不可以在函数内申明另一个函数，但可以在函数中声明另一个函数类型的变量，也即<strong>闭包</strong>&ndash;<em>closure</em>。</p>
+
+<pre><code>package main
+
+import "fmt"
+
+func main() {
+    say := func(hi string) func(string) string {
+        return func(name string) string {
+            return hi + " " + name
+        }   
+    }
+    sayHi := say("Hi")
+    fmt.Println(sayHi("World"))
+}//本段代码借鉴了《Go语言云动力》中闭包章节处的代码
+</code></pre>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/12_04_bi-bao-closureyu-dui-heap.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/12_04_dian-ying-tui-jian-pi-wei-lai.html">电影推荐-坏未来</a></h1>
     
     
@@ -289,55 +347,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/12_02_goyu-yan-forxun-huan.html">Go语言-for循环</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-12-02T07:33:00+00:00" pubdate data-updated="true">Dec 2<span>nd</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Go语言的循环比较不同，不存在<code>while</code>或者<code>do while</code>，只有<code>for</code>，我个人比较喜欢这种方式，因为如果最终达到结果是一样的，没必要需要两种方式或者写法实现同一目标。</p>
-
-<h2>While方式</h2>
-
-<pre><code>i:=0
-for i&lt;10{
-    i++
-}
-</code></pre>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/12_02_goyu-yan-forxun-huan.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/20/">&larr; Older</a>
@@ -372,6 +381,10 @@ for i&lt;10{
 </section><section>
   <h2>Recent Posts</h2>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/11_06_360wifi-be-evil.html">360wifi be evil</a>
+      </li>
     
       <li class="post">
         <a href="/11_02_travel-to-donggang-by-bicycle.html">Travel To Donggang by Bicycle</a>
@@ -447,10 +460,6 @@ for i&lt;10{
     
       <li class="post">
         <a href="/07_31_3-churches-i-met-in-dandong.html">3 Churches I met in Dandong</a>
-      </li>
-    
-      <li class="post">
-        <a href="/07_25_the-difference-between-coal-preparation-and-the-metal-preparation.html">The difference between Coal Preparation and the Metal Preparation</a>
       </li>
     
   </ul>

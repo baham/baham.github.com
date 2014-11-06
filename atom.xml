@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-11-04T11:40:18+00:00</updated>
+  <updated>2014-11-06T14:27:57+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,76 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[360wifi be evil]]></title>
+    <link href="http://baham.co/11_06_360wifi-be-evil.html"/>
+    <updated>2014-11-06T13:32:00+00:00</updated>
+    <id>http://baham.co/360wifi-be-evil</id>
+    <content type="html"><![CDATA[<p><a href="http://baham.co/images/360wifi/360wifi2.jpg">360wifi</a></p>
+
+<p>These days, I found there is a 360wifi on the public PC. So I got the ssid and the password to get the internet access.</p>
+
+<p>But when I use this 360wifi to access internet. I found an evil thing 360 done.</p>
+
+<!--more-->
+
+
+<h2>When I visit django</h2>
+
+<p>I wanted to learn some knowledge about django. When I use my laptop to visit djangoproject.com, I got nothing, but a <em>Server Not Found</em></p>
+
+<p><img src="http://baham.co/images/360wifi/snf.png" alt="server not found" /></p>
+
+<p>But when I use the public pc that installed 360wifi, I can access djangoproject.com.</p>
+
+<p><a href="http://baham.co/images/360wifi/django.png">django</a></p>
+
+<h2>Inference</h2>
+
+<p>So I infer that 360wifi block some foreign websites. include:</p>
+
+<p><a href="http://djangoproject.com">django</a>, turbogears, pip, and my vps&rsquo;s ip.</p>
+
+<p>They are all blocked.</p>
+
+<p>And I think there are more sites and ips were blocked by 360wifi.</p>
+
+<h2>Others</h2>
+
+<p>I do not know how about the similar products in China, like <em>baidu wifi</em> or <em>xiaomi wifi</em>.</p>
+
+<h2>Questions</h2>
+
+<p>I found this abnormal phenomenon, but I still did not know why.</p>
+
+<p>I wanted to learn some about django or turbogears to build a site, but why 360wifi block them.</p>
+
+<p>Did these sites include some bad things or bad plugins or even break the law? But you know, they are all open source project, and only for the developers to download software and get docs.</p>
+
+<h2>Advise</h2>
+
+<p>So my adivise is use a wireless network card instead of the 360wifi. Maybe using wireless network card is more difficult to config, but it is more safe and free.</p>
+
+<pre><code>The Life is Short, Away from 360
+</code></pre>
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/11_06_360wifi-be-evil.html">http://baham.co/11_06_360wifi-be-evil.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Travel To Donggang by Bicycle]]></title>
@@ -763,49 +833,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
 
 <p>The Original Link: <a href="http://baham.co/07_31_3-churches-i-met-in-dandong.html">http://baham.co/07_31_3-churches-i-met-in-dandong.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The difference between Coal Preparation and the Metal Preparation]]></title>
-    <link href="http://baham.co/07_25_the-difference-between-coal-preparation-and-the-metal-preparation.html"/>
-    <updated>2014-07-25T12:51:00+00:00</updated>
-    <id>http://baham.co/the-difference-between-coal-preparation-and-the-metal-preparation</id>
-    <content type="html"><![CDATA[<p>Most of what I learned in university is coal processing, though my major is called mineral processing. And trully, I just learned fewer knowledge about other mineral&rsquo;s processing than coal. But the company&rsquo;s business is more relative about metal. And there was mineral processing training these days. It is about mineral, especially metal. After the company&rsquo;s train and learning in school, I want to talk about the things about the difference between coal and metal. And I want to tell you directly,
-<em>There is no difference originally.</em></p>
-
-<!--more-->
-
-
-<h2>Some teachers&#8217; mislead</h2>
-
-<p>Neally all teachers in CUMT tell us most of the CUMT&rsquo;s courses are about coal. Though there are courses about non-metal minerals, iron and smelting, though some teachers disagree.</p>
-
-<p>But they ignore one thing, the methods to prepare minerals is the same.</p>
-
-<h2>There is only one teaching material about Mineral Processing in China</h2>
-
-<p>Not only the method is the same, but the teaching material. I found the students from NEU, CUMTB, HPU who learn Mineral Processing were all using the same book <em>Mineral Processing</em> edited in chage by Xie Guangyuan. Who is the dean of my college.</p>
-
-<h2>The same mechines are used in metal and coal</h2>
-
-<p>Jinjing, Haiwang, Derick the same companies are chosen to choose the mechines during directing plant. In old time, I think there is a lot of difference between designing a mineral praparation plant and a coal preparation plant. After the train, I found it is not, most of the companies&#8217; mechines are for coal or metal or other minerals.</p>
-
-<p>In other words, I hope the graduate from CUMT remember our school&rsquo;s name is CUMT not China&rsquo;s University of Coal and Technology. And I hope the social, the non-coal preparation plant trust graduate from CUMT. We can not only prepare coal but also metal, non-coal.
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/07_25_the-difference-between-coal-preparation-and-the-metal-preparation.html">http://baham.co/07_25_the-difference-between-coal-preparation-and-the-metal-preparation.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
