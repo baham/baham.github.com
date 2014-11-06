@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-11-06T14:27:57+00:00</updated>
+  <updated>2014-11-06T14:32:50+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -18,7 +18,7 @@
     <link href="http://baham.co/11_06_360wifi-be-evil.html"/>
     <updated>2014-11-06T13:32:00+00:00</updated>
     <id>http://baham.co/360wifi-be-evil</id>
-    <content type="html"><![CDATA[<p><a href="http://baham.co/images/360wifi/360wifi2.jpg">360wifi</a></p>
+    <content type="html"><![CDATA[<p><img src="http://baham.co/images/360wifi/360wifi2.jpg" alt="360wifi" /></p>
 
 <p>These days, I found there is a 360wifi on the public PC. So I got the ssid and the password to get the internet access.</p>
 
@@ -35,7 +35,7 @@
 
 <p>But when I use the public pc that installed 360wifi, I can access djangoproject.com.</p>
 
-<p><a href="http://baham.co/images/360wifi/django.png">django</a></p>
+<p><img src="http://baham.co/images/360wifi/django.png" alt="django" /></p>
 
 <h2>Inference</h2>
 
