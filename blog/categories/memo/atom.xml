@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Memo | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/memo/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-11-12T08:48:53+00:00</updated>
+  <updated>2014-11-23T13:22:28+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The Cross]]></title>
+    <link href="http://baham.co/11_23_the-cross.html"/>
+    <updated>2014-11-23T05:01:00+00:00</updated>
+    <id>http://baham.co/the-cross</id>
+    <content type="html"><![CDATA[<p>I bought a silver cross from taobao, at Novermber 11.</p>
+
+<p>Before I went for the business trip.</p>
+
+<p>When I came back to Dandong. I got the package. And wear it.<!--more--></p>
+
+<p>But on Saturday, I lost it. When I found it is gone, it is 2 or more hours later. I think it is lost when I ride the bicycle to east.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Catching Crabs]]></title>
@@ -96,24 +111,6 @@
 <p>Android, Firefox OS, Ubuntu Phone, Tizen &hellip; there are more and more phone os now. But the os I like mostly is wm.</p>
 
 <p>Smooth, Light, though ms would not support it. Writing this article is to remember the OSes, and the smartphones I used.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[When the block will end?]]></title>
-    <link href="http://baham.co/06_06_when-the-block-will-end.html"/>
-    <updated>2014-06-06T06:44:00+00:00</updated>
-    <id>http://baham.co/when-the-block-will-end</id>
-    <content type="html"><![CDATA[<p>These days, maybe started a one week ago, I can no access Google. Even replace the <em>hosts</em>, add<code>ncr</code>, I still can not access Google.</p>
-
-<p>Must I use google as my search engineer? No, But I need to use digg to read my feed, use utb to watch some cool videos and these websites kind of need google&rsquo;s service.
-And there is another bad thing<!--more--></p>
-
-<p>Goagent can not be used either, A tool need google app engineer. And can be used as a proxy.</p>
-
-<p>What the block in China will end? And why the gov hesitate its people? And why the gov lack of confidence?</p>
-
-<p>Why?</p>
 ]]></content>
   </entry>
   
