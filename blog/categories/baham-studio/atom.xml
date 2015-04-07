@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Baham Studio | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/baham-studio/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2014-11-27T10:54:42+00:00</updated>
+  <updated>2015-04-07T13:09:48+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -229,7 +229,7 @@ public class TTTUI extends MouseInputAdapter{
     <link href="http://baham.co/08_02_328.html"/>
     <updated>2012-08-02T21:12:39+00:00</updated>
     <id>http://baham.co/328</id>
-    <content type="html"><![CDATA[<p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_18-53-21.png" alt="井字棋棋盘 tic-tac-toe 棋盘" /> 井字棋棋盘</p>
+    <content type="html"><![CDATA[<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_18-53-21.png" alt="井字棋棋盘 tic-tac-toe 棋盘" /> 井字棋棋盘</p>
 
 <p><strong>Tic-Tac-Toe</strong>又称<strong>井字棋</strong>，即在3X3的棋盘上，双方轮流落子，先将3枚棋子连成一线的一方获得胜利。</p>
 
@@ -239,9 +239,9 @@ public class TTTUI extends MouseInputAdapter{
 
 <h1>关于棋盘：</h1>
 
-<p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_18-58-43.png" alt="Tic-tac-toe棋盘坐标 井字棋 坐标" /> 井字棋棋盘坐标版</p>
+<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_18-58-43.png" alt="Tic-tac-toe棋盘坐标 井字棋 坐标" /> 井字棋棋盘坐标版</p>
 
-<p>整个棋盘可以连接出<strong>8条线</strong>。<a href="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-12-42.png">tic-tac-toe 井字棋 胜利方式</a>（如右图）&mdash;&mdash;></p>
+<p>整个棋盘可以连接出<strong>8条线</strong>。<a href="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-12-42.png">tic-tac-toe 井字棋 胜利方式</a>（如右图）&mdash;&mdash;></p>
 
 <p>在中心的位置（2，2）有<strong>四条线</strong>穿过。</p>
 
@@ -266,7 +266,7 @@ public class TTTUI extends MouseInputAdapter{
 
 <h2>开局落子：</h2>
 
-<p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-26-48.png" alt="Tic-tac-toe 井字棋 AI先手" /> 井字棋 AI先手[/caption]</p>
+<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-26-48.png" alt="Tic-tac-toe 井字棋 AI先手" /> 井字棋 AI先手[/caption]</p>
 
 <p>开局时，分为两种状况，一是AI先手，二是AI后手。AI先手时，毫无疑问，让AI落子在(2,2)位置（以X表示AI）。如图：</p>
 
@@ -281,11 +281,11 @@ public class TTTUI extends MouseInputAdapter{
 
 <h3>1、玩家落子在中心位置：</h3>
 
-<p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-34-15.png" alt="tic-tac-toe 井字棋 AI落子棱位" /> 图1[/caption]</p>
+<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-34-15.png" alt="tic-tac-toe 井字棋 AI落子棱位" /> 图1[/caption]</p>
 
 <p>此时，AI需要落子在角位。原因在于，如果落子在棱位，将出现如下<strong>必输的情形</strong>，示例如下，AI此时落子在（1，2）位置：玩家只需要在（3，1）或（3，3）位置落子，如图在（3，1），下一步则必须落子在（1，3），对手跟进落子在（1，1），</p>
 
-<p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-39-59.png" alt="tic-tac-toe 井字棋 大势已去" />
+<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-39-59.png" alt="tic-tac-toe 井字棋 大势已去" />
 ——则AI大势已去！</p>
 
 <h3>2、棱位  3、角位</h3>
@@ -294,7 +294,7 @@ public class TTTUI extends MouseInputAdapter{
 
 <h2>第二步棋（先角原则）：</h2>
 
-<p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-12-42.png" alt="tic-tac-toe 井字棋 先角原则" />由上可知，当中心被玩家占据，需要避免上边提到的“<strong>必输的情形</strong>”跟进落子在角上，而非棱上。</p>
+<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-12-42.png" alt="tic-tac-toe 井字棋 先角原则" />由上可知，当中心被玩家占据，需要避免上边提到的“<strong>必输的情形</strong>”跟进落子在角上，而非棱上。</p>
 
 <p>而如果，自己占据中心，玩家落子在棱上，根据“必输情形”，此时也应该落在角上，而且如上图图1，应该落子在玩家棋子对面的角位上，此时“必输情形”将属于玩家。</p>
 
@@ -314,9 +314,9 @@ public class TTTUI extends MouseInputAdapter{
 
 <p>在以以上方式实现AI时，出现了一种比较特殊情况。即玩家先手，落子在角位以（1，1）为例，AI根据“<strong>开局落子</strong>”的原则3，落子在（2，2）。而玩家在第一步棋子位置（1，1）的对角（3，3）位置落子，</p>
 
-<p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_20-13-02.png" alt="Tic-tac-toe-ai 井字棋 特殊情况" /> 井字棋 特殊情况[/caption]</p>
+<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_20-13-02.png" alt="Tic-tac-toe-ai 井字棋 特殊情况" /> 井字棋 特殊情况[/caption]</p>
 
-<p>依据“<strong>角先原则</strong>”，AI将落子在（1，3）或（3，1），对方将在（3，1）或（1，3）封堵AI，此时AI便已输了。<img src="http://baham.co/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_20-14-49.png" alt="tic-tac-toe-ai 特殊情况 AI输 井字棋" /></p>
+<p>依据“<strong>角先原则</strong>”，AI将落子在（1，3）或（3，1），对方将在（3，1）或（1，3）封堵AI，此时AI便已输了。<img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_20-14-49.png" alt="tic-tac-toe-ai 特殊情况 AI输 井字棋" /></p>
 
 <p>所以，唯有此种情况不能执行“<strong>角先原则</strong>”。</p>
 
@@ -414,9 +414,9 @@ public class TTTUI extends MouseInputAdapter{
       }
 </code></pre>
 
-<p><a href="http://baham.co/wp-files/Tic-Tac-Toe.jar"> Tic-Tac-Toe-AI Jar文件</a></p>
+<p><a href="/wp-files/Tic-Tac-Toe.jar"> Tic-Tac-Toe-AI Jar文件</a></p>
 
-<p><a href="http://baham.co/wp-files/Tic-Tac-Toe.zip">Tic-Tac-Toe-AI 源码</a></p>
+<p><a href="/wp-files/Tic-Tac-Toe.zip">Tic-Tac-Toe-AI 源码</a></p>
 ]]></content>
   </entry>
   
