@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Java | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/java/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-05-12T01:02:16+00:00</updated>
+  <updated>2015-05-12T01:42:52+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,66 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[码农第二期-图灵社区出品]]></title>
+    <link href="http://baham.co/11_29_734.html"/>
+    <updated>2012-11-29T11:19:36+00:00</updated>
+    <id>http://baham.co/734</id>
+    <content type="html"><![CDATA[<p>主讲内容：</p>
+
+<blockquote><p><strong>• 本期专题:JavaScript</strong>
+<strong>• 七大大框架论剑</strong>
+<strong>• Nicholas C. Zakas 和他的</strong>
+<strong>《JavaScript高高级程序设计》</strong>
+<strong>• 陈皓:我的精神家园</strong>
+<strong>• 老老赵:以“玩”之名</strong>
+<strong>• 迄今为止止最伟大大的极客</strong>
+<strong>• 深入入Markdown</strong></p></blockquote>
+
+<!-- more -->
+
+
+<p>（以上均为原文引用）</p>
+
+<p>目录：</p>
+
+<blockquote><p><strong>卷首语</strong>
+<strong>1 改变世界的好码农</strong>
+<strong>专题:JavaScript</strong>
+<strong>3 JavaScript 宝座:七大框架论剑 </strong>
+<strong>19 JavaScript 模块化开发一瞥 </strong>
+<strong>27 对话 Nicholas C. Zakas</strong>
+<strong>——《JavaScript 高级程序设计》作者</strong>
+<strong>34 通过对象图学习 JavaScript</strong>
+<strong>人物</strong>
+<strong>41 我的精神家园——陈皓(@ 左耳朵耗子)专访</strong>
+<strong>54 以“玩”之名——赵劼(@ 老赵)专访</strong>
+<strong>践行</strong>
+<strong>70 通才还是专才——由摩托裁员引发的讨论</strong>
+<strong>九卦</strong>
+<strong>73 为什么 Nikola Tesla 是迄今为止最伟大的极客</strong>
+<strong>鲜阅</strong>
+<strong>88 善言的 JavaScript</strong>
+<strong>——选自《善言的 JavaScript: 现代化编程指南》</strong>
+<strong>出版的未来</strong>
+<strong>96 Markdown 作者谈“深入 Markdown”</strong>
+<strong>书榜</strong>
+<strong>106 看看大家都在看什么?</strong>
+<strong>妙评</strong>
+<strong>109 《Erlang/OTP 并发编程实战》</strong>
+<strong>成书手记</strong>
+<strong>115 从失败中学习</strong>
+<strong> </strong>
+<strong> ——《30 天自制操作系统》译者自述</strong>
+<strong>社区动态</strong>
+<strong>119 iTran 乐译 10 期</strong>
+<strong>120 专家审读 5 期</strong>
+<strong>121 十月,跟着图灵听课去!</strong></p></blockquote>
+
+<p>全文下载：<a href="http://www.ituring.com.cn/book/download/ac4c3832-bce6-488b-bd39-54ccbbd4e3d9">码农第二期</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tic-Tac-Toe-AI-GUI版本]]></title>
@@ -215,50 +275,6 @@ public class TTTUI extends MouseInputAdapter{
     <updated>2012-08-09T22:29:25+00:00</updated>
     <id>http://baham.co/408</id>
     <content type="html"><![CDATA[<p>三个传教士与三个野蛮人同时来到河边，发现只有一条可以同时搭载两人 的小船。而如果任何一边的野蛮人数多于传教士，传教士就会死掉。编写程序，解决<strong>传教士和野蛮人</strong>的过河问题。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[编程练习-稳定婚姻问题（Stable Marriage）]]></title>
-    <link href="http://baham.co/08_09_402.html"/>
-    <updated>2012-08-09T22:06:35+00:00</updated>
-    <id>http://baham.co/402</id>
-    <content type="html"><![CDATA[<p>对于给定的一群男女，在他们当中建立尽可能多的<strong>稳定婚姻</strong>。如果现在一对夫妻能找到比他们的配偶更适合的异性，则他们的混为<strong>不稳定婚姻</strong>。</p>
-
-<p>输入文件中所有男人信息放在一起，没人一行，然后是空行，后面是女人的信息，也是没人一行。每个人根据他们的行号进行编号（如，第一个男人为1号）。输入文件的每一行的开头都是人命（男女间空行除外），后面是冒号，在后面是<strong>一串整数</strong>，用以保存每个人对配偶的偏好。例如：</p>
-
-<p>Java: 10 8 5 6</p>
-
-<p>名为<strong>Java</strong>的人，和异性中10号是最好的组合，8号其次，不再列表上的无法组合。</p>
-
-<p>完整示例如下：<!-- more --></p>
-
-<pre><code>//输入内容如下
-
-
-
-
-Man1: 4 1 2 3
-Man2: 2 3 1 4
-Man3: 2 4 3 1
-Man4: 3 1 4 2
-
-Woman1: 4 1 3 2
-Woman2: 1 3 2 4
-Woman3: 1 2 3 4 
-Woamn4: 4 1 3 2
-
-
-
-
-
-//输出内容如下：
-
-Man1 and Woman4
-Man3 and Woman2
-Man2 and Woman3
-Man4 and Woman1
-</code></pre>
 ]]></content>
   </entry>
   

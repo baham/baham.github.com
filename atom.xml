@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-05-12T01:02:16+00:00</updated>
+  <updated>2015-05-12T01:42:52+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,448 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Enlightenment-V0.17发布]]></title>
+    <link href="http://baham.co/12_23_764.html"/>
+    <updated>2012-12-23T15:42:06+00:00</updated>
+    <id>http://baham.co/764</id>
+    <content type="html"><![CDATA[<p>历经12年,Enlightenment正式版终于发布。从2000年项目开始到2012年11月发布alpha版，在到12月19号发布RC版，在到昨天发布正式版。Enlightenment一路走到今天。向Enlightenment忠诚的开发者们致敬！</p>
+
+<p><img src="http://enlightenment.org/p/index/d/diagram-efl-simple-small.png" alt="EFL Block Diagram" />
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/12_23_764.html">http://baham.co/12_23_764.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[树莓派/Raspberry Pi上线软件市场]]></title>
+    <link href="http://baham.co/12_17_757.html"/>
+    <updated>2012-12-17T23:19:49+00:00</updated>
+    <id>http://baham.co/757</id>
+    <content type="html"><![CDATA[<p>Store地址：<a href="http://store.raspberrypi.com/">http://store.raspberrypi.com/</a></p>
+
+<p>软件不多，只有25款。</p>
+
+<p>不过，一眼就看中了<strong>Free-civ</strong>，这款一直关注的<strong><em>类</em>文明</strong>游戏。</p>
+
+<p>有星级评价，直接提供下载，而且有付费软件提供。</p>
+
+<p><a href="http://baham.co/wp-content/uploads/2012/12/pi.png"><img src="http://baham.co/wp-content/uploads/2012/12/pi-300x167.png" alt="Raspberry-Pi-软件市场" /></a></p>
+
+<h2>Update</h2>
+
+<p>截至14年5月8日，软件市场包含软件已经完成多达112款，另外有10款处于开发过程中，市场中最贵的解密游戏-<a href="http://store.raspberrypi.com/projects/bulbaceous">Dr Bulbaceous</a>售价1.99欧元。</p>
+
+<p><img src="http://assets.indiecity.com/fb572066-fb94-46f8-92a8-567e40705cd0/boxart_1377222007.png" alt="Dr Bulbaceous" />
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/12_17_757.html">http://baham.co/12_17_757.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Git 常用命令速查表]]></title>
+    <link href="http://baham.co/12_17_752.html"/>
+    <updated>2012-12-17T19:28:36+00:00</updated>
+    <id>http://baham.co/752</id>
+    <content type="html"><![CDATA[<p>Git 常用命令速查表
+master origin :默认远程版本库
+:默认开发分支
+Head Head^ :Head :默认开发分支
+的父提交
+创建版本库
+$ git clone <url>
+$ git init
+修改和提交
+$ git status
+$ git diff
+$ git add .
+$ git add <file>
+$ git mv <old> <new>
+$ git rm <file>
+$ git rm &mdash;cached <file>
+$ git commit -m &ldquo;commit message&rdquo;
+$ git commit &mdash;amend<!-- more -->
+查看提交历史
+$ git log
+$ git log -p <file>
+$ git blame <file>
+撤消
+$ git reset &mdash;hard HEAD
+$ git checkout HEAD <file>
+$ git revert <commit></p>
+
+<h1>克隆远程版本库</h1>
+
+<h1>初始化本地版本库</h1>
+
+<h1>查看状态</h1>
+
+<h1>查看变更内容</h1>
+
+<h1>跟踪所有改动过的文件</h1>
+
+<h1>跟踪指定的文件</h1>
+
+<h1>文件改名</h1>
+
+<h1>删除文件</h1>
+
+<h1>停止跟踪文件但不删除</h1>
+
+<h1>提交所有更新过的文件</h1>
+
+<h1>修改最后一次提交</h1>
+
+<h1>查看提交历史</h1>
+
+<h1>查看指定文件的提交历史</h1>
+
+<h1>以列表方式查看指定文件</h1>
+
+<p>的提交历史</p>
+
+<h1>撤消工作目录中所有未提交</h1>
+
+<p>文件的修改内容</p>
+
+<h1>撤消指定的未提交文件的修</h1>
+
+<p>改内容</p>
+
+<h1>撤消指定的提交</h1>
+
+<h1>Git Cheat Sheet <CN> (Version 0.1)</h1>
+
+<h1>2012/10/26</h1>
+
+<p>&mdash; by分支与标签
+$ git branch</p>
+
+<h1>显示所有本地分支</h1>
+
+<p>$ git checkout <branch/tag></p>
+
+<h1>切换到指定分支或标签</h1>
+
+<p>$ git
+branch &lt;new-branch></p>
+
+<h1>创建新分支</h1>
+
+<p>$ git branch -d <branch></p>
+
+<h1>删除本地分支</h1>
+
+<p>$ git tag</p>
+
+<h1>列出所有本地标签</h1>
+
+<p>$ git tag <tagname></p>
+
+<h1>基于最新提交创建标签</h1>
+
+<p>$ git tag -d <tagname></p>
+
+<h1>删除标签</h1>
+
+<p>合并与衍合
+$ git merge <branch>
+$ git rebase <branch></p>
+
+<h1>合并指定分支到当前分支</h1>
+
+<h1>衍合指定分支到当前分支</h1>
+
+<p>远程操作
+$ git remote -v</p>
+
+<h1>查看远程版本库信息</h1>
+
+<p>$ git remote show <remote></p>
+
+<h1>查看指定远程版本库信息</h1>
+
+<p>$ git remote add <remote> <url></p>
+
+<h1>添加远程版本库</h1>
+
+<p>$ git fetch <remote></p>
+
+<h1>从远程库获取代码</h1>
+
+<p>$ git pull <remote> <branch> #下载代码及快速合并
+$ git push <remote> <branch> #上传代码及快速合并
+$ git push <remote> :&lt;branch/tag-name></p>
+
+<h1>删除远程分支或标签</h1>
+
+<p>$ git push &mdash;tags</p>
+
+<h1>上传所有标签</h1>
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/12_17_752.html">http://baham.co/12_17_752.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[什么是泥炭化作用？]]></title>
+    <link href="http://baham.co/12_10_748.html"/>
+    <updated>2012-12-10T23:37:20+00:00</updated>
+    <id>http://baham.co/748</id>
+    <content type="html"><![CDATA[<p>泥炭化作用定义：植物物质经受生物化学分解及合成的复杂的过程且最终形成泥炭的作用</p>
+
+<p>条件:发生于覆水地区的水位以下，即与大气局部沟通的状态下。泥炭化作用的直接产物除了泥炭以外，分解出的气态产物有二氧化碳、水、沼气和少量氮。
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/12_10_748.html">http://baham.co/12_10_748.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[泥炭沼泽形成环境、泥炭沼泽的成因]]></title>
+    <link href="http://baham.co/12_10_746.html"/>
+    <updated>2012-12-10T23:35:58+00:00</updated>
+    <id>http://baham.co/746</id>
+    <content type="html"><![CDATA[<p>沼泽是地表土壤充分湿润、季节性或长期积水，丛生着喜湿性沼泽植物的低洼地段。</p>
+
+<p><strong>1.</strong><strong>泥炭沼泽重要发育地带——滨海平原</strong></p>
+
+<p>滨海地带海水与沿海陆地地表水与潜水之间相互关系，有利于泥炭沼泽发育；</p>
+
+<p>滨海地带的海湾内，由于波浪作用微弱，形成了海湾封闭形成海湾泻湖，有利于泥炭沼泽发育；</p>
+
+<p>三角洲平原上分流河道之间的低洼地及靠近海边缘部分的泻湖湿洼地；</p>
+
+<p>在热带、亚热带地区的海岸和河口地区，还可以形成一种特殊类型的滨海泥炭沼泽——红树林泥炭沼泽。</p>
+
+<p><strong>2.</strong><strong>内陆有利发育泥炭沼泽的地区—河湖地带。</strong></p>
+
+<p>在山丘、丘陵等暂时性水流附近有一些洼地，平原地带经常性水流周围的洼地成为泥炭沼泽场所；</p>
+
+<p>河流发源地沟谷地区，由于在径流地区的谷底易形成相对平衡剖面，取得较稳定潜水补给，易泥炭沼泽；</p>
+
+<p>山前冲积扇地区的扇前洼地地下水不断溢出，形成养分较好条件，有利于泥炭沼泽；</p>
+
+<p>曲流河形成的牛轭湖及河漫滩或河漫湖泊等地成为良好泥炭沼泽聚集场所；</p>
+
+<p>滨湖洼地由于受到潜水和洪水泛滥影响，由于湖水上涨，形成了植物生长，有利于泥炭沼泽发育；</p>
+
+<p><strong>3</strong><strong>成因</strong></p>
+
+<p><strong>气候条件</strong>对泥炭沼泽起重要作用，影响了植物的生长和植物残体分级强度，从而控制了泥炭的发育。</p>
+
+<p>形成泥炭沼泽的<strong>水文条件</strong>主要是入水量，即地表水和地下水流入量及大气降水量要大于出水量，才能使泥炭沼泽持续发育。
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/12_10_746.html">http://baham.co/12_10_746.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[煤的显微组分和宏观媒岩成分之间的关系]]></title>
+    <link href="http://baham.co/12_10_742.html"/>
+    <updated>2012-12-10T23:31:50+00:00</updated>
+    <id>http://baham.co/742</id>
+    <content type="html"><![CDATA[<p><strong>三类煤岩显微组分与四种宏观成分之间的关系：</strong></p>
+
+<p><a href="http://baham.co/wp-content/uploads/2012/12/%E5%AA%92%E7%BB%84%E5%88%86%E5%85%B3%E7%B3%BB.bmp"><img src="http://baham.co/wp-content/uploads/2012/12/%E5%AA%92%E7%BB%84%E5%88%86%E5%85%B3%E7%B3%BB.bmp" alt="煤的显微组分和宏观媒岩成分之间的关系" /></a></p>
+
+<!-- more -->
+
+
+<p><strong>研究意义</strong>：凝胶化组分和丝炭化组分是由多种成分组成的，因而得到的烟煤的特征和加工工艺是不一样的。对煤的岩相进行研究，不仅有学术意义，也可用来指导工业生产。</p>
+
+<p>形象表示如图，即镜煤主要由镜质组构成，亮煤、暗煤由三种微观组分按不同比例构成，丝炭主要由惰质组构成。</p>
+
+<p>其中<strong>凝胶化组分</strong>也称<strong>镜质组</strong>，<strong>稳定组分</strong>又称<strong>壳质组</strong>，<strong>丝炭化组分</strong>又称<strong>惰质组</strong>或<strong>丝质组</strong>。</p>
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/12_10_742.html">http://baham.co/12_10_742.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[还在用360吗？试试新加坡Toolwiz的ToolwizCare吧。]]></title>
+    <link href="http://baham.co/12_05_738.html"/>
+    <updated>2012-12-05T22:19:40+00:00</updated>
+    <id>http://baham.co/738</id>
+    <content type="html"><![CDATA[<p><a href="http://baham.co/wp-content/uploads/2012/12/toolwizcare.png"><img src="http://baham.co/wp-content/uploads/2012/12/toolwizcare-300x198.png" alt="toolwizcare主界面" /></a></p>
+
+<p>小清新的界面，不像国产安全软件一样，喜欢打仗。</p>
+
+<p>全球装机量不断提升。</p>
+
+<p>是时候让他也回到中国了。</p>
+
+<p>Toolwiz Care 创建之初就是模仿国内的安全辅助软件。</p>
+
+<p>比如开机时间、温度条、密盘、还有图片编辑器（仿美图秀秀）……</p>
+
+<p>甚至界面上显示位置都和360很像。</p>
+
+<p>看一款国外克隆国内软件的软件，真是别有一番风味。
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/12_05_738.html">http://baham.co/12_05_738.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[码农第二期-图灵社区出品]]></title>
+    <link href="http://baham.co/11_29_734.html"/>
+    <updated>2012-11-29T11:19:36+00:00</updated>
+    <id>http://baham.co/734</id>
+    <content type="html"><![CDATA[<p>主讲内容：</p>
+
+<blockquote><p><strong>• 本期专题:JavaScript</strong>
+<strong>• 七大大框架论剑</strong>
+<strong>• Nicholas C. Zakas 和他的</strong>
+<strong>《JavaScript高高级程序设计》</strong>
+<strong>• 陈皓:我的精神家园</strong>
+<strong>• 老老赵:以“玩”之名</strong>
+<strong>• 迄今为止止最伟大大的极客</strong>
+<strong>• 深入入Markdown</strong></p></blockquote>
+
+<!-- more -->
+
+
+<p>（以上均为原文引用）</p>
+
+<p>目录：</p>
+
+<blockquote><p><strong>卷首语</strong>
+<strong>1 改变世界的好码农</strong>
+<strong>专题:JavaScript</strong>
+<strong>3 JavaScript 宝座:七大框架论剑 </strong>
+<strong>19 JavaScript 模块化开发一瞥 </strong>
+<strong>27 对话 Nicholas C. Zakas</strong>
+<strong>——《JavaScript 高级程序设计》作者</strong>
+<strong>34 通过对象图学习 JavaScript</strong>
+<strong>人物</strong>
+<strong>41 我的精神家园——陈皓(@ 左耳朵耗子)专访</strong>
+<strong>54 以“玩”之名——赵劼(@ 老赵)专访</strong>
+<strong>践行</strong>
+<strong>70 通才还是专才——由摩托裁员引发的讨论</strong>
+<strong>九卦</strong>
+<strong>73 为什么 Nikola Tesla 是迄今为止最伟大的极客</strong>
+<strong>鲜阅</strong>
+<strong>88 善言的 JavaScript</strong>
+<strong>——选自《善言的 JavaScript: 现代化编程指南》</strong>
+<strong>出版的未来</strong>
+<strong>96 Markdown 作者谈“深入 Markdown”</strong>
+<strong>书榜</strong>
+<strong>106 看看大家都在看什么?</strong>
+<strong>妙评</strong>
+<strong>109 《Erlang/OTP 并发编程实战》</strong>
+<strong>成书手记</strong>
+<strong>115 从失败中学习</strong>
+<strong> </strong>
+<strong> ——《30 天自制操作系统》译者自述</strong>
+<strong>社区动态</strong>
+<strong>119 iTran 乐译 10 期</strong>
+<strong>120 专家审读 5 期</strong>
+<strong>121 十月,跟着图灵听课去!</strong></p></blockquote>
+
+<p>全文下载：<a href="http://www.ituring.com.cn/book/download/ac4c3832-bce6-488b-bd39-54ccbbd4e3d9">码农第二期</a>
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/11_29_734.html">http://baham.co/11_29_734.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[为什么《人民日报》会引用洋葱的新闻报道？]]></title>
@@ -638,398 +1080,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 
 
 <p>The Original Link: <a href="http://baham.co/10_06_626.html">http://baham.co/10_06_626.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[有机化学简明教程-天津大学出版社-课后习题-答案]]></title>
-    <link href="http://baham.co/10_06_632.html"/>
-    <updated>2012-10-06T15:39:49+00:00</updated>
-    <id>http://baham.co/632</id>
-    <content type="html"><![CDATA[<p><a href="http://baham.co/wp-content/uploads/2012/10/518iSZ4IglL._SL500_AA300_.jpg"><img src="http://baham.co/wp-content/uploads/2012/10/518iSZ4IglL._SL500_AA300_-150x150.jpg" alt="有机化学简明教程-第四版-高鸿宾" /></a></p>
-
-<p><a href="http://baham.co/wp-content/uploads/2012/10/41WRt8Rp2EL._SL500_AA300_.jpg"><img src="http://baham.co/wp-content/uploads/2012/10/41WRt8Rp2EL._SL500_AA300_-150x150.jpg" alt="有机化学简明教程第二版-高鸿宾-齐欣-封面" /></a></p>
-
-<p>本书几经再版，已历时10余年。第二版为<strong>齐欣、高鸿宾</strong>主编，以后为高红宾主编。</p>
-
-<p>为多所高校用作有机化学教材。该答案为通用版，适用第2-第4版。</p>
-
-<p>全书按官能团体系，采用脂肪族和芳香族混合系统编写而成。共14章，此处提供<strong>2-9章课后习题答案</strong>。</p>
-
-<!-- more -->
-
-
-<p>内容系从互联网收集，并非原创。</p>
-
-<p>下载地址</p>
-
-<p><a href="https://docs.google.com/file/d/0B4GRRqxWzRx7YWRubmtIQmplVzQ/edit">有机化学简明教程课后习题-答案</a></p>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/10_06_632.html">http://baham.co/10_06_632.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[骑马与砍杀-战团：沙瑞兹帝国的崛起-自立建国经验分享]]></title>
-    <link href="http://baham.co/09_24_611.html"/>
-    <updated>2012-09-24T23:05:12+00:00</updated>
-    <id>http://baham.co/611</id>
-    <content type="html"><![CDATA[<p><a href="http://baham.co/wp-content/uploads/2012/09/09.jpg"><img src="http://baham.co/wp-content/uploads/2012/09/09-300x239.jpg" alt="骑马与砍杀-原版封面" /></a> 当我第一次听到《<strong>骑马与砍杀</strong>》时，就深深为之吸引。而当我第一次玩《骑马与砍杀》时，我就知道这是能让我玩一辈子的游戏。</p>
-
-<p>一个人可能都曾经幻想过自己成为帝王、成为霸主。之前我钟情的游戏是<strong>三国志</strong>、<strong>文明</strong>和<strong>全面战争</strong>系列以及各种即使战略。很明显，三国志里统一中国可能只需要8小时，文明可能需要48小时，多数即使战略可能只需要几分中或者十几分钟就能消灭对手。但骑砍不同，统一卡拉迪亚大陆，可能会需要240小时。</p>
-
-<p>骑马与砍杀由土耳其公司<a href="http://www.taleworlds.com/">Talewords</a>制作，世人对他的评价就是<strong>画面一般，但可玩性超好</strong>，而且在战团之后引入了多人对战，更增加了其对抗性及竞技性。骑砍现今有四个系列，分别是<strong>原版、战团、火与剑、拿破仑战争</strong>。原版及战团的故事背景都是在虚构的中古大陆卡拉迪亚。<strong>卡拉迪亚大陆</strong>上有六个征战不休的国家——<strong>斯瓦迪亚王国、罗多克王国、维吉亚王国、库吉特汗国、诺德王国以及萨兰德苏丹国</strong>。各国兵种特性、特产、文化背景各异。玩家可以扮演没落贵族、游民、盗贼等多种职业，届时你可以选择加入一方，或者帮助游戏中富国者复国，亦或者自立建国。其中最难的无疑是建立自己的国家。火与剑故事背景在17世纪的东欧，其中加入了火器，而不像前两版中冷兵器对战。</p>
-
-<!-- more -->
-
-
-<p>视频为-<strong>骑马与砍杀-拿破仑战争的宣传片</strong>。
-废话说多了，下面直入正题。说说我的建国<strong>自立之路</strong>。</p>
-
-<p>我并非资深玩家，分享是犹如小说一般建国的经历，而非攻略。</p>
-
-<p>我的名字叫<strong>威廉三世</strong>，出生在<strong>斯瓦迪亚</strong>的<strong>帕拉汶</strong>-全大陆最繁华的城市，在刚开始帮助了以为帕拉汶商人解救兄弟、打击劫匪，期间我还去旁边的村庄招募了一些新兵、去训练场做了一些格斗训练。都说诺德的皇家卫士最宜攻城、斯瓦迪亚的骑士最山野战、罗多克的神射手最擅守城。于是我的杂牌军组建之路就开始了。</p>
-
-<p><strong>从斯瓦迪亚向南，去了罗多克，向东去了萨兰德，再向北库吉特、维吉亚、诺德一路招募新兵</strong>，顺道去大城市招募了各NPC。其中贝斯徒尔第一个跟我南征北站。至于如何组建最佳NPC组合，可以自己搜索一下，此处不赘述。</p>
-
-<p>随后我来到了位于西南的罗多克王国，在这里开始了我的<strong>维护正义、打击土匪</strong>之路。接镇长、村长任务，打击土匪、绿林强盗成为了我的职业，如果在村庄中碰到强盗，果断攻击，之后村民殷勤招待，果断拒绝，因为只有如此，才能获得荣誉，在游戏中荣誉不像功勋那样有直接用途，但间接作用却很大，初期碰到贵族，很多人会对你羞辱一番甚至直接谩骂，<strong>当你维护正义、捍卫荣誉之后，全大陆的所有人都会对你另眼想看。</strong>一旦在酒馆碰见闹事者，立即拔刀相助，帮助酒馆老板除去祸害。当然，同时，我和贵族、上流社会也有所交往，接受了一些贵族任务，比如逮捕杀人犯、収税、练兵……</p>
-
-<p>此时，我的军队上限以接近70，我离开了罗多克，向北去向了升级、练兵必备的维吉亚的日瓦车则，因为这里有着高级劫匪——海寇。<strong>打海寇，拿装备、练兵、赚钱，</strong>我和我的NPC初期一直没有买装备，一直时从海寇、绿林强盗身上爆来的。并且在稍微向东南，也有高级劫匪——<strong>雪原强盗</strong>，雪原一马平川，骑兵一冲，战斗结束。期间，我最爱干的就是，从库劳买铁，在窝车则卖掉，向东去日瓦车则附近打海寇，回城找奴隶贩子，如果没有，便再向南，追雪原强盗，去<strong>库单</strong>找奴隶贩子，如果没有就向西去<strong>库劳</strong>，一般三个城中，总会有一个酒馆里有奴隶贩子。顺道买铁，去<strong>窝车则</strong>卖掉，向东打海寇，循环往复。等到我有一定积蓄后，我在窝车则开了家铁厂，用生铁制造工具，以后在库劳买铁，一率运到窝车则。</p>
-
-<p>我的第一家工厂是在<strong>维鲁加</strong>，那时我还在打绿林强盗，开了一家酒厂，也成为了我的<strong>武器库</strong>，藏武器，为以后招到的npc做准备。在后来，<strong>库劳</strong>也有了酒厂，<strong>哈尔码</strong>也是，这也就成为了我打<strong>绿林强盗、海寇、沙漠强盗</strong>的未损<strong>武器、马匹存储地</strong>。知道我攻陷<strong>沙瑞兹</strong>，才将武器转移走。打着打着，我的军队上限达到了78，六个不吵架各司其职的npc，期间还数次解救被俘领主，好友数也有30左右，功勋400多，统治48，荣誉60多。于是我觉得我应当自立为王了，本来想攻占窝车则。不过路过沙瑞兹时发现罗多克刚从萨兰德手中夺取，守军只有103人，机不可失。找到了一只落多可军队，一看还是朋友，不过管不了那么多了，进攻，与<strong>罗多克</strong>的关系迅速降低到-40，在成功消灭敌人之后，挥师向东直取沙瑞兹。78人战103人，攻城之时先干掉两侧塔楼的弓箭手，步兵直冲城墙，自损三人，沙瑞兹攻陷（伤害1/4）。占领沙瑞兹之后，城堡中多了四位领主，其中一位带着城堡归降，随后罗多克有领主股神率兵100来为沙瑞兹，我又以六十人胜之。在后，于近郊募兵，再不久罗多克请和，同意。随后在萨兰德境内募兵，直到有兵200守沙瑞兹。</p>
-
-<p>将一位npc设为首相，有选择了三位npc做领主（<strong>不要把土地封给非贵族</strong>，因为，这样做，会让所有领主与你的好感度降低1-4）。再看不对收支，周入5000+，可以放心大胆去全大陆募兵了，把精兵留在城内，带上10斯瓦迪亚骑士，20萨兰德弓箭手，去全大陆找兵买马，包括之前赶走的npc，顺便将武器转移会沙瑞兹。</p>
-
-<p>此时，已有精兵300。然后，下令与罗多克开战，领着领主攻取<strong>乌鲁兹达克堡</strong>，封给了罗格斯，再取<strong>加米奇堡</strong>，又封给了罗格斯。此时我才明白，称王之后面临的压力<strong>——国王与领主之间的矛盾</strong>。很多领主虽然效忠于你，但是打仗从来是临阵托逃，随后还想你要封底，不给封地，好感度就下降。好感度下降，就更不会听你调遣。于是，有位领主和我好感读最后达到了-73，关系显示<strong>视同水火</strong>。Shit，村子我都不给你。</p>
-
-<p>根基已牢，此时，已有<strong>1城，3堡，8村庄</strong>，已然独占一方称王称霸了（此时，库吉特汗国也只剩1城了），我想也许应该找个老婆，做我的贤内助，开始想得是，领主梅尔特的女儿。人长得不错，但是有争议值19，虽然梅尔特极力推荐，而且一开始也确实这么想的。不过，最后发现萨兰德苏丹国<strong>拉那城</strong>城主<strong>迪乌</strong>的女儿待架，争议值为0，而且正值青春美丽，果断追求之，念了4首诗，却发现依旧不肯下架，在一问，原来还有追求者，选择与之决斗。胜利后，找到<strong>迪乌</strong>，要娶他女儿。迪乌很爽快，直接答应了，没有多久，宴会举办，正式完婚。</p>
-
-<p>好日子过够了，身为君王，自然想去开疆辟土，再与罗多克开战，攻取了<strong>加米奇堡</strong>北的在山脊的城堡。封给了<strong>雷萨里特</strong>，我新招的贵族npc。刚刚凯旋回师，就被罗多克攻占。正准备再次夺回时，库吉特向我宣战，就是其他六国中最弱小的一方（当初梅尔特投靠时带来的城堡正在地图中央。很多国家对其垂涎已久），而此时，罗多克的和议书也接踵而至，选择同意。不久，斯瓦迪亚对我宣战（第二弱小，仅剩都城帕拉汶），显然目的在梅尔特的城堡。</p>
-
-<p>此时，我做了一个错误的决定，劳师东征<strong>阿苏刚堡</strong>（山巅之城，库吉特仅存的三座城堡之一），想伺机以此为桥消灭库吉特。谁知<strong>百足大虫，死而不僵</strong>。攻取了<strong>阿苏刚</strong>，并且连续<strong>三次击退库吉特的反扑</strong>。当我刚刚回师沙瑞兹后，阿苏刚沦陷。既然偷袭不成，准备正面直取库吉特最后城市艾尔莫克，只是，兵马未到，就遇见了库吉特大汗。以百余兵力对抗1300人，果断放弃攻取<strong>艾尔莫克</strong>的计划。斯瓦迪亚趁机偷袭了梅尔特的主城。刚回到<strong>沙瑞兹</strong>，向库吉特求和。斯瓦迪亚和书随后以发往沙瑞兹，至此战事结束。大开宴会，与众领主开怀畅饮。正在参与本城竞技大赛时，突然觉得<strong>是非成败转头空，青山依旧在，几度夕阳红。</strong></p>
-
-<p>纵然统一全大陆又能怎样？</p>
-
-<p><strong>选择结束冒险。离去，沙瑞兹帝国成为了卡拉迪亚大陆历史长河上的一粒沙。而威廉三世也化为尘土。</strong></p>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/09_24_611.html">http://baham.co/09_24_611.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Blender快捷键汇总]]></title>
-    <link href="http://baham.co/09_15_601.html"/>
-    <updated>2012-09-15T00:25:49+00:00</updated>
-    <id>http://baham.co/601</id>
-    <content type="html"><![CDATA[<ul>
-<li><p>shift+a添加</p></li>
-<li><p>shift+d复制</p></li>
-<li><p>ctrl+alt+Num0相机视图模式</p></li>
-<li><p>……</p></li>
-</ul>
-
-
-<p><em><strong>Blender</strong></em>拥有<strong>丰富的快捷键</strong>，当然快捷键使用并非必须的，不过，灵活使用快捷键会让你的Blender使用时更加简单、快速、方便。试想一下，在你的思维如泉涌时，你的双手却跟不上思考的速度，这是一件多么悲剧的事情。</p>
-
-<!-- more -->
-
-
-<h2>Blender快捷键分类一览(图示)</h2>
-
-<p>[<img src="http://baham.co/wp-content/uploads/2012/09/blendervisualhotkeys.png" alt="blender快捷键-分类汇总" />] Blender快捷键图示</p>
-
-<h2> Blender快捷键英文版简介</h2>
-
-<ol>
-<li><p> 窗口模式-Window HotKeys</p></li>
-<li><p> 通用模式-Universal HotKeys</p></li>
-<li><p> 对象模式-Object Mode HotKeys</p></li>
-<li><p> ……</p></li>
-</ol>
-
-
-<p>想系介绍，请阅读完整版本PDF文档。</p>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/09_15_601.html">http://baham.co/09_15_601.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Blender视频教程收集整理]]></title>
-    <link href="http://baham.co/09_14_595.html"/>
-    <updated>2012-09-14T23:49:43+00:00</updated>
-    <id>http://baham.co/595</id>
-    <content type="html"><![CDATA[<h1>1 Super3Boy系列教程：</h1>
-
-<!-- more -->
-
-
-<p><em>Super3Boy</em>系列<strong>Blender教程</strong>Youku播放地址：<a href="http://www.youku.com/playlist_show/id_4120562.html">http://www.youku.com/playlist_show/id_4120562.html</a></p>
-
-<p>总时长约4小时。</p>
-
-<h1>2 Sintel全系列教程</h1>
-
-<p>网易公开课视频教程:<a href="http://open.sina.com.cn/Sintel.html">http://open.sina.com.cn/Sintel.html</a></p>
-
-<p>已经翻译完成，共27集</p>
-
-<h1>3 火星网Blender相关中文教程</h1>
-
-<p><a href="http://www.vhxsd.com/list/483">http://www.vhxsd.com/list/483</a></p>
-
-<p>纯中文教程，比较初级，时长较短，内容较少，总共15集。</p>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/09_14_595.html">http://baham.co/09_14_595.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[初学Blender-图片分享]]></title>
-    <link href="http://baham.co/09_14_583.html"/>
-    <updated>2012-09-14T23:20:54+00:00</updated>
-    <id>http://baham.co/583</id>
-    <content type="html"><![CDATA[<p><a href="http://baham.co/wp-content/uploads/2012/09/castle222.png"><img src="http://baham.co/wp-content/uploads/2012/09/castle222.png" alt="blender建模-城堡-烟雾" /></a><!-- more --><a href="http://baham.co/wp-content/uploads/2012/09/wneglass.png"><img src="http://baham.co/wp-content/uploads/2012/09/wneglass.png" alt="blender建模-纹理-酒杯" /></a><a href="http://baham.co/wp-content/uploads/2012/09/martina.png"><img src="http://baham.co/wp-content/uploads/2012/09/martina.png" alt="blender建模-Martina-纹理-玻璃特效" /></a><a href="http://baham.co/wp-content/uploads/2012/09/flashlight.png"><img src="http://baham.co/wp-content/uploads/2012/09/flashlight.png" alt="blender建模-手电-灯光" /></a>[<img src="http://baham.co/wp-content/uploads/2012/09/bugle.png" alt="blender建模-喇叭" />]<a href="http://baham.co/wp-content/uploads/2012/09/bugleclolor.png"><img src="http://baham.co/wp-content/uploads/2012/09/bugleclolor.png" alt="blender建模-喇叭-着色" /></a>
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/09_14_583.html">http://baham.co/09_14_583.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[加强Wordpress安全的18条建议]]></title>
-    <link href="http://baham.co/09_14_577.html"/>
-    <updated>2012-09-14T11:45:34+00:00</updated>
-    <id>http://baham.co/577</id>
-    <content type="html"><![CDATA[<p>作为最热门的博客系统，Wordpress拥有非常庞大的用户基数，于是也就成为了很多人眼中的香饽饽。所以说，加强博客的安全，势在必行。以下为，收集来的几条建议。详细内容在PDF文档中。</p>
-
-<ol>
-<li><p> 做好<strong>备份</strong></p></li>
-<li><p> 保持更新</p></li>
-<li><p> 健壮的密码</p></li>
-<li><p> 经常检查你的网站</p></li>
-<li><p> 禁止显示目录索引</p></li>
-</ol>
-
-
-<p>pds<a href="https://docs.google.com/file/d/0B4GRRqxWzRx7eGFUa002S190b1U/edit">下载</a>
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/09_14_577.html">http://baham.co/09_14_577.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[博客改动了一部分]]></title>
-    <link href="http://baham.co/09_13_557.html"/>
-    <updated>2012-09-13T19:07:15+00:00</updated>
-    <id>http://baham.co/557</id>
-    <content type="html"><![CDATA[<p>前一段时间，忙别的事去了。很就没有更新博文，今天才腾出时间，管理一下自己的站点。</p>
-
-<ul>
-<li><p>更换了主题</p></li>
-<li><p>博客标题也改变了</p></li>
-</ul>
-
-
-<p>可能短期内会被谷歌降权（反正也没什么权重）。</p>
-
-<p>我不是学web开发的，html也只是现学现卖，php更不用说。</p>
-
-<p>不过，还是希望自己的网站会更好。
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/09_13_557.html">http://baham.co/09_13_557.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[JavaDoc注释详解]]></title>
-    <link href="http://baham.co/08_26_470.html"/>
-    <updated>2012-08-26T23:02:58+00:00</updated>
-    <id>http://baham.co/470</id>
-    <content type="html"><![CDATA[<p>在<strong>JavaAPI</strong>中，有完整的Java说明，而如果想生成想JavaAPI一样的说明文件，就需要使用<strong>javadoc工具</strong>，同时需要用到Javadoc格式的注释。</p>
-
-<h1> 1 使用/<em>* 而非/</em>开头</h1>
-
-<p>示例如下：</p>
-
-<p>/**</p>
-
-<p>*This is a line about javadoc.</p>
-
-<p>*This the next line.</p>
-
-<p>*/</p>
-
-<p>即javadoc的注释以/<em><em>开头，以</em>作为每一段开头,</em>/结尾</p>
-
-<!-- more -->
-
-
-<h1>2 需要使用特有标记</h1>
-
-<p>在javadoc格式的注释中，使用@XXX表示标签，<strong>以@开头，后面是标记名，再后面是其他信息。</strong></p>
-
-<p>常用javadoc标记名如下：</p>
-
-<p><em>author,param,return,throws,version</em></p>
-
-<p><strong>javadoc标记概述</strong>：</p>
-
-<p>标记名称</p>
-
-<p>介绍</p>
-
-<p>@author <name></p>
-
-<p>编写该类的作者信息</p>
-
-<p>@param <name><description></p>
-
-<p>该方法参数的详细说明</p>
-
-<p>@return <description></p>
-
-<p>该方法<strong>返回值</strong>的详细说明</p>
-
-<p>@throws <type> <description></p>
-
-<p>该方法可能抛出的异常类型，以及在什么情况下抛出该异常</p>
-
-<p>@version <number></p>
-
-<p>标记文件版本号</p>
-
-<h1>3 javadoc注释完整示例</h1>
-
-<p>下面以HelloWorld程序为例，进行javadoc格式的注释。</p>
-
-<pre><code>/**
-*这是HelloWorld的javadoc追时范例，@author和@version通常放在类头部的注释块中
-*@author Baham
-*@version 0.01
-*XXXXXXXX
-*/
-public class HelloWorld{
-    private String s=”HelloWorld”;
-
-    public static void main(String args[]){
-        show();
-    }
-/**
-*通常在方法头部的注释块中，放置@param和@throws标记，对于有返回值的方法还要使用@return
-*标记返回值
-*@param show This method is to show “”HelloWorld”
-*@return here is not return value
-*@throws null
-*xxxxxxxxxx
-*/
-    public void show(){
-        System.out.println(s);
-    }
-}
-</code></pre>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/08_26_470.html">http://baham.co/08_26_470.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>

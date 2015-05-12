@@ -90,7 +90,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/08_03_353.html">《Building Java Programs》-ArrayList小结</a></h1>
+      <h1 class="entry-title"><a href="/08_09_402.html">编程练习-稳定婚姻问题（Stable Marriage）</a></h1>
     
     
       <p class="meta">
@@ -106,22 +106,188 @@
   
 
 
-<time datetime="2012-08-03T19:52:23+00:00" pubdate data-updated="true">Aug 3<span>rd</span>, 2012</time>
+<time datetime="2012-08-09T22:06:35+00:00" pubdate data-updated="true">Aug 9<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p><em>java.util</em>包中的<strong>ArrayList</strong>类表示一个大小可以自动增长的对象列表，它在内部用数组来实现这个列表。可以用ArrayList顺序地保存对象元素，其元素索引从0开始。</p>
+  <div class="entry-content"><p>对于给定的一群男女，在他们当中建立尽可能多的<strong>稳定婚姻</strong>。如果现在一对夫妻能找到比他们的配偶更适合的异性，则他们的混为<strong>不稳定婚姻</strong>。</p>
+
+<p>输入文件中所有男人信息放在一起，没人一行，然后是空行，后面是女人的信息，也是没人一行。每个人根据他们的行号进行编号（如，第一个男人为1号）。输入文件的每一行的开头都是人命（男女间空行除外），后面是冒号，在后面是<strong>一串整数</strong>，用以保存每个人对配偶的偏好。例如：</p>
+
+<p>Java: 10 8 5 6</p>
+
+<p>名为<strong>Java</strong>的人，和异性中10号是最好的组合，8号其次，不再列表上的无法组合。</p>
+
+<p>完整示例如下：</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/08_09_402.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/08_07_398.html">Java集合框架练习-计算素数</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-07T20:06:05+00:00" pubdate data-updated="true">Aug 7<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>要求：</h2>
+
+<ul>
+<li><p>使用<strong>链表</strong>（LinkedList）；</p></li>
+<li><p>使用“<strong>埃拉托塞尼筛法</strong>”（源自古希腊数学家Eratosthenes）。使用两个列表，一个存储所有待检查数（要求第一个数必须为素数），一个存储发现的素数。步骤如下：</p></li>
+</ul>
+
+
+<blockquote><ol>
+<li><p> 第一步是将数字列表中第一个书删除并将其加入素数列表；</p></li>
+<li><p> 将列表中所有被删除输的数的倍数删除；</p></li>
+<li><p> 删除下一个素数并将其加入素数列表，然后重复第二步。</p></li>
+</ol>
+</blockquote>
+
+<h2>示例：</h2>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/08_07_398.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/08_07_395.html">List、Set和Map之间的比较</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-07T11:25:56+00:00" pubdate data-updated="true">Aug 7<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h1>列表、数学集合、映射（List、Set和Map）对比</h1>
+
+<h1>List</h1>
+
+<h2>实现</h2>
+
+<p>ArrayList、LinkedList</p>
+
+<h2>描述/优点</h2>
+
+<p>元素按照插入顺序排列</p>
+
+<h2>缺点</h2>
+
+<p>查询速度慢，在任意位置插入、删除元素也很慢</p>
+
+<h2>使用实例</h2>
+
+<p>账户列表、等待队列、文件中的内容行。</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/08_07_395.html">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/08_06_389.html">《Building Java Programs》-Java集合框架（Java Collection Framework）</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-06T23:00:55+00:00" pubdate data-updated="true">Aug 6<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework-300x161.png" alt="Java集合框架-java collection framework-示意图" />(<a href="http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework.png">http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework.png</a>) Java集合框架（点击浏览大图）</p>
+
+<p>ArrayList的优点在于可以随机访问每一个元素，也可以快速在尾部添加或删除元素。但在头部添加、删除元素时，ArrayList的执行效率很低，因为每次从列表中删除或添加一个元素，都要将该元素所有后继元素向前后向后移动一个位置，此时需要通过使用<strong>node（节点）</strong>存储元素的<strong>LinkedList（链表）</strong>。LinkedList满足<strong>Collection接口</strong>，而<strong>Collection接口</strong>和<strong>Map接口</strong>构成了<strong>Java集合框架</strong>的主体。</p>
 
 <ol>
-<li><p> ArrayList是一个<strong>泛型类</strong>，创建泛型类对象时需要指定一种数据类型，例如，<strong>ArrayList<String></strong>。</p></li>
-<li><p> ArrayList可以自己维护列表的大小，可以在任何索引位置插入或删除元素。ArrayList还支持<em>get、set、clear、、toString</em>等方法。</p></li>
-<li><p> 可以用<em>contains、indexOf、lastIndexOf</em>方法查找ArrayList中的元素。</p></li>
-<li><p> 可以用<strong>for-each循环</strong>来<strong>遍历</strong>ArrayList中的元素。但在这个过程中不能修改列表的内容。</p></li>
-<li><p> 如果要在ArrayList中保存基本类型的数据，如int或double等，就必须在创建对象时，使用其对应的<strong>包装类</strong>，如Integert和Double。</p></li>
-<li><p> <strong>Comparable接口</strong>定义了可以实现自然排序的compareTo方法。实现了Comparable接口的类可以保存到ArrayList对象中，很多常用类型（如：String，Integer）都实现了Comparable接口，也可以在自定义类中实现Comparable接口。</p></li>
+<li><p> 集合对象中保存着一族其他对象。Java的集合对象包括ArrayList、HashSet和TreeSet等等。集合对象主要用于<strong>保存、组织和查询</strong>数据。</p></li>
+<li><p> <strong>链表(LinkedList)</strong>是一种集合对象，它与ArrayList很相似，但在内部实现上采用了“<strong>节点</strong>”保存每一个元素。对于某些操作，如在列表开头插入或删除元素，链表的执行效率远高于ArrayList。</p></li>
+<li><p> <strong>迭代器（Iterator）</strong>是一种对象，它可以保存访问列表过程中的当前位置，因此可以加快<strong>顺序访问</strong>列表元素的速度。通常采用迭代器来提高访问链表（LinkedList）操作的效率。</p></li>
+<li><p> <strong>抽象数据类型（ADT）</strong>，例如List、Set，定义了一族相关的操作，Java集合框架中用接口来表示ADT（例如List接口，ArrayList和LinkedList均实现了该接口）。</p></li>
+<li><p> <strong>数学集合（Set）</strong>中不允许出现重复元素。Set可以快速查找一个给定值是否在集合中存在。Java中用Set接口表示数学集合。</p></li>
+<li><p> Java中有两个主要的数学集合类：<strong>TreeSet</strong>和<strong>HashSet</strong>。TreeSet以某种顺序来保存一些可以进行比较的数据。HashSet可以保存任何数据，包括未满足Comparable接口的元素，而且检索速度更快，但不能控制集合中元素的顺序。</p></li>
+<li><p> <strong>映射</strong>将一组<strong>键（Key）</strong>对象关联（映射）到一组<strong>值（Value）</strong>对象上。它用来保存一对拥有特定关系的数据，例如某人的姓名和他的身份证号。</p></li>
+<li><p> Java中使用<strong>Map接口</strong>表示映射，其中有两个主要的映射类：<strong>TreeMap</strong>和<strong>HashMap</strong>。类似于数学集合（Set），TreeMap以某种顺序保存可以进行比较的键对象。HashMap可以保存任何键对象，而且检索素的更快，但却不能控制对象存放的顺序。在不考虑键对象顺序时，Sun推荐使用HashMap。</p></li>
 </ol>
 
 
@@ -136,7 +302,7 @@
 <br/>
 
 
-<p>The Original Link: <a href="/08_03_353.html">http://baham.co/08_03_353.html</a><br/>
+<p>The Original Link: <a href="/08_06_389.html">http://baham.co/08_06_389.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 </div>
@@ -151,7 +317,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
       
   <header>
     
-      <h1 class="entry-title"><a href="/08_02_328.html">详解Tic-Tac-Toe人工智能实现</a></h1>
+      <h1 class="entry-title"><a href="/08_06_370.html">JavaZone视频集锦2-JavaZone四个最受欢迎的演讲视频</a></h1>
     
     
       <p class="meta">
@@ -167,218 +333,27 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
   
 
 
-<time datetime="2012-08-02T21:12:39+00:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2012</time>
+<time datetime="2012-08-06T00:00:57+00:00" pubdate data-updated="true">Aug 6<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_18-53-21.png" alt="井字棋棋盘 tic-tac-toe 棋盘" /> 井字棋棋盘</p>
-
-<p><strong>Tic-Tac-Toe</strong>又称<strong>井字棋</strong>，即在3X3的棋盘上，双方轮流落子，先将3枚棋子连成一线的一方获得胜利。</p>
-
-<p>Tic-Tac-Toe变化简单，只有765个可能局面，26830个棋局，因此常成为<a href="https://zh.wikipedia.org/wiki/%E5%8D%9A%E5%BC%88%E8%AE%BA">博弈论</a>和<a href="https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E6%A8%B9">游戏树</a>搜寻的教学例子，同时也是<a href="https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD">人工智能</a>的一道好题目。</p>
+  <div class="entry-content"><h1><img src="http://baham.co/wp-content/uploads/2012/08/JavaZone-coolcode-300x219.png" alt="JavaZone视频演讲-Coolcode" /></h1>
 
 <h1></h1>
 
-<h1>关于棋盘：</h1>
+<h1></h1>
 
-<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_18-58-43.png" alt="Tic-tac-toe棋盘坐标 井字棋 坐标" /> 井字棋棋盘坐标版</p>
+<h1></h1>
 
-<p>整个棋盘可以连接出<strong>8条线</strong>。<a href="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-12-42.png">tic-tac-toe 井字棋 胜利方式</a>（如右图）&mdash;&mdash;></p>
-
-<p>在中心的位置（2，2）有<strong>四条线</strong>穿过。</p>
-
-<p>在所有棱位（1，2），（2，1），（2，3），（3，2），均有<strong>两条线</strong>穿过。</p>
-
-<p>在所有角位（1，1），（1，3），（3，1），（3，3），均有<strong>三条线</strong>。</div>
+<h1></div>
   
   
     <footer>
-      <a rel="full-article" href="/08_02_328.html">Read on &rarr;</a>
+      <a rel="full-article" href="/08_06_370.html">Read on &rarr;</a>
     </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/08_02_318.html">Learn to Hack-如何成为一个黑客</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-02T12:19:34+00:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><strong><a href="http://baham.co/wp-content/uploads/2012/08/security.png"><img src="http://baham.co/wp-content/uploads/2012/08/security.png" alt="安全-learn to hack-如何成为黑客" /></a>攻击服务器</strong>、<strong>爆破密码</strong>、<strong>利用漏洞</strong>、<strong>破解加密</strong>，和所有一切保护你图里邪恶的东西。</p>
-
-<p>安全的计算机需要两种规则可以实现，</p>
-
-<ol>
-<li><p> <strong>不买，</strong></p></li>
-<li><p> <strong>买来计算机后，不去开机</strong></p></li>
-</ol>
-
-
-<p>打破其中任何一条，你就将面临着安全问题。在黑客眼里，没有一台计算机是100%安全的，但是你只需要简单几步，就能让你的计算机更难被破坏。</p>
-
-<p><strong>黑客行为</strong>是一门获取本没有访问权限的计算机系统权限的艺术，其间需要利用bug，本文将向您展示两种达到目的的方法，并且将教你如何避免成为受害者，我们将通过获取<strong>root权限</strong>（类Unix系统中最高权限）的方式达到我们想做的一切-<strong>盗取信息</strong>、<strong>破坏硬件</strong>。</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/08_02_318.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/08_02_313.html">《Building Java Programs》-继承和接口</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-02T11:49:24+00:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><strong>继承和接口</strong>可以让我们的程序更加简洁清晰。<strong>继承</strong>可以让你在不同类之间共享代码从而减少冗余，还可以达到用统一的方法处理多个类对象的效果。<strong>接口</strong>也可以让你用统一的方法处理几个不同类型的对象，而且不需要这些对象之间共享代码。</p>
-
-<ol>
-<li><p> 通过<strong>继承</strong>可以在两种类型之间建立<strong>父子关系</strong>。</p></li>
-<li><p> <strong>继承关系</strong>中的子类捡回获得父类中所有<strong>字段</strong>和<strong>方法</strong>的一份拷贝。子类可以扩展父类，因为它可以在父类的基础上添加新的字段和方法。子类也可以覆盖从父类继承来的方法。</p></li>
-<li><p> Java中，几种不同类型的独享可以互相替换的特性成为<strong>多态性</strong>。</p></li>
-<li><p> 子类可以通过<strong>super关键字</strong>调用父类的<strong>构造函数</strong>和<strong>方法</strong>。</p></li>
-<li><p> Object类是所有类共同的父类。它包含了每个对象都应该具有的行为，如equals和toString方法。</p></li>
-<li><p> 继承让两个类之间具有<strong>“is-a”</strong>关系。如果两个类没有这种紧密的内在联系，那么继承可能并不是一个好的设计方案，在两者之间使用<strong>“has-a”</strong>关系可能是更好的选择。</p></li>
-<li><p> <strong>接口</strong>是一系列方法声明的集合。接口中指明了方法名称、参数和返回值的类型，但是没有给出方法具体的实现。类可以实现接口，并且可以实现多个接口。</p></li>
-<li><p> <strong>接口</strong>有助于实现<strong>多态性</strong>。如果两个或更多类都实现了某个接口，我们便可以用任何一个类来调用接口中声明的方法。</p></li>
-<li><p> <strong>抽象类</strong>是一种不能被实例化的类，不能创建这种类的对象。但抽象类可以作为父类继承，也可以为子类定义一些抽象的方法。</p></li>
-<li><p>. 抽象类可以包含抽象方法。但其所有子类必须是想其中定义的抽象方法。</p></li>
-</ol>
-
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="/08_02_313.html">http://baham.co/08_02_313.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/08_02_310.html">《Building Java Programs》-“类”小结</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-02T11:03:53+00:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><strong>面向对象程序设计方法</strong>基于一种不同的设计哲学，它将重点放在程序中要用到的<strong>实体</strong>（名词），而非<strong>动作</strong>（动词）。采用面向对象程序设计时，会将状态和行为放在一起组成对象。</p>
-
-<ol>
-<li><p> <strong>类</strong>是定义一种新的对象类型的蓝图，描述了对象中<strong>数据和行为</strong>。可以根据类来创建多个对象。</p></li>
-<li><p> 对象中用于表示数据的变量称为<strong>字段</strong>。</p></li>
-<li><p> 对象的行为通过类的实例方法来实现。实例方法属于某个对象，可以访问或修改对象的内部状态。</p></li>
-<li><p> 类中可以定义一个特殊的方法：<strong>构造函数</strong>。构造函数用于创建一个新的对象，并负责初始化新对象的状态。当客户代码使用关键字new来创建对象实例时，会自动调用构造函数。一个雷可以有多个构造函数；如果没有Java会提供一个默认构造函数。</p></li>
-<li><p> 通常，一个对象可以在不知道其他对象内部工作原理的情况下，与那些对象进行正常的交互。这种特性被称为“<strong>抽象</strong>”。大多数对象都会保护自己的内部状态不会被外界随意修改，这种特性被称为“<strong>封装</strong>”。要提供封装性，你可将字段设为私有（使用private）。</p></li>
-<li><p> 对象有两种常用的方法-访问器、修改器：<strong>访问器</strong>可以返回对象的一些信息。例如String对象的length方法和Point对象的getX、getY方法。<strong>修改器</strong>可以修改对象的状态，例如Point对象的translate方法。</p></li>
-<li><p> 如果需要更好的打印对象，必须提供独有的toString方法。要让对象比较相等性，必须提供equals方法。</p></li>
-<li><p> <strong>关键字this</strong>可以表示对象自己的引用。如果一个类有多个构造函数，而且其中一个需要调用另一个，也需要使用this关键字。</p></li>
-<li><p> <strong>不可变对象</strong>在创建后就不能再修改。（如String对象）</p></li>
-<li><p>. 一个类应该只表示一种抽象，只包括这种抽象所必须的数据和行为，并且应该与使用对象的客户无关。</p></li>
-</ol>
-
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="/08_02_310.html">http://baham.co/08_02_310.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-</div>
-  
   
 
 
@@ -413,11 +388,43 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     <h2 class="panel-title">Category Cloud</h2>
   </div>
 <div id="recent_posts" class="list-group">
-	<span id="tag-cloud"><a href='/blog/categories/announcement' style='font-size: 107.5%'>Announcement(2)</a> <a href='/blog/categories/baham' style='font-size: 115.0%'>Baham(4)</a> <a href='/blog/categories/baham-studio' style='font-size: 115.0%'>Baham Studio(4)</a> <a href='/blog/categories/bible' style='font-size: 107.5%'>Bible(2)</a> <a href='/blog/categories/blender' style='font-size: 107.5%'>Blender(2)</a> <a href='/blog/categories/book' style='font-size: 107.5%'>Book(2)</a> <a href='/blog/categories/cg' style='font-size: 103.75%'>CG(1)</a> <a href='/blog/categories/code' style='font-size: 115.0%'>Code(4)</a> <a href='/blog/categories/edu' style='font-size: 111.25%'>EDU(3)</a> <a href='/blog/categories/game' style='font-size: 118.75%'>Game(5)</a> <a href='/blog/categories/game-theory' style='font-size: 103.75%'>Game Theory(1)</a> <a href='/blog/categories/geek' style='font-size: 111.25%'>Geek(3)</a> <a href='/blog/categories/hack' style='font-size: 103.75%'>Hack(1)</a> <a href='/blog/categories/java' style='font-size: 148.75%'>Java(13)</a> <a href='/blog/categories/java-zone' style='font-size: 103.75%'>Java Zone(1)</a> <a href='/blog/categories/linux' style='font-size: 118.75%'>Linux(5)</a> <a href='/blog/categories/memo' style='font-size: 126.25%'>Memo(7)</a> <a href='/blog/categories/movie' style='font-size: 103.75%'>Movie(1)</a> <a href='/blog/categories/software' style='font-size: 103.75%'>Software(1)</a> <a href='/blog/categories/ted' style='font-size: 103.75%'>TED(1)</a> <a href='/blog/categories/thinking' style='font-size: 107.5%'>Thinking(2)</a> <a href='/blog/categories/tips' style='font-size: 160.0%'>Tips(16)</a> <a href='/blog/categories/translation' style='font-size: 103.75%'>Translation(1)</a> <a href='/blog/categories/utb' style='font-size: 107.5%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 107.5%'>Video(2)</a> <a href='/blog/categories/wordpress' style='font-size: 107.5%'>Wordpress(2)</a> </span>
+	<span id="tag-cloud"><a href='/blog/categories/announcement' style='font-size: 107.5%'>Announcement(2)</a> <a href='/blog/categories/baham' style='font-size: 115.0%'>Baham(4)</a> <a href='/blog/categories/baham-studio' style='font-size: 115.0%'>Baham Studio(4)</a> <a href='/blog/categories/bible' style='font-size: 107.5%'>Bible(2)</a> <a href='/blog/categories/blender' style='font-size: 107.5%'>Blender(2)</a> <a href='/blog/categories/book' style='font-size: 107.5%'>Book(2)</a> <a href='/blog/categories/cg' style='font-size: 103.75%'>CG(1)</a> <a href='/blog/categories/code' style='font-size: 115.0%'>Code(4)</a> <a href='/blog/categories/edu' style='font-size: 122.5%'>EDU(6)</a> <a href='/blog/categories/game' style='font-size: 118.75%'>Game(5)</a> <a href='/blog/categories/game-theory' style='font-size: 103.75%'>Game Theory(1)</a> <a href='/blog/categories/geek' style='font-size: 115.0%'>Geek(4)</a> <a href='/blog/categories/hack' style='font-size: 103.75%'>Hack(1)</a> <a href='/blog/categories/java' style='font-size: 152.5%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 103.75%'>Java Zone(1)</a> <a href='/blog/categories/linux' style='font-size: 130.0%'>Linux(8)</a> <a href='/blog/categories/memo' style='font-size: 126.25%'>Memo(7)</a> <a href='/blog/categories/movie' style='font-size: 103.75%'>Movie(1)</a> <a href='/blog/categories/software' style='font-size: 107.5%'>Software(2)</a> <a href='/blog/categories/ted' style='font-size: 103.75%'>TED(1)</a> <a href='/blog/categories/thinking' style='font-size: 107.5%'>Thinking(2)</a> <a href='/blog/categories/tips' style='font-size: 160.0%'>Tips(16)</a> <a href='/blog/categories/translation' style='font-size: 103.75%'>Translation(1)</a> <a href='/blog/categories/utb' style='font-size: 107.5%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 107.5%'>Video(2)</a> <a href='/blog/categories/wordpress' style='font-size: 107.5%'>Wordpress(2)</a> </span>
 </div>
 </section><section>
   <h2>Recent Posts</h2>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/12_23_764.html">Enlightenment-V0.17发布</a>
+      </li>
+    
+      <li class="post">
+        <a href="/12_17_757.html">树莓派/Raspberry Pi上线软件市场</a>
+      </li>
+    
+      <li class="post">
+        <a href="/12_17_752.html">Git 常用命令速查表</a>
+      </li>
+    
+      <li class="post">
+        <a href="/12_10_748.html">什么是泥炭化作用？</a>
+      </li>
+    
+      <li class="post">
+        <a href="/12_10_746.html">泥炭沼泽形成环境、泥炭沼泽的成因</a>
+      </li>
+    
+      <li class="post">
+        <a href="/12_10_742.html">煤的显微组分和宏观媒岩成分之间的关系</a>
+      </li>
+    
+      <li class="post">
+        <a href="/12_05_738.html">还在用360吗？试试新加坡Toolwiz的ToolwizCare吧。</a>
+      </li>
+    
+      <li class="post">
+        <a href="/11_29_734.html">码农第二期-图灵社区出品</a>
+      </li>
     
       <li class="post">
         <a href="/11_28_730.html">为什么《人民日报》会引用洋葱的新闻报道？</a>
@@ -465,38 +472,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     
       <li class="post">
         <a href="/10_06_626.html">骑马与砍杀：战团-各城市产出列表</a>
-      </li>
-    
-      <li class="post">
-        <a href="/10_06_632.html">有机化学简明教程-天津大学出版社-课后习题-答案</a>
-      </li>
-    
-      <li class="post">
-        <a href="/09_24_611.html">骑马与砍杀-战团：沙瑞兹帝国的崛起-自立建国经验分享</a>
-      </li>
-    
-      <li class="post">
-        <a href="/09_15_601.html">Blender快捷键汇总</a>
-      </li>
-    
-      <li class="post">
-        <a href="/09_14_595.html">Blender视频教程收集整理</a>
-      </li>
-    
-      <li class="post">
-        <a href="/09_14_583.html">初学Blender-图片分享</a>
-      </li>
-    
-      <li class="post">
-        <a href="/09_14_577.html">加强Wordpress安全的18条建议</a>
-      </li>
-    
-      <li class="post">
-        <a href="/09_13_557.html">博客改动了一部分</a>
-      </li>
-    
-      <li class="post">
-        <a href="/08_26_470.html">JavaDoc注释详解</a>
       </li>
     
   </ul>

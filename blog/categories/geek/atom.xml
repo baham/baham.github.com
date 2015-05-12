@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Geek | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/geek/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-05-12T01:02:16+00:00</updated>
+  <updated>2015-05-12T01:42:52+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,66 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[码农第二期-图灵社区出品]]></title>
+    <link href="http://baham.co/11_29_734.html"/>
+    <updated>2012-11-29T11:19:36+00:00</updated>
+    <id>http://baham.co/734</id>
+    <content type="html"><![CDATA[<p>主讲内容：</p>
+
+<blockquote><p><strong>• 本期专题:JavaScript</strong>
+<strong>• 七大大框架论剑</strong>
+<strong>• Nicholas C. Zakas 和他的</strong>
+<strong>《JavaScript高高级程序设计》</strong>
+<strong>• 陈皓:我的精神家园</strong>
+<strong>• 老老赵:以“玩”之名</strong>
+<strong>• 迄今为止止最伟大大的极客</strong>
+<strong>• 深入入Markdown</strong></p></blockquote>
+
+<!-- more -->
+
+
+<p>（以上均为原文引用）</p>
+
+<p>目录：</p>
+
+<blockquote><p><strong>卷首语</strong>
+<strong>1 改变世界的好码农</strong>
+<strong>专题:JavaScript</strong>
+<strong>3 JavaScript 宝座:七大框架论剑 </strong>
+<strong>19 JavaScript 模块化开发一瞥 </strong>
+<strong>27 对话 Nicholas C. Zakas</strong>
+<strong>——《JavaScript 高级程序设计》作者</strong>
+<strong>34 通过对象图学习 JavaScript</strong>
+<strong>人物</strong>
+<strong>41 我的精神家园——陈皓(@ 左耳朵耗子)专访</strong>
+<strong>54 以“玩”之名——赵劼(@ 老赵)专访</strong>
+<strong>践行</strong>
+<strong>70 通才还是专才——由摩托裁员引发的讨论</strong>
+<strong>九卦</strong>
+<strong>73 为什么 Nikola Tesla 是迄今为止最伟大的极客</strong>
+<strong>鲜阅</strong>
+<strong>88 善言的 JavaScript</strong>
+<strong>——选自《善言的 JavaScript: 现代化编程指南》</strong>
+<strong>出版的未来</strong>
+<strong>96 Markdown 作者谈“深入 Markdown”</strong>
+<strong>书榜</strong>
+<strong>106 看看大家都在看什么?</strong>
+<strong>妙评</strong>
+<strong>109 《Erlang/OTP 并发编程实战》</strong>
+<strong>成书手记</strong>
+<strong>115 从失败中学习</strong>
+<strong> </strong>
+<strong> ——《30 天自制操作系统》译者自述</strong>
+<strong>社区动态</strong>
+<strong>119 iTran 乐译 10 期</strong>
+<strong>120 专家审读 5 期</strong>
+<strong>121 十月,跟着图灵听课去!</strong></p></blockquote>
+
+<p>全文下载：<a href="http://www.ituring.com.cn/book/download/ac4c3832-bce6-488b-bd39-54ccbbd4e3d9">码农第二期</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[谷歌和微软到底什么关系]]></title>

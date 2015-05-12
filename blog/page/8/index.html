@@ -90,7 +90,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/08_06_389.html">《Building Java Programs》-Java集合框架（Java Collection Framework）</a></h1>
+      <h1 class="entry-title"><a href="/08_10_420.html">《Building Java Programs》-查找与排序</a></h1>
     
     
       <p class="meta">
@@ -106,26 +106,24 @@
   
 
 
-<time datetime="2012-08-06T23:00:55+00:00" pubdate data-updated="true">Aug 6<span>th</span>, 2012</time>
+<time datetime="2012-08-10T22:21:50+00:00" pubdate data-updated="true">Aug 10<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p><img src="http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework-300x161.png" alt="Java集合框架-java collection framework-示意图" />(<a href="http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework.png">http://baham.co/wp-content/uploads/2012/08/Java-Collection-Framework.png</a>) Java集合框架（点击浏览大图）</p>
-
-<p>ArrayList的优点在于可以随机访问每一个元素，也可以快速在尾部添加或删除元素。但在头部添加、删除元素时，ArrayList的执行效率很低，因为每次从列表中删除或添加一个元素，都要将该元素所有后继元素向前后向后移动一个位置，此时需要通过使用<strong>node（节点）</strong>存储元素的<strong>LinkedList（链表）</strong>。LinkedList满足<strong>Collection接口</strong>，而<strong>Collection接口</strong>和<strong>Map接口</strong>构成了<strong>Java集合框架</strong>的主体。</p>
+  <div class="entry-content"><p><strong>查找</strong>是一种试图在数据集或数组中发现某一目标的操作。<strong>排序</strong>是使列表或数组中的元素按照自然顺序进行排列的一种操作。</p>
 
 <ol>
-<li><p> 集合对象中保存着一族其他对象。Java的集合对象包括ArrayList、HashSet和TreeSet等等。集合对象主要用于<strong>保存、组织和查询</strong>数据。</p></li>
-<li><p> <strong>链表(LinkedList)</strong>是一种集合对象，它与ArrayList很相似，但在内部实现上采用了“<strong>节点</strong>”保存每一个元素。对于某些操作，如在列表开头插入或删除元素，链表的执行效率远高于ArrayList。</p></li>
-<li><p> <strong>迭代器（Iterator）</strong>是一种对象，它可以保存访问列表过程中的当前位置，因此可以加快<strong>顺序访问</strong>列表元素的速度。通常采用迭代器来提高访问链表（LinkedList）操作的效率。</p></li>
-<li><p> <strong>抽象数据类型（ADT）</strong>，例如List、Set，定义了一族相关的操作，Java集合框架中用接口来表示ADT（例如List接口，ArrayList和LinkedList均实现了该接口）。</p></li>
-<li><p> <strong>数学集合（Set）</strong>中不允许出现重复元素。Set可以快速查找一个给定值是否在集合中存在。Java中用Set接口表示数学集合。</p></li>
-<li><p> Java中有两个主要的数学集合类：<strong>TreeSet</strong>和<strong>HashSet</strong>。TreeSet以某种顺序来保存一些可以进行比较的数据。HashSet可以保存任何数据，包括未满足Comparable接口的元素，而且检索速度更快，但不能控制集合中元素的顺序。</p></li>
-<li><p> <strong>映射</strong>将一组<strong>键（Key）</strong>对象关联（映射）到一组<strong>值（Value）</strong>对象上。它用来保存一对拥有特定关系的数据，例如某人的姓名和他的身份证号。</p></li>
-<li><p> Java中使用<strong>Map接口</strong>表示映射，其中有两个主要的映射类：<strong>TreeMap</strong>和<strong>HashMap</strong>。类似于数学集合（Set），TreeMap以某种顺序保存可以进行比较的键对象。HashMap可以保存任何键对象，而且检索素的更快，但却不能控制对象存放的顺序。在不考虑键对象顺序时，Sun推荐使用HashMap。</p></li>
+<li><p> 一个<strong>比较器</strong>对象可以用来定义对对象进行比较的方法，从而使该对象的列表或数组可以按照多种不同的顺序进行排列。</p></li>
+<li><p> <strong>实验分析</strong>是一种通过运行一个程序或算法来测定它的运行时间的方法。</p></li>
+<li><p> <strong>算法分析</strong>是一种通过对算法的代码或伪代码进行分析以推测其效率的方法。</p></li>
+<li><p> 算法按照其<strong>复杂度</strong>不同被分为许多类，通常用大O表示法表示，比如<strong>线性算法</strong>复杂度可表示为O(N)。</p></li>
+<li><p> <strong>顺序查找</strong>是一种对列表所有元素进行判断，直到发现目标值的线性O(N)查找算法。</p></li>
+<li><p> <strong>二分查找</strong>通过复杂的将一个已经排好的数据减半的方法来查找所有的元素，它具有对数复杂度O(Log(N))。</p></li>
+<li><p> <strong>选择排序</strong>(<em>selection sort</em>)是一种复杂度为O(N<sup>2</sup>)的排序方法，它通过反复查找未处理数据中最小的一个并把它放在数组所剩余的位置的最前端来完成对数组的排序工作。</p></li>
+<li><p> <strong>归并排序算法</strong>(<em>merge sort</em>)的复杂度为O(N log(N))，通常用递归来实现，它反复的将处理的数组分成两半，在分别对两部分进行排序，最后再把所有经过排序的数组组合在一起。</p></li>
 </ol>
 
 
@@ -140,7 +138,7 @@
 <br/>
 
 
-<p>The Original Link: <a href="/08_06_389.html">http://baham.co/08_06_389.html</a><br/>
+<p>The Original Link: <a href="/08_10_420.html">http://baham.co/08_10_420.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 </div>
@@ -155,7 +153,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
       
   <header>
     
-      <h1 class="entry-title"><a href="/08_06_370.html">JavaZone视频集锦2-JavaZone四个最受欢迎的演讲视频</a></h1>
+      <h1 class="entry-title"><a href="/08_09_415.html">编程练习-八皇后问题</a></h1>
     
     
       <p class="meta">
@@ -171,71 +169,22 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
   
 
 
-<time datetime="2012-08-06T00:00:57+00:00" pubdate data-updated="true">Aug 6<span>th</span>, 2012</time>
+<time datetime="2012-08-09T22:51:41+00:00" pubdate data-updated="true">Aug 9<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><h1><img src="http://baham.co/wp-content/uploads/2012/08/JavaZone-coolcode-300x219.png" alt="JavaZone视频演讲-Coolcode" /></h1>
+  <div class="entry-content"><p><img src="http://baham.co/wp-content/uploads/2012/08/IMG_20120809_224205_%E5%89%AF%E6%9C%AC-225x300.jpg" alt="Baham-八皇后问题一个解决方法" /></p>
 
-<h1></h1>
+<p>在国际象棋棋盘上（8X8）</p>
 
-<h1></h1>
+<p>要求把8个皇后（国际象棋中皇后可以在横、竖、斜四个方向移动，且不限制每次移动格数）放在上边，并且使其中任何两个不能攻击。</p>
 
-<h1></h1>
+<p>左图为<strong>八皇后问题</strong>的一个解决方案。</p>
 
-<h1></div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/08_06_370.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/08_05_365.html">百度内部邮件-非法删帖遭拘留</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-05T16:46:05+00:00" pubdate data-updated="true">Aug 5<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="http://baham.co/wp-content/uploads/2012/08/%E7%99%BE%E5%BA%A6%E5%86%85%E9%83%A8%E5%88%A0%E5%B8%96%E9%82%AE%E4%BB%B6-300x237.png" alt="百度内部邮件-内部员工非法删帖遭拘留" /> 百度内部邮件截图</p>
-
-<p>北京市委机关刊物《<a href="http://www.bjqx.org.cn/qxweb/n43259c638.aspx">前线</a>》曾经报道过，百度截止2010年12月，有党员<strong>975人</strong>，占员工比例<strong>约9%</strong>。</p>
-
-<p>百度和李彦宏也因为积极的合作态度，多次受到相关部门的表扬。</p>
-
-<p>不过，今日百度被爆“<strong>发生了几起严重违规违纪乃至涉嫌犯罪的案件</strong>”，</p>
-
-<p>其中，邮件内容如左图。</p>
-
-<p>内容大意为：百度内部员工与外部人员勾结，非法删帖。有四位员工已经被<strong>刑事拘留</strong>，百度也同时与相关员工解除劳动合同。并且表示，百度将“<strong>坚决查处，严惩不贷</strong>”。
+<p><strong>遍历</strong>8个皇后在棋盘上的所有位置，并返回任意两个不存在威胁的所有情况。
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -247,7 +196,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 <br/>
 
 
-<p>The Original Link: <a href="/08_05_365.html">http://baham.co/08_05_365.html</a><br/>
+<p>The Original Link: <a href="/08_09_415.html">http://baham.co/08_09_415.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 </div>
@@ -262,7 +211,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
       
   <header>
     
-      <h1 class="entry-title"><a href="/08_05_362.html">Java题目-使用ArrayList-实现词汇表比较</a></h1>
+      <h1 class="entry-title"><a href="/08_09_410.html">汉诺塔-印度人的智慧</a></h1>
     
     
       <p class="meta">
@@ -278,23 +227,21 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
   
 
 
-<time datetime="2012-08-05T16:03:23+00:00" pubdate data-updated="true">Aug 5<span>th</span>, 2012</time>
+<time datetime="2012-08-09T22:37:27+00:00" pubdate data-updated="true">Aug 9<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>要求：</p>
+  <div class="entry-content"><p><a href="https://zh.wikipedia.org/wiki/%E6%B1%89%E8%AF%BA%E5%A1%94#.E4.BB.BB.E6.84.8F.E5.88.9D.E5.A7.8B.E7.B5.90.E6.A7.8B.EF.BC.88arbitrary_initial_configuration.EF.BC.89.E7.9A.84.E8.A7.A3.E6.B3.95">汉诺塔</a>，指在三个不同的塔之间移动盘子<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Tower_of_Hanoi.jpeg/220px-Tower_of_Hanoi.jpeg" alt="汉诺塔" />。三个塔中一个上面有一定数目的盘子，盘子<strong>直径递减</strong>，最上面的最小，如图（图为8层）。</p>
 
-<p>程序可以读取两个不同的文件并比较它们使用的词汇，具体说来就是要统计出每个文件中出现的<strong>不同的单词集合</strong>，并计算两个文件中<strong>交集的部分</strong>。</p>
+<p><strong>汉诺塔</strong>的目的是把所有盘子从一个塔移动到另一个，第三个塔用来过渡。</p>
 
-<p>可以通过该程序估计作品A与作品B是否是同一作者。</p>
+<p>一次只能移动一个盘子，而且不能把盘子放到比它直径小的盘子上。</p>
 
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
+<p>要求：使用<strong>递归</strong>解决该问题。
+ <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
 
@@ -302,7 +249,10 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 <br/>
 
 
-<p>The Original Link: <a href="/08_05_362.html">http://baham.co/08_05_362.html</a><br/>
+<br/>
+
+
+<p>The Original Link: <a href="/08_09_410.html">http://baham.co/08_09_410.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 </div>
@@ -317,7 +267,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
       
   <header>
     
-      <h1 class="entry-title"><a href="/08_03_356.html">Baham&#8217;s Blog七月文章整理</a></h1>
+      <h1 class="entry-title"><a href="/08_09_408.html">编程练习-递归-野蛮人与传教士</a></h1>
     
     
       <p class="meta">
@@ -333,19 +283,88 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
   
 
 
-<time datetime="2012-08-03T22:30:29+00:00" pubdate data-updated="true">Aug 3<span>rd</span>, 2012</time>
+<time datetime="2012-08-09T22:29:25+00:00" pubdate data-updated="true">Aug 9<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><h2><a href="http://baham.co/07_20_51.html"></div>
+  <div class="entry-content"><p>三个传教士与三个野蛮人同时来到河边，发现只有一条可以同时搭载两人 的小船。而如果任何一边的野蛮人数多于传教士，传教士就会死掉。编写程序，解决<strong>传教士和野蛮人</strong>的过河问题。
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="/08_09_408.html">http://baham.co/08_09_408.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
   
   
-    <footer>
-      <a rel="full-article" href="/08_03_356.html">Read on &rarr;</a>
-    </footer>
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/08_09_405.html">《Building Java Programs》-递归小结</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-09T22:18:36+00:00" pubdate data-updated="true">Aug 9<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><strong>递归</strong>（Recursion）是一种是一个方法调用本身的算法。一个方法若使用递归，那么它就是一个<strong>递归方法</strong>。</p>
+
+<p><strong>递归方法</strong>包含两种情况：不用递归即可直接解决的<strong>基本情况</strong>（base case），以及需要使用递归调用简化问题的<strong>递归情况</strong>（recursive case）。</p>
+
+<p><strong>递归方法</strong>的调用通过在内部把每次调用的信息存储在一种叫做<strong>调用栈</strong>（call stack）的结构中来工作。当一个方法调用它本身时，关于这次调用的信息借置于<strong>调用栈</strong>的顶部。当一个方法调用结束时，程序将从<strong>调用栈</strong>中清除有关它的信息，并返回执行上一次调用。</p>
+
+<p>一个<strong>递归方法</strong>如果没有基本情况，或它的递归情况不能合理的转化为基本情况，就会导致<strong>无穷递归</strong>的出现。</p>
+
+<p>递归可以被用来绘制具有复杂特征的图形，包括<strong>分形图形</strong>。分形图形是具有相似特征的<strong>递归图形</strong>，通常被认为是“无限的复杂”。
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="/08_09_405.html">http://baham.co/08_09_405.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
   
 
 
@@ -380,11 +399,43 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     <h2 class="panel-title">Category Cloud</h2>
   </div>
 <div id="recent_posts" class="list-group">
-	<span id="tag-cloud"><a href='/blog/categories/announcement' style='font-size: 107.5%'>Announcement(2)</a> <a href='/blog/categories/baham' style='font-size: 115.0%'>Baham(4)</a> <a href='/blog/categories/baham-studio' style='font-size: 115.0%'>Baham Studio(4)</a> <a href='/blog/categories/bible' style='font-size: 107.5%'>Bible(2)</a> <a href='/blog/categories/blender' style='font-size: 107.5%'>Blender(2)</a> <a href='/blog/categories/book' style='font-size: 107.5%'>Book(2)</a> <a href='/blog/categories/cg' style='font-size: 103.75%'>CG(1)</a> <a href='/blog/categories/code' style='font-size: 115.0%'>Code(4)</a> <a href='/blog/categories/edu' style='font-size: 111.25%'>EDU(3)</a> <a href='/blog/categories/game' style='font-size: 118.75%'>Game(5)</a> <a href='/blog/categories/game-theory' style='font-size: 103.75%'>Game Theory(1)</a> <a href='/blog/categories/geek' style='font-size: 111.25%'>Geek(3)</a> <a href='/blog/categories/hack' style='font-size: 103.75%'>Hack(1)</a> <a href='/blog/categories/java' style='font-size: 148.75%'>Java(13)</a> <a href='/blog/categories/java-zone' style='font-size: 103.75%'>Java Zone(1)</a> <a href='/blog/categories/linux' style='font-size: 118.75%'>Linux(5)</a> <a href='/blog/categories/memo' style='font-size: 126.25%'>Memo(7)</a> <a href='/blog/categories/movie' style='font-size: 103.75%'>Movie(1)</a> <a href='/blog/categories/software' style='font-size: 103.75%'>Software(1)</a> <a href='/blog/categories/ted' style='font-size: 103.75%'>TED(1)</a> <a href='/blog/categories/thinking' style='font-size: 107.5%'>Thinking(2)</a> <a href='/blog/categories/tips' style='font-size: 160.0%'>Tips(16)</a> <a href='/blog/categories/translation' style='font-size: 103.75%'>Translation(1)</a> <a href='/blog/categories/utb' style='font-size: 107.5%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 107.5%'>Video(2)</a> <a href='/blog/categories/wordpress' style='font-size: 107.5%'>Wordpress(2)</a> </span>
+	<span id="tag-cloud"><a href='/blog/categories/announcement' style='font-size: 107.5%'>Announcement(2)</a> <a href='/blog/categories/baham' style='font-size: 115.0%'>Baham(4)</a> <a href='/blog/categories/baham-studio' style='font-size: 115.0%'>Baham Studio(4)</a> <a href='/blog/categories/bible' style='font-size: 107.5%'>Bible(2)</a> <a href='/blog/categories/blender' style='font-size: 107.5%'>Blender(2)</a> <a href='/blog/categories/book' style='font-size: 107.5%'>Book(2)</a> <a href='/blog/categories/cg' style='font-size: 103.75%'>CG(1)</a> <a href='/blog/categories/code' style='font-size: 115.0%'>Code(4)</a> <a href='/blog/categories/edu' style='font-size: 122.5%'>EDU(6)</a> <a href='/blog/categories/game' style='font-size: 118.75%'>Game(5)</a> <a href='/blog/categories/game-theory' style='font-size: 103.75%'>Game Theory(1)</a> <a href='/blog/categories/geek' style='font-size: 115.0%'>Geek(4)</a> <a href='/blog/categories/hack' style='font-size: 103.75%'>Hack(1)</a> <a href='/blog/categories/java' style='font-size: 152.5%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 103.75%'>Java Zone(1)</a> <a href='/blog/categories/linux' style='font-size: 130.0%'>Linux(8)</a> <a href='/blog/categories/memo' style='font-size: 126.25%'>Memo(7)</a> <a href='/blog/categories/movie' style='font-size: 103.75%'>Movie(1)</a> <a href='/blog/categories/software' style='font-size: 107.5%'>Software(2)</a> <a href='/blog/categories/ted' style='font-size: 103.75%'>TED(1)</a> <a href='/blog/categories/thinking' style='font-size: 107.5%'>Thinking(2)</a> <a href='/blog/categories/tips' style='font-size: 160.0%'>Tips(16)</a> <a href='/blog/categories/translation' style='font-size: 103.75%'>Translation(1)</a> <a href='/blog/categories/utb' style='font-size: 107.5%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 107.5%'>Video(2)</a> <a href='/blog/categories/wordpress' style='font-size: 107.5%'>Wordpress(2)</a> </span>
 </div>
 </section><section>
   <h2>Recent Posts</h2>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/12_23_764.html">Enlightenment-V0.17发布</a>
+      </li>
+    
+      <li class="post">
+        <a href="/12_17_757.html">树莓派/Raspberry Pi上线软件市场</a>
+      </li>
+    
+      <li class="post">
+        <a href="/12_17_752.html">Git 常用命令速查表</a>
+      </li>
+    
+      <li class="post">
+        <a href="/12_10_748.html">什么是泥炭化作用？</a>
+      </li>
+    
+      <li class="post">
+        <a href="/12_10_746.html">泥炭沼泽形成环境、泥炭沼泽的成因</a>
+      </li>
+    
+      <li class="post">
+        <a href="/12_10_742.html">煤的显微组分和宏观媒岩成分之间的关系</a>
+      </li>
+    
+      <li class="post">
+        <a href="/12_05_738.html">还在用360吗？试试新加坡Toolwiz的ToolwizCare吧。</a>
+      </li>
+    
+      <li class="post">
+        <a href="/11_29_734.html">码农第二期-图灵社区出品</a>
+      </li>
     
       <li class="post">
         <a href="/11_28_730.html">为什么《人民日报》会引用洋葱的新闻报道？</a>
@@ -432,38 +483,6 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
     
       <li class="post">
         <a href="/10_06_626.html">骑马与砍杀：战团-各城市产出列表</a>
-      </li>
-    
-      <li class="post">
-        <a href="/10_06_632.html">有机化学简明教程-天津大学出版社-课后习题-答案</a>
-      </li>
-    
-      <li class="post">
-        <a href="/09_24_611.html">骑马与砍杀-战团：沙瑞兹帝国的崛起-自立建国经验分享</a>
-      </li>
-    
-      <li class="post">
-        <a href="/09_15_601.html">Blender快捷键汇总</a>
-      </li>
-    
-      <li class="post">
-        <a href="/09_14_595.html">Blender视频教程收集整理</a>
-      </li>
-    
-      <li class="post">
-        <a href="/09_14_583.html">初学Blender-图片分享</a>
-      </li>
-    
-      <li class="post">
-        <a href="/09_14_577.html">加强Wordpress安全的18条建议</a>
-      </li>
-    
-      <li class="post">
-        <a href="/09_13_557.html">博客改动了一部分</a>
-      </li>
-    
-      <li class="post">
-        <a href="/08_26_470.html">JavaDoc注释详解</a>
       </li>
     
   </ul>
