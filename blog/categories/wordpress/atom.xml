@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Wordpress | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/wordpress/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-05-12T01:42:52+00:00</updated>
+  <updated>2015-05-12T04:13:06+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,46 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[从Wordpress转移到Octopress]]></title>
+    <link href="http://baham.co/01_10_cong-wordpresszhuan-yi-dao-octopress.html"/>
+    <updated>2013-01-10T15:50:00+00:00</updated>
+    <id>http://baham.co/cong-wordpresszhuan-yi-dao-octopress</id>
+    <content type="html"><![CDATA[<p>一直在用wordpress，最近Godady的空间即将到期，迁移到了openshift上，结果很悲剧，莫名其妙的出现502错误，之后又是500错误。既然如此，索性就不用WP了。
+但是wordpress上的内容还是想保留的，毕竟辛辛苦苦写半年博客了。
+在谷歌搜索到了相关迁移的文章。</p>
+
+<p>需要使用<a href="https://github.com/thomasf/exitwp.git">exitwp</a>，很好用的脚本，python写的。
+可以参考<a href="http://baham.co/files/Migrating Wordpress blogs to Octopress.pdf">这篇文章</a>。
+当然，一切不会那么顺利。</p>
+
+<p>我上传到新博客后，发现链接全变了。而且，也不是所有内容都转移到了新的地址上。
+我的wp用的固定链接为-月日post-id。
+但是octopress没有postid这一概念。困惑我很久，后来，在exiwp.py代码中找到了玄机，我将title和wp_id属性稍微改动了一下，结果在build文件夹中的内容全变成了以worpdress的postid命名的文章。</p>
+
+<p>不过，随后又有问题出现，由于写博客多数时间在晚上。我发现，很多地址中‘月日’部分比在wordpress的链接地址多一天，显然时区不对。</p>
+
+<p>在谷歌搜索后，找到了解决方案。
+使用
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>TZ=CCT rake generate</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>代替rake generate</p>
+
+<p>ps：   cct：表示中国东部标准时。</p>
+
+<p>随后添加了一些插件什么的，一个崭新Octopress就这么诞生了。相较于wp，可能显得复杂、简单了一些，不过，还不错而且更快。</p>
+
+<p>一些关于Octopress和github的内容，以后再和大家分享，敬请期待！！！</p>
+
+<p>——Baham</p>
+
+<p><a href="http://baham.co/03_10_octopress-easypost-tool.html">Octopress Easypost Tool</a></p>
+
+<p><a href="/04_29_octopress-seo.html">Octopress SEO tool</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[纪念文章-Baham Blog 第一篇通过客户端发布的博文]]></title>

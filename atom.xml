@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-05-12T01:42:52+00:00</updated>
+  <updated>2015-05-12T04:13:06+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -14,207 +14,31 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Enlightenment-V0.17发布]]></title>
-    <link href="http://baham.co/12_23_764.html"/>
-    <updated>2012-12-23T15:42:06+00:00</updated>
-    <id>http://baham.co/764</id>
-    <content type="html"><![CDATA[<p>历经12年,Enlightenment正式版终于发布。从2000年项目开始到2012年11月发布alpha版，在到12月19号发布RC版，在到昨天发布正式版。Enlightenment一路走到今天。向Enlightenment忠诚的开发者们致敬！</p>
+    <title type="html"><![CDATA[Octopree plugin popular post]]></title>
+    <link href="http://baham.co/05_11_a.html"/>
+    <updated>2015-05-11T12:54:00+00:00</updated>
+    <id>http://baham.co/a</id>
+    <content type="html"><![CDATA[<p>I just generate my site. But it just generated nothing without errors noticing.</p>
 
-<p><img src="http://enlightenment.org/p/index/d/diagram-efl-simple-small.png" alt="EFL Block Diagram" />
- <p class='post-footer' style="font-size:70%;" ></p>
+<p>I did not find anything about it online.</p>
 
-<br/>
+<p>Finally, I solve it.</p>
 
+<!--more-->
 
-<br/>
 
+<p>Just delete the <em>popular post plugin</em>.</p>
 
-<br/>
+<p>Because this plugin will find the value of google pr, but Chinese can not visit google.</p>
 
+<p>So this process of generation is paused.</p>
 
-<p>The Original Link: <a href="http://baham.co/12_23_764.html">http://baham.co/12_23_764.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[树莓派/Raspberry Pi上线软件市场]]></title>
-    <link href="http://baham.co/12_17_757.html"/>
-    <updated>2012-12-17T23:19:49+00:00</updated>
-    <id>http://baham.co/757</id>
-    <content type="html"><![CDATA[<p>Store地址：<a href="http://store.raspberrypi.com/">http://store.raspberrypi.com/</a></p>
+<p>This plugin&rsquo;s location:</p>
 
-<p>软件不多，只有25款。</p>
+<pre><code>plugins/popular_post.rb
+</code></pre>
 
-<p>不过，一眼就看中了<strong>Free-civ</strong>，这款一直关注的<strong><em>类</em>文明</strong>游戏。</p>
-
-<p>有星级评价，直接提供下载，而且有付费软件提供。</p>
-
-<p><a href="http://baham.co/wp-content/uploads/2012/12/pi.png"><img src="http://baham.co/wp-content/uploads/2012/12/pi-300x167.png" alt="Raspberry-Pi-软件市场" /></a></p>
-
-<h2>Update</h2>
-
-<p>截至14年5月8日，软件市场包含软件已经完成多达112款，另外有10款处于开发过程中，市场中最贵的解密游戏-<a href="http://store.raspberrypi.com/projects/bulbaceous">Dr Bulbaceous</a>售价1.99欧元。</p>
-
-<p><img src="http://assets.indiecity.com/fb572066-fb94-46f8-92a8-567e40705cd0/boxart_1377222007.png" alt="Dr Bulbaceous" />
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/12_17_757.html">http://baham.co/12_17_757.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git 常用命令速查表]]></title>
-    <link href="http://baham.co/12_17_752.html"/>
-    <updated>2012-12-17T19:28:36+00:00</updated>
-    <id>http://baham.co/752</id>
-    <content type="html"><![CDATA[<p>Git 常用命令速查表
-master origin :默认远程版本库
-:默认开发分支
-Head Head^ :Head :默认开发分支
-的父提交
-创建版本库
-$ git clone <url>
-$ git init
-修改和提交
-$ git status
-$ git diff
-$ git add .
-$ git add <file>
-$ git mv <old> <new>
-$ git rm <file>
-$ git rm &mdash;cached <file>
-$ git commit -m &ldquo;commit message&rdquo;
-$ git commit &mdash;amend<!-- more -->
-查看提交历史
-$ git log
-$ git log -p <file>
-$ git blame <file>
-撤消
-$ git reset &mdash;hard HEAD
-$ git checkout HEAD <file>
-$ git revert <commit></p>
-
-<h1>克隆远程版本库</h1>
-
-<h1>初始化本地版本库</h1>
-
-<h1>查看状态</h1>
-
-<h1>查看变更内容</h1>
-
-<h1>跟踪所有改动过的文件</h1>
-
-<h1>跟踪指定的文件</h1>
-
-<h1>文件改名</h1>
-
-<h1>删除文件</h1>
-
-<h1>停止跟踪文件但不删除</h1>
-
-<h1>提交所有更新过的文件</h1>
-
-<h1>修改最后一次提交</h1>
-
-<h1>查看提交历史</h1>
-
-<h1>查看指定文件的提交历史</h1>
-
-<h1>以列表方式查看指定文件</h1>
-
-<p>的提交历史</p>
-
-<h1>撤消工作目录中所有未提交</h1>
-
-<p>文件的修改内容</p>
-
-<h1>撤消指定的未提交文件的修</h1>
-
-<p>改内容</p>
-
-<h1>撤消指定的提交</h1>
-
-<h1>Git Cheat Sheet <CN> (Version 0.1)</h1>
-
-<h1>2012/10/26</h1>
-
-<p>&mdash; by分支与标签
-$ git branch</p>
-
-<h1>显示所有本地分支</h1>
-
-<p>$ git checkout <branch/tag></p>
-
-<h1>切换到指定分支或标签</h1>
-
-<p>$ git
-branch &lt;new-branch></p>
-
-<h1>创建新分支</h1>
-
-<p>$ git branch -d <branch></p>
-
-<h1>删除本地分支</h1>
-
-<p>$ git tag</p>
-
-<h1>列出所有本地标签</h1>
-
-<p>$ git tag <tagname></p>
-
-<h1>基于最新提交创建标签</h1>
-
-<p>$ git tag -d <tagname></p>
-
-<h1>删除标签</h1>
-
-<p>合并与衍合
-$ git merge <branch>
-$ git rebase <branch></p>
-
-<h1>合并指定分支到当前分支</h1>
-
-<h1>衍合指定分支到当前分支</h1>
-
-<p>远程操作
-$ git remote -v</p>
-
-<h1>查看远程版本库信息</h1>
-
-<p>$ git remote show <remote></p>
-
-<h1>查看指定远程版本库信息</h1>
-
-<p>$ git remote add <remote> <url></p>
-
-<h1>添加远程版本库</h1>
-
-<p>$ git fetch <remote></p>
-
-<h1>从远程库获取代码</h1>
-
-<p>$ git pull <remote> <branch> #下载代码及快速合并
-$ git push <remote> <branch> #上传代码及快速合并
-$ git push <remote> :&lt;branch/tag-name></p>
-
-<h1>删除远程分支或标签</h1>
-
-<p>$ git push &mdash;tags</p>
-
-<h1>上传所有标签</h1>
+<p>And do not use popular side.</p>
 
 <p> <p class='post-footer' style="font-size:70%;" ></p>
 
@@ -227,20 +51,31 @@ $ git push <remote> :&lt;branch/tag-name></p>
 <br/>
 
 
-<p>The Original Link: <a href="http://baham.co/12_17_752.html">http://baham.co/12_17_752.html</a><br/>
+<p>The Original Link: <a href="http://baham.co/05_11_a.html">http://baham.co/05_11_a.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[什么是泥炭化作用？]]></title>
-    <link href="http://baham.co/12_10_748.html"/>
-    <updated>2012-12-10T23:37:20+00:00</updated>
-    <id>http://baham.co/748</id>
-    <content type="html"><![CDATA[<p>泥炭化作用定义：植物物质经受生物化学分解及合成的复杂的过程且最终形成泥炭的作用</p>
+    <title type="html"><![CDATA[Domain On Sale]]></title>
+    <link href="http://baham.co/04_07_domain-on-sale.html"/>
+    <updated>2015-04-07T12:56:00+00:00</updated>
+    <id>http://baham.co/domain-on-sale</id>
+    <content type="html"><![CDATA[<p>Last post is months ago. And after I graduated and worked, I have less time to keep my blog updating immediately.</p>
 
-<p>条件:发生于覆水地区的水位以下，即与大气局部沟通的状态下。泥炭化作用的直接产物除了泥炭以外，分解出的气态产物有二氧化碳、水、沼气和少量氮。
+<p>So I decide to sell my domain.</p>
+
+<p>And contents of blog is not on sale. So every visitors can visit the <a href="http://baham.github.io">baham</a> to get the old posts and pages.</p>
+
+<p>After all, octopress was updated to vesion 3. I and my site call for changes too.</p>
+
+<p>More information is at <a href="http://baham.co/sale">domain on sale</a></p>
+
+<!--more-->
+
+
+<p>And ocasionally, I found some blogs link to my posts. It is very meaningful for me. For this said this blog I kept for nearlly 3 year is helpful for someone. This is enough.
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -252,46 +87,29 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 <br/>
 
 
-<p>The Original Link: <a href="http://baham.co/12_10_748.html">http://baham.co/12_10_748.html</a><br/>
+<p>The Original Link: <a href="http://baham.co/04_07_domain-on-sale.html">http://baham.co/04_07_domain-on-sale.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[泥炭沼泽形成环境、泥炭沼泽的成因]]></title>
-    <link href="http://baham.co/12_10_746.html"/>
-    <updated>2012-12-10T23:35:58+00:00</updated>
-    <id>http://baham.co/746</id>
-    <content type="html"><![CDATA[<p>沼泽是地表土壤充分湿润、季节性或长期积水，丛生着喜湿性沼泽植物的低洼地段。</p>
+    <title type="html"><![CDATA[The Dogs and The Smile]]></title>
+    <link href="http://baham.co/11_27_the-dogs-and-the-smile.html"/>
+    <updated>2014-11-27T10:41:00+00:00</updated>
+    <id>http://baham.co/the-dogs-and-the-smile</id>
+    <content type="html"><![CDATA[<p> On the noon, when I had my lunch, I still take the rest food of mine to feed the dogs, that I found about month ago.</p>
 
-<p><strong>1.</strong><strong>泥炭沼泽重要发育地带——滨海平原</strong></p>
+<p> Days earlier, still on the noon. When I went dowstairs, there was still a woman there fo feed the dogs with milk. And I got some information about the dogs from her.</p>
 
-<p>滨海地带海水与沿海陆地地表水与潜水之间相互关系，有利于泥炭沼泽发育；</p>
+<p> The mom dod bore the child dogs here, and it is a homeless dog. So now the three are all homeless.</p>
 
-<p>滨海地带的海湾内，由于波浪作用微弱，形成了海湾封闭形成海湾泻湖，有利于泥炭沼泽发育；</p>
+<p> And for me, I found the mom dog in a night when I debug my bicycle. In that time, I still do not know its nest, neither not its child dogs.</p>
 
-<p>三角洲平原上分流河道之间的低洼地及靠近海边缘部分的泻湖湿洼地；</p>
+<p>But today noon, <!--more-->
+When I fed them. The mom dog did not bark to me. This the fourth day since I take them food.</p>
 
-<p>在热带、亚热带地区的海岸和河口地区，还可以形成一种特殊类型的滨海泥炭沼泽——红树林泥炭沼泽。</p>
-
-<p><strong>2.</strong><strong>内陆有利发育泥炭沼泽的地区—河湖地带。</strong></p>
-
-<p>在山丘、丘陵等暂时性水流附近有一些洼地，平原地带经常性水流周围的洼地成为泥炭沼泽场所；</p>
-
-<p>河流发源地沟谷地区，由于在径流地区的谷底易形成相对平衡剖面，取得较稳定潜水补给，易泥炭沼泽；</p>
-
-<p>山前冲积扇地区的扇前洼地地下水不断溢出，形成养分较好条件，有利于泥炭沼泽；</p>
-
-<p>曲流河形成的牛轭湖及河漫滩或河漫湖泊等地成为良好泥炭沼泽聚集场所；</p>
-
-<p>滨湖洼地由于受到潜水和洪水泛滥影响，由于湖水上涨，形成了植物生长，有利于泥炭沼泽发育；</p>
-
-<p><strong>3</strong><strong>成因</strong></p>
-
-<p><strong>气候条件</strong>对泥炭沼泽起重要作用，影响了植物的生长和植物残体分级强度，从而控制了泥炭的发育。</p>
-
-<p>形成泥炭沼泽的<strong>水文条件</strong>主要是入水量，即地表水和地下水流入量及大气降水量要大于出水量，才能使泥炭沼泽持续发育。
+<p>And I smile, and felt happy. Really happy! When I saw it the scene.
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -303,67 +121,24 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 <br/>
 
 
-<p>The Original Link: <a href="http://baham.co/12_10_746.html">http://baham.co/12_10_746.html</a><br/>
+<p>The Original Link: <a href="http://baham.co/11_27_the-dogs-and-the-smile.html">http://baham.co/11_27_the-dogs-and-the-smile.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[煤的显微组分和宏观媒岩成分之间的关系]]></title>
-    <link href="http://baham.co/12_10_742.html"/>
-    <updated>2012-12-10T23:31:50+00:00</updated>
-    <id>http://baham.co/742</id>
-    <content type="html"><![CDATA[<p><strong>三类煤岩显微组分与四种宏观成分之间的关系：</strong></p>
+    <title type="html"><![CDATA[The Cross]]></title>
+    <link href="http://baham.co/11_23_the-cross.html"/>
+    <updated>2014-11-23T05:01:00+00:00</updated>
+    <id>http://baham.co/the-cross</id>
+    <content type="html"><![CDATA[<p>I bought a silver cross from taobao, at Novermber 11.</p>
 
-<p><a href="http://baham.co/wp-content/uploads/2012/12/%E5%AA%92%E7%BB%84%E5%88%86%E5%85%B3%E7%B3%BB.bmp"><img src="http://baham.co/wp-content/uploads/2012/12/%E5%AA%92%E7%BB%84%E5%88%86%E5%85%B3%E7%B3%BB.bmp" alt="煤的显微组分和宏观媒岩成分之间的关系" /></a></p>
+<p>Before I went for the business trip.</p>
 
-<!-- more -->
+<p>When I came back to Dandong. I got the package. And wear it.<!--more--></p>
 
-
-<p><strong>研究意义</strong>：凝胶化组分和丝炭化组分是由多种成分组成的，因而得到的烟煤的特征和加工工艺是不一样的。对煤的岩相进行研究，不仅有学术意义，也可用来指导工业生产。</p>
-
-<p>形象表示如图，即镜煤主要由镜质组构成，亮煤、暗煤由三种微观组分按不同比例构成，丝炭主要由惰质组构成。</p>
-
-<p>其中<strong>凝胶化组分</strong>也称<strong>镜质组</strong>，<strong>稳定组分</strong>又称<strong>壳质组</strong>，<strong>丝炭化组分</strong>又称<strong>惰质组</strong>或<strong>丝质组</strong>。</p>
-
-<p> <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/12_10_742.html">http://baham.co/12_10_742.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[还在用360吗？试试新加坡Toolwiz的ToolwizCare吧。]]></title>
-    <link href="http://baham.co/12_05_738.html"/>
-    <updated>2012-12-05T22:19:40+00:00</updated>
-    <id>http://baham.co/738</id>
-    <content type="html"><![CDATA[<p><a href="http://baham.co/wp-content/uploads/2012/12/toolwizcare.png"><img src="http://baham.co/wp-content/uploads/2012/12/toolwizcare-300x198.png" alt="toolwizcare主界面" /></a></p>
-
-<p>小清新的界面，不像国产安全软件一样，喜欢打仗。</p>
-
-<p>全球装机量不断提升。</p>
-
-<p>是时候让他也回到中国了。</p>
-
-<p>Toolwiz Care 创建之初就是模仿国内的安全辅助软件。</p>
-
-<p>比如开机时间、温度条、密盘、还有图片编辑器（仿美图秀秀）……</p>
-
-<p>甚至界面上显示位置都和360很像。</p>
-
-<p>看一款国外克隆国内软件的软件，真是别有一番风味。
+<p>But on Saturday, I lost it. When I found it is gone, it is 2 or more hours later. I think it is lost when I ride the bicycle to east.
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -375,197 +150,43 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 <br/>
 
 
-<p>The Original Link: <a href="http://baham.co/12_05_738.html">http://baham.co/12_05_738.html</a><br/>
+<p>The Original Link: <a href="http://baham.co/11_23_the-cross.html">http://baham.co/11_23_the-cross.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[码农第二期-图灵社区出品]]></title>
-    <link href="http://baham.co/11_29_734.html"/>
-    <updated>2012-11-29T11:19:36+00:00</updated>
-    <id>http://baham.co/734</id>
-    <content type="html"><![CDATA[<p>主讲内容：</p>
+    <title type="html"><![CDATA[Waiting in the Jining Nan Station]]></title>
+    <link href="http://baham.co/11_16_waiting-in-the-jining-nan-station.html"/>
+    <updated>2014-11-16T07:39:00+00:00</updated>
+    <id>http://baham.co/waiting-in-the-jining-nan-station</id>
+    <content type="html"><![CDATA[<p>Today, We, Hao, Dong and me went to the Jining, and Hao and I prepared to go to Linhe.</p>
 
-<blockquote><p><strong>• 本期专题:JavaScript</strong>
-<strong>• 七大大框架论剑</strong>
-<strong>• Nicholas C. Zakas 和他的</strong>
-<strong>《JavaScript高高级程序设计》</strong>
-<strong>• 陈皓:我的精神家园</strong>
-<strong>• 老老赵:以“玩”之名</strong>
-<strong>• 迄今为止止最伟大大的极客</strong>
-<strong>• 深入入Markdown</strong></p></blockquote>
+<p>Originally, I thought we can came Jining by car and arrive at the station before 11:00 am. But the drivers can not go for the snow on the road. And Hao told us change the subway tickets to the later. So I did though this need be considering more. But finally, we came before 11:00, but the early tickets are sold out all.</p>
 
-<!-- more -->
+<p>So we need wait in Jining more than 8 hours.</p>
+
+<!--more-->
 
 
-<p>（以上均为原文引用）</p>
+<p>As me, all the time, I dislike wasting time, dislike just waiting. For life is short, man always ned save time.</p>
 
-<p>目录：</p>
+<p>And 8 hours&#8217; waiting is not the worse. When we had launch. Hao said went to the station to wait, originally, I thought maybe we can have a rest in the motel. But since the boss said waiting, I thought just do waiting.</p>
 
-<blockquote><p><strong>卷首语</strong>
-<strong>1 改变世界的好码农</strong>
-<strong>专题:JavaScript</strong>
-<strong>3 JavaScript 宝座:七大框架论剑 </strong>
-<strong>19 JavaScript 模块化开发一瞥 </strong>
-<strong>27 对话 Nicholas C. Zakas</strong>
-<strong>——《JavaScript 高级程序设计》作者</strong>
-<strong>34 通过对象图学习 JavaScript</strong>
-<strong>人物</strong>
-<strong>41 我的精神家园——陈皓(@ 左耳朵耗子)专访</strong>
-<strong>54 以“玩”之名——赵劼(@ 老赵)专访</strong>
-<strong>践行</strong>
-<strong>70 通才还是专才——由摩托裁员引发的讨论</strong>
-<strong>九卦</strong>
-<strong>73 为什么 Nikola Tesla 是迄今为止最伟大的极客</strong>
-<strong>鲜阅</strong>
-<strong>88 善言的 JavaScript</strong>
-<strong>——选自《善言的 JavaScript: 现代化编程指南》</strong>
-<strong>出版的未来</strong>
-<strong>96 Markdown 作者谈“深入 Markdown”</strong>
-<strong>书榜</strong>
-<strong>106 看看大家都在看什么?</strong>
-<strong>妙评</strong>
-<strong>109 《Erlang/OTP 并发编程实战》</strong>
-<strong>成书手记</strong>
-<strong>115 从失败中学习</strong>
-<strong> </strong>
-<strong> ——《30 天自制操作系统》译者自述</strong>
-<strong>社区动态</strong>
-<strong>119 iTran 乐译 10 期</strong>
-<strong>120 专家审读 5 期</strong>
-<strong>121 十月,跟着图灵听课去!</strong></p></blockquote>
+<p>But when we got in the station, maybe half a hour later, he said I waited here and took care of the baggage, he wanted to take a stroll. For now, it is nearly 4 hours. He the boss still did nt came back. And I still stayed and took care of the luggage.</p>
 
-<p>全文下载：<a href="http://www.ituring.com.cn/book/download/ac4c3832-bce6-488b-bd39-54ccbbd4e3d9">码农第二期</a>
- <p class='post-footer' style="font-size:70%;" ></p>
+<p>Didn&rsquo;t I dislike taking a stroll in a place that I have not visited? Didn&rsquo;t I like taking care of the baggage? Didn&rsquo;t I like sit on a hard seat?</p>
 
-<br/>
+<p>But these all doesn&rsquo;t matter. After all, God told us, <code>Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God.</code>(Romans-13:1)</p>
 
+<p>And I use this time to remember the English words, reading bible and listening the psalmes. I did not waste much time.</p>
 
-<br/>
+<p>But is this a boss or a leader ought to do. Just leave the personnel alone to take care of the baggage and travel and have fun himself. I do not think so.</p>
 
+<p>Maybe this article is not a positive one, and it is not to bring uo and train man. And maybe there was some complain here. But I still wanted to write this article, and just notice myself, when doing things, care about others&#8217; feeling. And say out your opinion to the partner.</p>
 
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/11_29_734.html">http://baham.co/11_29_734.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[为什么《人民日报》会引用洋葱的新闻报道？]]></title>
-    <link href="http://baham.co/11_28_730.html"/>
-    <updated>2012-11-28T22:22:57+00:00</updated>
-    <id>http://baham.co/730</id>
-    <content type="html"><![CDATA[<p>为什么中国官方的，身为喉舌的《人民日报》会引用美国不入流的洋葱社的新闻，为什么我们义务地为金正恩搞宣传？
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/11_28_730.html">http://baham.co/11_28_730.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[电影泰迪熊穿帮镜头]]></title>
-    <link href="http://baham.co/11_23_724.html"/>
-    <updated>2012-11-23T20:44:37+00:00</updated>
-    <id>http://baham.co/724</id>
-    <content type="html"><![CDATA[<p>电影最后，在男主，女主结婚后，婚礼在剑桥举行。
-但是，两人跑出教堂，乘车却是靠右行驶，而且路边停车也是靠右，但英国是左侧通行。
- <p class='post-footer' style="font-size:70%;" ></p>
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<p>The Original Link: <a href="http://baham.co/11_23_724.html">http://baham.co/11_23_724.html</a><br/>
-If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
-</p></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[如何删除libgooglepinyin和ibus-googlepinyin]]></title>
-    <link href="http://baham.co/11_07_718.html"/>
-    <updated>2012-11-07T15:53:59+00:00</updated>
-    <id>http://baham.co/718</id>
-    <content type="html"><![CDATA[<p><em>How to remove libgooglepinyin and ibus-google pinyin?</em></p>
-
-<p>之前用Xubuntu，配置安装<a href="http://code.google.com/p/libgooglepinyin/">goolgepinyin</a>，很容易。后来换到了KDE桌面的Fedora，使用googlepinyin，就不那么简单了。</p>
-
-<p>首先安装，需要<a href="http://code.google.com/p/libgooglepinyin/wiki/INSTALL">编译安装</a>。</p>
-
-<p>安装很简单，只有几条命令，复制粘贴即可。问题是，如何卸载？</p>
-
-<p>sudo make uninstall</p>
-
-<p>不能直接卸载。后来搜索了一下，才知道，cmake不支持直接make uninstall</p>
-
-<p>万幸，最终还是找到了解决办法。</p>
-
-<h2>1 对于ibus-google-pinyin</h2>
-
-<p>只需要删除一个目录、一个文件。</p>
-
-<pre><code>sudo rm -fr /usr/share/ibus-googlepinyin
-
-sudo rm /usr/share/ibus/component/googlepinyin.xml
-</code></pre>
-
-<h2>2 对于libgooglepinyin<!-- more --></h2>
-
-<p>稍微麻烦一点。</p>
-
-<p>将一下内容，复制进libgooglepinyin根目录内，创建 <strong>cmake_uninstall.cmake.in </strong>文件<em>（后缀为.in）</em></p>
-
-<pre><code># http://www.vtk.org/Wiki/CMake_FAQ#Can_I_do_.22make_uninstall.22_with_CMake.3F
-
-IF(NOT EXISTS "@CMAKE_CURRENT_BINARY_DIR@/install_manifest.txt")
-MESSAGE(FATAL_ERROR "Cannot find install manifest: \"@CMAKE_CURRENT_BINARY_DIR@/install_manifest.txt\"")
-ENDIF(NOT EXISTS "@CMAKE_CURRENT_BINARY_DIR@/install_manifest.txt")
-
-FILE(READ "@CMAKE_CURRENT_BINARY_DIR@/install_manifest.txt" files)
-STRING(REGEX REPLACE "\n" ";" files "${files}")
-FOREACH(file ${files})
-MESSAGE(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")
-IF(EXISTS "$ENV{DESTDIR}${file}")
-EXEC_PROGRAM(
-"@CMAKE_COMMAND@" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
-OUTPUT_VARIABLE rm_out
-RETURN_VALUE rm_retval
-)
-IF(NOT "${rm_retval}" STREQUAL 0)
-MESSAGE(FATAL_ERROR "Problem when removing \"$ENV{DESTDIR}${file}\"")
-ENDIF(NOT "${rm_retval}" STREQUAL 0)
-ELSE(EXISTS "$ENV{DESTDIR}${file}")
-MESSAGE(STATUS "File \"$ENV{DESTDIR}${file}\" does not exist.")
-ENDIF(EXISTS "$ENV{DESTDIR}${file}")
-ENDFOREACH(file)
-</code></pre>
-
-<p>在build目录下</p>
-
-<pre><code>make
-
-sudo make uninstall
+<pre><code>And we know that all things work together for good to them that love God, to them who are the called according to his purpose.  --Romans-8:28
 </code></pre>
 
 <p> <p class='post-footer' style="font-size:70%;" ></p>
@@ -579,62 +200,102 @@ sudo make uninstall
 <br/>
 
 
-<p>The Original Link: <a href="http://baham.co/11_07_718.html">http://baham.co/11_07_718.html</a><br/>
+<p>The Original Link: <a href="http://baham.co/11_16_waiting-in-the-jining-nan-station.html">http://baham.co/11_16_waiting-in-the-jining-nan-station.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[如何培养出人才]]></title>
-    <link href="http://baham.co/11_05_705.html"/>
-    <updated>2012-11-05T23:33:42+00:00</updated>
-    <id>http://baham.co/705</id>
-    <content type="html"><![CDATA[<p>中国人一心想拿<strong>诺贝尔奖</strong>，就如同想拿奥运金牌、想举办奥运一样。结果呢，当你那了金牌、办了奥运。你才发现，其实你什么都没有得到，什么都没有改变。诺奖也一样。第一个拿诺奖的中国人（你我都清楚他不是莫言）。他拿到了，媒体也低调了，转变成了，要拿诺奖就拿<strong>自然科学</strong>上的诺奖，什么和平奖那是“工具”。不巧，2012年，<strong>莫言</strong>拿了一个非自然科学的诺奖，而且莫言不同于他拿些那非自科诺奖的中国人，他在国内，而且有“官职”，并且还是自由身。于是，一记耳光扇到了那些鼓吹拿自科诺奖的人身上，因为媒体开始盛赞莫言。我也顿觉害臊，为自己过去被灌进去的想法，以及还保留这想法的人害臊。</p>
+    <title type="html"><![CDATA[Mongolia]]></title>
+    <link href="http://baham.co/11_12_mongolia.html"/>
+    <updated>2014-11-12T08:40:00+00:00</updated>
+    <id>http://baham.co/mongolia</id>
+    <content type="html"><![CDATA[<p>This is my first time to go to Mongolia. There is an innovation porject here.</p>
 
-<p>其实，我可以很负责任地说，<strong>中国人不会拿到诺贝尔奖（自科），而且我也真心不希望有人拿到</strong>。拿到了又有什么用，奥运办过了，你的生活改变了吗？没有，日子照旧——<strong>赚钱，娶妻，贷款，买房，还房贷……</strong>还要盼着<strong>别金融危机啊，印钞厂少印点钱啊</strong>！空洞的、无意义的生活将一直这样下去，不会因为某人拿了诺奖而改变。</p>
+<p>And Wang and I came.</p>
 
-<p><strong>但是，什么能改变这些呢？</strong></p>
+<p>Just on the road, we take about more than one day.</p>
 
-<p><strong>——教育。</strong><!-- more --></p>
+<!--more-->
 
-<p>都说<strong>百年大计-教育为本</strong>。但看看，<a href="http://www.chinanews.com/cj/cj-gncj/news/2009/09-08/1856514.shtml">我国教育公共投入所占GDP比例</a>。你就会明白，一切皆为虚伪的扯淡。</p>
 
-<blockquote><p>中国实际公共教育投入仅占GDP的<strong>百分之二点四</strong>，<strong>低于印度</strong>的百分之二点七，相当于美国的一半。</p></blockquote>
+<p>The sky is blue, the air is clean. Though I was a little tired. But still had a not bad emotion.</p>
 
-<p>上帝是不会一个不舍得向教育投入的国家拥有高素质国民的，也不会让这个国家拿该死的诺贝尔奖。所以说，<strong>第一点，如果想真心让这个民族变得强大，社会必须认识到如果不向教育投入更多</strong>，那么你不会拿到你想要的回报。当年，</p>
+<p>And you know this land is Empire Mongolia&rsquo;s base. So when I saw grassland. I thought of the history.</p>
 
-<blockquote><p>    楚国大举进犯齐国。齐王派淳于髡去赵国请救兵，携带黄金100斤，车马10辆作为出兵的交换条件。 　　淳于髡接到大王的口谕之后仰天大笑，齐王莫名其妙，问道：“你嫌东西少了吗?”
-淳于髡忍住笑回答：“哪敢嫌少！”
-齐王追问：“那你笑是什么意思?”
-淳于髡回答道：“臣想起今早遇到一个人的可笑行为，故觉得想笑，绝无嘲笑王上之意。”
-齐王问道：“今早有什么可笑的事发生，给寡人讲讲。”
-淳于髡回答：“臣今天早上在上朝的路上，经过田野，看见有一个农夫跪在路旁祭田，他举着一只小猪脚爪，端着一盅水酒，嘴里振振有词地祝愿说：‘土地爷啊， 求你保佑，让我五谷满仓，猪牛满圈，金银满箱，儿孙满堂！’我见他手里拿的这么微薄，嘴里要求却那么奢厚，所以越想越好笑。” 　　.
-齐威王听了很惭愧，便增加了黄金1000镒，白玉10对，车马百辆。让淳于髡带着这些东西到赵国求救。</p></blockquote>
+<p>When I went into the city, I found the city in Mongolia is different with in inlands. The road is more wide, amount of people is more less.</p>
 
-<p><strong>第二点，教育需要自由。</strong></p>
+<p>And the small city is more like the America city in lots of films.
+ <p class='post-footer' style="font-size:70%;" ></p>
 
-<p><strong>        投入和产出永远不会出现反比关系</strong>。但是如果我们真的向教育投入足够多的钱了，中国就能拿到那诺贝尔的自科奖了吗？</p>
+<br/>
 
-<p>显然不是，中国教育一直就<strong>欠缺自由</strong>，如果没有<a href="http://www.ftchinese.com/story/001045722/?print=y">自由的环境</a>，根本不会有任何学术成就。上过学的人都知道，终你医生学习生涯，你的班级中，中小学，拥有<strong>最高权威</strong>的是你的<strong>班主任</strong>，大学拥有最高权威的是你的<a href="https://zh.wikipedia.org/wiki/%E6%94%BF%E6%B2%BB%E8%BE%85%E5%AF%BC%E5%91%98">辅导员</a>、你的教授。什么时候，人人都可以自由地<strong>顶撞</strong>教你书的人，什么时候这个民族的教育才会有希望。</p>
 
-<p><strong>第三，学校需要办学的自主权</strong></p>
+<br/>
 
-<p>自从秦朝建立以来，中国一直是一个中央集权的国家。中央集权的第一要务便是，<strong>下级服从上级</strong>。但谁都知道市长不会比村长更了解自己的村子。但决策却在上级手里。中国的教育也是如此，全国学校千篇一律，因为把学校办成什么样在上级手里，不在学校手里。</p>
 
-<p><strong> 不得不说，还有一点，我们必须搞清楚我们要教出<a href="http://zqb.cyol.com/html/2012-10/10/nw.D110000zgqnb_20121010_1-03.htm">什么样的人</a>？</strong></p>
+<br/>
 
-<p>我们不要书呆子，但是<strong>如今上学的人多少都有些呆气</strong>。我们不要量产出的廉价T恤，我们要让每一件都有不同的图案，穿在不同的人身上。这个东西叫个性，<strong>按照我的初中老师的话，“有个性是人的缺点”。</strong></p>
 
-<p><strong>中国的教育制度很可怕，我时常能感觉到自己无法适应，或者说就不应该去适应。我如今是这样走过来的，我不希望我的后代也这样。</strong></p>
+<p>The Original Link: <a href="http://baham.co/11_12_mongolia.html">http://baham.co/11_12_mongolia.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[360wifi be evil]]></title>
+    <link href="http://baham.co/11_06_360wifi-be-evil.html"/>
+    <updated>2014-11-06T13:32:00+00:00</updated>
+    <id>http://baham.co/360wifi-be-evil</id>
+    <content type="html"><![CDATA[<p><img src="http://baham.co/images/360wifi/360wifi2.jpg" alt="360wifi" /></p>
 
-<p><a href="http://baham.co/wp-content/uploads/2012/11/76774514.jpg"><img src="http://baham.co/wp-content/uploads/2012/11/76774514.jpg" alt="虐童" /></a></p>
+<p>These days, I found there is a 360wifi on the public PC. So I got the ssid and the password to get the internet access.</p>
 
-<p>（<strong>让我揪心的图片，谨以此图，纪念这个时代</strong>）</p>
+<p>But when I use this 360wifi to access internet. I found an evil thing 360 done.</p>
 
-<p><img src="http://wiki.sociallearnlab.org/images/b/ba/EduNext.png" alt="http://wiki.sociallearnlab.org/images/b/ba/EduNext.png" /></p>
+<!--more-->
 
-<p><em>EduNext ｜教育前瞻”是一个由多个关注中国教育未来和学习型社会的网络社区共同发起的网络征文活动，在2012年10月10日起，至2012年11月10日结束， 为期1个月。我们也把这个月份称之为“中国教育前瞻月”。在此期间，你可以写作一篇或多篇blog帖子，阐述你对于教育和学习等话题的看法。请在［<a href="http://www.sociallearnlab.org/wiki/index.php?title=EduNext">http://www.sociallearnlab.org/wiki/index.php?title=EduNext</a> 这个页面]上“投稿文章”部分按格式提交你的blog帖子，你也可以直接在新浪微博上 @教育大发现社区 (<a href="http://weibo.com/sociallearnlab">http://weibo.com/sociallearnlab</a>) 提交你的blog帖子链接。教育是我们的未来。未来取决于当下。</em></p>
+
+<h2>When I visit django</h2>
+
+<p>I wanted to learn some knowledge about django. When I use my laptop to visit djangoproject.com, I got nothing, but a <em>Server Not Found</em></p>
+
+<p><img src="http://baham.co/images/360wifi/snf.png" alt="server not found" /></p>
+
+<p>But when I use the public pc that installed 360wifi, I can access djangoproject.com.</p>
+
+<p><img src="http://baham.co/images/360wifi/django.png" alt="django" /></p>
+
+<h2>Inference</h2>
+
+<p>So I infer that 360wifi block some foreign websites. include:</p>
+
+<p><a href="http://djangoproject.com">django</a>, turbogears, pip, and my vps&rsquo;s ip.</p>
+
+<p>They are all blocked.</p>
+
+<p>And I think there are more sites and ips were blocked by 360wifi.</p>
+
+<h2>Others</h2>
+
+<p>I do not know how about the similar products in China, like <em>baidu wifi</em> or <em>xiaomi wifi</em>.</p>
+
+<h2>Questions</h2>
+
+<p>I found this abnormal phenomenon, but I still did not know why.</p>
+
+<p>I wanted to learn some about django or turbogears to build a site, but why 360wifi block them.</p>
+
+<p>Did these sites include some bad things or bad plugins or even break the law? But you know, they are all open source project, and only for the developers to download software and get docs.</p>
+
+<h2>Advise</h2>
+
+<p>So my adivise is use a wireless network card instead of the 360wifi. Maybe using wireless network card is more difficult to config, but it is more safe and free.</p>
+
+<pre><code>The Life is Short, Away from 360
+</code></pre>
 
 <p> <p class='post-footer' style="font-size:70%;" ></p>
 
@@ -647,82 +308,49 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 <br/>
 
 
-<p>The Original Link: <a href="http://baham.co/11_05_705.html">http://baham.co/11_05_705.html</a><br/>
+<p>The Original Link: <a href="http://baham.co/11_06_360wifi-be-evil.html">http://baham.co/11_06_360wifi-be-evil.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[GooglePlay上四款很棒的圣经软件]]></title>
-    <link href="http://baham.co/11_05_690.html"/>
-    <updated>2012-11-05T22:10:22+00:00</updated>
-    <id>http://baham.co/690</id>
-    <content type="html"><![CDATA[<p>之前介绍过专为基督徒定制的linux发行版-<a href="http://baham.co/11_05_687.html">Ubuntu CE</a>，其实自从IPhone搅局以来，人们用在手机上的时间越来越多，PC上却越来越少，以下为个人手机的几款<strong>非常棒的圣经软件</strong>。鉴于国内网络环境，此处<strong>提供下载</strong>。</p>
+    <title type="html"><![CDATA[Travel To Donggang by Bicycle]]></title>
+    <link href="http://baham.co/11_02_travel-to-donggang-by-bicycle.html"/>
+    <updated>2014-11-02T13:09:00+00:00</updated>
+    <id>http://baham.co/travel-to-donggang-by-bicycle</id>
+    <content type="html"><![CDATA[<p>I bought a bicycle weeks ago, a mountain bike. It cost me more than half of my month salary. (Of course, my salary is pretty low) lol.</p>
 
-<!-- more -->
+<p>And today, I ride this bike with Wei who ride a Meride bicycle to travel to Donggang.</p>
 
-
-<h1></h1>
-
-<h1>1 聖經/LIFECHURCH.TV</h1>
-
-<p><a href="http://baham.co/wp-content/uploads/2012/11/unnamed.jpg"><img src="http://baham.co/wp-content/uploads/2012/11/unnamed.jpg" alt="圣经app" /></a></p>
-
-<p>排名第一，下载量截至目前有60万。平均评分为5分，方便阅读分享，支持多版本多语言。</p>
-
-<ul>
-<li><p>免費使用<strong>多種現代英文聖經譯本</strong>，包括 NIV, ESV, NLT, NKJV, AMP, NASB, CEV, NET, WEB, NCV, TNIV, HCSB, 信息版聖經譯本等。</p></li>
-<li><p>免費使用多種現代<strong>西班牙文</strong>聖經譯本，包括雷納，瓦勒拉 1960（RVR60）版, NVI, LBLA, NBLH 等等。</p></li>
-<li><p>免費使用多種英文以外的聖經譯本，包括德文，法文，義大利文，中文簡體，中文繁體，瑞典文，韓文，日文，挪威文，捷克文，保加利亞文，荷蘭文，葡萄牙文，羅馬尼亞文，俄文等。</p></li>
-</ul>
+<!--more-->
 
 
-<h1></h1>
+<p>In fact, the sistance between start and the end is more than 40 km, and we need to come back before night. So we strated to ride in the morning.</p>
 
-<h1></h1>
+<p>And this is my first time to ride so far.</p>
 
-<h1></h1>
+<p>There are strong wind. And we must faced it, this is a problem, and make us feel tired.</p>
 
-<h1></h1>
+<p>When we were on the road, we found this place.</p>
 
-<h1></h1>
+<p><img src="http://baham.co/images/donggang/xia.jpg" alt="xiachang" /></p>
 
-<h1></h1>
+<p>I think it is a place to get salt. Even I got some powder to tast. It is salty, but in fact, finally I found it is not the place to get salt.</p>
 
-<h1></h1>
+<p>It is the place for farmer to get shrimps &hellip;</p>
 
-<h1>2 DailyBible /JohnSoft</h1>
+<p>And I saw the horizon.</p>
 
-<p><a href="http://baham.co/wp-content/uploads/2012/11/unnamed-1.jpg"><img src="http://baham.co/wp-content/uploads/2012/11/unnamed-1.jpg" alt="DailyBible-app" /></a></p>
+<p><img src="http://baham.co/images/donggang/horizon.jpg" alt="horizon" /></p>
 
-<p><strong>多版本，多语言</strong>支持。9万下载量，评分为5.支持与好友分享，快速检索。可发声。</p>
+<p>When we come bakc, I wanted to travel more, but Wei is tired and just wanted to went back as quick as we can. And I did not consider this that time, and I blame he is not good at watching map and insisted on findding a new way back.</p>
 
-<h1>3 QuickBible/YuKu</h1>
+<p>So I did a wrong thing, just consider my own things and thoughts and did not consider the other&rsquo;s.</p>
 
-<p><a href="http://baham.co/wp-content/uploads/2012/11/unnamed-2.jpg"><img src="http://baham.co/wp-content/uploads/2012/11/unnamed-2.jpg" alt="QuickBible-app" /></a></p>
+<p>Finally, we went back along the old way.</p>
 
-<p>内置<a href="http://baham.co/11_05_680.html">英皇钦定版</a>jkv,支持检索。可下载其他译本（包括中文）。</p>
-
-<p>3万下载量。</p>
-
-<h1></h1>
-
-<h1>4 Bible+/Faith Comes By Hearing</h1>
-
-<p><a href="http://baham.co/wp-content/uploads/2012/11/unnamed-3.jpg"><img src="http://baham.co/wp-content/uploads/2012/11/unnamed-3.jpg" alt="Bible.is-app" /></a></p>
-
-<p>Bible.is/Bible+， 3万下载量。300多个版本的圣经，185种语言支持。支持<strong>发声</strong>。</p>
-
-<h1>小结：</h1>
-
-<p>其实四款软件<strong>差别不大</strong>，主要是<strong>UI设计</strong>以不同。如果不喜欢单独安装软件，也可以下载<a href="http://baham.co/11_05_680.html">电子书</a>用来阅读。</p>
-
-<p>下载地址
-<a href="https://docs.google.com/file/d/0B4GRRqxWzRx7QmltQm4yMG9URUE/edit">Bible</a>
-<a href="https://docs.google.com/file/d/0B4GRRqxWzRx7VVBHenhBZzBYOXc/edit">Bible+</a>
-<a href="https://docs.google.com/file/d/0B4GRRqxWzRx7a0RDX3VGNGk0LVk/edit">DailyBible</a>
-<a href="https://docs.google.com/file/d/0B4GRRqxWzRx7cFZuOUg5RFZOWXc/edit">HolyBible</a>
+<p>Thanks God.
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -734,50 +362,136 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 <br/>
 
 
-<p>The Original Link: <a href="http://baham.co/11_05_690.html">http://baham.co/11_05_690.html</a><br/>
+<p>The Original Link: <a href="http://baham.co/11_02_travel-to-donggang-by-bicycle.html">http://baham.co/11_02_travel-to-donggang-by-bicycle.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Ubuntu基督教版-Ubuntu Christian Edition]]></title>
-    <link href="http://baham.co/11_05_687.html"/>
-    <updated>2012-11-05T21:21:00+00:00</updated>
-    <id>http://baham.co/687</id>
-    <content type="html"><![CDATA[<p><img src="http://ubuntuce.com/screenshots/12.04/login.png" alt="" /></p>
+    <title type="html"><![CDATA[Model Thinking on coursera]]></title>
+    <link href="http://baham.co/11_01_model-thinking-on-coursera.html"/>
+    <updated>2014-11-01T12:45:00+00:00</updated>
+    <id>http://baham.co/model-thinking-on-coursera</id>
+    <content type="html"><![CDATA[<p>Though I always delay on the quiz test date. But I still finish the third quizs.</p>
 
-<p><a href="https://zh.wikipedia.org/wiki/Ubuntu">Ubuntu</a>自从诞生以来，就有很多一期定制的发行版。</p>
+<p>Before this course, I only finished one mooc course.</p>
 
-<p>比如非常火的<a href="http://www.linuxmint.com/">Linux Mint</a>，国内的YLMF，深度。</p>
+<p>It is about Chinese history, and taught by Chinese.</p>
 
-<p>对于<strong>基督徒</strong>，有一款专门为之设计的发行版，<a href="http://ubuntuce.com/">Ubuntu CE</a>。<!-- more --></p>
+<!--more-->
 
-<p><strong>Ubuntu Christian Edition</strong>：</p>
 
-<blockquote><p>Ubuntu Christian Edition is a free, open source operating system geared towards Christians. It is based on the popular Ubuntu Linux. Ubuntu is a complete Linux-based operating system, freely available with both community and professional support. The goal of Ubuntu Christian Edition is to bring the power and security of Ubuntu to Christians. The current<em> Ubuntu Christian Edition release</em> supports both 32 bit and 64 bit PCs. Ubuntu Christian Edition covers every standard desktop application from word processing and spreadsheet applications to web server software and programming tools.</p></blockquote>
+<p>And I will do my best to insist on this course. And learn more moocs in this year.
+ <p class='post-footer' style="font-size:70%;" ></p>
 
-<p>Ubuntu CE 基于Ubuntu，如同其他GNU/Linux系统一样，是一款<strong>自由开放</strong>的系统。特点在于包含很棒的基督教相关的软件，<strong>强大的防火墙</strong>以及<strong>家</strong><img src="http://ubuntuce.com/screenshots/12.04/desktop.png" alt="Desktop" /><strong>长控制系统</strong>。</p>
+<br/>
 
-<p>Ubuntu CE更新很快,最新版基于12.04。</p>
 
-<p>下载地址：</p>
+<br/>
 
-<blockquote><p><strong>Ubuntu 12.04 Christian Edition 32 bit </strong></p>
 
-<ul>
-<li><p><a href="http://phillw.net/isos/uce/precise/uce-12.04-desktop-i386.iso">iso Download</a> &mdash; <a href="http://phillw.net/isos/uce/precise/uce.md5sums">md5sum</a></p></li>
-<li><p><a href="http://www.livingtorrents.com/torrents-details.php?id=749">Torrent</a></p></li>
-</ul>
-</blockquote>
+<br/>
 
-<p><strong>Ubuntu 12.04 Christian Edition 64 bit </strong></p>
 
-<blockquote><ul>
-<li><p><a href="http://phillw.net/isos/uce/precise/uce-12.04-desktop-amd64.iso">iso Download</a> &mdash; <a href="http://phillw.net/isos/uce/precise/uce.md5sums">md5sum</a></p></li>
-<li><p><a href="http://www.livingtorrents.com/torrents-details.php?id=750">Torrent</a></p></li>
-</ul>
-</blockquote>
+<p>The Original Link: <a href="http://baham.co/11_01_model-thinking-on-coursera.html">http://baham.co/11_01_model-thinking-on-coursera.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Use CloudFlare as the site's CDN again]]></title>
+    <link href="http://baham.co/11_01_use-cloudflare-as-the-sites-cdn-again.html"/>
+    <updated>2014-11-01T07:38:00+00:00</updated>
+    <id>http://baham.co/use-cloudflare-as-the-sites-cdn-again</id>
+    <content type="html"><![CDATA[<p><a href="http://baham.co/05_25_kai-shi-shi-yong-an-quan-bao-cdnfu-wu-liao.html">Anquanbao</a> CDN is a CDN provider. And there is the CDN point in HK.</p>
+
+<p>But today, I change the CDN provider to cloudflare like before. For I found the cloudflare is supportting free ssl.</p>
+
+<p>So I choose cloudflare. And I found there are more apps supported on cloudflare. Some are really cool and helpful.</p>
+
+<!--more-->
+
+
+<p>And you can use the https to visit <a href="https://baham.co">baham.co</a>
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/11_01_use-cloudflare-as-the-sites-cdn-again.html">http://baham.co/11_01_use-cloudflare-as-the-sites-cdn-again.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2 movies I watched these days]]></title>
+    <link href="http://baham.co/10_28_2-movies-i-watched-these-days.html"/>
+    <updated>2014-10-28T13:57:00+00:00</updated>
+    <id>http://baham.co/2-movies-i-watched-these-days</id>
+    <content type="html"><![CDATA[<p>These days, I watched 2 movies alone. LOL!!!</p>
+
+<p>All were from Hollywood.</p>
+
+<p>One is Guard of Galaxy. A cool and science film.</p>
+
+<!--more-->
+
+
+<p>Another is <em>Maze Runner</em>. A movie that main actors are teenagers. And revised by the same name sci-fi.</p>
+
+<p>Men aspire after freedom. Though aspiring is with danger.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/10_28_2-movies-i-watched-these-days.html">http://baham.co/10_28_2-movies-i-watched-these-days.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Third Time a cowork advise me to do research direction]]></title>
+    <link href="http://baham.co/10_28_the-third-time-a-cowork-advise-me-to-do-research-direction.html"/>
+    <updated>2014-10-28T13:56:00+00:00</updated>
+    <id>http://baham.co/the-third-time-a-cowork-advise-me-to-do-research-direction</id>
+    <content type="html"><![CDATA[<p> I am learning mineral processing in my university. When I graduate and started to work, I came here and got my first job.</p>
+
+<p> Maybe no position will satisfy a man in a company. And I believe all things depend on God. So I just follow the boss&rsquo;s opinion. And worked here do the designing direction job.</p>
+
+<p> <!--more-->
+ After the meeting between DFMC and <a href="andestc.cl">Andes</a> a young company from Chile, B and J told me maybe I was more suitable with the Researching direction job.</p>
+
+<p> And this is the third time I heard the advise from cowork. For B have told me the advise before. This time, J even said she can help me talk to boss.  Really thanks her, but I did not accept her good willing, after all I had talked this with the boss.</p>
+
+<p> For now, the researching direction job is building the <strong>Mineral Processing Expert System</strong> that I think I would do when I came here. But the boss let me do the designing direction, do some plant&rsquo;s automation solution design.</p>
+
+<p> Days ago, I talked to the boss, I told him I was good at programming and I had got some knowlege about matlab and metsim which softwares researchers in the company used. But he refused, he did not refuse directly, but he just said the researching job need the man who got Master Degree {in fact, not all of researchers got master degree.) and it is more difficult and hard. Though I express I can work hard and I did not fear hard. He still refuse.</p>
+
+<p> Between the talk, I found he already made decision and would not change. So I stop talking and just listen.</p>
+
+<pre><code> Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God.  Rom 13:1
+
+ So I took the boss's advise and still worked in disign direction. Not because of his talk, but God's word.
+
+ And thanks God.
+</code></pre>
 
 <p> <p class='post-footer' style="font-size:70%;" ></p>
 
@@ -790,28 +504,35 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 <br/>
 
 
-<p>The Original Link: <a href="http://baham.co/11_05_687.html">http://baham.co/11_05_687.html</a><br/>
+<p>The Original Link: <a href="http://baham.co/10_28_the-third-time-a-cowork-advise-me-to-do-research-direction.html">http://baham.co/10_28_the-third-time-a-cowork-advise-me-to-do-research-direction.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[英皇钦定版圣经(JKV)-中英epub电子书下载]]></title>
-    <link href="http://baham.co/11_05_680.html"/>
-    <updated>2012-11-05T20:56:06+00:00</updated>
-    <id>http://baham.co/680</id>
-    <content type="html"><![CDATA[<p>活了这么多年，突然发现自己根本没有<strong>信仰</strong>。真不知道自己为了什么而活？</p>
+    <title type="html"><![CDATA[Dr Gao's report]]></title>
+    <link href="http://baham.co/10_28_dr-gaos-report.html"/>
+    <updated>2014-10-28T13:56:00+00:00</updated>
+    <id>http://baham.co/dr-gaos-report</id>
+    <content type="html"><![CDATA[<p>On one Sunday, I was at KFC in Wanda to learn some English lecture about words. Bo called me, told me go back to the company to have a meeting.</p>
 
-<p>最近一直在读圣经</p>
+<p>When I knew the message, it is after 3 pm, and the meeting have already started. So I run my bicycle fast to come back.</p>
 
-<p>找到了 <strong>King James Version</strong>的<strong>英</strong>文版</p>
+<p>Luckily, when I reached, the meeting had not started.</p>
 
-<p>分享给大家</p>
+<!--more-->
 
-<p>epub电子书格式：</p>
 
-<p><a href="http://bible.kuanye.net/langdu/kjv.htm">下载</a>
+<p>The reporter is Gao. who graduated from NEU and lived in AUS now. He report some new information and technology about the Australian Mineral Processing. Some bigger and newer machines.</p>
+
+<p>And some new theories in foreign.</p>
+
+<p>Like, SAG flowsheet, SAB, SABC flowsheet. And in froth flotation, how to control the separation and measure what.</p>
+
+<p>Which is the best bubble&rsquo;s diameter in flotation? And you know the company is building the Mineral Processing Expert System. So Gao said some about expert system and JKmetsim that I knew but never used and touched software.</p>
+
+<p>This is a good experiment.
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -823,18 +544,80 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 <br/>
 
 
-<p>The Original Link: <a href="http://baham.co/11_05_680.html">http://baham.co/11_05_680.html</a><br/>
+<p>The Original Link: <a href="http://baham.co/10_28_dr-gaos-report.html">http://baham.co/10_28_dr-gaos-report.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[骑马与砍杀-骑射教程（视频）]]></title>
-    <link href="http://baham.co/11_01_673.html"/>
-    <updated>2012-11-01T19:40:55+00:00</updated>
-    <id>http://baham.co/673</id>
-    <content type="html"><![CDATA[<p><embed src="http://player.youku.com/player.php/sid/XMjY1MjI2MjA4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
+    <title type="html"><![CDATA[China's Transgenic Calibration]]></title>
+    <link href="http://baham.co/10_28_chinas-transgenic-calibration.html"/>
+    <updated>2014-10-28T13:53:00+00:00</updated>
+    <id>http://baham.co/chinas-transgenic-calibration</id>
+    <content type="html"><![CDATA[<p>Maybe a few people care about China&rsquo;s trangenic calibration.</p>
+
+<h2>Before, China&rsquo;s transgenic food was qualitatively calibrated.</h2>
+
+<p>If the food include transgenic part, than calibrated it &lsquo;Transgenic&rsquo;.</p>
+
+<p>But in fact, like other regulations in China, a lot of people think the aim did not achieve. A lot of food whith &lsquo;Transgenic&rsquo; did not be calibrated. And the food without transgenic part calibrated with &lsquo;non-transgenic&rsquo;.</p>
+
+<h2>And Now, China&rsquo;s transgenic food will be quantitatively calibrated.</h2>
+
+<p>In fact, I thought this is a regression. But the medium did not say it is a regression, they said US/ Japan do like this too.</p>
+
+<p>So this is the problem.</p>
+
+<p>For me,
+I do not care how much transgenic part a food have, I just care whether it has or not. Although, I probably had aten transgenic food with I have no idea which food have.
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/10_28_chinas-transgenic-calibration.html">http://baham.co/10_28_chinas-transgenic-calibration.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Notes 1 of Model Thinking -Universoty of Michigan]]></title>
+    <link href="http://baham.co/10_09_model-thinking-universoty-of-michigan.html"/>
+    <updated>2014-10-09T13:25:00+00:00</updated>
+    <id>http://baham.co/model-thinking-universoty-of-michigan</id>
+    <content type="html"><![CDATA[<p>I join this lecture.</p>
+
+<p>And listen some video courses.</p>
+
+<p>And make some notes.</p>
+
+<!--more-->
+
+
+<h2>Advantages of Model:</h2>
+
+<ol>
+<li>Intelligent Citizon of the World</li>
+<li>Clearer thinker</li>
+<li>Use and Understand data</li>
+<li>Decide, Strategize and Design</li>
+</ol>
+
+
+<h2>Some words</h2>
+
+<p>anthropology    人类学
+zoology         动物学
+logical incosistencies      逻辑矛盾
+crutch          拐杖</p>
 
 <p> <p class='post-footer' style="font-size:70%;" ></p>
 
@@ -847,45 +630,66 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 <br/>
 
 
-<p>The Original Link: <a href="http://baham.co/11_01_673.html">http://baham.co/11_01_673.html</a><br/>
+<p>The Original Link: <a href="http://baham.co/10_09_model-thinking-universoty-of-michigan.html">http://baham.co/10_09_model-thinking-universoty-of-michigan.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[娱乐之上-江南Style大集合]]></title>
-    <link href="http://baham.co/10_27_658.html"/>
-    <updated>2012-10-27T16:03:45+00:00</updated>
-    <id>http://baham.co/658</id>
-    <content type="html"><![CDATA[<p>1  娱乐之上-<strong>江南Style大集合</strong>-PSY &ndash; GANGNAM STYLE</p>
+    <title type="html"><![CDATA[On The Road]]></title>
+    <link href="http://baham.co/10_01_the-octobor-1st.html"/>
+    <updated>2014-10-01T03:41:00+00:00</updated>
+    <id>http://baham.co/the-octobor-1st</id>
+    <content type="html"><![CDATA[<p>Today is Octobor 1st, another PRC&rsquo;s National Day. I am going back to home.</p>
 
-<p><embed src="http://player.youku.com/player.php/sid/XNDY3NTU5NjEy/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
+<p>And I take some local speciality for the family.</p>
 
-<!-- more -->
+<p>After working in DFMC about 2 minths, a period time&rsquo;s puzzlling, thinking and praying.</p>
+
+<p>I make a decision.</p>
+
+<!--more-->
 
 
-<p>2  娱乐之上-<strong>江南Style大集合</strong>-Korean dance team
-3 娱乐之上-江南<strong>Style</strong>大集合-<strong>婚礼</strong>版
-4 娱乐之上-江南Style大集PSY (ft.<strong> HYUNA</strong>) 오빤 딱 내 스타일</p>
+<p>I want to go abroad next year.</p>
 
-<p>5 娱乐之上-江南Style大集合-<strong>GUNMAN STYLE</strong></p>
+<!--
+If you can finish your job very easily, you should get another job.
 
-<p>6 娱乐之上-江南Style大集合-<strong>伊顿Style</strong></p>
+-->
 
-<p>7 重庆南开中学 <strong>千人江南Style</strong></p>
 
-<p>对此，我觉得，只有当学生能选择跳什么样的操时，中国才会有希望。</p>
+<p> <p class='post-footer' style="font-size:70%;" ></p>
 
-<p>8 娱乐之上-江南Style大集合-Minecraft Style</p>
+<br/>
 
-<p>9 MIT（麻省理工）恰恰版Style</p>
 
-<p>10 香港Style（群星演出客串）</p>
+<br/>
 
-<p>11 MIT 麻省理工 Style</p>
 
-<p>由于网站迁移，请移步<a href="http://www.youku.com/playlist_show/id_18469431.html">这里</a>进行观看
+<br/>
+
+
+<p>The Original Link: <a href="http://baham.co/10_01_the-octobor-1st.html">http://baham.co/10_01_the-octobor-1st.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Catching Crabs]]></title>
+    <link href="http://baham.co/09_30_catching-crabs.html"/>
+    <updated>2014-09-30T13:05:00+00:00</updated>
+    <id>http://baham.co/catching-crabs</id>
+    <content type="html"><![CDATA[<p>Days ago, 2 roommates and I went to the China&rsquo;s side of Yalu River to catch the crabs in the evnening.</p>
+
+<!--more-->
+
+
+<p>And this is my first time to catch crabs. When I was a child, I had caught dragonfly, frogs and butterfly. But not crabs, for where I live is not near river.</p>
+
+<p>Now, always feel that childhood is beaytiful.
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -897,20 +701,33 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 <br/>
 
 
-<p>The Original Link: <a href="http://baham.co/10_27_658.html">http://baham.co/10_27_658.html</a><br/>
+<p>The Original Link: <a href="http://baham.co/09_30_catching-crabs.html">http://baham.co/09_30_catching-crabs.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[纪念文章-Baham Blog 第一篇通过客户端发布的博文]]></title>
-    <link href="http://baham.co/10_21_651.html"/>
-    <updated>2012-10-21T00:00:59+00:00</updated>
-    <id>http://baham.co/651</id>
-    <content type="html"><![CDATA[<p>下载并使用了Wordpress的客户端，不如在浏览器中功能强大，但是也已经很不错了。</p>
+    <title type="html"><![CDATA[A Bad Word]]></title>
+    <link href="http://baham.co/09_18_a-bad-word.html"/>
+    <updated>2014-09-18T13:48:00+00:00</updated>
+    <id>http://baham.co/a-bad-word</id>
+    <content type="html"><![CDATA[<p>These days, I got cold. Today is the third day. And I say a wrong word. Orginally, I just want to say a joke. But I found it is bad a bad even evil word. Because I spoke so lordly that someone turn back to see my position.</p>
 
-<p>支持 <strong>加粗</strong>，<em>斜体</em>，下划线，<del>删除线</del>，<a href="http://baham.co/10_21_651.html">链接</a>，<strong>引用</strong>，<strong>more标签</strong>。如果支持html代码可能会更好用。 另外支持上传照片及视频。 并且可以直接访问dashboard
+<!--more-->
+
+
+<p>I am not veru happy, bacause of the cold, the word from the Aunt in dinning hall(I asked her a lunch box, she refused.) and the others&#8217; talking about I using my left hand to eat.</p>
+
+<p>In this time, to think the reson, it is nothing to make me unhappy, I feel.</p>
+
+<p>And Jiao aksed me why use left hand? I wanted to say a joke, so say &lsquo;Why you have so much why?&rsquo; loudly.</p>
+
+<p>It is not polite to her and others in the dinning hall though she did not care it. But I say it. And after the word, I felt really sorry.</p>
+
+<p>I did a bad thing and said a bad word.</p>
+
+<p><code>Therewith bless we God, even the Father; and therewith curse we men, which are made after the similitude of God.</code>  &mdash;James 3:9
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -922,20 +739,37 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 <br/>
 
 
-<p>The Original Link: <a href="http://baham.co/10_21_651.html">http://baham.co/10_21_651.html</a><br/>
+<p>The Original Link: <a href="http://baham.co/09_18_a-bad-word.html">http://baham.co/09_18_a-bad-word.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[莫言不会成为诺贝尔文学奖得主]]></title>
-    <link href="http://baham.co/10_08_645.html"/>
-    <updated>2012-10-08T18:44:33+00:00</updated>
-    <id>http://baham.co/645</id>
-    <content type="html"><![CDATA[<p>我预言。</p>
+    <title type="html"><![CDATA[Goldendict Support Mdx]]></title>
+    <link href="http://baham.co/09_11_goldendict-support-mdx.html"/>
+    <updated>2014-09-11T12:14:00+00:00</updated>
+    <id>http://baham.co/goldendict-support-mdx</id>
+    <content type="html"><![CDATA[<p>I started to use <a href="http://goldendict.org/">goldendict</a> since stardict is down. Maybe it is the best dict software on Linux.</p>
 
-<p>理由我保留。
+<p>So I still keep using it.</p>
+
+<p>But I do not notice which time godendict started to supprot mdx. You know it is very strong, .mdx dictionary.</p>
+
+<p>Because since <a href="http://www.octopus-studio.com/">Rayman Zhang</a> created this software. Lots of men create the dictionaries for mdict with .mdx.</p>
+
+<p>I use the mdict since years ago, that time I still use the windows mobile smart phone.</p>
+
+<!--more-->
+
+
+<p>These days, I got a new pc from the compony for work, so I want to install golden dict on windows too. But I found the version I downloaded is still 1, and vesion 1 did not support mdx. So I found this link, the goldendict&rsquo;s early access build for windows.</p>
+
+<p><a href="https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Windows">goldendict 1.5 rc</a></p>
+
+<p>Enjoy it!</p>
+
+<p>And, source code here <a href="https://github.com/goldendict/goldendict/">goldendict source code</a>
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -947,127 +781,39 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 <br/>
 
 
-<p>The Original Link: <a href="http://baham.co/10_08_645.html">http://baham.co/10_08_645.html</a><br/>
+<p>The Original Link: <a href="http://baham.co/09_11_goldendict-support-mdx.html">http://baham.co/09_11_goldendict-support-mdx.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[骑马与砍杀：战团-各城市产出列表]]></title>
-    <link href="http://baham.co/10_06_626.html"/>
-    <updated>2012-10-06T16:08:09+00:00</updated>
-    <id>http://baham.co/626</id>
-    <content type="html"><![CDATA[<p><strong>骑马与砍杀：战团-各城市产出</strong></p>
+    <title type="html"><![CDATA[The Second Business Trip]]></title>
+    <link href="http://baham.co/09_03_the-second-business-trip.html"/>
+    <updated>2014-09-03T14:59:00+00:00</updated>
+    <id>http://baham.co/the-second-business-trip</id>
+    <content type="html"><![CDATA[<p> Xiong gave me a job, it is went to the Mineal Preparation Plant to do some information exchange work with Tao and make me know more about design automation project.</p>
 
-<h1>维吉亚王国</h1>
+<p> So we went to the mpp. It is far away from DD. The most of time of the business trip time is on the road.</p>
 
-<h2>库丹</h2>
+<p>Maybe you can not believe it.</p>
 
-<p>面包、麦芽酒、皮革制品、工具、毛呢、陶器、油</p>
+<p>This picture cameraed in the Mpp.</p>
 
-<h2>日瓦丁</h2>
+<p><img src="http://baham.co/images/business/jrs.jpg" alt="jrs" /></p>
 
-<p>面包、麦芽酒、葡萄酒、皮革制品、工具、毛呢</p>
-
-<h2>库劳</h2>
-
-<p>面包、熏鱼、麦芽酒、葡萄酒、皮革制品、工具、生铁、毛呢、陶器</p>
-
-<h2>日瓦车则</h2>
-
-<p>面包、熏鱼、麦芽酒、葡萄酒、皮革制品、工具、毛呢、油</p>
-
-<!-- more -->
+<!--more-->
 
 
-<h1>库吉特汗国</h1>
+<p>But it is reall, I think maybe this thing can only happened in China.</p>
 
-<h2>图尔加</h2>
+<p>The trip is kind of well.</p>
 
-<p>面包、麦芽酒、葡萄酒、皮革制品、工具、毛呢、陶器、盐、香料</p>
+<p>So we exchange requiest and ideas with the Compony A. And I do some recording work. We went to the mpp to see the detail of the plant.</p>
 
-<h2>艾车莫尔</h2>
+<p>Then we went back.</p>
 
-<p>面包、麦芽酒、葡萄酒、皮革制品、工具、毛呢、油、香料</p>
-
-<h2>哈尔玛</h2>
-
-<p>面包、麦芽酒、葡萄酒、皮革制品、工具、毛呢、陶器、油</p>
-
-<h2>拉那</h2>
-
-<p>面包、麦芽酒、葡萄酒、皮革制品、工具、毛呢、陶器、油</p>
-
-<h1>诺德王国</h1>
-
-<h2>窝车则</h2>
-
-<p>面包、熏鱼、麦芽酒、皮革制品、毛呢、陶器、油盐</p>
-
-<h2>萨哥斯</h2>
-
-<p>面包、熏鱼、麦芽酒、皮革制品、工具、毛呢、亚麻、油</p>
-
-<h2>提哈</h2>
-
-<p>面包、熏鱼、麦芽酒、皮革制品、工具、毛呢、亚麻、陶器、盐</p>
-
-<h1>斯瓦迪亚王国</h1>
-
-<h2>乌克斯豪尔</h2>
-
-<p>面包、麦芽酒、葡萄酒、皮革制品、工具、毛呢、陶器、油</p>
-
-<h2>德赫瑞姆</h2>
-
-<p>面包、麦芽酒、葡萄酒、皮革制品、工具、毛呢、陶器、油</p>
-
-<h2>苏诺</h2>
-
-<p>面包、麦芽酒、葡萄酒、皮革制品、工具、天鹅绒、毛呢、陶器、油</p>
-
-<h2>帕拉汶</h2>
-
-<p>面包、麦芽酒、葡萄酒、皮革制品、工具、毛呢、陶器、油</p>
-
-<h1>罗多克王国</h1>
-
-<h2>维鲁加</h2>
-
-<p>面包、麦芽酒、葡萄酒、皮革制品、工具、天鹅绒、毛呢、陶器、油</p>
-
-<h2>杰尔喀拉</h2>
-
-<p>面包、麦芽酒、葡萄酒、皮革制品、工具、天鹅绒、毛呢、陶器</p>
-
-<h2>亚伦</h2>
-
-<p>面包、麦芽酒、葡萄酒、皮革制品、工具、毛呢、陶器、由</p>
-
-<h1>萨兰德苏丹国</h1>
-
-<h2>阿默拉德</h2>
-
-<p>面包、皮革制品、毛呢、陶器、盐</p>
-
-<h2>巴瑞姆</h2>
-
-<p>面包、皮革制品、工具、毛呢、陶器、盐</p>
-
-<h2>都库巴</h2>
-
-<p>面包、皮革制品、工具、毛呢、亚麻、陶器、盐</p>
-
-<h2>沙瑞兹</h2>
-
-<p>面包、熏鱼、皮革制品、工具、毛呢、陶器、油、香料</p>
-
-<p>以上数据来自各城市市民对本城市的介绍（不会变化）。如果跑商的话，显然要买入那些当地特产，毕竟，各地面包价格虽然不同，但所有城市却都产出面包。</p>
-
-<p>其中，<strong>库劳的铁</strong>是全大陆最低价，几乎可以在任何其他城市卖出赚钱。</p>
-
-<p><strong>日瓦车则</strong>附近的<strong>维赞</strong>的生丝、<strong>德赫瑞姆</strong>附近村庄的小麦，都是全大陆最低价。更多赚钱方式，还需自己细心观察，积累经验。
+<p>What I found from this business trip is business trip is not an easy work, cause maybe you will take most of trip time on the road.
  <p class='post-footer' style="font-size:70%;" ></p>
 
 <br/>
@@ -1079,7 +825,7 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=/license>
 <br/>
 
 
-<p>The Original Link: <a href="http://baham.co/10_06_626.html">http://baham.co/10_06_626.html</a><br/>
+<p>The Original Link: <a href="http://baham.co/09_03_the-second-business-trip.html">http://baham.co/09_03_the-second-business-trip.html</a><br/>
 If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
 </p></p>
 ]]></content>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Game Theory | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/game-theory/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-05-12T01:42:52+00:00</updated>
+  <updated>2015-05-12T04:13:06+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[博弈论--三个枪手的枪战]]></title>
+    <link href="http://baham.co/10_19_bo-yi-lun-san-ge-qiang-shou-de-qiang-zhan.html"/>
+    <updated>2013-10-19T23:30:00+00:00</updated>
+    <id>http://baham.co/bo-yi-lun-san-ge-qiang-shou-de-qiang-zhan</id>
+    <content type="html"><![CDATA[<p> Ａ枪手，命中率0.3</p>
+
+<p>B 0.8</p>
+
+<p>C 1.0</p>
+
+<p>每人两发子弹，一次一发，最多射击两轮，你是Ａ，顺序是A-B-C-A-B-C</p>
+
+<p>你怎么办？</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[详解Tic-Tac-Toe人工智能实现]]></title>

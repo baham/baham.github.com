@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tips | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/tips/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-05-12T01:42:52+00:00</updated>
+  <updated>2015-05-12T04:13:06+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,158 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[黑客帝国-几点Tips]]></title>
+    <link href="http://baham.co/11_09_hei-ke-di-guo-ji-dian-tips.html"/>
+    <updated>2013-11-09T14:48:00+00:00</updated>
+    <id>http://baham.co/hei-ke-di-guo-ji-dian-tips</id>
+    <content type="html"><![CDATA[<p> 貌似很多人在写《黑客帝国》影评、观后感的时候，忽略了一点，就是祭师第一次见Neo时，</p>
+
+<p> 祭师是否否定Neo is the one?</p>
+
+<p> 很多文章直接写祭师告诉Neo不是。但其实不是这样的</p>
+
+<p> <!--more--></p>
+
+<pre><code>你会反问
+什么
+你早知道我要说什么
+我不是the one。
+Sorry,Kid.  You got the gift.   不过，你在等待什么
+……
+</code></pre>
+
+<p>就是说，祭师从来没有说Neo 不是，仔细推敲这段话，感觉反到有暗示Neo是，但不可以直说的意思。</p>
+
+<p>当然，只是个人见解。</p>
+
+<p>对于把the one翻译成<strong>救世主</strong>，应该翻译成“那个人”更好一些。救世主的英文词汇是<em>Christ</em>，也就是汉语里的基督、即我们的主耶稣。</p>
+
+<p>其他也有一些翻译不恰当，但此处不赘述，有机会会总结一下。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[如何“下载”百度音乐]]></title>
+    <link href="http://baham.co/06_12_ru-he-xia-zai-bai-du-yin-le.html"/>
+    <updated>2013-06-12T23:15:00+00:00</updated>
+    <id>http://baham.co/ru-he-xia-zai-bai-du-yin-le</id>
+    <content type="html"><![CDATA[<p>国内过去提供免费音乐下载的很多网站已经开始收费了。这是好事，我支持。
+音乐作为艺术品收多贵的费用我都支持。</p>
+
+<p>不过，以我个人的经验来讲，虽然名义上百度开始对音乐收费，但实际上这里边还是有猫腻的。</p>
+
+<!-- more -->
+
+
+<h2>1 链接至百度网盘</h2>
+
+<p>百度自己从来没有出过正式的百度网盘搜索引擎，不过，有些非正式的，比如<a href="http://so.baiduyun.me/">here</a>。
+但是，当你在百度音乐搜索歌曲时，很多会吧链接直接转向百度网盘，虽然，名义上内容属于用户非归属于百度，但是对这种典型"擦边球"行为的处置，在美国已有先例，在此不再详述。</p>
+
+<p>以Jason Mraz <em>I&rsquo;m yours</em>为例:</p>
+
+<p>这是搜索结果：
+<img src="images/musics.png" alt="baidumusic" /></p>
+
+<p>这是第三条结果的下载指向：
+<img src="images/linkpan.png" alt="3rdiamyours" /></p>
+
+<p>直接链接向百度网盘结果，对于盗版下载用户来讲，和直接提供下载没有区别。</p>
+
+<h2>2 免费适用两个月vip</h2>
+
+<p>这是第一条结果的指向，注册帐号获取免费2个月vip特权后，还是可以免费下载到mp3文件。</p>
+
+<p>如图：
+<img src="images/bdmvip.png" alt="bdvip" /></p>
+
+<h2>3 访问移动版百度音乐</h2>
+
+<p>直接提供免费适用，无论是用户还是唱片公司都可以接受，毕竟这是商业行为，而且"适用"一般不会长久。
+但有一点很不理解，如果百度真心捍卫音乐人的版权，为什么在移动版页面上执行双重标准。
+因为，移动版的百度音乐还是可以直接下载歌曲的。</p>
+
+<p><img src="images/bdmm.png" alt="bdmm" /></p>
+
+<p>中国是一个缺少版权意识的国家，民众缺乏版权意识，相关部门监管也近乎空白，于是在美国人开始在itunes买音乐时，中国互联网开始了疯狂的提供免费音乐下载，几大门户、几大搜索引擎、甚至连当时的谷歌中国都入乡随俗。</p>
+
+<p>我不相信如果我们不尊重他人的版权，而自己的版权能得到保护，我也不相信不尊重版权的企业、组织能在知识经济提交下走得长远。
+总之，真心希望各企业、相关部门真心实意地思考如何并切实执行保护版权人的版权。</p>
+
+<p>ps:<em>曾经坊间有这么一种说法，当年‘庚子赔款’，我们赔了4.5两白银，我们要通过盗版把这些钱拿回来。</em></p>
+
+<p>对于这种说法，到底是某些人对自己“犯罪行为”找的借口，还是真以此为目的，我不得而知，不过，我认为错了就是错了，侵略是错，盗版也是错，不能以错克错，我支持开源反对版权，但是我还是会尊重版权，虽然我承认我做过盗版的事，但是那是犯罪，我承认，我认罪，有一天侵权者得到清算时，我会承担自己该承担的责任。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[学车记1]]></title>
+    <link href="http://baham.co/06_04_xue-che-ji-1.html"/>
+    <updated>2013-06-04T21:21:00+00:00</updated>
+    <id>http://baham.co/xue-che-ji-1</id>
+    <content type="html"><![CDATA[<p>2012年报的驾校，恰逢新交规出台，于是练车一直等到今年才开始。</p>
+
+<p>新交规出台并开始执行后，网上对其吐槽声一片，很多人编得笑话很搞笑却也很现实，并且潜移默化中帮你记住了新交规。</p>
+
+<p>实话实说中国的驾照考试相较于很多其他的考试项目，要科学合理地多，虽然培养过“马路杀手”也出现过严重的bug。</p>
+
+<p>下面分享一下我的学车及考试经历：</p>
+
+<!-- more -->
+
+
+<h2>科目一——理论考试</h2>
+
+<p>话说，新交规出台，变化最大的就是<strong>交规</strong>本身，考试环节的改变还是其次，而交规的改变对应考者考试最大的影响就是科目一——理论考试。</p>
+
+<p>在此推荐Android App一款——驾考宝典，绝对是拿证利器。</p>
+
+<p>对于该应用的使用，我的流程是：</p>
+
+<ol>
+<li>顺序做题，将题库内全部题目做完（软件会自动记录错提）;</li>
+<li>模拟考试，注意自己的得分;</li>
+<li>不断重做错题。</li>
+</ol>
+
+
+<p>基本上，用不了多久，就会记住大部分题目。</p>
+
+<h2>科目二——五项</h2>
+
+<p>五项是哪五项？</p>
+
+<blockquote><p>倒桩入库、侧方位停车、坡道起步和定点停车、直角弯、S 路</p></blockquote>
+
+<p>最难的在于倒桩，而且五项中任何一项不过，都要补考一次倒桩。</p>
+
+<p>所以在倒桩上，一定要投入足够的时间和经历。</p>
+
+<h3>倒桩入库</h3>
+
+<p>倒桩现在没有标杆了，需要通过后视镜观察库的位置，将车倒进去。所以，上车之前，一定要调好座椅、后视镜等，速度一定要慢，控制好离合器。只要速度高于2.5KM即可，快了，发而不容易找到方向。</p>
+
+<h3>侧方停车</h3>
+
+<p>侧方停车是在模拟另一种停车方式，不同于入库的停车方式。按照教练教的，关键点在于另一侧的两个摄像头，但实际摄像头很多，一定要慢，并且不要看错摄像头。而且转向灯，在入、出时，都要点亮。侧方相比于倒桩入库要简单些，不过速度一定要慢。</p>
+
+<h3>定点停车和坡道起步</h3>
+
+<p>离合控制好、刹车要注意抬起的时机。不要熄火、找好位置，就没什么大问题。</p>
+
+<h3>直角转弯</h3>
+
+<p>左转的直角弯，只需要过一个，虽然说加上了电子设备，但是和过去的通过方法大同小异，放轻松、慢慢开即可。</p>
+
+<h3>S路</h3>
+
+<p>唯一一个需要放开离合开的项目，速度低的话，转弯时需要等很长时间才能感受到车辆的转向，反而变得不容易控制，所以放开离合，不踩油门，用一档的速度开即可，注意两边的压力线，车轮别压在上边。</p>
+
+<p>总之、新交规出台后，拿证确实变得难了，但是只要多加练习，记住要领，拿证也并非难事，不要因为还没发生的事情而恐惧，放轻松、自信，这几乎是做任何事的要领。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[JavaDoc注释详解]]></title>
@@ -134,153 +286,6 @@ public class HelloWorld{
 <p>该书第一版总共有14章，此处只是主要内容的总结，并非该书的完整内容。书的末尾还附带一些关于<a href="http://baham.co/08_26_470.html">JavaDoc注释</a>以及JavaAPI的内容。</p>
 
 <p>总之，这是一本好书，强烈推荐阅读。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[JDK工具介绍]]></title>
-    <link href="http://baham.co/08_26_464.html"/>
-    <updated>2012-08-26T22:13:11+00:00</updated>
-    <id>http://baham.co/464</id>
-    <content type="html"><![CDATA[<p>javac</p>
-
-<p>   java<strong>编译器</strong>。将java源码转换成为二进制文件。</p>
-
-<p>java</p>
-
-<p>直接执行.class文件</p>
-
-<p>appletviewer</p>
-
-<p><strong>用于执行Applet程序</strong></p>
-
-<p>javadoc</p>
-
-<p>基于Java源码中的注释提供HTML版本的程序文档（注释需要遵循javadoc标准格式）</p>
-
-<p>rmic</p>
-
-<p>创建支持<strong>远程方法调用（RMI）</strong>的class文件</p>
-
-<p>rmiregistry</p>
-
-<p>使用该工具用以获取对支持RMI对象的访问权限</p>
-
-<p>rmid</p>
-
-<p>为RMI对象的注册、激活，系统<strong>守护进程</strong></p>
-
-<p>native2ascii</p>
-
-<p>转换编码为<strong>ASCII</strong></p>
-
-<p>jar</p>
-
-<p>JAR文件创建工具。允许将多个Java二进制文件和其他资源集合在一起创建一个压缩文件<!-- more --></p>
-
-<p>keytool</p>
-
-<p>用来管理和创建安全Key</p>
-
-<p>jarsigner</p>
-
-<p>java注册认证工具</p>
-
-<p>policytool</p>
-
-<p><strong>隐私策略</strong>配置工具</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Java中的正则表达式（RegularExpression）]]></title>
-    <link href="http://baham.co/08_15_429.html"/>
-    <updated>2012-08-15T22:52:06+00:00</updated>
-    <id>http://baham.co/429</id>
-    <content type="html"><![CDATA[<p>前一段时间，想处理点文件，将其中特定自负提取出来，于是就想到了Scanner对象中的<strong>useDelimiter()</strong>方法。可是对正则表达式了解不多，然后，就去图书馆找了些资料，有谷歌了一下，算是有一点了解了吧。</p>
-
-<p>首先不得不说，<strong>正则表达式</strong>（Regular Expression）并非Java独有，Perl、PHP、Python、<strong>JavaScript</strong>和JScript均支持使用正则表达式。数据库检索、搜索引擎使用其实也会用到类似的知识。</p>
-
-<h1>特殊符号：</h1>
-
-<h2>连字符-</h2>
-
-<p>-表示连续的关系，比如a-z表示，a,b,c……z。</p>
-
-<h2>句点.</h2>
-
-<p>. 是个通配符，例如，c.r表示car，cor，cbr，c4r，cfr等。</p>
-
-<h2>或|</h2>
-
-<p>| 表示 或 的关系，不像在Java代码中用“||”表示或，正则表达式中用|表示或。例如：c|r表示c或者r。</p>
-
-<h2>否^</h2>
-
-<p>不同于代码中，正则表达式使用^表示非，而不是!。<!-- more --></p>
-
-<h2>组()</h2>
-
-<p>()表示一组，具体请见后边的例子。</p>
-
-<h2>方括号[]</h2>
-
-<p>[]的用途不能用一个词来形容，但它也是一种或的关系，是一个或的范围。比如c[oiu]r</p>
-
-<p>表示，cor,cir,cur。</p>
-
-<h2>反斜杠\</h2>
-
-<p>\表示一种引用的关系，比如\，-分别表示\和-，因为\和-都是特殊符号，无法直接在表达式中表示。</p>
-
-<h2>统计次数的符号</h2>
-
-<p>*表示0次或者多次</p>
-
-<p>+表示一次或者多次</p>
-
-<p>？表示0次或者1次</p>
-
-<p>{n}表示n次</p>
-
-<p>{n-m}表示n-m次</p>
-
-<h2>其他常用符号</h2>
-
-<p>\s   [\t\n\r\f]</p>
-
-<p>\S   [^\t\n\r\f]</p>
-
-<p>\d  [0-9]</p>
-
-<p>\D   [^0-9]</p>
-
-<p>\w    [A-Z0-9]</p>
-
-<p>\W  [^A-Z0-9]</p>
-
-<h1>举例：正则表达式表示年月日</h1>
-
-<p>[0-9]{4}&ndash;[0-9]{2}&ndash;[0-9]{2}</p>
-
-<p>分别表示 年-月-日，分别是4位、2位、及2位。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[《Building Java Program》-图形用户界面小结]]></title>
-    <link href="http://baham.co/08_15_424.html"/>
-    <updated>2012-08-15T22:09:05+00:00</updated>
-    <id>http://baham.co/424</id>
-    <content type="html"><![CDATA[<ol>
-<li><p> Java中所有图形组件拥有共同的继承结构，所以它们都包含一些可以对属性进行访问和设置的共同函数，比如背景颜色、大小、字体等。</p></li>
-<li><p> 组件被<strong>布局管理器（Layout Manager）</strong>放在<strong>框架（Frame）</strong>或其他容器之中，比如BorderLayout、FlowLayout、GridLayout。通常把不同的布局管理器借助不同的容器进行嵌套以构成<strong>复合布局</strong>。</p></li>
-<li><p> 当用户与屏幕上显示的图形组件进行交互时，Java会产生一种叫做<strong>事件（Event）</strong>的特殊对象。为了构建一个交互式GUI，必须对这些时间进行响应。</p></li>
-<li><p> 最常见的事件是<strong>ActionEvent</strong>，可以通过编写一个实现MouseListener接口的类来处理它。也可以编写一个对MouseInputAdapter类进行了扩展的雷来实现对MouseEvent的响应。</p></li>
-<li><p> 为了绘制图形和线条，我们需要扩展JPanel类，并构建paintComponent方法。</p></li>
-<li><p> 可以使用timer对象实现动画。</p></li>
-</ol>
-
 ]]></content>
   </entry>
   

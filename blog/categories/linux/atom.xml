@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Linux | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-05-12T01:42:52+00:00</updated>
+  <updated>2015-05-12T04:13:06+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -14,288 +14,179 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Enlightenment-V0.17发布]]></title>
-    <link href="http://baham.co/12_23_764.html"/>
-    <updated>2012-12-23T15:42:06+00:00</updated>
-    <id>http://baham.co/764</id>
-    <content type="html"><![CDATA[<p>历经12年,Enlightenment正式版终于发布。从2000年项目开始到2012年11月发布alpha版，在到12月19号发布RC版，在到昨天发布正式版。Enlightenment一路走到今天。向Enlightenment忠诚的开发者们致敬！</p>
+    <title type="html"><![CDATA[Upgrade Linux mint16 to Linux mint 17 Qiana]]></title>
+    <link href="http://baham.co/06_01_upgrade-linux-mint16-to-linux-mint-17-qiana.html"/>
+    <updated>2014-06-01T00:48:00+00:00</updated>
+    <id>http://baham.co/upgrade-linux-mint16-to-linux-mint-17-qiana</id>
+    <content type="html"><![CDATA[<p><img src="http://www.linuxmint.com/pictures/screenshots/qiana/thumb_cinnamon.png" alt="mint 17" /></p>
 
-<p><img src="http://enlightenment.org/p/index/d/diagram-efl-simple-small.png" alt="EFL Block Diagram" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[树莓派/Raspberry Pi上线软件市场]]></title>
-    <link href="http://baham.co/12_17_757.html"/>
-    <updated>2012-12-17T23:19:49+00:00</updated>
-    <id>http://baham.co/757</id>
-    <content type="html"><![CDATA[<p>Store地址：<a href="http://store.raspberrypi.com/">http://store.raspberrypi.com/</a></p>
+<p>Linux mint 17 -Qiana released with Cinnamon or Mate Desktop Environment.</p>
 
-<p>软件不多，只有25款。</p>
+<p>And I was using Min16 to write this article.</p>
 
-<p>不过，一眼就看中了<strong>Free-civ</strong>，这款一直关注的<strong><em>类</em>文明</strong>游戏。</p>
+<p>And the <code>dist-upgrade</code> is running.</p>
 
-<p>有星级评价，直接提供下载，而且有付费软件提供。</p>
+<p>But how to upgrade the linux mint to a newer version.</p>
 
-<p><a href="http://baham.co/wp-content/uploads/2012/12/pi.png"><img src="http://baham.co/wp-content/uploads/2012/12/pi-300x167.png" alt="Raspberry-Pi-软件市场" /></a></p>
+<h2>1 Backup Your Files</h2>
 
-<h2>Update</h2>
+<!--more-->
 
-<p>截至14年5月8日，软件市场包含软件已经完成多达112款，另外有10款处于开发过程中，市场中最贵的解密游戏-<a href="http://store.raspberrypi.com/projects/bulbaceous">Dr Bulbaceous</a>售价1.99欧元。</p>
 
-<p><img src="http://assets.indiecity.com/fb572066-fb94-46f8-92a8-567e40705cd0/boxart_1377222007.png" alt="Dr Bulbaceous" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git 常用命令速查表]]></title>
-    <link href="http://baham.co/12_17_752.html"/>
-    <updated>2012-12-17T19:28:36+00:00</updated>
-    <id>http://baham.co/752</id>
-    <content type="html"><![CDATA[<p>Git 常用命令速查表
-master origin :默认远程版本库
-:默认开发分支
-Head Head^ :Head :默认开发分支
-的父提交
-创建版本库
-$ git clone <url>
-$ git init
-修改和提交
-$ git status
-$ git diff
-$ git add .
-$ git add <file>
-$ git mv <old> <new>
-$ git rm <file>
-$ git rm &mdash;cached <file>
-$ git commit -m &ldquo;commit message&rdquo;
-$ git commit &mdash;amend<!-- more -->
-查看提交历史
-$ git log
-$ git log -p <file>
-$ git blame <file>
-撤消
-$ git reset &mdash;hard HEAD
-$ git checkout HEAD <file>
-$ git revert <commit></p>
+<p>This a very important step, although I did not back up my files. Cause I did not have a hardisk or webdrive with enough space.</p>
 
-<h1>克隆远程版本库</h1>
+<p>And back your source like these:</p>
 
-<h1>初始化本地版本库</h1>
-
-<h1>查看状态</h1>
-
-<h1>查看变更内容</h1>
-
-<h1>跟踪所有改动过的文件</h1>
-
-<h1>跟踪指定的文件</h1>
-
-<h1>文件改名</h1>
-
-<h1>删除文件</h1>
-
-<h1>停止跟踪文件但不删除</h1>
-
-<h1>提交所有更新过的文件</h1>
-
-<h1>修改最后一次提交</h1>
-
-<h1>查看提交历史</h1>
-
-<h1>查看指定文件的提交历史</h1>
-
-<h1>以列表方式查看指定文件</h1>
-
-<p>的提交历史</p>
-
-<h1>撤消工作目录中所有未提交</h1>
-
-<p>文件的修改内容</p>
-
-<h1>撤消指定的未提交文件的修</h1>
-
-<p>改内容</p>
-
-<h1>撤消指定的提交</h1>
-
-<h1>Git Cheat Sheet <CN> (Version 0.1)</h1>
-
-<h1>2012/10/26</h1>
-
-<p>&mdash; by分支与标签
-$ git branch</p>
-
-<h1>显示所有本地分支</h1>
-
-<p>$ git checkout <branch/tag></p>
-
-<h1>切换到指定分支或标签</h1>
-
-<p>$ git
-branch &lt;new-branch></p>
-
-<h1>创建新分支</h1>
-
-<p>$ git branch -d <branch></p>
-
-<h1>删除本地分支</h1>
-
-<p>$ git tag</p>
-
-<h1>列出所有本地标签</h1>
-
-<p>$ git tag <tagname></p>
-
-<h1>基于最新提交创建标签</h1>
-
-<p>$ git tag -d <tagname></p>
-
-<h1>删除标签</h1>
-
-<p>合并与衍合
-$ git merge <branch>
-$ git rebase <branch></p>
-
-<h1>合并指定分支到当前分支</h1>
-
-<h1>衍合指定分支到当前分支</h1>
-
-<p>远程操作
-$ git remote -v</p>
-
-<h1>查看远程版本库信息</h1>
-
-<p>$ git remote show <remote></p>
-
-<h1>查看指定远程版本库信息</h1>
-
-<p>$ git remote add <remote> <url></p>
-
-<h1>添加远程版本库</h1>
-
-<p>$ git fetch <remote></p>
-
-<h1>从远程库获取代码</h1>
-
-<p>$ git pull <remote> <branch> #下载代码及快速合并
-$ git push <remote> <branch> #上传代码及快速合并
-$ git push <remote> :&lt;branch/tag-name></p>
-
-<h1>删除远程分支或标签</h1>
-
-<p>$ git push &mdash;tags</p>
-
-<h1>上传所有标签</h1>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[如何删除libgooglepinyin和ibus-googlepinyin]]></title>
-    <link href="http://baham.co/11_07_718.html"/>
-    <updated>2012-11-07T15:53:59+00:00</updated>
-    <id>http://baham.co/718</id>
-    <content type="html"><![CDATA[<p><em>How to remove libgooglepinyin and ibus-google pinyin?</em></p>
-
-<p>之前用Xubuntu，配置安装<a href="http://code.google.com/p/libgooglepinyin/">goolgepinyin</a>，很容易。后来换到了KDE桌面的Fedora，使用googlepinyin，就不那么简单了。</p>
-
-<p>首先安装，需要<a href="http://code.google.com/p/libgooglepinyin/wiki/INSTALL">编译安装</a>。</p>
-
-<p>安装很简单，只有几条命令，复制粘贴即可。问题是，如何卸载？</p>
-
-<p>sudo make uninstall</p>
-
-<p>不能直接卸载。后来搜索了一下，才知道，cmake不支持直接make uninstall</p>
-
-<p>万幸，最终还是找到了解决办法。</p>
-
-<h2>1 对于ibus-google-pinyin</h2>
-
-<p>只需要删除一个目录、一个文件。</p>
-
-<pre><code>sudo rm -fr /usr/share/ibus-googlepinyin
-
-sudo rm /usr/share/ibus/component/googlepinyin.xml
+<pre><code>$ sudo cp /etc/apt/sources.list  /etc/apt/sources.list.bak
+$ sudo cp /etc/apt/sources.list.d/official-package-repositories.list  /etc/apt/sources.list.d/official-package-repositories.list.bak
 </code></pre>
 
-<h2>2 对于libgooglepinyin<!-- more --></h2>
+<h2>2 Change your source</h2>
 
-<p>稍微麻烦一点。</p>
+<p>Just replace <code>petra</code> with <code>qiana</code> and <code>saucy</code> with <code>trusty</code></p>
 
-<p>将一下内容，复制进libgooglepinyin根目录内，创建 <strong>cmake_uninstall.cmake.in </strong>文件<em>（后缀为.in）</em></p>
+<h2>3 Upgrade</h2>
 
-<pre><code># http://www.vtk.org/Wiki/CMake_FAQ#Can_I_do_.22make_uninstall.22_with_CMake.3F
-
-IF(NOT EXISTS "@CMAKE_CURRENT_BINARY_DIR@/install_manifest.txt")
-MESSAGE(FATAL_ERROR "Cannot find install manifest: \"@CMAKE_CURRENT_BINARY_DIR@/install_manifest.txt\"")
-ENDIF(NOT EXISTS "@CMAKE_CURRENT_BINARY_DIR@/install_manifest.txt")
-
-FILE(READ "@CMAKE_CURRENT_BINARY_DIR@/install_manifest.txt" files)
-STRING(REGEX REPLACE "\n" ";" files "${files}")
-FOREACH(file ${files})
-MESSAGE(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")
-IF(EXISTS "$ENV{DESTDIR}${file}")
-EXEC_PROGRAM(
-"@CMAKE_COMMAND@" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
-OUTPUT_VARIABLE rm_out
-RETURN_VALUE rm_retval
-)
-IF(NOT "${rm_retval}" STREQUAL 0)
-MESSAGE(FATAL_ERROR "Problem when removing \"$ENV{DESTDIR}${file}\"")
-ENDIF(NOT "${rm_retval}" STREQUAL 0)
-ELSE(EXISTS "$ENV{DESTDIR}${file}")
-MESSAGE(STATUS "File \"$ENV{DESTDIR}${file}\" does not exist.")
-ENDIF(EXISTS "$ENV{DESTDIR}${file}")
-ENDFOREACH(file)
+<pre><code>$ sudo apt-get update
+$ sudo apt-get dist-upgrade
+$ sudo apt-get upgrade
 </code></pre>
 
-<p>在build目录下</p>
+<p>This is all.</p>
 
-<pre><code>make
-
-sudo make uninstall
-</code></pre>
+<p>And maybe you want to read this post too&mdash; <a href="http://www.tecmint.com/upgrade-linux-mint-16-to-linux-mint-17/">Upgrade Linux  mint</a></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Ubuntu基督教版-Ubuntu Christian Edition]]></title>
-    <link href="http://baham.co/11_05_687.html"/>
-    <updated>2012-11-05T21:21:00+00:00</updated>
-    <id>http://baham.co/687</id>
-    <content type="html"><![CDATA[<p><img src="http://ubuntuce.com/screenshots/12.04/login.png" alt="" /></p>
+    <title type="html"><![CDATA[Do you remember that game on linux]]></title>
+    <link href="http://baham.co/05_11_do-you-remember-that-game-on-linux.html"/>
+    <updated>2014-05-11T08:40:00+00:00</updated>
+    <id>http://baham.co/do-you-remember-that-game-on-linux</id>
+    <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="https://en.wikipedia.org/wiki/Linux_gaming">list</a>.</p>
 
-<p><a href="https://zh.wikipedia.org/wiki/Ubuntu">Ubuntu</a>自从诞生以来，就有很多一期定制的发行版。</p>
+<h2>Tetris&mdash;<a href="https://help.gnome.org/users/quadrapassel/stable/index.html.en">Quadrapassel</a></h2>
 
-<p>比如非常火的<a href="http://www.linuxmint.com/">Linux Mint</a>，国内的YLMF，深度。</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/GNOME_Quadrapassel_3.11.92.png/613px-GNOME_Quadrapassel_3.11.92.png" alt="tetris" /></p>
 
-<p>对于<strong>基督徒</strong>，有一款专门为之设计的发行版，<a href="http://ubuntuce.com/">Ubuntu CE</a>。<!-- more --></p>
+<!--more-->
 
-<p><strong>Ubuntu Christian Edition</strong>：</p>
 
-<blockquote><p>Ubuntu Christian Edition is a free, open source operating system geared towards Christians. It is based on the popular Ubuntu Linux. Ubuntu is a complete Linux-based operating system, freely available with both community and professional support. The goal of Ubuntu Christian Edition is to bring the power and security of Ubuntu to Christians. The current<em> Ubuntu Christian Edition release</em> supports both 32 bit and 64 bit PCs. Ubuntu Christian Edition covers every standard desktop application from word processing and spreadsheet applications to web server software and programming tools.</p></blockquote>
+<p>It is an installed game defaultly on old ubuntu.</p>
 
-<p>Ubuntu CE 基于Ubuntu，如同其他GNU/Linux系统一样，是一款<strong>自由开放</strong>的系统。特点在于包含很棒的基督教相关的软件，<strong>强大的防火墙</strong>以及<strong>家</strong><img src="http://ubuntuce.com/screenshots/12.04/desktop.png" alt="Desktop" /><strong>长控制系统</strong>。</p>
+<p>But I did not get it in mint 16(ubuntu 13.10) with cinnamon desktop environment.</p>
 
-<p>Ubuntu CE更新很快,最新版基于12.04。</p>
+<p>For example, when you need a square, it will never give you a square.</p>
 
-<p>下载地址：</p>
+<p>This is a very good design, and hard to play, hard to get high scores.</p>
 
-<blockquote><p><strong>Ubuntu 12.04 Christian Edition 32 bit </strong></p>
+<h2><a href="http://www.reptilelabour.com/software/chromium/">Chromium BSU</a></h2>
 
-<ul>
-<li><p><a href="http://phillw.net/isos/uce/precise/uce-12.04-desktop-i386.iso">iso Download</a> &mdash; <a href="http://phillw.net/isos/uce/precise/uce.md5sums">md5sum</a></p></li>
-<li><p><a href="http://www.livingtorrents.com/torrents-details.php?id=749">Torrent</a></p></li>
-</ul>
-</blockquote>
+<p>It has the same name with browser chromium.</p>
 
-<p><strong>Ubuntu 12.04 Christian Edition 64 bit </strong></p>
+<p>Just control a space ship to shoot the enemies. But still very difficult.</p>
 
-<blockquote><ul>
-<li><p><a href="http://phillw.net/isos/uce/precise/uce-12.04-desktop-amd64.iso">iso Download</a> &mdash; <a href="http://phillw.net/isos/uce/precise/uce.md5sums">md5sum</a></p></li>
-<li><p><a href="http://www.livingtorrents.com/torrents-details.php?id=750">Torrent</a></p></li>
-</ul>
-</blockquote>
+<p><img src="/images/game/bsu.jpg" alt="chromium bsu" /></p>
+
+<h2>Tetris 3D&mdash; <a href="http://www.blockout.net/blockout2/">Blockout2</a></h2>
+
+<p><img src="http://www.blockout.net/blockout2/screenshots/scr2.jpg" alt="tetris 3d" /></p>
+
+<p>It is a 3d tetris game.  More difficult than 2d tetris.</p>
+
+<p>But the difficult  is not like  Quadrapassel.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Use Linux Mint 16]]></title>
+    <link href="http://baham.co/03_20_use-linuxmint16.html"/>
+    <updated>2014-03-20T11:09:00+00:00</updated>
+    <id>http://baham.co/use-linuxmint16</id>
+    <content type="html"><![CDATA[<p>Now I change my OS from ubuntu GNOME 13.10  to Linux Mint 16 with Cannamon.</p>
+
+<p>Why do this. CAose Gnome3 is really slow.</p>
+
+<p>And before now, with cinnamon I got one bug .</p>
+
+<p>And I already get fcitx libpinyin.</p>
+
+<p>Leave Gnome3! this is my advice.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Gnome3 hide window or always maxsize window]]></title>
+    <link href="http://baham.co/03_10_10-43-12.html"/>
+    <updated>2014-03-10T10:43:00+00:00</updated>
+    <id>http://baham.co/10-43-12</id>
+    <content type="html"><![CDATA[<p>Gnome3 is pretty cool.
+Though a lot of men do not like it.</p>
+
+<p>But finally I choose it after I try kde unity elightment gnome2.</p>
+
+<p>Why ?</p>
+
+<p>Cause I think a pc or laptop. The most important thing is easyuse.</p>
+
+<p>And Gnome3 dit it.</p>
+
+<p>Be not like gnome2, so old and out of fashion.</p>
+
+<p>Be not like kde, so big and so many config choices.</p>
+
+<p>Be not like unity, just belong to Ubuntu.</p>
+
+<p>So for now gnome3 is the best choice for me.</p>
+
+<!--more-->
+
+
+<p>I did not write articles a long time.</p>
+
+<p>Even dit not write golang everyday.</p>
+
+<p>When I use gnome3 ,I found this extension. So cool!</p>
+
+<p>It can let window be like this.
+<img src="/images/max_gnome3.jpg" alt="Max Gnome3 Picture" /></p>
+
+<p>And this extension called <strong>Pixel Saver</strong>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[I did a fool thing]]></title>
+    <link href="http://baham.co/10_28_i-did-a-fool-thing.html"/>
+    <updated>2013-10-28T07:44:00+00:00</updated>
+    <id>http://baham.co/i-did-a-fool-thing</id>
+    <content type="html"><![CDATA[<p>In octopress/source/_post .I run a command&mdash;</p>
+
+<pre><code>rm *.markdown*
+</code></pre>
+
+<p>I want to run</p>
+
+<pre><code>rm *.markdown~
+</code></pre>
+
+<p>to delete some old autobacked files.</p>
+
+<p>But I typed wrong word and run it immedittely.</p>
+
+<p>So all my markdown files is deleted.and <em>_post</em>is empty.</p>
+
+<p>You know <strong>rm</strong> command do not mv files to trash.</p>
+
+<p>So I find in trash to find old &ldquo;octopress folder&rdquo;.And I rewrite the newer articles from baham.co by hand.</p>
+
+<p>It waste my time.</p>
+
+<p>And it is a lesson.<!--more--></p>
+
+<p>And now I add <strong>_post</strong> to my deja-backup backing floder.</p>
+
+<p>And maybe I need use &ldquo;mv&rdquo; to replace &ldquo;rm&rdquo;.</p>
 ]]></content>
   </entry>
   

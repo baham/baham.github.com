@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Game | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/game/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-05-12T01:42:52+00:00</updated>
+  <updated>2015-05-12T04:13:06+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,88 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Do you remember that game on linux]]></title>
+    <link href="http://baham.co/05_11_do-you-remember-that-game-on-linux.html"/>
+    <updated>2014-05-11T08:40:00+00:00</updated>
+    <id>http://baham.co/do-you-remember-that-game-on-linux</id>
+    <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="https://en.wikipedia.org/wiki/Linux_gaming">list</a>.</p>
+
+<h2>Tetris&mdash;<a href="https://help.gnome.org/users/quadrapassel/stable/index.html.en">Quadrapassel</a></h2>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/GNOME_Quadrapassel_3.11.92.png/613px-GNOME_Quadrapassel_3.11.92.png" alt="tetris" /></p>
+
+<!--more-->
+
+
+<p>It is an installed game defaultly on old ubuntu.</p>
+
+<p>But I did not get it in mint 16(ubuntu 13.10) with cinnamon desktop environment.</p>
+
+<p>For example, when you need a square, it will never give you a square.</p>
+
+<p>This is a very good design, and hard to play, hard to get high scores.</p>
+
+<h2><a href="http://www.reptilelabour.com/software/chromium/">Chromium BSU</a></h2>
+
+<p>It has the same name with browser chromium.</p>
+
+<p>Just control a space ship to shoot the enemies. But still very difficult.</p>
+
+<p><img src="/images/game/bsu.jpg" alt="chromium bsu" /></p>
+
+<h2>Tetris 3D&mdash; <a href="http://www.blockout.net/blockout2/">Blockout2</a></h2>
+
+<p><img src="http://www.blockout.net/blockout2/screenshots/scr2.jpg" alt="tetris 3d" /></p>
+
+<p>It is a 3d tetris game.  More difficult than 2d tetris.</p>
+
+<p>But the difficult  is not like  Quadrapassel.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Game Time Limited in 21 hours a week]]></title>
+    <link href="http://baham.co/11_11_game-time-limited-in-21-hours-a-week.html"/>
+    <updated>2013-11-11T01:16:00+00:00</updated>
+    <id>http://baham.co/game-time-limited-in-21-hours-a-week</id>
+    <content type="html"><![CDATA[<p><img src="/images/game1.jpeg" alt="gametime" /></p>
+
+<p>Recently, I learned the MOOC &ndash;<em>Video Game and Learning</em>.</p>
+
+<p>And I saw this infographic.</p>
+
+<!--more-->
+
+
+<p><img src="http://www.affordableschoolsonline.com/wp-content/uploads/2012/03/120322Gaming.jpg" alt="game is good for you" /></p>
+
+<pre><code>But Remember No Playing Game Over 21 Hours in One Week.
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[微软IllumiRoom演示视频，惊现开源游戏SuperTuxKart]]></title>
+    <link href="http://baham.co/01_10_wei-ruan-illumiroomyan-shi-shi-pin-%2Cliang-xian-kai-yuan-you-xi-tuxracer.html"/>
+    <updated>2013-01-10T23:38:00+00:00</updated>
+    <id>http://baham.co/wei-ruan-illumiroomyan-shi-shi-pin-,liang-xian-kai-yuan-you-xi-tuxracer</id>
+    <content type="html"><![CDATA[<p>废话不多说，有图为证。</p>
+
+<p><img class="<a" src="href="http://a.36krcnd.com/photo/044fae751c0966b136ad72ae0191fb8b.png">http://a.36krcnd.com/photo/044fae751c0966b136ad72ae0191fb8b.png</a>" width="360" height="240" title="截图 微软演示视频截图" ></p>
+
+<p>在今天的CES大会上，微软正式公布了一个叫做 IllumiRoom 的项目，围绕一个电视，它能将你的整个客厅变成一个沉浸式 3D 游戏影院。
+不过，仔细观察演示视频，出现了非常著名的<strong>开源赛车游戏</strong>SuperTuxKart。</p>
+
+<!-- more -->
+
+
+<p><embed src="http://player.youku.com/player.php/sid/XNTAwMTA5OTU2/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
+
+<p>ps：在视频48秒处。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[骑马与砍杀-骑射教程（视频）]]></title>
@@ -137,264 +219,6 @@
 <p>其中，<strong>库劳的铁</strong>是全大陆最低价，几乎可以在任何其他城市卖出赚钱。</p>
 
 <p><strong>日瓦车则</strong>附近的<strong>维赞</strong>的生丝、<strong>德赫瑞姆</strong>附近村庄的小麦，都是全大陆最低价。更多赚钱方式，还需自己细心观察，积累经验。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[骑马与砍杀-战团：沙瑞兹帝国的崛起-自立建国经验分享]]></title>
-    <link href="http://baham.co/09_24_611.html"/>
-    <updated>2012-09-24T23:05:12+00:00</updated>
-    <id>http://baham.co/611</id>
-    <content type="html"><![CDATA[<p><a href="http://baham.co/wp-content/uploads/2012/09/09.jpg"><img src="http://baham.co/wp-content/uploads/2012/09/09-300x239.jpg" alt="骑马与砍杀-原版封面" /></a> 当我第一次听到《<strong>骑马与砍杀</strong>》时，就深深为之吸引。而当我第一次玩《骑马与砍杀》时，我就知道这是能让我玩一辈子的游戏。</p>
-
-<p>一个人可能都曾经幻想过自己成为帝王、成为霸主。之前我钟情的游戏是<strong>三国志</strong>、<strong>文明</strong>和<strong>全面战争</strong>系列以及各种即使战略。很明显，三国志里统一中国可能只需要8小时，文明可能需要48小时，多数即使战略可能只需要几分中或者十几分钟就能消灭对手。但骑砍不同，统一卡拉迪亚大陆，可能会需要240小时。</p>
-
-<p>骑马与砍杀由土耳其公司<a href="http://www.taleworlds.com/">Talewords</a>制作，世人对他的评价就是<strong>画面一般，但可玩性超好</strong>，而且在战团之后引入了多人对战，更增加了其对抗性及竞技性。骑砍现今有四个系列，分别是<strong>原版、战团、火与剑、拿破仑战争</strong>。原版及战团的故事背景都是在虚构的中古大陆卡拉迪亚。<strong>卡拉迪亚大陆</strong>上有六个征战不休的国家——<strong>斯瓦迪亚王国、罗多克王国、维吉亚王国、库吉特汗国、诺德王国以及萨兰德苏丹国</strong>。各国兵种特性、特产、文化背景各异。玩家可以扮演没落贵族、游民、盗贼等多种职业，届时你可以选择加入一方，或者帮助游戏中富国者复国，亦或者自立建国。其中最难的无疑是建立自己的国家。火与剑故事背景在17世纪的东欧，其中加入了火器，而不像前两版中冷兵器对战。</p>
-
-<!-- more -->
-
-
-<p>视频为-<strong>骑马与砍杀-拿破仑战争的宣传片</strong>。
-废话说多了，下面直入正题。说说我的建国<strong>自立之路</strong>。</p>
-
-<p>我并非资深玩家，分享是犹如小说一般建国的经历，而非攻略。</p>
-
-<p>我的名字叫<strong>威廉三世</strong>，出生在<strong>斯瓦迪亚</strong>的<strong>帕拉汶</strong>-全大陆最繁华的城市，在刚开始帮助了以为帕拉汶商人解救兄弟、打击劫匪，期间我还去旁边的村庄招募了一些新兵、去训练场做了一些格斗训练。都说诺德的皇家卫士最宜攻城、斯瓦迪亚的骑士最山野战、罗多克的神射手最擅守城。于是我的杂牌军组建之路就开始了。</p>
-
-<p><strong>从斯瓦迪亚向南，去了罗多克，向东去了萨兰德，再向北库吉特、维吉亚、诺德一路招募新兵</strong>，顺道去大城市招募了各NPC。其中贝斯徒尔第一个跟我南征北站。至于如何组建最佳NPC组合，可以自己搜索一下，此处不赘述。</p>
-
-<p>随后我来到了位于西南的罗多克王国，在这里开始了我的<strong>维护正义、打击土匪</strong>之路。接镇长、村长任务，打击土匪、绿林强盗成为了我的职业，如果在村庄中碰到强盗，果断攻击，之后村民殷勤招待，果断拒绝，因为只有如此，才能获得荣誉，在游戏中荣誉不像功勋那样有直接用途，但间接作用却很大，初期碰到贵族，很多人会对你羞辱一番甚至直接谩骂，<strong>当你维护正义、捍卫荣誉之后，全大陆的所有人都会对你另眼想看。</strong>一旦在酒馆碰见闹事者，立即拔刀相助，帮助酒馆老板除去祸害。当然，同时，我和贵族、上流社会也有所交往，接受了一些贵族任务，比如逮捕杀人犯、収税、练兵……</p>
-
-<p>此时，我的军队上限以接近70，我离开了罗多克，向北去向了升级、练兵必备的维吉亚的日瓦车则，因为这里有着高级劫匪——海寇。<strong>打海寇，拿装备、练兵、赚钱，</strong>我和我的NPC初期一直没有买装备，一直时从海寇、绿林强盗身上爆来的。并且在稍微向东南，也有高级劫匪——<strong>雪原强盗</strong>，雪原一马平川，骑兵一冲，战斗结束。期间，我最爱干的就是，从库劳买铁，在窝车则卖掉，向东去日瓦车则附近打海寇，回城找奴隶贩子，如果没有，便再向南，追雪原强盗，去<strong>库单</strong>找奴隶贩子，如果没有就向西去<strong>库劳</strong>，一般三个城中，总会有一个酒馆里有奴隶贩子。顺道买铁，去<strong>窝车则</strong>卖掉，向东打海寇，循环往复。等到我有一定积蓄后，我在窝车则开了家铁厂，用生铁制造工具，以后在库劳买铁，一率运到窝车则。</p>
-
-<p>我的第一家工厂是在<strong>维鲁加</strong>，那时我还在打绿林强盗，开了一家酒厂，也成为了我的<strong>武器库</strong>，藏武器，为以后招到的npc做准备。在后来，<strong>库劳</strong>也有了酒厂，<strong>哈尔码</strong>也是，这也就成为了我打<strong>绿林强盗、海寇、沙漠强盗</strong>的未损<strong>武器、马匹存储地</strong>。知道我攻陷<strong>沙瑞兹</strong>，才将武器转移走。打着打着，我的军队上限达到了78，六个不吵架各司其职的npc，期间还数次解救被俘领主，好友数也有30左右，功勋400多，统治48，荣誉60多。于是我觉得我应当自立为王了，本来想攻占窝车则。不过路过沙瑞兹时发现罗多克刚从萨兰德手中夺取，守军只有103人，机不可失。找到了一只落多可军队，一看还是朋友，不过管不了那么多了，进攻，与<strong>罗多克</strong>的关系迅速降低到-40，在成功消灭敌人之后，挥师向东直取沙瑞兹。78人战103人，攻城之时先干掉两侧塔楼的弓箭手，步兵直冲城墙，自损三人，沙瑞兹攻陷（伤害1/4）。占领沙瑞兹之后，城堡中多了四位领主，其中一位带着城堡归降，随后罗多克有领主股神率兵100来为沙瑞兹，我又以六十人胜之。在后，于近郊募兵，再不久罗多克请和，同意。随后在萨兰德境内募兵，直到有兵200守沙瑞兹。</p>
-
-<p>将一位npc设为首相，有选择了三位npc做领主（<strong>不要把土地封给非贵族</strong>，因为，这样做，会让所有领主与你的好感度降低1-4）。再看不对收支，周入5000+，可以放心大胆去全大陆募兵了，把精兵留在城内，带上10斯瓦迪亚骑士，20萨兰德弓箭手，去全大陆找兵买马，包括之前赶走的npc，顺便将武器转移会沙瑞兹。</p>
-
-<p>此时，已有精兵300。然后，下令与罗多克开战，领着领主攻取<strong>乌鲁兹达克堡</strong>，封给了罗格斯，再取<strong>加米奇堡</strong>，又封给了罗格斯。此时我才明白，称王之后面临的压力<strong>——国王与领主之间的矛盾</strong>。很多领主虽然效忠于你，但是打仗从来是临阵托逃，随后还想你要封底，不给封地，好感度就下降。好感度下降，就更不会听你调遣。于是，有位领主和我好感读最后达到了-73，关系显示<strong>视同水火</strong>。Shit，村子我都不给你。</p>
-
-<p>根基已牢，此时，已有<strong>1城，3堡，8村庄</strong>，已然独占一方称王称霸了（此时，库吉特汗国也只剩1城了），我想也许应该找个老婆，做我的贤内助，开始想得是，领主梅尔特的女儿。人长得不错，但是有争议值19，虽然梅尔特极力推荐，而且一开始也确实这么想的。不过，最后发现萨兰德苏丹国<strong>拉那城</strong>城主<strong>迪乌</strong>的女儿待架，争议值为0，而且正值青春美丽，果断追求之，念了4首诗，却发现依旧不肯下架，在一问，原来还有追求者，选择与之决斗。胜利后，找到<strong>迪乌</strong>，要娶他女儿。迪乌很爽快，直接答应了，没有多久，宴会举办，正式完婚。</p>
-
-<p>好日子过够了，身为君王，自然想去开疆辟土，再与罗多克开战，攻取了<strong>加米奇堡</strong>北的在山脊的城堡。封给了<strong>雷萨里特</strong>，我新招的贵族npc。刚刚凯旋回师，就被罗多克攻占。正准备再次夺回时，库吉特向我宣战，就是其他六国中最弱小的一方（当初梅尔特投靠时带来的城堡正在地图中央。很多国家对其垂涎已久），而此时，罗多克的和议书也接踵而至，选择同意。不久，斯瓦迪亚对我宣战（第二弱小，仅剩都城帕拉汶），显然目的在梅尔特的城堡。</p>
-
-<p>此时，我做了一个错误的决定，劳师东征<strong>阿苏刚堡</strong>（山巅之城，库吉特仅存的三座城堡之一），想伺机以此为桥消灭库吉特。谁知<strong>百足大虫，死而不僵</strong>。攻取了<strong>阿苏刚</strong>，并且连续<strong>三次击退库吉特的反扑</strong>。当我刚刚回师沙瑞兹后，阿苏刚沦陷。既然偷袭不成，准备正面直取库吉特最后城市艾尔莫克，只是，兵马未到，就遇见了库吉特大汗。以百余兵力对抗1300人，果断放弃攻取<strong>艾尔莫克</strong>的计划。斯瓦迪亚趁机偷袭了梅尔特的主城。刚回到<strong>沙瑞兹</strong>，向库吉特求和。斯瓦迪亚和书随后以发往沙瑞兹，至此战事结束。大开宴会，与众领主开怀畅饮。正在参与本城竞技大赛时，突然觉得<strong>是非成败转头空，青山依旧在，几度夕阳红。</strong></p>
-
-<p>纵然统一全大陆又能怎样？</p>
-
-<p><strong>选择结束冒险。离去，沙瑞兹帝国成为了卡拉迪亚大陆历史长河上的一粒沙。而威廉三世也化为尘土。</strong></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[详解Tic-Tac-Toe人工智能实现]]></title>
-    <link href="http://baham.co/08_02_328.html"/>
-    <updated>2012-08-02T21:12:39+00:00</updated>
-    <id>http://baham.co/328</id>
-    <content type="html"><![CDATA[<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_18-53-21.png" alt="井字棋棋盘 tic-tac-toe 棋盘" /> 井字棋棋盘</p>
-
-<p><strong>Tic-Tac-Toe</strong>又称<strong>井字棋</strong>，即在3X3的棋盘上，双方轮流落子，先将3枚棋子连成一线的一方获得胜利。</p>
-
-<p>Tic-Tac-Toe变化简单，只有765个可能局面，26830个棋局，因此常成为<a href="https://zh.wikipedia.org/wiki/%E5%8D%9A%E5%BC%88%E8%AE%BA">博弈论</a>和<a href="https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E6%A8%B9">游戏树</a>搜寻的教学例子，同时也是<a href="https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD">人工智能</a>的一道好题目。</p>
-
-<h1></h1>
-
-<h1>关于棋盘：</h1>
-
-<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_18-58-43.png" alt="Tic-tac-toe棋盘坐标 井字棋 坐标" /> 井字棋棋盘坐标版</p>
-
-<p>整个棋盘可以连接出<strong>8条线</strong>。<a href="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-12-42.png">tic-tac-toe 井字棋 胜利方式</a>（如右图）&mdash;&mdash;></p>
-
-<p>在中心的位置（2，2）有<strong>四条线</strong>穿过。</p>
-
-<p>在所有棱位（1，2），（2，1），（2，3），（3，2），均有<strong>两条线</strong>穿过。</p>
-
-<p>在所有角位（1，1），（1，3），（3，1），（3，3），均有<strong>三条线</strong>。<!-- more --></p>
-
-<h1>如何实现人工智能：</h1>
-
-<p>在下棋过程中，任何一方无非处于四种状态：</p>
-
-<ol>
-<li><p> 开局落子</p></li>
-<li><p> 第二步棋（先角原则）</p></li>
-<li><p> 攻</p></li>
-<li><p> 守</p></li>
-<li><p> 垃圾时间</p></li>
-</ol>
-
-
-<p>想要实现人工智能，让AI和人正常对弈，必须让AI理解这5种状态。</p>
-
-<h2>开局落子：</h2>
-
-<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-26-48.png" alt="Tic-tac-toe 井字棋 AI先手" /> 井字棋 AI先手[/caption]</p>
-
-<p>开局时，分为两种状况，一是AI先手，二是AI后手。AI先手时，毫无疑问，让AI落子在(2,2)位置（以X表示AI）。如图：</p>
-
-<p>而当AI后手时，玩家可能落子情况有分为三种：</p>
-
-<ol>
-<li><p> 中心位置</p></li>
-<li><p> 棱位</p></li>
-<li><p> 角位</p></li>
-</ol>
-
-
-<h3>1、玩家落子在中心位置：</h3>
-
-<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-34-15.png" alt="tic-tac-toe 井字棋 AI落子棱位" /> 图1[/caption]</p>
-
-<p>此时，AI需要落子在角位。原因在于，如果落子在棱位，将出现如下<strong>必输的情形</strong>，示例如下，AI此时落子在（1，2）位置：玩家只需要在（3，1）或（3，3）位置落子，如图在（3，1），下一步则必须落子在（1，3），对手跟进落子在（1，1），</p>
-
-<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-39-59.png" alt="tic-tac-toe 井字棋 大势已去" />
-——则AI大势已去！</p>
-
-<h3>2、棱位  3、角位</h3>
-
-<p>这两种情形，AI指需要落子在（2，2）位置，便可保无虞，甚至<strong>反守为攻</strong>。</p>
-
-<h2>第二步棋（先角原则）：</h2>
-
-<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-12-42.png" alt="tic-tac-toe 井字棋 先角原则" />由上可知，当中心被玩家占据，需要避免上边提到的“<strong>必输的情形</strong>”跟进落子在角上，而非棱上。</p>
-
-<p>而如果，自己占据中心，玩家落子在棱上，根据“必输情形”，此时也应该落在角上，而且如上图图1，应该落子在玩家棋子对面的角位上，此时“必输情形”将属于玩家。</p>
-
-<h2>攻：</h2>
-
-<p>任何<strong>己方</strong>两枚棋子连接在一起，且连线有空位时，落子在空位。</p>
-
-<h2>守：</h2>
-
-<p>任何<strong>玩家</strong>两枚棋子连接在一起，且连线有空位时，落子在空位。</p>
-
-<h2>垃圾时间：</h2>
-
-<p>由于棋盘大小限制，下棋过程中，很容易陷入双方均无法获胜的情况，此时，只需要找个空位随便落子即可。</p>
-
-<h1>特殊情况：</h1>
-
-<p>在以以上方式实现AI时，出现了一种比较特殊情况。即玩家先手，落子在角位以（1，1）为例，AI根据“<strong>开局落子</strong>”的原则3，落子在（2，2）。而玩家在第一步棋子位置（1，1）的对角（3，3）位置落子，</p>
-
-<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_20-13-02.png" alt="Tic-tac-toe-ai 井字棋 特殊情况" /> 井字棋 特殊情况[/caption]</p>
-
-<p>依据“<strong>角先原则</strong>”，AI将落子在（1，3）或（3，1），对方将在（3，1）或（1，3）封堵AI，此时AI便已输了。<img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_20-14-49.png" alt="tic-tac-toe-ai 特殊情况 AI输 井字棋" /></p>
-
-<p>所以，唯有此种情况不能执行“<strong>角先原则</strong>”。</p>
-
-<h1>代码实现：</h1>
-
-<p>其中，以<strong>二维数组</strong>t[3][3]表示棋盘，-1表示AI棋子X，1表示玩家棋子O，</p>
-
-<p>dropPiece(Position p)方法表示落子，Position（int f ,int x,int y）表示棋盘位置，x,y表示坐标值，f取值范围为（-1或1）表示AI或者玩家。下面是AI类主要代码：</p>
-
-<pre><code>public void start(){
-        if(attrack()){//实现攻
-        }else if(defend()){//实现守 
-                }else if(center()){//实现开局落子
-        }else{
-            planB();//实现特殊情况、先角原则及垃圾时间
-        }
-    }//以上方法是AI运行开始的方法
-    public boolean attrack(){
-        return twoPieces(-1);
-
-    }//攻，任何己方两枚棋子连接在一起，且连线有空位时，落子在空位。
-    public boolean defend(){
-        return twoPieces(1);
-
-    }//守，任何对方两枚棋子连接在一起，且连线有空位时，落子在空位。
- private boolean twoPieces(int f) {
-
-        for(int i=0;i&lt;=t.length-1;i++){
-            if(t[i][0]==t[i][1]&amp;&amp;t[i][0]==f&amp;&amp;t[i][2]==0){
-                b.dropPiece(new PieceLocation(-1,i,2));return true;
-            }else if(t[i][0]==t[i][2]&amp;&amp;t[i][0]==f&amp;&amp;t[i][1]==0){
-                b.dropPiece(new PieceLocation(-1,i,1));return true;
-            }else if (t[i][1]==t[i][2]&amp;&amp;t[i][1]==f&amp;&amp;t[i][0]==0){
-                b.dropPiece(new PieceLocation(-1,i,0));return true;
-            }else if(t[0][i]==t[1][i]&amp;&amp;t[0][i]==f&amp;&amp;t[2][i]==0){
-                b.dropPiece(new PieceLocation(-1,2,i));return true;
-            }else if (t[0][i]==t[2][i]&amp;&amp;t[0][i]==f&amp;&amp;t[1][i]==0){
-                b.dropPiece(new PieceLocation(-1,1,i));return true;
-            }else if(t[1][i]==t[2][i]&amp;&amp;t[1][i]==f&amp;&amp;t[0][i]==0){
-                b.dropPiece(new PieceLocation(-1,0,i));return true;
-            }            
-        }
-        if (t[0][0]==t[1][1]&amp;&amp;t[0][0]==f&amp;&amp;t[2][2]==0){
-            b.dropPiece(new PieceLocation(-1,2,2));return true;
-        }else if(t[1][1]==t[2][2]&amp;&amp;t[1][1]==f&amp;&amp;t[0][0]==0){
-            b.dropPiece(new PieceLocation(-1,0,0));return true;
-        }else if(t[0][2]==t[1][1]&amp;&amp;t[0][2]==f&amp;&amp;t[2][0]==0){
-            b.dropPiece(new PieceLocation(-1,2,0));return true;
-        }else if (t[1][1]==t[2][0]&amp;&amp;t[1][1]==f&amp;&amp;t[0][2]==0){
-            b.dropPiece(new PieceLocation(-1,0,2));return true;
-        }else{
-            return false;
-        }
-    }//包含任何己方两枚棋子连接在一起，且连线有空位的情况
-     //（横向、纵向和斜着的方向）
-   public boolean center(){
-        if(t[1][1]==0){
-            b.dropPiece(new PieceLocation(-1,1,1));return true;
-        }else{
-            return false;
-        }
-    }
-    public void planB(){
-
-        if(t[0][0]==t[2][2]&amp;&amp;t[0][0]==1||t[0][2]==t[2][0]&amp;&amp;t[0][2]==1){
-            if(t[0][2]==0){
-                b.dropPiece(new PieceLocation(-1,0,2));
-            }else{
-                b.dropPiece(new PieceLocation(-1,0,0));
-            }//特殊情况实现代码
-
-        }else if((t[0][1]==1||t[1][2]==1)&amp;&amp;t[2][0]==0){
-            b.dropPiece(new PieceLocation(-1,2,0));
-        }else if((t[1][0]==1||t[2][1]==1)&amp;&amp;t[0][2]==0){
-            b.dropPiece(new PieceLocation(-1,0,2));
-                //以上四行为先角原则的实现 以下为垃圾时间代码实现，即从座至右，
-//从上到下，扫描整个棋盘，然后寻找空位，落子。
-        }else if(t[0][0]==0){
-            b.dropPiece(new PieceLocation(-1,0,0));
-        }else if (t[0][2]==0){
-            b.dropPiece(new PieceLocation(-1,0,2));
-        }else if(t[2][0]==0){
-            b.dropPiece(new PieceLocation(-1,2,0));
-        }else if (t[2][2]==0){
-            b.dropPiece(new PieceLocation(-1,2,2));
-        }else if(t[0][1]==0){
-            b.dropPiece(new PieceLocation(-1,0,1));
-        }else if(t[1][0]==0){
-            b.dropPiece(new PieceLocation(-1,1,0));
-        }else if(t[1][2]==0){
-            b.dropPiece(new PieceLocation(-1,1,2));
-        }else 
-            b.dropPiece(new PieceLocation(-1,2,1));
-        }
-      }
-</code></pre>
-
-<p><a href="/wp-files/Tic-Tac-Toe.jar"> Tic-Tac-Toe-AI Jar文件</a></p>
-
-<p><a href="/wp-files/Tic-Tac-Toe.zip">Tic-Tac-Toe-AI 源码</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Java数组练习-使用多维数组，实现Tic-Tac-Toe游戏]]></title>
-    <link href="http://baham.co/07_29_278.html"/>
-    <updated>2012-07-29T18:41:00+00:00</updated>
-    <id>http://baham.co/278</id>
-    <content type="html"><![CDATA[<p>Tic-Tac-Toe游戏是西方经典游戏，在3X3的棋盘上，两人轮流放置棋子，谁能先把三个棋子连成一线，谁就成为胜者。</p>
-
-<p>要求：如题目所说，要求使用<strong>多维数组</strong>。</p>
-
-<p>Aim 1:实现上述要求。</p>
-
-<p>Aim 2:实现AI。</p>
-
-<p>Aim 3:实现不败的AI。</p>
 ]]></content>
   </entry>
   

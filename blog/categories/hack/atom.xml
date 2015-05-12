@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Hack | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/hack/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-05-12T01:42:52+00:00</updated>
+  <updated>2015-05-12T04:13:06+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,108 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tor真的匿名和安全吗?]]></title>
+    <link href="http://baham.co/04_03_torzhen-de-ni-ming-he-an-quan-ma-%3F.html"/>
+    <updated>2013-04-03T16:11:00+00:00</updated>
+    <id>http://baham.co/torzhen-de-ni-ming-he-an-quan-ma-?</id>
+    <content type="html"><![CDATA[<p><img src="/images/cctv.jpg" alt="CCTV TOR" /></p>
+
+<p>  很多人相信<strong>Tor</strong>是完全匿名，隐私，安全的，是能够完全杜绝别人的监控和跟踪的上网方式。
+但真是这样吗？显然，答案并不那么简单。</p>
+
+<p>  Tor并非完全匿名和隐私的解决方案，如果你使用Tor的话有几点需要注意：</p>
+
+<!--more-->
+
+
+<h1>Tor的出口节点是可被嗅探的</h1>
+
+<p>  可以阅读这里关于<a href="http://www.howtogeek.com/114004/how-to-browse-anonymously-with-tor/">Tor工作原理的文章</a>更多地了解Tor提供给用户的匿名性。大体上讲，
+当你使用Tor时，你的数据将通过Tor的网络路由并且在离开Tor网络前随即选择几处节点。Tor
+的这种设计理论上保证了无法追踪数据来源。你的计算机可能会发起连接或者作为网络内中转节点，传输
+加密的数据到下一个节点。</p>
+
+<p>  但最终Tor网络内的数据大多会离开Tor网络。例如，你通过Tor访问<a href="https://www.google.com">Google</a>，你的数据
+经过几个Tor节点，但最终还是会离开Tor网络连接到谷歌服务器。最后的一个节点，也就是你的数据
+请求离开Tor网络，进入互联网时，是可以被监控到的。数据离开Tor网络的最后一个节点，即称为
+出口节点。</p>
+
+<p>  在下边图解中，红色的箭头标示出<strong>出口节点</strong>和网络上的计算机“Bob”之间的未加密数据传输：</p>
+
+<p>[Tor works]<a href="https://www.torproject.org/images/htw2.png">https://www.torproject.org/images/htw2.png</a></p>
+
+<p>  如果你访问使用加密连接（HTTPS）的网站，例如Gmail，This is okay！虽然，出口节点
+可以观察到你访问了Gmail，但无法观察到你的数据。如果访问未使用HTTPS的网站，出口节点可以
+偷偷监视你的网络活动，跟踪并获取你访问了什么网站，监控你的网络活动及你发送了的信息。</p>
+
+<p>  你必须认识到当你作为Tor网络的出口节点时，会比中转节点承担更多的法律风险。就像很多GOV
+运行出口节点，并监控出口节点，以用来调查犯罪，in repressive countries, punish
+political activists.</p>
+
+<p>  这种风险不仅仅是理论上的，2007年，一位安全调查员通过运行Tor网络的出口节点窃取了100多
+个email帐号。因为这些用户相信Tor会保护他们的数据而并没有在电邮系统中使用加密链接。实际
+上，Tor的工作原理确实无法保护这种情况。</p>
+
+<h2>小结:</h2>
+
+<p>使用Tor时，访问敏感数据一定要使用加密链接（HTTPS）访问。否则，你的数据是可以被监控的，不
+仅被GOV，也包括某些对私人数据别有用心的人。</p>
+
+<h1>JavaScript，浏览器插件，和其他程序同样可以暴露你的真实IP</h1>
+
+<p><strong>Tor Bundle</strong>，安全方面预先配置好的Tor工具，禁用JavaScript，禁用插件，并且在下载文件
+调用其他程序打开时，会给出警告。</p>
+
+<p>一般来讲，JavaScript不会导致安全风险，但如果你想隐藏IP，那么不可以使用JavaScript。浏
+览器的JavaScript引擎、插件比如Adobe Flash、以及外界程序比如Adobe Reader或者视频播
+放器都可能暴露你的真实IP给那些想要获得它的站点。</p>
+
+<p>Tor Bundle的默认设置避免了这些安全问题，但在使用Tor Bundle时，你可能禁用了这些保护并
+且启用了JavaScript或者浏览器插件。如果你很在乎匿名性，那么不要这么做，如果你不是很在乎
+匿名性，那么最好不用Tor。</p>
+
+<p>这也不是仅仅在理论层面的风险。2011年，一群安全调查员获取了1000多通过Tor使用BT客户端的用
+户。和其他程序一样，BT客户端并不安全并且可能会暴露你的真实IP。</p>
+
+<h2>小结:</h2>
+
+<p>保持Tor的默认安全设置不变，不要试着在其他浏览器中使用Tor。使用Tor Bundle这款为Tor预先配置好
+的浏览器。而且你最好不要在其他程序中使用Tor。</p>
+
+<p><img src="http://cdn.howtogeek.com/wp-content/uploads/2013/03/tor-browser-external-content-warning.png" alt="example" /></p>
+
+<h1>作为出口节点的风险</h1>
+
+<p>如果你是互联网匿名的拥蹩，你可能通过运行Tor节点来捐赠你的带宽。这本来不存在法律上的问题，因为一
+个Tor的节点只是在Tor网络内传输加密数据。Tor项目正是依靠志愿者实现其匿名性。</p>
+
+<p>但在作为出口节点时，你应该三思而后行，因为出口节点是一个把数据从匿名的Tor网络连接到开放互联网
+的节点。如果罪犯使用Tor做些非法事情并且数据恰好从你运行的出口节点传出，调查这些数据时将会调查
+到你的IP地址，随后，你可能会听到敲门声，你的计算机可能会被没收。一位澳大利亚人曾被起诉，因为他
+运行的Tor出口节点对外传输了儿童色情图片。作为Tor的出口节点允许坏人们通过你的IP做坏事，但被跟
+踪到的却是你，就像开放的Wifi网络一样，但却更有可能使你卷进麻烦中。结果可能并非罪犯一样的惩罚，
+但你可能面对下载侵权内容的起诉，或者收到美国保护知识产权机构的警告。
+<img src="http://cdn.howtogeek.com/wp-content/uploads/2013/01/comcast-dmca-letter.jpg" alt="CAST" /></p>
+
+<p>运行出口节点的风险实际上又被带回了第一种情况。因为运行出口节点风险很高，所以几乎没人去作。GOV不
+一样，反而可能很喜欢去作。</p>
+
+<h2>小结:</h2>
+
+<p>记住，永远不要运行出口节点！</p>
+
+<p>**如果你真想运行一个出口节点，Tor项目有几条忠告。他们建议在商用设备上运行Tor出口节点，并且选择
+Tor-friendly的ISP。千万别在家里尝试。</p>
+
+<p>在你需要匿名上网时，Tor是一个魔幻般的项目。它非常聪明地通过Tor网络传输加密数据。但是，这些数
+据总会在某个位置离开，这对于用户以及作为出口节点者，都是一个问题。总之，如果你不仅仅是在Tor
+Bundle上浏览HTML网页，那么你计算机上的并非为隐藏IP设计的软件都会带给你风险。**</p>
+
+<p><strong>英文原版</strong>来自<a href="http://www.howtogeek.com/142380/htg-explains-is-tor-really-anonymous-and-secure/">HowToGeek</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Learn to hack-如何成为一个黑客]]></title>

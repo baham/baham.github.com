@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Firewall | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/firewall/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2015-05-12T04:13:06+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Box webdav  http not found error]]></title>
+    <link href="http://baham.co/12_13_box-webdav-http-not-found-error.html"/>
+    <updated>2013-12-13T13:58:00+00:00</updated>
+    <id>http://baham.co/box-webdav-http-not-found-error</id>
+    <content type="html"><![CDATA[<p>I used <strong>box</strong> to storage some files and used deja-backup to auto-back and auto-encrypt the files.</p>
+
+<p>And I found these days there are <code>http not found error</code> showed in deja.</p>
+
+<p>So I have about 3 weeks not back my files.</p>
+
+<p>And now I found the solution:</p>
+
+<!--more-->
+
+
+<p>replace <code>www.box.com/dav</code> as <code>dav.box.com/dav</code></p>
+
+<p>And you can connect the webdav server.</p>
+
+<p>This method maybe not work.</p>
+]]></content>
+  </entry>
+  
+</feed>

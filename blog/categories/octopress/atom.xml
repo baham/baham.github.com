@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | Baham's Blog]]></title>
+  <link href="http://baham.co/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://baham.co/"/>
+  <updated>2015-05-12T04:13:06+00:00</updated>
+  <id>http://baham.co/</id>
+  <author>
+    <name><![CDATA[Baham]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopree plugin popular post]]></title>
+    <link href="http://baham.co/05_11_a.html"/>
+    <updated>2015-05-11T12:54:00+00:00</updated>
+    <id>http://baham.co/a</id>
+    <content type="html"><![CDATA[<p>I just generate my site. But it just generated nothing without errors noticing.</p>
+
+<p>I did not find anything about it online.</p>
+
+<p>Finally, I solve it.</p>
+
+<!--more-->
+
+
+<p>Just delete the <em>popular post plugin</em>.</p>
+
+<p>Because this plugin will find the value of google pr, but Chinese can not visit google.</p>
+
+<p>So this process of generation is paused.</p>
+
+<p>This plugin&rsquo;s location:</p>
+
+<pre><code>plugins/popular_post.rb
+</code></pre>
+
+<p>And do not use popular side.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress add Original Link after post Version2]]></title>
+    <link href="http://baham.co/05_08_add-original-link.html"/>
+    <updated>2014-05-08T10:47:00+00:00</updated>
+    <id>http://baham.co/add-original-link</id>
+    <content type="html"><![CDATA[<p>I alreay use this tool, since I found it online. It is really cool and useful. And does not affect the overall layout of the page.</p>
+
+<p>But when I saw the source code of the orignal link.</p>
+
+<p>I found a bug. I did not know why very clearly. But luckily, I still fix it.</p>
+
+<!--more-->
+
+
+<p>You can find the old code in <a href="/04_29_octopress-seo.html">octopress-seo-tool</a>.</p>
+
+<h2>The Bug is:</h2>
+
+<pre><code>&lt;a href="url" rel="something"&gt;&lt;/a&gt;
+&lt;a href="url"&gt;The url's title&lt;/a&gt;
+</code></pre>
+
+<p>And I change some codes.</p>
+
+<h2>Add original link version 2</h2>
+
+<p>```html add original link version 2 diff</p>
+
+<p class='post-footer' style="font-size:70%;" >
+<br/>
+<br/>
+<br/>
+#{pre or "The Original Link:"}[#{post.full_url}](#{post.url})<br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=#{license}>#{lic_name}</a>
+</p>
+
+
+<p>```</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Add Descritpion and Keywords to octopress site plugin Version 3]]></title>
+    <link href="http://baham.co/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html"/>
+    <updated>2014-05-08T08:33:00+00:00</updated>
+    <id>http://baham.co/add-descritpion-and-keywords-for-octopress-site-plugin-v3</id>
+    <content type="html"><![CDATA[<p>In version 2 plugin, the code is :
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description_new.rb)</span> <a href='/files/code/add_keywords_and_description_new.rb'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">page</span><span class="o">.</span><span class="n">title</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
+</span><span class='line'><span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif page.title %}{{&quot;&quot;}}{% else %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
+</span><span class='line'><span class="sr">&lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>And after change the <code>head.html</code> to that, the site&rsquo;s homepage will show site&rsquo;s description and keywords, and post show the post&rsquo;s, if the post has not, it will show no keywords but part of content as description, and the page is like the post.</p>
+
+<p>Besides, categories link will show description like <code>Category: Name -Baham's Blog</code>, the archive has its own description and keywords. But yesterday I found I ignore  one thing, the pages with number. t means <code>/blog/page/bumber</code> these pages still show the same description and keywords as site&rsquo;s.</p>
+
+<p>So I need to change some codes.</p>
+
+<!--more-->
+
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description_version3.rb)</span> <a href='/files/code/add_keywords_and_description_version3.rb'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="o">&lt;</span><span class="n">head</span><span class="o">&gt;</span>
+</span><span class='line'>  <span class="o">&lt;</span><span class="n">meta</span> <span class="n">charset</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>  <span class="o">&lt;</span><span class="n">title</span><span class="o">&gt;</span><span class="p">{</span><span class="o">%</span> <span class="k">if</span> <span class="n">page</span><span class="o">.</span><span class="n">title</span> <span class="sx">%}{{ page.title }</span><span class="p">}</span><span class="o">-</span><span class="p">{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">page</span><span class="o">.</span><span class="n">url</span> <span class="n">contains</span> <span class="s2">&quot;blog/page&quot;</span> <span class="sx">%}{{ &#39;One of the Pages From&#39; }</span><span class="p">}</span><span class="o">-</span><span class="p">{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}  {{ site.title }</span><span class="p">}</span><span class="o">&lt;</span><span class="sr">/title&gt;</span>
+</span><span class='line'><span class="sr">  &lt;meta name=&quot;author&quot; content=&quot;{{ site.author }}&quot;&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">{% capture description %}{% if page.description %}{{ page.description }}{% elsif page.title %}{{ content | raw_content }}{% elsif page.url contains&quot;blog/</span><span class="n">page</span><span class="s2">&quot; %}{{ &quot;&quot; }}{% else %}{{ site.description  }}{% endif %}{% endcapture %}</span>
+</span><span class='line'><span class="s2">&lt;meta name=&quot;</span><span class="n">description</span><span class="s2">&quot; content=&quot;</span><span class="p">{{</span> <span class="n">description</span> <span class="o">|</span> <span class="n">strip_html</span> <span class="o">|</span> <span class="n">condense_spaces</span> <span class="o">|</span> <span class="ss">truncate</span><span class="p">:</span><span class="mi">150</span> <span class="p">}}</span><span class="s2">&quot; /&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="s2">{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif page.title %}{{&quot;&quot;}}{% elsif page.url contains &quot;</span><span class="n">blog</span><span class="o">/</span><span class="n">page</span><span class="s2">&quot; %}{{ &quot;&quot; }}{% else %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
+</span><span class='line'><span class="s2">&lt;meta name=&quot;</span><span class="n">keywords</span><span class="s2">&quot; content=&quot;</span><span class="p">{{</span> <span class="n">keywords</span> <span class="o">|</span> <span class="n">strip_html</span> <span class="o">|</span> <span class="n">condense_spaces</span> <span class="p">}}</span><span class="s2">&quot; /&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h2>Release Notes</h2>
+
+<ol>
+<li>Make pages show different description and keywords with homepage. The keywords and description will show nothing;</li>
+<li>Make pages show different titles with home page. The pages will show <code>One of the pages from -Baham's Blog</code>.</li>
+<li>pages mean <code>/blog/page/number</code></li>
+</ol>
+
+
+<h2><a href="/05_07_octopress-add-description-keywords-plugin-optimization.html">Version 2</a> Notes</h2>
+
+<ol>
+<li>Make every links show the description different with the homepage;(except /blog/page/number)</li>
+<li>Make links without description show part of content as description;</li>
+<li>The keywords of the links without keywords will keep space.</li>
+</ol>
+
+
+<h2><a href="/04_29_octopress-seo.html">Original Version</a></h2>
+
+<h2>PS:</h2>
+
+<ol>
+<li>Finding the codes' bugs really make me tired.</li>
+<li>You can still use version 2&rsquo;s code, and just change the <code>robots.txt</code> to disallow index <code>/blog/page/</code></li>
+</ol>
+
+
+<p><code>
+Disallow: /blog/page/
+</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress Add Description Keywords Plugin Optimization]]></title>
+    <link href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html"/>
+    <updated>2014-05-07T01:22:00+00:00</updated>
+    <id>http://baham.co/octopress-add-description-keywords-plugin-optimization</id>
+    <content type="html"><![CDATA[<p>Yesterday, when I just google my own site. I find the results show like this:</p>
+
+<p><img src="/images/baham/old-descripiton.jpg" alt="The Site's meta description" /></p>
+
+<p>But I did not want every page without description shows the site&rsquo;s description.</p>
+
+<p>Cause it is not good to index pages by search engine.</p>
+
+<p>So I want to optimizate the octopress plugin or called code to add the description and keywords.</p>
+
+<!--more-->
+
+
+<h2>Old Code</h2>
+
+<p>This is the old code.
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description.rb)</span> <a href='/files/code/add_keywords_and_description.rb'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'>	<span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">site</span><span class="o">.</span><span class="n">description</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
+</span><span class='line'>	<span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
+</span><span class='line'><span class="sr">	{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif site.keywords %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
+</span><span class='line'><span class="sr">	&lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>And the article that include the old codes  about the <a href="/04_29_octopress-seo.html">octopress seo</a>.</p>
+
+<p>The results I dislike codes bring about are show the page&rsquo;s description as same as the site&rsquo;s description.</p>
+
+<p>So I change codes to show part of the page&rsquo;s content as description instead of site&rsquo;s description.</p>
+
+<h2>Add Description and Keywords new version</h2>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description_new.rb)</span> <a href='/files/code/add_keywords_and_description_new.rb'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">page</span><span class="o">.</span><span class="n">title</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
+</span><span class='line'><span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif page.title %}{{&quot;&quot;}}{% else %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
+</span><span class='line'><span class="sr">&lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>The code is not a ruby file, please add the codes or change the original code to these after the author meta in <code>source/_include/head.html</code>.</p>
+
+<p>Then the meta will show like :</p>
+
+<p><img src="/images/baham/meta.jpg" alt="meta" /></p>
+
+<p>When you change the codes to these.
+1. If the page has a description, it will show the description
+2. If has not and this page is a page, it will show the part of page content.
+3. Otherwise, show the site&rsquo;s description, like the homepage.</p>
+
+<p><em>PS</em>: <code>page means page/post/other links, not just rake new_page's page</code></p>
+
+<p>And the keywords' code is like the description'.</p>
+
+<h2><a href="/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html">Version 3</a></h2>
+
+<p>Optimization about the page with number&rsquo;s title and description.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Fix a bug to add an original link]]></title>
+    <link href="http://baham.co/05_01_21-24-octopress-orinal-link-bug-fix.html"/>
+    <updated>2014-05-01T13:24:00+00:00</updated>
+    <id>http://baham.co/21-24-octopress-orinal-link-bug-fix</id>
+    <content type="html"><![CDATA[<p>When you use the original post footer plugin, some bug will happen, I do not know the bug&rsquo;s detail, but I still find a way to fix it.</p>
+
+<p>Cause when the bug happend, this will show:</p>
+
+<p><img src="/images/octopress/plugin-bug.jpg" alt="post afer footer" /></p>
+
+<p>The code will show, when the article&rsquo;s end is a link or a picture.</p>
+
+<p>Why does this happen?</p>
+
+<!--more-->
+
+
+<p>  It is the crash of language&rsquo;s syntax. When you use the octopress to <code>generate</code> the posts, ruby&rsquo;s script run, and some html&rsquo;s commna code is not a common code. And the commit&rsquo;s symbol is different too.</p>
+
+<p>So I modify this plugin to avoid this bug.</p>
+
+<p>I just take place of <code>%Q{}</code> with <code>&lt;&lt;_here2start _here2start</code></p>
+
+<p>And now, the code after the article will not show, and just show the normal content.</p>
+
+<p>Like the below. And the source is here:  <a href="/04_29_octopress-seo.html">SEO tool to octopress</a></p>
+]]></content>
+  </entry>
+  
+</feed>

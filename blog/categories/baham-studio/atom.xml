@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Baham Studio | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/baham-studio/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-05-12T01:42:52+00:00</updated>
+  <updated>2015-05-12T04:13:06+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Binix和BearFox停止更新]]></title>
+    <link href="http://baham.co/06_27_binixhe-bearfoxting-zhi-geng-xin.html"/>
+    <updated>2013-06-27T14:53:00+00:00</updated>
+    <id>http://baham.co/binixhe-bearfoxting-zhi-geng-xin</id>
+    <content type="html"><![CDATA[<p>之前，心血来潮，在Firefox的社区里申请定制了Bearfox,即熊狐浏览器，但是更新过一次，再也没有更新过，毕竟受众太少，维护无力，所以连同在opensuse那定制的Binix（即Baham-Linux），一同停止更新，同时从导航栏中移除两者链接。</p>
+
+<p>现正式声明此状况，如果您真地需要使用这两款软件，依旧可以获得老版本。</p>
+
+<p>愧对开源社区，在此致歉。</p>
+
+<p><a href="/binix-baham-linux-os">Binix</a>;</p>
+
+<p><a href="/bearfox">Bearfox</a>。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tic-Tac-Toe-AI-GUI版本]]></title>
