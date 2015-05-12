@@ -35,7 +35,7 @@
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-33861107-1']);
+    _gaq.push(['_setAccount', '0']);
     _gaq.push(['_trackPageview']);
 
     (function() {
@@ -90,7 +90,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/05_08_add-original-link.html">Octopress Add Original Link After Post Version2</a></h1>
+      <h1 class="entry-title"><a href="/07_28_238.html">《Building Java Programs》-Java文件处理小结</a></h1>
     
     
       <p class="meta">
@@ -106,24 +106,209 @@
   
 
 
-<time datetime="2014-05-08T10:47:00+00:00" pubdate data-updated="true">May 8<span>th</span>, 2014</time>
+<time datetime="2012-07-28T18:05:24+00:00" pubdate data-updated="true">Jul 28<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>I alreay use this tool, since I found it online. It is really cool and useful. And does not affect the overall layout of the page.</p>
+  <div class="entry-content"><p><strong>写在前面</strong>：文件处理本身并不复杂，但是Java语言并不是为了处理文件而设计的，因此Sun/升阳公司也没有足够的热情来提供一个更简单的解决方法。当然，Sun还是提供了Scanner类，它简化了许多与读取文件有关的操作。总结来讲，<strong>Java的文件处理</strong>（Java I/O）虽然不好用，但是还能用。</p>
 
-<p>But when I saw the source code of the orignal link.</p>
+<ol>
+<li><p> Java中用File对象代表一个文件，File 类包含在<strong>java.io包</strong>中。</p></li>
+<li><p> Scanner对象可以从文件中读取内容，前提是创建Scanner对象构造函数用&#8221;new File(file&rsquo;s name)&ldquo;作为参数。</p></li>
+<li><p> <strong>可控式异常</strong>（<em>checked exception</em>）指在程序执行过程中遇到的一种错误，对这种异常，程序必须有捕捉处理它的代码或显示生命忽略它才能通过编译。例如，创建读取文件内容的Scanner对象时，你必须在main方法头部添加<strong>throws FileNotFoundException语句</strong>。</p></li>
+<li><p> Scanner对象将输入文件视作<strong>一维流数据</strong>，按照从前到后的顺序读取。每次从文件中读出一个标记，输入指针就向前移动。</p></li>
+<li><p> 用于<strong>标记文件内容</strong>的Scanner对象使用一系列<strong>hasNext方法</strong>来检测是否还有更多内容可读。</p></li>
+<li><p> Scanner可以作为参数传递给其他方法（使用<a href="http://baham.co/07_25_221.html">引用传递</a>），在这些方法内部就可以利用Scanner对象读取文件内容。</p></li>
+<li><p> 文件名可以采用绝对路径，也可以采用相对路径。</p></li>
+<li><p> 很多文件是以行为单位，所以程序也应该可以<strong>逐行</strong>处理文件内容。处理这种情况，经常会用到潜逃循环：外层负责读取文件的每一行，内层负责处理每行内容中的不同标记。</p></li>
+<li><p> 使用<strong>PrintStream对象</strong>可以将结果输出到文件中，创建这样的PrintStream对象时需要提供一个File对象，可以向使用System.out一样使用PrintStream对象，如调用print或者println方法。</p></li>
+<li><p>. Java提供了一种<strong>try/catch语句</strong>来检查并处理程序运行过程中发生的错误，try/catch语句可以用来处理找不到要打开指定文件的问题。</p></li>
+</ol>
 
-<p>I found a bug. I did not know why very clearly. But luckily, I still fix it.</p>
+
+<p><em>此文系从书中摘录</em>
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="/07_28_238.html">http://baham.co/07_28_238.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/07_25_225.html">GraphChi—让你迅速提升计算机性能</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-25T22:34:58+00:00" pubdate data-updated="true">Jul 25<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>GraphChi是从卡内基 &ndash; 梅隆大学的<a href="http://www.graphlab.org">GraphLab</a>项目之一。可以让一台普通PC处理N倍于以往的数据。</p>
+
+<p>特点便是能然硬盘当作内存来使用（包括出传统硬盘或固态硬盘）。</p>
+
+<p><a href="https://code.google.com/p/graphchi/">项目Google Code地址 以及完整介绍</a></p>
+
+<p>GraphChi <a href="http://code.google.com/p/graphchi-java">Java版项目地址</a>
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="/07_25_225.html">http://baham.co/07_25_225.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/07_25_221.html">《Building Java Programs》-参数和对象导论小结</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-25T22:18:25+00:00" pubdate data-updated="true">Jul 25<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ol>
+<li><p> <strong>方法</strong>可以带有<strong>参数</strong>，<strong>参数</strong>是调用方法时传递给方法的一些值，这些值可以改变方法的执行流程。带有<strong>参数</strong>的方法可以完成一类相同的任务。</p></li>
+<li><p> 但从那书类型为int或都变了这些<strong>基本数据类型</strong>时，会直接将参数的值拷贝到方法中。基本数据类型的参数只能单向传入方法，而不能再传出。也就是说，在方法内部只能写该这些参数的副本，而不能写该这些定义在方法外部变量的原值。</p></li>
+<li><p> 两个方法可以有相同的名称，但其参数列表必须不同。这种特性成为<strong>方法重载</strong>。</p></li>
+<li><p> 方法可以向调用它的代码放回一个值，这样可以在方法中完成完成某些复杂的计算，然后将计算结果返回给调用代码。在方法头部必须写明返回值得类型。</p></li>
+<li><p> <strong>对象</strong>是同时包含数据和对数据操作的一种实体。</p></li>
+<li><p> 对象中包含着表示对象行为的方法。要调用对象的方法，首先要给出对象的名称，后面紧跟“.”，再后面是方法的名称。</p></li>
+<li><p> <strong>异常</strong>是指执行程序过程中遇到的一个错误，这个错误会阻止程序继续运行。</p></li>
+<li><p> Java中对象使用<strong>引用语义</strong>，即变量中只保存对象的引用而不保存对象本身。这意味着两个变量可以指向同一个对象，如果通过其中一个变量些改了对象的内容，那么另一个变量也会发现对象的改变。</p></li>
+<li><p> 当对象作为参数传递时与基本数据类型的参数不同，在方法中获得的是对一个对象的引用的副本，而非对象本身的副本。如果在方法中通过这个引用修改了对象的内容，那么在方法外也会发现它的改变。</p></li>
+</ol>
+
+
+<p><em>此文系从书中摘录</em>
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="/07_25_221.html">http://baham.co/07_25_221.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/07_25_182.html">碉堡了的中国女程序员-李聪娜</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-25T13:15:21+00:00" pubdate data-updated="true">Jul 25<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://baham.co/wp-content/uploads/2012/07/%E6%9D%8E%E8%81%AA%E5%A8%9C-300x205.png" alt="碉堡了得中国女程序员-李聪娜" /> 李聪娜照片</p>
+
+<p><strong>李聪娜</strong>，兰州军区某部科室主任，2000年毕业于国防科技大学，后投笔从戎。</p>
+
+<p>以90天写出40万行代码震惊世人，其座右铭为“昨天的技术，打不赢明天的战争！”</p>
 
 </div>
   
   
     <footer>
-      <a rel="full-article" href="/05_08_add-original-link.html">Read on &rarr;</a>
+      <a rel="full-article" href="/07_25_182.html">Read on &rarr;</a>
     </footer>
   
 
@@ -135,7 +320,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html">Add Descritpion and Keywords to Octopress Site Plugin Version 3</a></h1>
+      <h1 class="entry-title"><a href="/07_23_148.html">The Art and Science of Java/Java语言艺术与科学</a></h1>
     
     
       <p class="meta">
@@ -151,203 +336,26 @@
   
 
 
-<time datetime="2014-05-08T08:33:00+00:00" pubdate data-updated="true">May 8<span>th</span>, 2014</time>
+<time datetime="2012-07-23T20:57:17+00:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>In version 2 plugin, the code is :</p>
+  <div class="entry-content"><p><img src="http://baham.co/wp-content/uploads/2012/07/SlimPDF-Reader-The-Art-and-Science-of-Java-250x300.png" alt="java的科学与艺术" /> java语言艺术与科学的图片</p>
 
-<figure class='code'><figcaption><span> (add_keywords_and_description_new.rb)</span> <a href='/files/code/add_keywords_and_description_new.rb'>download</a></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="p">{</span><span class="o">%</span> <span class="n">capture</span> <span class="n">description</span> <span class="sx">%}{% if page.description %}</span><span class="p">{{</span> <span class="n">page</span><span class="o">.</span><span class="n">description</span> <span class="p">}}{</span><span class="o">%</span> <span class="k">elsif</span> <span class="n">page</span><span class="o">.</span><span class="n">title</span> <span class="sx">%}{{ content | raw_content }</span><span class="p">}{</span><span class="o">%</span> <span class="k">else</span> <span class="sx">%}{{ site.description }</span><span class="p">}{</span><span class="o">%</span> <span class="n">endif</span> <span class="sx">%}{% endcapture %}</span>
-</span><span class='line'><span class="o">&lt;</span><span class="n">meta</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;{{ description | strip_html | condense_spaces | truncate:150 }}&quot;</span> <span class="sr">/&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="sr">{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif page.title %}{{&quot;&quot;}}{% else %}{{ site.keywords }}{% endif %}{% endcapture %}</span>
-</span><span class='line'><span class="sr">&lt;meta name=&quot;keywords&quot; content=&quot;{{ keywords | strip_html | condense_spaces }}&quot; /</span><span class="o">&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
+<p>成书于2006年，作者Eric S. Roberts<img src="http://news.stanford.edu/news/2007/march14/gifs/robertsaaaassr.jpg" alt="Eric S. Roberts  斯坦福大学" />。</p>
 
+<p>该书是斯坦福大学CS106a 编程方法学课程的教材。</p>
 
-<p>And after change the <code>head.html</code> to that, the site&rsquo;s homepage will show site&rsquo;s description and keywords, and post show the post&rsquo;s, if the post has not, it will show no keywords but part of content as description, and the page is like the post.</p>
-
-<p>Besides, categories link will show description like <code>Category: Name -Baham's Blog</code>, the archive has its own description and keywords. But yesterday I found I ignore  one thing, the pages with number. t means <code>/blog/page/bumber</code> these pages still show the same description and keywords as site&rsquo;s.</p>
-
-<p>So I need to change some codes.</p>
+<p>还没看完，因为英语太差，看得有些吃力，分享出来给大家。</p>
 
 </div>
   
   
     <footer>
-      <a rel="full-article" href="/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/05_07_octopress-add-description-keywords-plugin-optimization.html">Octopress Add Description Keywords Plugin Optimization</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-07T01:22:00+00:00" pubdate data-updated="true">May 7<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Yesterday, when I just google my own site. I find the results show like this:</p>
-
-<p><img src="/images/baham/old-descripiton.jpg" alt="The Site's meta description" /></p>
-
-<p>But I did not want every page without description shows the site&rsquo;s description.</p>
-
-<p>Cause it is not good to index pages by search engine.</p>
-
-<p>So I want to optimizate the octopress plugin or called code to add the description and keywords.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/05_07_octopress-add-description-keywords-plugin-optimization.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/05_06_what-an-amazing-software.html">What an Amazing Software</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-06T11:06:00+00:00" pubdate data-updated="true">May 6<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><strong>Sage</strong> I knew this software about 2 years ago. When I was on a cryptology calss. And the reacher notice this amazing math software. He showed it with virtual mechine. Cause he use windows as his os. But you know that time, I already started to use linux.</p>
-
-<p>And after that class, I installed sage, but nearlly not use it.</p>
-
-<p>Until in these days, I heard a friend talk about using <em>Matlab</em> to calculate something for his paper. And I decided to learn a math software seriously.</p>
-
-<p>Like him, I want to choose Matlab, but it is not free. Although my friend tell me matlab is easy to learn.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/05_06_what-an-amazing-software.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/05_06_ruby-multidimensional-arrays.html">Ruby Multidimensional Arrays</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-06T06:19:00+00:00" pubdate data-updated="true">May 6<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Today, when I use Two-dimensional array with ruby.</p>
-
-<p>Like:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">arr</span><span class="o">=[]</span>
-</span><span class='line'><span class="n">arr2</span><span class="o">=[]</span>
-</span><span class='line'><span class="mi">3</span><span class="o">.</span><span class="n">times</span>  <span class="p">{</span> <span class="n">arr2</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot;_&quot;</span> <span class="p">}</span>
-</span><span class='line'><span class="mi">3</span><span class="o">.</span><span class="n">time</span>   <span class="p">{</span><span class="n">arr</span> <span class="o">&lt;&lt;</span> <span class="n">arr2</span><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>And when I change the <code>arr[1][1] to "-"</code></p>
-
-<p>It will show:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'> <span class="n">_</span> <span class="o">-</span> <span class="n">_</span>
-</span><span class='line'> <span class="n">_</span> <span class="o">-</span> <span class="n">_</span>
-</span><span class='line'> <span class="n">_</span> <span class="o">-</span> <span class="n">_</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/05_06_ruby-multidimensional-arrays.html">Read on &rarr;</a>
+      <a rel="full-article" href="/07_23_148.html">Read on &rarr;</a>
     </footer>
   
 
@@ -383,90 +391,90 @@
     <h2 class="panel-title">Category Cloud</h2>
   </div>
 <div id="recent_posts" class="list-group">
-	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 124.0%'>Announcement(12)</a> <a href='/blog/categories/baham' style='font-size: 128.0%'>Baham(14)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 114.0%'>Blender(7)</a> <a href='/blog/categories/book' style='font-size: 114.0%'>Book(7)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 114.0%'>CUMT(7)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 148.0%'>Faith(24)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 134.0%'>Geek(17)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 104.0%'>Google(2)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/harmonica' style='font-size: 102.0%'>Harmonica(1)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 124.0%'>Job(12)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 130.0%'>Memo(15)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 118.0%'>Mineral Processing(9)</a> <a href='/blog/categories/mooc' style='font-size: 110.0%'>MOOC(5)</a> <a href='/blog/categories/movie' style='font-size: 112.0%'>Movie(6)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/python' style='font-size: 102.0%'>Python(1)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 106.0%'>Software(3)</a> <a href='/blog/categories/technology' style='font-size: 104.0%'>Technology(2)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/teofl' style='font-size: 102.0%'>Teofl(1)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 128.0%'>Travel(14)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 112.0%'>Video(6)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
+	<span id="tag-cloud"><a href='/blog/categories/announcement' style='font-size: 107.5%'>Announcement(2)</a> <a href='/blog/categories/baham' style='font-size: 115.0%'>Baham(4)</a> <a href='/blog/categories/baham-studio' style='font-size: 115.0%'>Baham Studio(4)</a> <a href='/blog/categories/bible' style='font-size: 107.5%'>Bible(2)</a> <a href='/blog/categories/blender' style='font-size: 107.5%'>Blender(2)</a> <a href='/blog/categories/book' style='font-size: 107.5%'>Book(2)</a> <a href='/blog/categories/cg' style='font-size: 103.75%'>CG(1)</a> <a href='/blog/categories/code' style='font-size: 115.0%'>Code(4)</a> <a href='/blog/categories/edu' style='font-size: 111.25%'>EDU(3)</a> <a href='/blog/categories/game' style='font-size: 118.75%'>Game(5)</a> <a href='/blog/categories/game-theory' style='font-size: 103.75%'>Game Theory(1)</a> <a href='/blog/categories/geek' style='font-size: 111.25%'>Geek(3)</a> <a href='/blog/categories/hack' style='font-size: 103.75%'>Hack(1)</a> <a href='/blog/categories/java' style='font-size: 148.75%'>Java(13)</a> <a href='/blog/categories/java-zone' style='font-size: 103.75%'>Java Zone(1)</a> <a href='/blog/categories/linux' style='font-size: 118.75%'>Linux(5)</a> <a href='/blog/categories/memo' style='font-size: 126.25%'>Memo(7)</a> <a href='/blog/categories/movie' style='font-size: 103.75%'>Movie(1)</a> <a href='/blog/categories/software' style='font-size: 103.75%'>Software(1)</a> <a href='/blog/categories/ted' style='font-size: 103.75%'>TED(1)</a> <a href='/blog/categories/thinking' style='font-size: 107.5%'>Thinking(2)</a> <a href='/blog/categories/tips' style='font-size: 160.0%'>Tips(16)</a> <a href='/blog/categories/translation' style='font-size: 103.75%'>Translation(1)</a> <a href='/blog/categories/utb' style='font-size: 107.5%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 107.5%'>Video(2)</a> <a href='/blog/categories/wordpress' style='font-size: 107.5%'>Wordpress(2)</a> </span>
 </div>
 </section><section>
   <h2>Recent Posts</h2>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/04_07_domain-on-sale.html">Domain On Sale</a>
+        <a href="/11_28_730.html">为什么《人民日报》会引用洋葱的新闻报道？</a>
       </li>
     
       <li class="post">
-        <a href="/11_27_the-dogs-and-the-smile.html">The Dogs and The Smile</a>
+        <a href="/11_23_724.html">电影泰迪熊穿帮镜头</a>
       </li>
     
       <li class="post">
-        <a href="/11_23_the-cross.html">The Cross</a>
+        <a href="/11_07_718.html">如何删除libgooglepinyin和ibus-googlepinyin</a>
       </li>
     
       <li class="post">
-        <a href="/11_16_waiting-in-the-jining-nan-station.html">Waiting in the Jining Nan Station</a>
+        <a href="/11_05_705.html">如何培养出人才</a>
       </li>
     
       <li class="post">
-        <a href="/11_12_mongolia.html">Mongolia</a>
+        <a href="/11_05_690.html">GooglePlay上四款很棒的圣经软件</a>
       </li>
     
       <li class="post">
-        <a href="/11_06_360wifi-be-evil.html">360wifi be evil</a>
+        <a href="/11_05_687.html">Ubuntu基督教版-Ubuntu Christian Edition</a>
       </li>
     
       <li class="post">
-        <a href="/11_02_travel-to-donggang-by-bicycle.html">Travel To Donggang by Bicycle</a>
+        <a href="/11_05_680.html">英皇钦定版圣经(JKV)-中英epub电子书下载</a>
       </li>
     
       <li class="post">
-        <a href="/11_01_model-thinking-on-coursera.html">Model Thinking on coursera</a>
+        <a href="/11_01_673.html">骑马与砍杀-骑射教程（视频）</a>
       </li>
     
       <li class="post">
-        <a href="/11_01_use-cloudflare-as-the-sites-cdn-again.html">Use CloudFlare as the site&#8217;s CDN again</a>
+        <a href="/10_27_658.html">娱乐之上-江南Style大集合</a>
       </li>
     
       <li class="post">
-        <a href="/10_28_2-movies-i-watched-these-days.html">2 movies I watched these days</a>
+        <a href="/10_21_651.html">纪念文章-Baham Blog 第一篇通过客户端发布的博文</a>
       </li>
     
       <li class="post">
-        <a href="/10_28_the-third-time-a-cowork-advise-me-to-do-research-direction.html">The Third Time a cowork advise me to do research direction</a>
+        <a href="/10_08_645.html">莫言不会成为诺贝尔文学奖得主</a>
       </li>
     
       <li class="post">
-        <a href="/10_28_dr-gaos-report.html">Dr Gao&#8217;s report</a>
+        <a href="/10_06_626.html">骑马与砍杀：战团-各城市产出列表</a>
       </li>
     
       <li class="post">
-        <a href="/10_28_chinas-transgenic-calibration.html">China&#8217;s Transgenic Calibration</a>
+        <a href="/10_06_632.html">有机化学简明教程-天津大学出版社-课后习题-答案</a>
       </li>
     
       <li class="post">
-        <a href="/10_09_model-thinking-universoty-of-michigan.html">Notes 1 of Model Thinking -Universoty of Michigan</a>
+        <a href="/09_24_611.html">骑马与砍杀-战团：沙瑞兹帝国的崛起-自立建国经验分享</a>
       </li>
     
       <li class="post">
-        <a href="/10_01_the-octobor-1st.html">On The Road</a>
+        <a href="/09_15_601.html">Blender快捷键汇总</a>
       </li>
     
       <li class="post">
-        <a href="/09_30_catching-crabs.html">Catching Crabs</a>
+        <a href="/09_14_595.html">Blender视频教程收集整理</a>
       </li>
     
       <li class="post">
-        <a href="/09_18_a-bad-word.html">A Bad Word</a>
+        <a href="/09_14_583.html">初学Blender-图片分享</a>
       </li>
     
       <li class="post">
-        <a href="/09_11_goldendict-support-mdx.html">Goldendict Support Mdx</a>
+        <a href="/09_14_577.html">加强Wordpress安全的18条建议</a>
       </li>
     
       <li class="post">
-        <a href="/09_03_the-second-business-trip.html">The Second Business Trip</a>
+        <a href="/09_13_557.html">博客改动了一部分</a>
       </li>
     
       <li class="post">
-        <a href="/08_24_about-the-magazine-ma-nong.html">About the magazine Ma Nong</a>
+        <a href="/08_26_470.html">JavaDoc注释详解</a>
       </li>
     
   </ul>
@@ -486,6 +494,18 @@
 <li><a target="_blank" rel="friend" href="http://maykiller.com/">MayKiller</a></li>
 <i><a href="/verse">Read It</a></i>
 </p-->
+</div>
+<div>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ad1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6795880663015971"
+     data-ad-slot="3753558442"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 </div>
 </section><section class="panel panel-default">
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />

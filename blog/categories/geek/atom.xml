@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Geek | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/geek/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-04-08T00:59:29+00:00</updated>
+  <updated>2015-05-12T01:02:16+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -14,98 +14,121 @@
 
   
   <entry>
-    <title type="html"><![CDATA[About the magazine Ma Nong]]></title>
-    <link href="http://baham.co/08_24_about-the-magazine-ma-nong.html"/>
-    <updated>2014-08-24T14:03:00+00:00</updated>
-    <id>http://baham.co/about-the-magazine-ma-nong</id>
-    <content type="html"><![CDATA[<p>In the past time, I want to write the articles about the magzine <a href="/blog/categories/geek/">Ma Nong(The Code Maker)</a>, when it posted.</p>
+    <title type="html"><![CDATA[谷歌和微软到底什么关系]]></title>
+    <link href="http://baham.co/08_15_433.html"/>
+    <updated>2012-08-15T23:34:42+00:00</updated>
+    <id>http://baham.co/433</id>
+    <content type="html"><![CDATA[<p>很久很久以前，谷歌推出了Chrome，有人告诉我们，Chrome和微软是这样的关系。</p>
 
-<p>But I found I did not have enough time oto read the magzine and write a post to introduce it.</p>
-
-<p>So I decided to end this.</p>
-
-<p><img src="http://www.ituring.com.cn/bookcover/1478.540.jpg" alt="manong 13" /></p>
-
-<!--more-->
-
-
-<p>And this is the <a href="http://www.ituring.com.cn/search?q=%E7%A0%81%E5%86%9C&amp;type=book">results</a> of this magzine &lsquo;the code maker&rsquo; from ituring.</p>
-
-<p>And Good Bye &lsquo;the code maker&rsquo;.</p>
+<p><img src="http://baham.co/wp-content/uploads/2012/08/Google-Chrome-is-new-Microsoft-Windows3.png" alt="Google-Chrome-Microsoft-Windows-logo-关系" />现在呢，谷歌更换了自己的favicon，然后我们知道，谷歌的搜索引擎和Windows8也是一样的关系。<!-- more --> <img src="http://baham.co/wp-content/uploads/2012/08/Google-Chrome-is-new-Microsoft-Windows_%E5%89%AF%E6%9C%AC.png" alt="google和windows8的关系" /></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Ituring-new-version]]></title>
-    <link href="http://baham.co/03_30_ituring-new-version.html"/>
-    <updated>2014-03-30T08:09:00+00:00</updated>
-    <id>http://baham.co/ituring-new-version</id>
-    <content type="html"><![CDATA[<p>It is a long time not to post the artciel abour Ituring Magzine <em>Manong</em>(means Coder).</p>
+    <title type="html"><![CDATA[Learn to hack-如何成为一个黑客]]></title>
+    <link href="http://baham.co/08_02_318.html"/>
+    <updated>2012-08-02T12:19:34+00:00</updated>
+    <id>http://baham.co/318</id>
+    <content type="html"><![CDATA[<p><strong><a href="http://baham.co/wp-content/uploads/2012/08/security.png"><img src="http://baham.co/wp-content/uploads/2012/08/security.png" alt="安全-learn to hack-如何成为黑客" /></a>攻击服务器</strong>、<strong>爆破密码</strong>、<strong>利用漏洞</strong>、<strong>破解加密</strong>，和所有一切保护你图里邪恶的东西。</p>
 
-<!--more-->
+<p>安全的计算机需要两种规则可以实现，</p>
+
+<ol>
+<li><p> <strong>不买，</strong></p></li>
+<li><p> <strong>买来计算机后，不去开机</strong></p></li>
+</ol>
 
 
-<p><img src="http://www.ituring.com.cn/bookcover/1342.583.jpg" alt="Manong10" /></p>
+<p>打破其中任何一条，你就将面临着安全问题。在黑客眼里，没有一台计算机是100%安全的，但是你只需要简单几步，就能让你的计算机更难被破坏。</p>
 
-<p><img src="http://www.ituring.com.cn/bookcover/1372.655.jpg" alt="Manong11" /></p>
+<p><strong>黑客行为</strong>是一门获取本没有访问权限的计算机系统权限的艺术，其间需要利用bug，本文将向您展示两种达到目的的方法，并且将教你如何避免成为受害者，我们将通过获取<strong>root权限</strong>（类Unix系统中最高权限）的方式达到我们想做的一切-<strong>盗取信息</strong>、<strong>破坏硬件</strong>。<!-- more --></p>
 
-<p><a href="http://www.ituring.com.cn/book/1342">V10</a> &mdash;New Year Special Version</p>
+<p>攻击是在真实的Linux系统上进行的，阅读下文找出黑客们如何窃取你的信息以及如何劫持你的计算机-然后学会如何保护好自己的系统。<strong>因为想保护好自己，就应该知道保护自己的什么。</strong></p>
 
-<p><a href="http://www.ituring.com.cn/book/1372">V11</a></p>
+<blockquote><p>提醒，请进在家里进行试验</p></blockquote>
+
+<p>我们必须清醒的认识到，破坏计算机系统是违法的，你不可以去破坏或者偷取数据，因为这样做可能会给你带来麻烦。</p>
+
+<p>在多数国家，尝试去破坏计算机系统是一项严重的罪行。</p>
+
+<p>幸运的是，虚拟机让我们可以在一台电脑上开始测试黑客的过程，正如我们所演示的那样。</p>
+
+<p>如果你的家里有局域网连接，也可以在多台电脑上进行测试，演练攻击，以免自己日后被攻击。</p>
+
+<p>但是如果你使用这些技术区攻击一个正在运行的服务器，除非你有该机器的所有权，否则您将因此承担严重的法律后果，不要做这种傻事。</p>
+
+<h1> 攻击服务器：</h1>
+
+<p>当人们想到黑客行为是，首先想到的画面是，某个人的电脑通过网络连接着已经被攻击并获取了权限的其他电脑。</p>
+
+<p>这个就称为攻击服务器。此处，我们使用<a href="http://www.backtrack-linux.org">BackTrack</a>（Baham注：一款重视安全技术的Linux发行版）进行一次特殊的<strong>渗透测试</strong>（攻击自己的系统）。</p>
+
+<p>一款虚拟的镜像系统<a href="https://www.offensive-security.com/metasploit-unleashed/Main_Page">Metasploitable</a>（Baham注：一款虚拟机软件，常用于安全测试）,特点是容易被攻击，将成为受害者。</p>
+
+<p>Metasploit Framework是一款集<strong>漏洞</strong>、<strong>后门</strong>、<strong>系统扫描</strong>、<strong>有效载荷测试</strong>于一身的工具。它是一款命令行工具，但我们可以使用图形界面。</p>
+
+<ol>
+<li><p> 在Backtrack上，运 行Applications> BackTrack > Exploitation Tools > Network Exploitation Tools > Metasploit Framework > Armitage，在新窗口，点击Start MSF，然后等待主窗口打开。</p></li>
+<li><p> 然后点击Hosts > Nmap Scan > Intense Scan,按提示输入Ip范围192.168.56.0/24（提醒，如果您更改过VirtualBox的DHCP服务器设置，您需要更改为相应值），然后等待直到程序提示你扫描完成。</p></li>
+</ol>
+
+
+<p>这将找到我们的所有主机，一个是使用的主机，一个是<strong>DHCP服务器</strong>，一个是<strong>Backtrack</strong>，一个是Metasploitable，进入Attracks> Find Attacks > By Port，找到我们可以发动攻击的主机，等待知道我们得到信息“Attack Analysis Complete（攻击分析完成）”</p>
+
+<p>攻击最困难的部分是得知<strong>如何利用漏洞</strong>，此处我们得知受害者使用的是<a href="http://info.tiki.org/"><strong>TikiWiki</strong></a>(有PHP漏洞让我们释放代码)。</p>
+
+<p>[<img src="http://baham.co/wp-content/uploads/2012/08/LXF154.feat_hacklinux.hack1_-300x211.jpg" alt="Learn to hack-成为一个黑客" />]</p>
+
+<ol>
+<li><p> 右键单击Metasploitable host（如果不确定哪一个是，可以在Terminal（终端）中输入<em>ifconfig</em>，将返回当前BackTrack的ip，主机会是 192.168.56.1，DHCP会是192.168.56.100，另一个就是Metasploitable server的）</p></li>
+<li><p> 点击Attack > webapp > Tikiwiki_graph_formula_exec，确认LHOST设置成BackTrack的ip</p></li>
+<li><p> 然后点击Launch，注入工具运行之 后，Host图标处将变为红色以示成功</p></li>
+<li><p> 右键单击host地址，点击Shell>interact</p></li>
+</ol>
+
+
+<p>将会打开一个标签，一个最小化的Shell就会运行在被攻击系统上，输入whoami会告诉你被劫持的用户www-date目录，这个shell收到诸多限制，您甚至不能使用cd（Baham注：linux中切换目录的命令），但可以使用通过别的方式获取一些信息，如：</p>
+
+<blockquote><p>ls /home</p></blockquote>
+
+<p>未完待续</p>
+
+<p><a href="http://www.tuxradar.com/content/learn-hack/">英文版原文地址</a></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[I got a cold these days]]></title>
-    <link href="http://baham.co/01_26_i-got-a-cold-these-days.html"/>
-    <updated>2014-01-26T09:35:00+00:00</updated>
-    <id>http://baham.co/i-got-a-cold-these-days</id>
-    <content type="html"><![CDATA[<p>It seems that this is the first article in 2014 {or in China we call it horse year}.</p>
+    <title type="html"><![CDATA[码农电子杂志第一期，图灵社区出品]]></title>
+    <link href="http://baham.co/07_20_51.html"/>
+    <updated>2012-07-20T09:32:53+00:00</updated>
+    <id>http://baham.co/51</id>
+    <content type="html"><![CDATA[<p><img src="http://baham.co/wp-content/uploads/2012/07/%E5%9B%BE%E7%81%B5%E7%A4%BE%E5%8C%BA-%E5%9B%BE%E4%B9%A6-%E7%A0%81%E5%86%9C-%E7%AC%AC1%E6%9C%9F-Mozilla-Firefox_2012-07-20_09-18-22.png" alt="码农电子杂志" /> 码农第一期</p>
 
-<p>These days I got cold. And I felt week, and I got a fever.</p>
+<p>该图片来自图灵<a href="http://www.ituring.com.cn/book/1074#jtss-tsina">社区截图</a></p>
 
-<p><img src="/images/t.jpeg" alt="fever" /></p>
-
-<!--more-->
+<!-- more -->
 
 
-<p>感冒了，加上之前考试，博客停更了很久。</p>
+<h1>码农内容梗概</h1>
 
-<p>之前的感冒今天才见好，为了体现科学钻研之精神，特把几日体温波动图呈现出来。</p>
-
-<p>像在《游子吟》中说的，<strong>上帝让我们通过圣经和科学认识自然。</strong></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[码农第九期]]></title>
-    <link href="http://baham.co/12_22_ma-nong-di-jiu-qi.html"/>
-    <updated>2013-12-22T14:17:00+00:00</updated>
-    <id>http://baham.co/ma-nong-di-jiu-qi</id>
-    <content type="html"><![CDATA[<p>码农第九期出版：</p>
-
-<!--more-->
-
-
-<p><img src="http://www.ituring.com.cn/bookcover/1319.959.big.jpg" alt="mn9" /></p>
-
-<p><a href="http://www.ituring.com.cn/book/1319">Download</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[码农第八期-面试]]></title>
-    <link href="http://baham.co/10_26_ma-nong-di-ba-qi-mian-shi.html"/>
-    <updated>2013-10-26T23:36:00+00:00</updated>
-    <id>http://baham.co/ma-nong-di-ba-qi-mian-shi</id>
-    <content type="html"><![CDATA[<p><img src="http://baham.co/images/mn8.jpeg" alt="tp" /></p>
-
-<!--more-->
+<ul>
+<li><p> 所谓码农</p></li>
+<li><p> 对话归隐的大师——Donald E. Knuth（高德纳）</p></li>
+<li><p> 关于TAOCP中用集合论对算法进行严格数学定义的理解</p></li>
+<li><p> 海量用户积分排名算法探讨</p></li>
+<li><p> 图说归并排序</p></li>
+<li><p> 终身Coder，可以吗？</p></li>
+<li><p> Matrix67的Aha！Moment</p></li>
+<li><p>  柳泽大辅谈如何想出好创意</p></li>
+<li><p>  移动为什么重要？</p></li>
+<li><p>  Android 应用该是个啥样子？</p></li>
+<li><p> 为什么Pinterest是最让人失望的社交网络?</p></li>
+<li><p>   JavaScript并行运算新机遇——Web Workers的神奇魔法</p></li>
+<li><p>  别把自己当个超人——给初级程序员的⼀一点小小建议</p></li>
+</ul>
 
 
-<p><img src="http://www.ituring.com.cn/bookcover/1277.357.big.jpg" alt="tp2" /></p>
-
-<p><a href="http://www.ituring.com.cn/book/download/ee00e482-c104-4c34-a286-c523856260a9">download</a></p>
+<p>码农第一期 <a href="http://www.ituring.com.cn/book/download/cedd7a8b-3a98-493a-a8b2-710b162af9af">下载****</a></p>
 ]]></content>
   </entry>
   

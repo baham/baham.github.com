@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Software | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/software/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-04-08T00:59:29+00:00</updated>
+  <updated>2015-05-12T01:02:16+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,57 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Goldendict Support Mdx]]></title>
-    <link href="http://baham.co/09_11_goldendict-support-mdx.html"/>
-    <updated>2014-09-11T12:14:00+00:00</updated>
-    <id>http://baham.co/goldendict-support-mdx</id>
-    <content type="html"><![CDATA[<p>I started to use <a href="http://goldendict.org/">goldendict</a> since stardict is down. Maybe it is the best dict software on Linux.</p>
-
-<p>So I still keep using it.</p>
-
-<p>But I do not notice which time godendict started to supprot mdx. You know it is very strong, .mdx dictionary.</p>
-
-<p>Because since <a href="http://www.octopus-studio.com/">Rayman Zhang</a> created this software. Lots of men create the dictionaries for mdict with .mdx.</p>
-
-<p>I use the mdict since years ago, that time I still use the windows mobile smart phone.</p>
-
-<!--more-->
-
-
-<p>These days, I got a new pc from the compony for work, so I want to install golden dict on windows too. But I found the version I downloaded is still 1, and vesion 1 did not support mdx. So I found this link, the goldendict&rsquo;s early access build for windows.</p>
-
-<p><a href="https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Windows">goldendict 1.5 rc</a></p>
-
-<p>Enjoy it!</p>
-
-<p>And, source code here <a href="https://github.com/goldendict/goldendict/">goldendict source code</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[还在用360吗？试试新加坡Toolwiz的ToolwizCare吧。]]></title>
-    <link href="http://baham.co/12_05_738.html"/>
-    <updated>2012-12-05T22:19:40+00:00</updated>
-    <id>http://baham.co/738</id>
-    <content type="html"><![CDATA[<p><a href="http://baham.co/wp-content/uploads/2012/12/toolwizcare.png"><img src="http://baham.co/wp-content/uploads/2012/12/toolwizcare-300x198.png" alt="toolwizcare主界面" /></a></p>
-
-<p>小清新的界面，不像国产安全软件一样，喜欢打仗。</p>
-
-<p>全球装机量不断提升。</p>
-
-<p>是时候让他也回到中国了。</p>
-
-<p>Toolwiz Care 创建之初就是模仿国内的安全辅助软件。</p>
-
-<p>比如开机时间、温度条、密盘、还有图片编辑器（仿美图秀秀）……</p>
-
-<p>甚至界面上显示位置都和360很像。</p>
-
-<p>看一款国外克隆国内软件的软件，真是别有一番风味。</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[GraphChi—让你迅速提升计算机性能]]></title>

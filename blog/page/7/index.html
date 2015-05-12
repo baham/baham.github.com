@@ -35,7 +35,7 @@
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-33861107-1']);
+    _gaq.push(['_setAccount', '0']);
     _gaq.push(['_trackPageview']);
 
     (function() {
@@ -90,7 +90,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/07_10_toefl-test-i-took.html">Toefl Test I Took.</a></h1>
+      <h1 class="entry-title"><a href="/08_09_408.html">编程练习-递归-野蛮人与传教士</a></h1>
     
     
       <p class="meta">
@@ -106,24 +106,134 @@
   
 
 
-<time datetime="2014-07-10T08:02:00+00:00" pubdate data-updated="true">Jul 10<span>th</span>, 2014</time>
+<time datetime="2012-08-09T22:29:25+00:00" pubdate data-updated="true">Aug 9<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>This is my first time to take Toefl Test. After I graduated and left the camp. I prepared for the toefl test. But I didn&rsquo;t prepared it well. I even not finished the one whole office guide test. It is really a pity. Wahtever, the porpose I take it is just verified my English skill, although the scores did not public, but the I achive the porpose, my English-skill is bad.</p>
+  <div class="entry-content"><p>三个传教士与三个野蛮人同时来到河边，发现只有一条可以同时搭载两人 的小船。而如果任何一边的野蛮人数多于传教士，传教士就会死掉。编写程序，解决<strong>传教士和野蛮人</strong>的过河问题。
+ <p class='post-footer' style="font-size:70%;" ></p>
 
-<p>What I need do is learning and practicing.</p>
+<br/>
 
-<p>The 4 parts in toefl, I nearlly did not finished one of them well.</p>
 
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="/08_09_408.html">http://baham.co/08_09_408.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
 </div>
   
   
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/08_09_405.html">《Building Java Programs》-递归小结</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-09T22:18:36+00:00" pubdate data-updated="true">Aug 9<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><strong>递归</strong>（Recursion）是一种是一个方法调用本身的算法。一个方法若使用递归，那么它就是一个<strong>递归方法</strong>。</p>
+
+<p><strong>递归方法</strong>包含两种情况：不用递归即可直接解决的<strong>基本情况</strong>（base case），以及需要使用递归调用简化问题的<strong>递归情况</strong>（recursive case）。</p>
+
+<p><strong>递归方法</strong>的调用通过在内部把每次调用的信息存储在一种叫做<strong>调用栈</strong>（call stack）的结构中来工作。当一个方法调用它本身时，关于这次调用的信息借置于<strong>调用栈</strong>的顶部。当一个方法调用结束时，程序将从<strong>调用栈</strong>中清除有关它的信息，并返回执行上一次调用。</p>
+
+<p>一个<strong>递归方法</strong>如果没有基本情况，或它的递归情况不能合理的转化为基本情况，就会导致<strong>无穷递归</strong>的出现。</p>
+
+<p>递归可以被用来绘制具有复杂特征的图形，包括<strong>分形图形</strong>。分形图形是具有相似特征的<strong>递归图形</strong>，通常被认为是“无限的复杂”。
+ <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="/08_09_405.html">http://baham.co/08_09_405.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/08_09_402.html">编程练习-稳定婚姻问题（Stable Marriage）</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-09T22:06:35+00:00" pubdate data-updated="true">Aug 9<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>对于给定的一群男女，在他们当中建立尽可能多的<strong>稳定婚姻</strong>。如果现在一对夫妻能找到比他们的配偶更适合的异性，则他们的混为<strong>不稳定婚姻</strong>。</p>
+
+<p>输入文件中所有男人信息放在一起，没人一行，然后是空行，后面是女人的信息，也是没人一行。每个人根据他们的行号进行编号（如，第一个男人为1号）。输入文件的每一行的开头都是人命（男女间空行除外），后面是冒号，在后面是<strong>一串整数</strong>，用以保存每个人对配偶的偏好。例如：</p>
+
+<p>Java: 10 8 5 6</p>
+
+<p>名为<strong>Java</strong>的人，和异性中10号是最好的组合，8号其次，不再列表上的无法组合。</p>
+
+<p>完整示例如下：</div>
+  
+  
     <footer>
-      <a rel="full-article" href="/07_10_toefl-test-i-took.html">Read on &rarr;</a>
+      <a rel="full-article" href="/08_09_402.html">Read on &rarr;</a>
     </footer>
   
 
@@ -135,7 +245,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/07_08_the-train-to-the-dandong.html">The Train to the Dandong</a></h1>
+      <h1 class="entry-title"><a href="/08_07_398.html">Java集合框架练习-计算素数</a></h1>
     
     
       <p class="meta">
@@ -151,24 +261,35 @@
   
 
 
-<time datetime="2014-07-08T01:55:00+00:00" pubdate data-updated="true">Jul 8<span>th</span>, 2014</time>
+<time datetime="2012-08-07T20:06:05+00:00" pubdate data-updated="true">Aug 7<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p> I bought a train ticket from Heb to Dandng, though I can not get on the car in Heb City. Because I found I can buy a sleeper ticket from Heb, not from my hometown. So I bought this ticket.</p>
+  <div class="entry-content"><h2>要求：</h2>
 
-<p>A few days later, when I went to get the ticket, I found I mmade a mistake, the ticket I bought is a student ticket. But you know I am not a student anymore. So the functionary asked me for the student card, I could not gave it. So what I can do is getting a refund for the ticket. And buy a chair ticket from my hometown. What the puzzle I will face with is I need sit on a chair more than 9 hours during the night. It will make me tired.</p>
+<ul>
+<li><p>使用<strong>链表</strong>（LinkedList）；</p></li>
+<li><p>使用“<strong>埃拉托塞尼筛法</strong>”（源自古希腊数学家Eratosthenes）。使用两个列表，一个存储所有待检查数（要求第一个数必须为素数），一个存储发现的素数。步骤如下：</p></li>
+</ul>
 
-<p>Before I leaving home, I pray to God for my travel, my safety  and my job.</p>
 
-<p>I arrived at railway station about 6 pm, but the arrving in the raiway&rsquo;s time is about 5 hours later. So I went to Wanda Cinema to watch <em>Transform 4</em>. Though the ticket is expensive.</div>
+<blockquote><ol>
+<li><p> 第一步是将数字列表中第一个书删除并将其加入素数列表；</p></li>
+<li><p> 将列表中所有被删除输的数的倍数删除；</p></li>
+<li><p> 删除下一个素数并将其加入素数列表，然后重复第二步。</p></li>
+</ol>
+</blockquote>
+
+<h2>示例：</h2>
+
+</div>
   
   
     <footer>
-      <a rel="full-article" href="/07_08_the-train-to-the-dandong.html">Read on &rarr;</a>
+      <a rel="full-article" href="/08_07_398.html">Read on &rarr;</a>
     </footer>
   
 
@@ -180,7 +301,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/07_01_smart-phone.html">Smartphone</a></h1>
+      <h1 class="entry-title"><a href="/08_07_395.html">List、Set和Map之间的比较</a></h1>
     
     
       <p class="meta">
@@ -196,116 +317,38 @@
   
 
 
-<time datetime="2014-07-01T08:59:00+00:00" pubdate data-updated="true">Jul 1<span>st</span>, 2014</time>
+<time datetime="2012-08-07T11:25:56+00:00" pubdate data-updated="true">Aug 7<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>My old android phone is broken, it can not start up. I did not know why? Because when I pluged in its battery on the night. It still could work. But when I wake up, it could not start up.</p>
+  <div class="entry-content"><h1>列表、数学集合、映射（List、Set和Map）对比</h1>
 
-<p>So I just found out my old Windows Mobile phone, my first smart phone with 64Mhz cpu and 64M ram, but it rum more smoothly than most cheap android phones.</p>
+<h1>List</h1>
 
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/07_01_smart-phone.html">Read on &rarr;</a>
-    </footer>
-  
+<h2>实现</h2>
 
+<p>ArrayList、LinkedList</p>
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/06_25_first-time-to-read-all-contents-of-bible.html">First Time to Read All Contents of Bible</a></h1>
-    
-    
-      <p class="meta">
-        
+<h2>描述/优点</h2>
 
+<p>元素按照插入顺序排列</p>
 
+<h2>缺点</h2>
 
+<p>查询速度慢，在任意位置插入、删除元素也很慢</p>
 
+<h2>使用实例</h2>
 
-
-
-
-  
-
-
-<time datetime="2014-06-25T12:50:00+00:00" pubdate data-updated="true">Jun 25<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Tonight, I read the <em>Malachi</em>, the last one in Old Testament.</p>
-
-<p>Since September 2013, I started to read Bible. And I finshed reading all content of Holy Bible.</p>
-
-<p>Write this post to remember this day.</p>
+<p>账户列表、等待队列、文件中的内容行。</p>
 
 </div>
   
   
     <footer>
-      <a rel="full-article" href="/06_25_first-time-to-read-all-contents-of-bible.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/06_25_back-home.html">Back Home</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-06-25T07:32:00+00:00" pubdate data-updated="true">Jun 25<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>The school ask us to leave by 6.23, I left at June 23. I wanted to leave at 21. But I change the plan to decide to leave at 6.23.</p>
-
-<p>I took the railway and the taxi to home.</p>
-
-<p>There are cleaner air in hometown than Xuzhou or other cities I had visited in China.</p>
-
-<p>But you know the time to work is coming. So there is not much time for me to stay in hometown. And I still had a Toefl test to take.</p>
-
-<h2>Guy from South China on Railway</h2>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/06_25_back-home.html">Read on &rarr;</a>
+      <a rel="full-article" href="/08_07_395.html">Read on &rarr;</a>
     </footer>
   
 
@@ -341,90 +384,90 @@
     <h2 class="panel-title">Category Cloud</h2>
   </div>
 <div id="recent_posts" class="list-group">
-	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 124.0%'>Announcement(12)</a> <a href='/blog/categories/baham' style='font-size: 128.0%'>Baham(14)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 114.0%'>Blender(7)</a> <a href='/blog/categories/book' style='font-size: 114.0%'>Book(7)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 114.0%'>CUMT(7)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 148.0%'>Faith(24)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 134.0%'>Geek(17)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 104.0%'>Google(2)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/harmonica' style='font-size: 102.0%'>Harmonica(1)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 124.0%'>Job(12)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 130.0%'>Memo(15)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 118.0%'>Mineral Processing(9)</a> <a href='/blog/categories/mooc' style='font-size: 110.0%'>MOOC(5)</a> <a href='/blog/categories/movie' style='font-size: 112.0%'>Movie(6)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 128.0%'>Octopress(14)</a> <a href='/blog/categories/python' style='font-size: 102.0%'>Python(1)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 106.0%'>Software(3)</a> <a href='/blog/categories/technology' style='font-size: 104.0%'>Technology(2)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/teofl' style='font-size: 102.0%'>Teofl(1)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 128.0%'>Travel(14)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 112.0%'>Video(6)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
+	<span id="tag-cloud"><a href='/blog/categories/announcement' style='font-size: 107.5%'>Announcement(2)</a> <a href='/blog/categories/baham' style='font-size: 115.0%'>Baham(4)</a> <a href='/blog/categories/baham-studio' style='font-size: 115.0%'>Baham Studio(4)</a> <a href='/blog/categories/bible' style='font-size: 107.5%'>Bible(2)</a> <a href='/blog/categories/blender' style='font-size: 107.5%'>Blender(2)</a> <a href='/blog/categories/book' style='font-size: 107.5%'>Book(2)</a> <a href='/blog/categories/cg' style='font-size: 103.75%'>CG(1)</a> <a href='/blog/categories/code' style='font-size: 115.0%'>Code(4)</a> <a href='/blog/categories/edu' style='font-size: 111.25%'>EDU(3)</a> <a href='/blog/categories/game' style='font-size: 118.75%'>Game(5)</a> <a href='/blog/categories/game-theory' style='font-size: 103.75%'>Game Theory(1)</a> <a href='/blog/categories/geek' style='font-size: 111.25%'>Geek(3)</a> <a href='/blog/categories/hack' style='font-size: 103.75%'>Hack(1)</a> <a href='/blog/categories/java' style='font-size: 148.75%'>Java(13)</a> <a href='/blog/categories/java-zone' style='font-size: 103.75%'>Java Zone(1)</a> <a href='/blog/categories/linux' style='font-size: 118.75%'>Linux(5)</a> <a href='/blog/categories/memo' style='font-size: 126.25%'>Memo(7)</a> <a href='/blog/categories/movie' style='font-size: 103.75%'>Movie(1)</a> <a href='/blog/categories/software' style='font-size: 103.75%'>Software(1)</a> <a href='/blog/categories/ted' style='font-size: 103.75%'>TED(1)</a> <a href='/blog/categories/thinking' style='font-size: 107.5%'>Thinking(2)</a> <a href='/blog/categories/tips' style='font-size: 160.0%'>Tips(16)</a> <a href='/blog/categories/translation' style='font-size: 103.75%'>Translation(1)</a> <a href='/blog/categories/utb' style='font-size: 107.5%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 107.5%'>Video(2)</a> <a href='/blog/categories/wordpress' style='font-size: 107.5%'>Wordpress(2)</a> </span>
 </div>
 </section><section>
   <h2>Recent Posts</h2>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/04_07_domain-on-sale.html">Domain On Sale</a>
+        <a href="/11_28_730.html">为什么《人民日报》会引用洋葱的新闻报道？</a>
       </li>
     
       <li class="post">
-        <a href="/11_27_the-dogs-and-the-smile.html">The Dogs and The Smile</a>
+        <a href="/11_23_724.html">电影泰迪熊穿帮镜头</a>
       </li>
     
       <li class="post">
-        <a href="/11_23_the-cross.html">The Cross</a>
+        <a href="/11_07_718.html">如何删除libgooglepinyin和ibus-googlepinyin</a>
       </li>
     
       <li class="post">
-        <a href="/11_16_waiting-in-the-jining-nan-station.html">Waiting in the Jining Nan Station</a>
+        <a href="/11_05_705.html">如何培养出人才</a>
       </li>
     
       <li class="post">
-        <a href="/11_12_mongolia.html">Mongolia</a>
+        <a href="/11_05_690.html">GooglePlay上四款很棒的圣经软件</a>
       </li>
     
       <li class="post">
-        <a href="/11_06_360wifi-be-evil.html">360wifi be evil</a>
+        <a href="/11_05_687.html">Ubuntu基督教版-Ubuntu Christian Edition</a>
       </li>
     
       <li class="post">
-        <a href="/11_02_travel-to-donggang-by-bicycle.html">Travel To Donggang by Bicycle</a>
+        <a href="/11_05_680.html">英皇钦定版圣经(JKV)-中英epub电子书下载</a>
       </li>
     
       <li class="post">
-        <a href="/11_01_model-thinking-on-coursera.html">Model Thinking on coursera</a>
+        <a href="/11_01_673.html">骑马与砍杀-骑射教程（视频）</a>
       </li>
     
       <li class="post">
-        <a href="/11_01_use-cloudflare-as-the-sites-cdn-again.html">Use CloudFlare as the site&#8217;s CDN again</a>
+        <a href="/10_27_658.html">娱乐之上-江南Style大集合</a>
       </li>
     
       <li class="post">
-        <a href="/10_28_2-movies-i-watched-these-days.html">2 movies I watched these days</a>
+        <a href="/10_21_651.html">纪念文章-Baham Blog 第一篇通过客户端发布的博文</a>
       </li>
     
       <li class="post">
-        <a href="/10_28_the-third-time-a-cowork-advise-me-to-do-research-direction.html">The Third Time a cowork advise me to do research direction</a>
+        <a href="/10_08_645.html">莫言不会成为诺贝尔文学奖得主</a>
       </li>
     
       <li class="post">
-        <a href="/10_28_dr-gaos-report.html">Dr Gao&#8217;s report</a>
+        <a href="/10_06_626.html">骑马与砍杀：战团-各城市产出列表</a>
       </li>
     
       <li class="post">
-        <a href="/10_28_chinas-transgenic-calibration.html">China&#8217;s Transgenic Calibration</a>
+        <a href="/10_06_632.html">有机化学简明教程-天津大学出版社-课后习题-答案</a>
       </li>
     
       <li class="post">
-        <a href="/10_09_model-thinking-universoty-of-michigan.html">Notes 1 of Model Thinking -Universoty of Michigan</a>
+        <a href="/09_24_611.html">骑马与砍杀-战团：沙瑞兹帝国的崛起-自立建国经验分享</a>
       </li>
     
       <li class="post">
-        <a href="/10_01_the-octobor-1st.html">On The Road</a>
+        <a href="/09_15_601.html">Blender快捷键汇总</a>
       </li>
     
       <li class="post">
-        <a href="/09_30_catching-crabs.html">Catching Crabs</a>
+        <a href="/09_14_595.html">Blender视频教程收集整理</a>
       </li>
     
       <li class="post">
-        <a href="/09_18_a-bad-word.html">A Bad Word</a>
+        <a href="/09_14_583.html">初学Blender-图片分享</a>
       </li>
     
       <li class="post">
-        <a href="/09_11_goldendict-support-mdx.html">Goldendict Support Mdx</a>
+        <a href="/09_14_577.html">加强Wordpress安全的18条建议</a>
       </li>
     
       <li class="post">
-        <a href="/09_03_the-second-business-trip.html">The Second Business Trip</a>
+        <a href="/09_13_557.html">博客改动了一部分</a>
       </li>
     
       <li class="post">
-        <a href="/08_24_about-the-magazine-ma-nong.html">About the magazine Ma Nong</a>
+        <a href="/08_26_470.html">JavaDoc注释详解</a>
       </li>
     
   </ul>
@@ -444,6 +487,18 @@
 <li><a target="_blank" rel="friend" href="http://maykiller.com/">MayKiller</a></li>
 <i><a href="/verse">Read It</a></i>
 </p-->
+</div>
+<div>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ad1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6795880663015971"
+     data-ad-slot="3753558442"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 </div>
 </section><section class="panel panel-default">
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />

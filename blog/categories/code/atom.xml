@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Code | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/code/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-04-08T00:59:29+00:00</updated>
+  <updated>2015-05-12T01:02:16+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,216 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[一元线性回归分析]]></title>
-    <link href="http://baham.co/06_25_%5B%3F%5D-yuan-xian-xing-hui-gui-fen-xi.html"/>
-    <updated>2013-06-25T23:09:00+00:00</updated>
-    <id>http://baham.co/[?]-yuan-xian-xing-hui-gui-fen-xi</id>
-    <content type="html"><![CDATA[<p>输入两组数据xi,yi，计算回归方程系数a,b，以及回归平方和U、剩余平方和Q。</p>
-
-<p>采取相关系数检验法和F检验法对线性拟合程度进行检验，随后查表即可得到拟合程度。</p>
-
-<!--more-->
-
-
-
-
-<pre><code>
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>YiYuanXianXingHuiGuiFenXi</title>
-        <!--link rel="stylesheet" type="text/css" href="stylesheet.css" /-->
-        <script type="text/javascript" src="http://baham.co/javascripts/line.js"></script>
-    </head>
-    <body>
-        <p>
-            xi:
-        </p>
-        <textarea id="ta1" rows ="16"></textarea>
-        <p> yi:</p>
-        <textarea id="ta2" rows="16"></textarea>
-        <br/>
-        <input type="button" onclick="fnRun()" value="start"/>
-        <div >
-
-        </div>
-    </body>
-</html>
-</code></pre>
-
-
-<p><a href="https://github.com/minghub/line.git">gitclone</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[重选模拟-重选数学模型]]></title>
-    <link href="http://baham.co/06_25_zhong-xuan-mo-ni-zhong-xuan-shu-xue-mo-xing.html"/>
-    <updated>2013-06-25T23:05:00+00:00</updated>
-    <id>http://baham.co/zhong-xuan-mo-ni-zhong-xuan-shu-xue-mo-xing</id>
-    <content type="html"><![CDATA[<p>给定块煤、末煤的灰分、产率数据，数据所要求产品会分，计算出块煤、末煤产率。</p>
-
-<p>用到“三点插值”，“二分法”，“分配曲线正态分布模型”等知识。</p>
-
-<!--more-->
-
-
-<pre><code>
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>hjzy</title>
-        <!--link type="text/css" rel="stylesheet" href="stylesheet.css"/-->
-        <script type="text/javascript" src="javascripts/gss.js"></script>
-    </head>
-    <body>
-        <p>Cube:</p>
-        <textarea id="ta1"  rows="8"></textarea>
-        <br/>
-        <p>Dust:</p>
-        <textarea id="ta2" rows="8"></textarea>
-        <br/>
-        <input type="button" id ="bt" onclick="fnRun();"  value="Start"/>
-        <div id="d" >
-
-            <br/>
-        </div>
-    </body>
-</html>
-</code></pre>
-
-
-<p><a href="https://github.com/minghub/gss.git">github clone</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[呼叫转移系统-源代码-伯乐在线编程挑战赛]]></title>
-    <link href="http://baham.co/06_15_hu-jiao-zhuan-yi-xi-tong-yuan-dai-ma-bo-le-zai-xian-bian-cheng-tiao-zhan-sai.html"/>
-    <updated>2013-06-15T22:37:00+00:00</updated>
-    <id>http://baham.co/hu-jiao-zhuan-yi-xi-tong-yuan-dai-ma-bo-le-zai-xian-bian-cheng-tiao-zhan-sai</id>
-    <content type="html"><![CDATA[<p>题目要求是，做一个呼叫转移系统，最好是可以避免无限循环（输入数据是避免的，最好加对无限循环的检测）。</p>
-
-<p>示例如图：
-<img src="/images/boleex.png" alt="shili" /></p>
-
-<!--more-->
-
-
-<p>具体可以参见 <a href="http://blog.jobbole.com/41204/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=%25e4%25bc%25af%25e4%25b9%2590%25e5%259c%25a8%25e7%25ba%25bf%25e7%25bc%2596%25e7%25a8%258b%25e6%258c%2591%25e6%2588%2598%25e7%25ac%25ac-0-%25e6%259c%259f-%25e5%2591%25bc%25e5%258f%25ab%25e8%25bd%25ac%25e7%25a7%25bb%25e7%25b3%25bb%25e7%25bb%259f">这里</a></p>
-
-<p>闲话少续，我的代码：</p>
-
-<pre><code>
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>hjzy</title>
-        <!--link type="text/css" rel="stylesheet" href="stylesheet.css"/-->
-        <script type="text/javascript" src="javascripts/hjzy.js"></script>
-    </head>
-    <body>
-        <textarea id="ta1"  rows="16"></textarea>
-        <br/>
-        <input type="button" id ="bt" onclick="fnRun();"  value="Start"/>
-        <div id="d" >
-            Output Here:
-        </div>
-    </body>
-</html>
-
-
-</code></pre>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[第一个JavaScript项目-用于矿物粒度分析]]></title>
-    <link href="http://baham.co/05_24_di-%5B%3F%5D-ge-javascriptxiang-mu-yong-yu-kuang-wu-li-du-fen-xi.html"/>
-    <updated>2013-05-24T23:48:00+00:00</updated>
-    <id>http://baham.co/di-[?]-ge-javascriptxiang-mu-yong-yu-kuang-wu-li-du-fen-xi</id>
-    <content type="html"><![CDATA[<h2>原理</h2>
-
-
-<p>通过线性回归，将一元非线性化为线性进行分析。用到了两个公式，分别是<strong>高登-安德列夫公式</strong>及<strong>洛辛-拉姆勒公式</strong></p>
-
-<p>在codecademy上，大概用了10天时间学习JavaScript。</p>
-
-<p>都说JS是面向非程序员的语言，做过<a href="http://codecademy.com">CodeCademy</a>上所有课程之后，发现，JS确实挺简单。</p>
-
-<p>闲话少续，直入正题。</p>
-
-<h2>特性</h2>
-
-
-<p>通过对课本例题数据的模拟，程序功能基本实现。</p>
-
-<p>可以精确计算  相关系数r，剩余平方和Q，剩余均方Segma。</p>
-
-<p>并可求出<strong>高登-安德列夫公式</strong>及<strong>洛辛-拉姆勒公式</strong>系数，但是默认不在输出中显示。</p>
-
-<p>程序还待优化、且需美化输出方式。</p>
-
-<h2>用途</h2>
-
-
-<p>课用于矿物粒度特性分析、模拟，也可用在其他一元非线性关系转化为线性关系的模拟过程（使用以上两个公式的情况）。</p>
-
-<p>支持移动设备访问。</p>
-
-<!--more-->
-
-
-
-
-<pre><code>
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
-<!DOCTYPE html>
-<html>
-    <head>
-       <title>一元非线性可化为线性的回归分析</title>
-      
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        
-     </head>
-    <body id="d">
-
-        
-
-
-        <p>("请严格按照 “数据+空格”格式输入，包括最后一个数据。从最左端开始输入，先筛孔直径(mm)+空格+筛上物累积产率+空格……");</p>
-        <textarea id ="ta1" rows="8"  ></textarea>
-
-        
-       
-       <br />
-       
-       <input type="button"  onclick="run();"  id="bt1" value="Run "/>
-       
-        
-      
-         <script type="text/javascript" src="javascripts/yi2.js"></script>
-         
-         
-        
-      
-    </body>
-     
-</html>
-</code></pre>
-
-
-<p><a href="https://github.com/minghub/ParticleSize.git">github 地址</a>，欢迎Clone。</p>
-
-<p>欢迎交流！！！。</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tic-Tac-Toe-AI-GUI版本]]></title>
@@ -384,6 +174,333 @@ public class TTTUI extends MouseInputAdapter{
 </code></pre>
 
 <p><a href="http://baham.co/wp-files/tttai.zip"> Tic-Tac-Toe-AI_GUI完整源码下载</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Java集合框架练习-计算素数]]></title>
+    <link href="http://baham.co/08_07_398.html"/>
+    <updated>2012-08-07T20:06:05+00:00</updated>
+    <id>http://baham.co/398</id>
+    <content type="html"><![CDATA[<h2>要求：</h2>
+
+<ul>
+<li><p>使用<strong>链表</strong>（LinkedList）；</p></li>
+<li><p>使用“<strong>埃拉托塞尼筛法</strong>”（源自古希腊数学家Eratosthenes）。使用两个列表，一个存储所有待检查数（要求第一个数必须为素数），一个存储发现的素数。步骤如下：</p></li>
+</ul>
+
+
+<blockquote><ol>
+<li><p> 第一步是将数字列表中第一个书删除并将其加入素数列表；</p></li>
+<li><p> 将列表中所有被删除输的数的倍数删除；</p></li>
+<li><p> 删除下一个素数并将其加入素数列表，然后重复第二步。</p></li>
+</ol>
+</blockquote>
+
+<h2>示例：</h2>
+
+<!-- more -->
+
+
+<pre><code>import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Sieve {
+        public static void main(String[] args){
+            System.out.println("This is a program to calculate sieve. You need to input a max number.");
+            Scanner s=new Scanner(System.in);
+            int max=s.nextInt();
+
+            List&lt;Integer&gt; newlst=sieve(max);
+            System.out.println(newlst);
+        }
+
+        private static List&lt;Integer&gt;  sieve(int max) {
+            // TODO Auto-generated method stub
+            LinkedList&lt;Integer&gt; lst=new LinkedList&lt;Integer&gt;();
+            //lst用于保存原数据
+            for (int i=3;i&lt;=max;i+=2){
+                lst.add(i);
+            }
+            //此处为24行
+            List&lt;Integer&gt; newlst=new LinkedList&lt;Integer&gt;();//newlst-素数列表
+            int front=0;
+
+            newlst.add(2);
+            while(!lst.isEmpty()){
+                front=lst.remove(0);//删除列表中第一个数
+                newlst.add(front);//将列表中第一个数加入素数列表
+                if(front&gt;Math.ceil(Math.sqrt(max))){
+                    newlst.addAll(lst);
+                    return newlst;
+                }//第一个元素大于最大值平方根，则将原数据列表中元素全部加入素数列表
+                Iterator&lt;Integer&gt; itr=lst.iterator();//36行，刚开始在此处犯错，见代码块下面
+                while(itr.hasNext()){
+                    int  current= itr.next();
+                    if(current%front==0){
+                        itr.remove();//删除倍数
+                    }
+                }
+            }
+
+            return newlst;
+        }
+}
+</code></pre>
+
+<h2> 迭代器（Iterator）刚开始使用时所犯错误</h2>
+
+<p>刚开始将<strong>迭代器</strong>的声明语句放在了第24行，也就是循环外。</p>
+
+<p>结果返回了如下错误：
+<code>Exception in thread "main" java.util.ConcurrentModificationException
+at java.util.LinkedList$ListItr.checkForComodification(Unknown Source)
+at java.util.LinkedList$ListItr.next(Unknown Source)
+at Sieve.sieve(Sieve.java:38)
+at Sieve.main(Sieve.java:13)</code></p>
+
+<p>翻译为：<strong>并发修改异常</strong>。</p>
+
+<p>后来一想，如果把<strong>迭代器</strong>的声明语句放在循环外，显然在内部while循环结束后，next已经到达尾部，没有下一个元素了，内部循环将会终止，原数据列表永远不为空，将会无限循环下去。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[详解Tic-Tac-Toe人工智能实现]]></title>
+    <link href="http://baham.co/08_02_328.html"/>
+    <updated>2012-08-02T21:12:39+00:00</updated>
+    <id>http://baham.co/328</id>
+    <content type="html"><![CDATA[<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_18-53-21.png" alt="井字棋棋盘 tic-tac-toe 棋盘" /> 井字棋棋盘</p>
+
+<p><strong>Tic-Tac-Toe</strong>又称<strong>井字棋</strong>，即在3X3的棋盘上，双方轮流落子，先将3枚棋子连成一线的一方获得胜利。</p>
+
+<p>Tic-Tac-Toe变化简单，只有765个可能局面，26830个棋局，因此常成为<a href="https://zh.wikipedia.org/wiki/%E5%8D%9A%E5%BC%88%E8%AE%BA">博弈论</a>和<a href="https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E6%A8%B9">游戏树</a>搜寻的教学例子，同时也是<a href="https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD">人工智能</a>的一道好题目。</p>
+
+<h1></h1>
+
+<h1>关于棋盘：</h1>
+
+<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_18-58-43.png" alt="Tic-tac-toe棋盘坐标 井字棋 坐标" /> 井字棋棋盘坐标版</p>
+
+<p>整个棋盘可以连接出<strong>8条线</strong>。<a href="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-12-42.png">tic-tac-toe 井字棋 胜利方式</a>（如右图）&mdash;&mdash;></p>
+
+<p>在中心的位置（2，2）有<strong>四条线</strong>穿过。</p>
+
+<p>在所有棱位（1，2），（2，1），（2，3），（3，2），均有<strong>两条线</strong>穿过。</p>
+
+<p>在所有角位（1，1），（1，3），（3，1），（3，3），均有<strong>三条线</strong>。<!-- more --></p>
+
+<h1>如何实现人工智能：</h1>
+
+<p>在下棋过程中，任何一方无非处于四种状态：</p>
+
+<ol>
+<li><p> 开局落子</p></li>
+<li><p> 第二步棋（先角原则）</p></li>
+<li><p> 攻</p></li>
+<li><p> 守</p></li>
+<li><p> 垃圾时间</p></li>
+</ol>
+
+
+<p>想要实现人工智能，让AI和人正常对弈，必须让AI理解这5种状态。</p>
+
+<h2>开局落子：</h2>
+
+<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-26-48.png" alt="Tic-tac-toe 井字棋 AI先手" /> 井字棋 AI先手[/caption]</p>
+
+<p>开局时，分为两种状况，一是AI先手，二是AI后手。AI先手时，毫无疑问，让AI落子在(2,2)位置（以X表示AI）。如图：</p>
+
+<p>而当AI后手时，玩家可能落子情况有分为三种：</p>
+
+<ol>
+<li><p> 中心位置</p></li>
+<li><p> 棱位</p></li>
+<li><p> 角位</p></li>
+</ol>
+
+
+<h3>1、玩家落子在中心位置：</h3>
+
+<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-34-15.png" alt="tic-tac-toe 井字棋 AI落子棱位" /> 图1[/caption]</p>
+
+<p>此时，AI需要落子在角位。原因在于，如果落子在棱位，将出现如下<strong>必输的情形</strong>，示例如下，AI此时落子在（1，2）位置：玩家只需要在（3，1）或（3，3）位置落子，如图在（3，1），下一步则必须落子在（1，3），对手跟进落子在（1，1），</p>
+
+<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-39-59.png" alt="tic-tac-toe 井字棋 大势已去" />
+——则AI大势已去！</p>
+
+<h3>2、棱位  3、角位</h3>
+
+<p>这两种情形，AI指需要落子在（2，2）位置，便可保无虞，甚至<strong>反守为攻</strong>。</p>
+
+<h2>第二步棋（先角原则）：</h2>
+
+<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_19-12-42.png" alt="tic-tac-toe 井字棋 先角原则" />由上可知，当中心被玩家占据，需要避免上边提到的“<strong>必输的情形</strong>”跟进落子在角上，而非棱上。</p>
+
+<p>而如果，自己占据中心，玩家落子在棱上，根据“必输情形”，此时也应该落在角上，而且如上图图1，应该落子在玩家棋子对面的角位上，此时“必输情形”将属于玩家。</p>
+
+<h2>攻：</h2>
+
+<p>任何<strong>己方</strong>两枚棋子连接在一起，且连线有空位时，落子在空位。</p>
+
+<h2>守：</h2>
+
+<p>任何<strong>玩家</strong>两枚棋子连接在一起，且连线有空位时，落子在空位。</p>
+
+<h2>垃圾时间：</h2>
+
+<p>由于棋盘大小限制，下棋过程中，很容易陷入双方均无法获胜的情况，此时，只需要找个空位随便落子即可。</p>
+
+<h1>特殊情况：</h1>
+
+<p>在以以上方式实现AI时，出现了一种比较特殊情况。即玩家先手，落子在角位以（1，1）为例，AI根据“<strong>开局落子</strong>”的原则3，落子在（2，2）。而玩家在第一步棋子位置（1，1）的对角（3，3）位置落子，</p>
+
+<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_20-13-02.png" alt="Tic-tac-toe-ai 井字棋 特殊情况" /> 井字棋 特殊情况[/caption]</p>
+
+<p>依据“<strong>角先原则</strong>”，AI将落子在（1，3）或（3，1），对方将在（3，1）或（1，3）封堵AI，此时AI便已输了。<img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_20-14-49.png" alt="tic-tac-toe-ai 特殊情况 AI输 井字棋" /></p>
+
+<p>所以，唯有此种情况不能执行“<strong>角先原则</strong>”。</p>
+
+<h1>代码实现：</h1>
+
+<p>其中，以<strong>二维数组</strong>t[3][3]表示棋盘，-1表示AI棋子X，1表示玩家棋子O，</p>
+
+<p>dropPiece(Position p)方法表示落子，Position（int f ,int x,int y）表示棋盘位置，x,y表示坐标值，f取值范围为（-1或1）表示AI或者玩家。下面是AI类主要代码：</p>
+
+<pre><code>public void start(){
+        if(attrack()){//实现攻
+        }else if(defend()){//实现守 
+                }else if(center()){//实现开局落子
+        }else{
+            planB();//实现特殊情况、先角原则及垃圾时间
+        }
+    }//以上方法是AI运行开始的方法
+    public boolean attrack(){
+        return twoPieces(-1);
+
+    }//攻，任何己方两枚棋子连接在一起，且连线有空位时，落子在空位。
+    public boolean defend(){
+        return twoPieces(1);
+
+    }//守，任何对方两枚棋子连接在一起，且连线有空位时，落子在空位。
+ private boolean twoPieces(int f) {
+
+        for(int i=0;i&lt;=t.length-1;i++){
+            if(t[i][0]==t[i][1]&amp;&amp;t[i][0]==f&amp;&amp;t[i][2]==0){
+                b.dropPiece(new PieceLocation(-1,i,2));return true;
+            }else if(t[i][0]==t[i][2]&amp;&amp;t[i][0]==f&amp;&amp;t[i][1]==0){
+                b.dropPiece(new PieceLocation(-1,i,1));return true;
+            }else if (t[i][1]==t[i][2]&amp;&amp;t[i][1]==f&amp;&amp;t[i][0]==0){
+                b.dropPiece(new PieceLocation(-1,i,0));return true;
+            }else if(t[0][i]==t[1][i]&amp;&amp;t[0][i]==f&amp;&amp;t[2][i]==0){
+                b.dropPiece(new PieceLocation(-1,2,i));return true;
+            }else if (t[0][i]==t[2][i]&amp;&amp;t[0][i]==f&amp;&amp;t[1][i]==0){
+                b.dropPiece(new PieceLocation(-1,1,i));return true;
+            }else if(t[1][i]==t[2][i]&amp;&amp;t[1][i]==f&amp;&amp;t[0][i]==0){
+                b.dropPiece(new PieceLocation(-1,0,i));return true;
+            }            
+        }
+        if (t[0][0]==t[1][1]&amp;&amp;t[0][0]==f&amp;&amp;t[2][2]==0){
+            b.dropPiece(new PieceLocation(-1,2,2));return true;
+        }else if(t[1][1]==t[2][2]&amp;&amp;t[1][1]==f&amp;&amp;t[0][0]==0){
+            b.dropPiece(new PieceLocation(-1,0,0));return true;
+        }else if(t[0][2]==t[1][1]&amp;&amp;t[0][2]==f&amp;&amp;t[2][0]==0){
+            b.dropPiece(new PieceLocation(-1,2,0));return true;
+        }else if (t[1][1]==t[2][0]&amp;&amp;t[1][1]==f&amp;&amp;t[0][2]==0){
+            b.dropPiece(new PieceLocation(-1,0,2));return true;
+        }else{
+            return false;
+        }
+    }//包含任何己方两枚棋子连接在一起，且连线有空位的情况
+     //（横向、纵向和斜着的方向）
+   public boolean center(){
+        if(t[1][1]==0){
+            b.dropPiece(new PieceLocation(-1,1,1));return true;
+        }else{
+            return false;
+        }
+    }
+    public void planB(){
+
+        if(t[0][0]==t[2][2]&amp;&amp;t[0][0]==1||t[0][2]==t[2][0]&amp;&amp;t[0][2]==1){
+            if(t[0][2]==0){
+                b.dropPiece(new PieceLocation(-1,0,2));
+            }else{
+                b.dropPiece(new PieceLocation(-1,0,0));
+            }//特殊情况实现代码
+
+        }else if((t[0][1]==1||t[1][2]==1)&amp;&amp;t[2][0]==0){
+            b.dropPiece(new PieceLocation(-1,2,0));
+        }else if((t[1][0]==1||t[2][1]==1)&amp;&amp;t[0][2]==0){
+            b.dropPiece(new PieceLocation(-1,0,2));
+                //以上四行为先角原则的实现 以下为垃圾时间代码实现，即从座至右，
+//从上到下，扫描整个棋盘，然后寻找空位，落子。
+        }else if(t[0][0]==0){
+            b.dropPiece(new PieceLocation(-1,0,0));
+        }else if (t[0][2]==0){
+            b.dropPiece(new PieceLocation(-1,0,2));
+        }else if(t[2][0]==0){
+            b.dropPiece(new PieceLocation(-1,2,0));
+        }else if (t[2][2]==0){
+            b.dropPiece(new PieceLocation(-1,2,2));
+        }else if(t[0][1]==0){
+            b.dropPiece(new PieceLocation(-1,0,1));
+        }else if(t[1][0]==0){
+            b.dropPiece(new PieceLocation(-1,1,0));
+        }else if(t[1][2]==0){
+            b.dropPiece(new PieceLocation(-1,1,2));
+        }else 
+            b.dropPiece(new PieceLocation(-1,2,1));
+        }
+      }
+</code></pre>
+
+<p><a href="/wp-files/Tic-Tac-Toe.jar"> Tic-Tac-Toe-AI Jar文件</a></p>
+
+<p><a href="/wp-files/Tic-Tac-Toe.zip">Tic-Tac-Toe-AI 源码</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iQQ-开源Java版qq客户端]]></title>
+    <link href="http://baham.co/07_29_251.html"/>
+    <updated>2012-07-29T00:42:26+00:00</updated>
+    <id>http://baham.co/251</id>
+    <content type="html"><![CDATA[<p><img src="https://iqq-java.googlecode.com/files/loginProccess.jpg" alt="iQQ登陆界面" />        用过Linux的都知道，QQForLinux处于长期不更新状态，而且存在很多小bug，并且很多QQ该有的功能都没有。于是乎，许多人开始使用第三方QQ插件，比如<a href="http://libqq-pidgin.googlecode.com/">libqq-pidgin</a>，不得不说pidgin是一款很好的IM软件，但libqq-pidgin和QQforLinux一样，很多小问题没有解决。问题主要原因显然不在软件，而在腾讯方面。</p>
+
+<p>今天无意中，看到了iQQ的介绍，这是一个新项目，距离谷歌Code的项目提交只有几天。看了一些iQQ的截图，至少觉着这个图形界面，要比QQforLinux或者其他第三方客户端要好那么一点。</p>
+
+<p>iQQ是一项<strong>开源项目</strong>，源码托管在google code上，基于腾讯<strong>WebQQ 3.0网络协议</strong>，可以通过JRE运行在任何平台上，作者基于Linux(Ubuntu 12.04)系统，使用IDE NetBeans开发。项目伊始，作者（<em>chengnuo128@gmail.com</em>）将源代码公开，希望寻找爱好者一同开发。</p>
+
+<p>截至目前，iQQ仍处于<strong>Beta测试</strong>阶段，通过项目问题也看到，仍有部分小问题没有解决。</p>
+
+<!-- more -->
+
+
+<p>iQQ截图：</p>
+
+<p><img src="https://iqq-java.googlecode.com/files/mainFrame.jpg" alt="xfce ubuntu12.04 iqq客户端" /></p>
+
+<p><img src="https://iqq-java.googlecode.com/files/cap.jpg" alt="" /></p>
+
+<p><img src="https://iqq-java.googlecode.com/files/login.jpg" alt="iQQ登陆界面" /></p>
+
+<p><img src="https://iqq-java.googlecode.com/files/1.jpg" alt="iqq使用界面" /></p>
+
+<p><img src="https://iqq-java.googlecode.com/files/chating.jpg" alt="iqq聊天示例" /></p>
+
+<p>总结来讲，我很看好<strong>iQQ项目</strong>，虽然我还不能为其贡献代码，但真心希望有兴趣者积极参加。没有什么别的原因，只是希望Linux的桌面应用能更丰富。</p>
+
+<p><a href="https://code.google.com/p/iqq/">iqq项目地址</a></p>
+
+<p><a href="https://code.google.com/p/iqq/downloads/detail?name=iQQ_beta1.02.zip&amp;can=2&amp;q=">iqqBeta1.02下载地址</a></p>
+
+<p>获取iqq源代码：</p>
+
+<p><code># Non-members may check out a read-only working copy anonymously over HTTP.
+svn checkout http://iqq.googlecode.com/svn/trunk/ iqq-read-only</code></p>
 ]]></content>
   </entry>
   

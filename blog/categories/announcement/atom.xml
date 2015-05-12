@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Announcement | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/announcement/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-04-08T00:59:29+00:00</updated>
+  <updated>2015-05-12T01:02:16+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -14,104 +14,34 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Domain On Sale]]></title>
-    <link href="http://baham.co/04_07_domain-on-sale.html"/>
-    <updated>2015-04-07T12:56:00+00:00</updated>
-    <id>http://baham.co/domain-on-sale</id>
-    <content type="html"><![CDATA[<p>Last post is months ago. And after I graduated and worked, I have less time to keep my blog updating immediately.</p>
+    <title type="html"><![CDATA[纪念文章-Baham Blog 第一篇通过客户端发布的博文]]></title>
+    <link href="http://baham.co/10_21_651.html"/>
+    <updated>2012-10-21T00:00:59+00:00</updated>
+    <id>http://baham.co/651</id>
+    <content type="html"><![CDATA[<p>下载并使用了Wordpress的客户端，不如在浏览器中功能强大，但是也已经很不错了。</p>
 
-<p>So I decide to sell my domain.</p>
-
-<p>And contents of blog is not on sale. So every visitors can visit the <a href="http://baham.github.io">baham</a> to get the old posts and pages.</p>
-
-<p>After all, octopress was updated to vesion 3. I and my site call for changes too.</p>
-
-<p>More information is at <a href="/sale">domain on sale</a></p>
-
-<!--more-->
-
-
-<p>And ocasionally, I found some blogs link to my posts. It is very meaningful for me. For this said this blog I kept for nearlly 3 year is helpful for someone. This is enough.</p>
+<p>支持 <strong>加粗</strong>，<em>斜体</em>，下划线，<del>删除线</del>，<a href="http://baham.co/10_21_651.html">链接</a>，<strong>引用</strong>，<strong>more标签</strong>。如果支持html代码可能会更好用。 另外支持上传照片及视频。 并且可以直接访问dashboard</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Use CloudFlare as the site's CDN again]]></title>
-    <link href="http://baham.co/11_01_use-cloudflare-as-the-sites-cdn-again.html"/>
-    <updated>2014-11-01T07:38:00+00:00</updated>
-    <id>http://baham.co/use-cloudflare-as-the-sites-cdn-again</id>
-    <content type="html"><![CDATA[<p><a href="http://baham.co/05_25_kai-shi-shi-yong-an-quan-bao-cdnfu-wu-liao.html">Anquanbao</a> CDN is a CDN provider. And there is the CDN point in HK.</p>
+    <title type="html"><![CDATA[博客改动了一部分]]></title>
+    <link href="http://baham.co/09_13_557.html"/>
+    <updated>2012-09-13T19:07:15+00:00</updated>
+    <id>http://baham.co/557</id>
+    <content type="html"><![CDATA[<p>前一段时间，忙别的事去了。很就没有更新博文，今天才腾出时间，管理一下自己的站点。</p>
 
-<p>But today, I change the CDN provider to cloudflare like before. For I found the cloudflare is supportting free ssl.</p>
-
-<p>So I choose cloudflare. And I found there are more apps supported on cloudflare. Some are really cool and helpful.</p>
-
-<!--more-->
-
-
-<p>And you can use the https to visit <a href="https://baham.co">baham.co</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[About the Translation Category]]></title>
-    <link href="http://baham.co/05_14_about-the-translation-category.html"/>
-    <updated>2014-05-14T06:02:00+00:00</updated>
-    <id>http://baham.co/about-the-translation-category</id>
-    <content type="html"><![CDATA[<p>After I move the language on this site from Chinese to English.</p>
-
-<p>I decide to make a subpage or subdomian to include some Chinese translations from English.</p>
-
-<p>And the translation articles mouved to <a href="http://translation.baham.co">baham&rsquo;s translation</a></p>
-
-<!--more-->
+<ul>
+<li><p>更换了主题</p></li>
+<li><p>博客标题也改变了</p></li>
+</ul>
 
 
-<p>And this category <a href="/blog/categories/translation/">translation</a> maybe will include some articles translated from Chinese.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Use English to Write Articles]]></title>
-    <link href="http://baham.co/04_24_use-english-to-write-articles.html"/>
-    <updated>2014-04-24T03:02:00+00:00</updated>
-    <id>http://baham.co/use-english-to-write-articles</id>
-    <content type="html"><![CDATA[<p>For learning English writing, I decide to use English to write articles.</p>
+<p>可能短期内会被谷歌降权（反正也没什么权重）。</p>
 
-<p>Before this day, I had used English to write some articles.</p>
+<p>我不是学web开发的，html也只是现学现卖，php更不用说。</p>
 
-<p>And after it ,I want to change the website&rsquo;s main language from Chinese to English.</p>
-
-<p>And write more English articles.</p>
-
-<p>Maybe my website&rsquo;s PR will descend by this change, but I still decided to do change.(In fact ,my website&rsquo;s index number from baidu had already come down, Baidu just indexed about 2 my website&rsquo;s links. )</p>
-
-<!--more-->
-
-
-<p>Otherwise the license updated from CC BY-NC-CA 3.0 to <strong>CC BY-NC-CA 4.0</strong>.</p>
-
-<p>You can see <a href="/license">here</a> to read it. The conten in the licnese is English too.But still keep the Chinese translation link.</p>
-
-<p><img src="/favicon.png" alt="baham" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Remove the Qrcode in Lower Right Area]]></title>
-    <link href="http://baham.co/10_22_remove-the-qrcode-in-lower-right-area.html"/>
-    <updated>2013-10-22T23:33:00+00:00</updated>
-    <id>http://baham.co/remove-the-qrcode-in-lower-right-area</id>
-    <content type="html"><![CDATA[<p>This plugin used google apis.</p>
-
-<p>It is like this:</p>
-
-<pre><code>http://chart.apis.google.com/chart?chs=150x150&amp;cht=qr&amp;chld=|0&amp;chco=165B94&amp;chl=http://baham.co/10_22_remove-the-qrcode-in-lower-right-area.html
-</code></pre>
-
-<p>And it is not very userful.</p>
-
-<p>So I am ready to remove it.</p>
+<p>不过，还是希望自己的网站会更好。</p>
 ]]></content>
   </entry>
   

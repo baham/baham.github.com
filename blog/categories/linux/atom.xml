@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Linux | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-04-08T00:59:29+00:00</updated>
+  <updated>2015-05-12T01:02:16+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -14,179 +14,255 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Upgrade Linux mint16 to Linux mint 17 Qiana]]></title>
-    <link href="http://baham.co/06_01_upgrade-linux-mint16-to-linux-mint-17-qiana.html"/>
-    <updated>2014-06-01T00:48:00+00:00</updated>
-    <id>http://baham.co/upgrade-linux-mint16-to-linux-mint-17-qiana</id>
-    <content type="html"><![CDATA[<p><img src="http://www.linuxmint.com/pictures/screenshots/qiana/thumb_cinnamon.png" alt="mint 17" /></p>
+    <title type="html"><![CDATA[如何删除libgooglepinyin和ibus-googlepinyin]]></title>
+    <link href="http://baham.co/11_07_718.html"/>
+    <updated>2012-11-07T15:53:59+00:00</updated>
+    <id>http://baham.co/718</id>
+    <content type="html"><![CDATA[<p><em>How to remove libgooglepinyin and ibus-google pinyin?</em></p>
 
-<p>Linux mint 17 -Qiana released with Cinnamon or Mate Desktop Environment.</p>
+<p>之前用Xubuntu，配置安装<a href="http://code.google.com/p/libgooglepinyin/">goolgepinyin</a>，很容易。后来换到了KDE桌面的Fedora，使用googlepinyin，就不那么简单了。</p>
 
-<p>And I was using Min16 to write this article.</p>
+<p>首先安装，需要<a href="http://code.google.com/p/libgooglepinyin/wiki/INSTALL">编译安装</a>。</p>
 
-<p>And the <code>dist-upgrade</code> is running.</p>
+<p>安装很简单，只有几条命令，复制粘贴即可。问题是，如何卸载？</p>
 
-<p>But how to upgrade the linux mint to a newer version.</p>
+<p>sudo make uninstall</p>
 
-<h2>1 Backup Your Files</h2>
+<p>不能直接卸载。后来搜索了一下，才知道，cmake不支持直接make uninstall</p>
 
-<!--more-->
+<p>万幸，最终还是找到了解决办法。</p>
 
+<h2>1 对于ibus-google-pinyin</h2>
 
-<p>This a very important step, although I did not back up my files. Cause I did not have a hardisk or webdrive with enough space.</p>
+<p>只需要删除一个目录、一个文件。</p>
 
-<p>And back your source like these:</p>
+<pre><code>sudo rm -fr /usr/share/ibus-googlepinyin
 
-<pre><code>$ sudo cp /etc/apt/sources.list  /etc/apt/sources.list.bak
-$ sudo cp /etc/apt/sources.list.d/official-package-repositories.list  /etc/apt/sources.list.d/official-package-repositories.list.bak
+sudo rm /usr/share/ibus/component/googlepinyin.xml
 </code></pre>
 
-<h2>2 Change your source</h2>
+<h2>2 对于libgooglepinyin<!-- more --></h2>
 
-<p>Just replace <code>petra</code> with <code>qiana</code> and <code>saucy</code> with <code>trusty</code></p>
+<p>稍微麻烦一点。</p>
 
-<h2>3 Upgrade</h2>
+<p>将一下内容，复制进libgooglepinyin根目录内，创建 <strong>cmake_uninstall.cmake.in </strong>文件<em>（后缀为.in）</em></p>
 
-<pre><code>$ sudo apt-get update
-$ sudo apt-get dist-upgrade
-$ sudo apt-get upgrade
+<pre><code># http://www.vtk.org/Wiki/CMake_FAQ#Can_I_do_.22make_uninstall.22_with_CMake.3F
+
+IF(NOT EXISTS "@CMAKE_CURRENT_BINARY_DIR@/install_manifest.txt")
+MESSAGE(FATAL_ERROR "Cannot find install manifest: \"@CMAKE_CURRENT_BINARY_DIR@/install_manifest.txt\"")
+ENDIF(NOT EXISTS "@CMAKE_CURRENT_BINARY_DIR@/install_manifest.txt")
+
+FILE(READ "@CMAKE_CURRENT_BINARY_DIR@/install_manifest.txt" files)
+STRING(REGEX REPLACE "\n" ";" files "${files}")
+FOREACH(file ${files})
+MESSAGE(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")
+IF(EXISTS "$ENV{DESTDIR}${file}")
+EXEC_PROGRAM(
+"@CMAKE_COMMAND@" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
+OUTPUT_VARIABLE rm_out
+RETURN_VALUE rm_retval
+)
+IF(NOT "${rm_retval}" STREQUAL 0)
+MESSAGE(FATAL_ERROR "Problem when removing \"$ENV{DESTDIR}${file}\"")
+ENDIF(NOT "${rm_retval}" STREQUAL 0)
+ELSE(EXISTS "$ENV{DESTDIR}${file}")
+MESSAGE(STATUS "File \"$ENV{DESTDIR}${file}\" does not exist.")
+ENDIF(EXISTS "$ENV{DESTDIR}${file}")
+ENDFOREACH(file)
 </code></pre>
 
-<p>This is all.</p>
+<p>在build目录下</p>
 
-<p>And maybe you want to read this post too&mdash; <a href="http://www.tecmint.com/upgrade-linux-mint-16-to-linux-mint-17/">Upgrade Linux  mint</a></p>
+<pre><code>make
+
+sudo make uninstall
+</code></pre>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Do you remember that game on linux]]></title>
-    <link href="http://baham.co/05_11_do-you-remember-that-game-on-linux.html"/>
-    <updated>2014-05-11T08:40:00+00:00</updated>
-    <id>http://baham.co/do-you-remember-that-game-on-linux</id>
-    <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="https://en.wikipedia.org/wiki/Linux_gaming">list</a>.</p>
+    <title type="html"><![CDATA[Ubuntu基督教版-Ubuntu Christian Edition]]></title>
+    <link href="http://baham.co/11_05_687.html"/>
+    <updated>2012-11-05T21:21:00+00:00</updated>
+    <id>http://baham.co/687</id>
+    <content type="html"><![CDATA[<p><img src="http://ubuntuce.com/screenshots/12.04/login.png" alt="" /></p>
 
-<h2>Tetris&mdash;<a href="https://help.gnome.org/users/quadrapassel/stable/index.html.en">Quadrapassel</a></h2>
+<p><a href="https://zh.wikipedia.org/wiki/Ubuntu">Ubuntu</a>自从诞生以来，就有很多一期定制的发行版。</p>
 
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/GNOME_Quadrapassel_3.11.92.png/613px-GNOME_Quadrapassel_3.11.92.png" alt="tetris" /></p>
+<p>比如非常火的<a href="http://www.linuxmint.com/">Linux Mint</a>，国内的YLMF，深度。</p>
 
-<!--more-->
+<p>对于<strong>基督徒</strong>，有一款专门为之设计的发行版，<a href="http://ubuntuce.com/">Ubuntu CE</a>。<!-- more --></p>
 
+<p><strong>Ubuntu Christian Edition</strong>：</p>
 
-<p>It is an installed game defaultly on old ubuntu.</p>
+<blockquote><p>Ubuntu Christian Edition is a free, open source operating system geared towards Christians. It is based on the popular Ubuntu Linux. Ubuntu is a complete Linux-based operating system, freely available with both community and professional support. The goal of Ubuntu Christian Edition is to bring the power and security of Ubuntu to Christians. The current<em> Ubuntu Christian Edition release</em> supports both 32 bit and 64 bit PCs. Ubuntu Christian Edition covers every standard desktop application from word processing and spreadsheet applications to web server software and programming tools.</p></blockquote>
 
-<p>But I did not get it in mint 16(ubuntu 13.10) with cinnamon desktop environment.</p>
+<p>Ubuntu CE 基于Ubuntu，如同其他GNU/Linux系统一样，是一款<strong>自由开放</strong>的系统。特点在于包含很棒的基督教相关的软件，<strong>强大的防火墙</strong>以及<strong>家</strong><img src="http://ubuntuce.com/screenshots/12.04/desktop.png" alt="Desktop" /><strong>长控制系统</strong>。</p>
 
-<p>For example, when you need a square, it will never give you a square.</p>
+<p>Ubuntu CE更新很快,最新版基于12.04。</p>
 
-<p>This is a very good design, and hard to play, hard to get high scores.</p>
+<p>下载地址：</p>
 
-<h2><a href="http://www.reptilelabour.com/software/chromium/">Chromium BSU</a></h2>
+<blockquote><p><strong>Ubuntu 12.04 Christian Edition 32 bit </strong></p>
 
-<p>It has the same name with browser chromium.</p>
+<ul>
+<li><p><a href="http://phillw.net/isos/uce/precise/uce-12.04-desktop-i386.iso">iso Download</a> &mdash; <a href="http://phillw.net/isos/uce/precise/uce.md5sums">md5sum</a></p></li>
+<li><p><a href="http://www.livingtorrents.com/torrents-details.php?id=749">Torrent</a></p></li>
+</ul>
+</blockquote>
 
-<p>Just control a space ship to shoot the enemies. But still very difficult.</p>
+<p><strong>Ubuntu 12.04 Christian Edition 64 bit </strong></p>
 
-<p><img src="/images/game/bsu.jpg" alt="chromium bsu" /></p>
-
-<h2>Tetris 3D&mdash; <a href="http://www.blockout.net/blockout2/">Blockout2</a></h2>
-
-<p><img src="http://www.blockout.net/blockout2/screenshots/scr2.jpg" alt="tetris 3d" /></p>
-
-<p>It is a 3d tetris game.  More difficult than 2d tetris.</p>
-
-<p>But the difficult  is not like  Quadrapassel.</p>
+<blockquote><ul>
+<li><p><a href="http://phillw.net/isos/uce/precise/uce-12.04-desktop-amd64.iso">iso Download</a> &mdash; <a href="http://phillw.net/isos/uce/precise/uce.md5sums">md5sum</a></p></li>
+<li><p><a href="http://www.livingtorrents.com/torrents-details.php?id=750">Torrent</a></p></li>
+</ul>
+</blockquote>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Use Linux Mint 16]]></title>
-    <link href="http://baham.co/03_20_use-linuxmint16.html"/>
-    <updated>2014-03-20T11:09:00+00:00</updated>
-    <id>http://baham.co/use-linuxmint16</id>
-    <content type="html"><![CDATA[<p>Now I change my OS from ubuntu GNOME 13.10  to Linux Mint 16 with Cannamon.</p>
+    <title type="html"><![CDATA[Binix-Baham Linux OS详细介绍]]></title>
+    <link href="http://baham.co/08_25_447.html"/>
+    <updated>2012-08-25T22:40:11+00:00</updated>
+    <id>http://baham.co/447</id>
+    <content type="html"><![CDATA[<p>每个人都应改有一款自己的<strong>操作系统</strong>，我一直这么想的，本来想<a href="http://www.linuxfromscratch.org/lfs/">LFS</a>的,不过最后选择了Suse Studio。当然这没有LFS技术含量高，不过，也算是一款属于自己的操作系统。</p>
 
-<p>Why do this. CAose Gnome3 is really slow.</p>
+<p><img src="http://baham.co/wp-content/uploads/2012/08/%E6%8A%93%E5%9B%BE2-300x225.png" alt="Binix登录界面" /><strong>Binix</strong>-Baham Linux OS基于OpenSuse，默认浏览器为<a href="http://baham.co/bearfox">火狐</a>，使用KDE4.8作为X桌面，包好gpg软件包，提供安全保护。</p>
 
-<p>And before now, with cinnamon I got one bug .</p>
+<p>Binix属于微型系统，目的在于小巧，只有OpenSuse基本的软件包，无冗余。</p>
 
-<p>And I already get fcitx libpinyin.</p>
+<p>Suse最大的特点莫过于Yast工具，Binix也不利外，继承了Suse的优点。</p>
 
-<p>Leave Gnome3! this is my advice.</p>
+<!-- more -->
+
+
+<p>Binix默认用户 <em>Binix</em></p>
+
+<p>默认密码 <em>xiniB</em></p>
+
+<p>root默认密码 <em>linux</em></p>
+
+<p>请在安装后自行更改为更安全的密码。</p>
+
+<p>[<img src="http://baham.co/wp-content/uploads/2012/08/%E6%8A%93%E5%9B%BE3-300x224.png" alt="Binix-KDE桌面" /> 图为Binix默认桌面]</p>
+
+<p><a href="http://baham.co/binix-baham-linux-os"> Binix下载</a></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Gnome3 hide window or always maxsize window]]></title>
-    <link href="http://baham.co/03_10_10-43-12.html"/>
-    <updated>2014-03-10T10:43:00+00:00</updated>
-    <id>http://baham.co/10-43-12</id>
-    <content type="html"><![CDATA[<p>Gnome3 is pretty cool.
-Though a lot of men do not like it.</p>
+    <title type="html"><![CDATA[Learn to hack-如何成为一个黑客]]></title>
+    <link href="http://baham.co/08_02_318.html"/>
+    <updated>2012-08-02T12:19:34+00:00</updated>
+    <id>http://baham.co/318</id>
+    <content type="html"><![CDATA[<p><strong><a href="http://baham.co/wp-content/uploads/2012/08/security.png"><img src="http://baham.co/wp-content/uploads/2012/08/security.png" alt="安全-learn to hack-如何成为黑客" /></a>攻击服务器</strong>、<strong>爆破密码</strong>、<strong>利用漏洞</strong>、<strong>破解加密</strong>，和所有一切保护你图里邪恶的东西。</p>
 
-<p>But finally I choose it after I try kde unity elightment gnome2.</p>
+<p>安全的计算机需要两种规则可以实现，</p>
 
-<p>Why ?</p>
-
-<p>Cause I think a pc or laptop. The most important thing is easyuse.</p>
-
-<p>And Gnome3 dit it.</p>
-
-<p>Be not like gnome2, so old and out of fashion.</p>
-
-<p>Be not like kde, so big and so many config choices.</p>
-
-<p>Be not like unity, just belong to Ubuntu.</p>
-
-<p>So for now gnome3 is the best choice for me.</p>
-
-<!--more-->
+<ol>
+<li><p> <strong>不买，</strong></p></li>
+<li><p> <strong>买来计算机后，不去开机</strong></p></li>
+</ol>
 
 
-<p>I did not write articles a long time.</p>
+<p>打破其中任何一条，你就将面临着安全问题。在黑客眼里，没有一台计算机是100%安全的，但是你只需要简单几步，就能让你的计算机更难被破坏。</p>
 
-<p>Even dit not write golang everyday.</p>
+<p><strong>黑客行为</strong>是一门获取本没有访问权限的计算机系统权限的艺术，其间需要利用bug，本文将向您展示两种达到目的的方法，并且将教你如何避免成为受害者，我们将通过获取<strong>root权限</strong>（类Unix系统中最高权限）的方式达到我们想做的一切-<strong>盗取信息</strong>、<strong>破坏硬件</strong>。<!-- more --></p>
 
-<p>When I use gnome3 ,I found this extension. So cool!</p>
+<p>攻击是在真实的Linux系统上进行的，阅读下文找出黑客们如何窃取你的信息以及如何劫持你的计算机-然后学会如何保护好自己的系统。<strong>因为想保护好自己，就应该知道保护自己的什么。</strong></p>
 
-<p>It can let window be like this.
-<img src="/images/max_gnome3.jpg" alt="Max Gnome3 Picture" /></p>
+<blockquote><p>提醒，请进在家里进行试验</p></blockquote>
 
-<p>And this extension called <strong>Pixel Saver</strong>.</p>
+<p>我们必须清醒的认识到，破坏计算机系统是违法的，你不可以去破坏或者偷取数据，因为这样做可能会给你带来麻烦。</p>
+
+<p>在多数国家，尝试去破坏计算机系统是一项严重的罪行。</p>
+
+<p>幸运的是，虚拟机让我们可以在一台电脑上开始测试黑客的过程，正如我们所演示的那样。</p>
+
+<p>如果你的家里有局域网连接，也可以在多台电脑上进行测试，演练攻击，以免自己日后被攻击。</p>
+
+<p>但是如果你使用这些技术区攻击一个正在运行的服务器，除非你有该机器的所有权，否则您将因此承担严重的法律后果，不要做这种傻事。</p>
+
+<h1> 攻击服务器：</h1>
+
+<p>当人们想到黑客行为是，首先想到的画面是，某个人的电脑通过网络连接着已经被攻击并获取了权限的其他电脑。</p>
+
+<p>这个就称为攻击服务器。此处，我们使用<a href="http://www.backtrack-linux.org">BackTrack</a>（Baham注：一款重视安全技术的Linux发行版）进行一次特殊的<strong>渗透测试</strong>（攻击自己的系统）。</p>
+
+<p>一款虚拟的镜像系统<a href="https://www.offensive-security.com/metasploit-unleashed/Main_Page">Metasploitable</a>（Baham注：一款虚拟机软件，常用于安全测试）,特点是容易被攻击，将成为受害者。</p>
+
+<p>Metasploit Framework是一款集<strong>漏洞</strong>、<strong>后门</strong>、<strong>系统扫描</strong>、<strong>有效载荷测试</strong>于一身的工具。它是一款命令行工具，但我们可以使用图形界面。</p>
+
+<ol>
+<li><p> 在Backtrack上，运 行Applications> BackTrack > Exploitation Tools > Network Exploitation Tools > Metasploit Framework > Armitage，在新窗口，点击Start MSF，然后等待主窗口打开。</p></li>
+<li><p> 然后点击Hosts > Nmap Scan > Intense Scan,按提示输入Ip范围192.168.56.0/24（提醒，如果您更改过VirtualBox的DHCP服务器设置，您需要更改为相应值），然后等待直到程序提示你扫描完成。</p></li>
+</ol>
+
+
+<p>这将找到我们的所有主机，一个是使用的主机，一个是<strong>DHCP服务器</strong>，一个是<strong>Backtrack</strong>，一个是Metasploitable，进入Attracks> Find Attacks > By Port，找到我们可以发动攻击的主机，等待知道我们得到信息“Attack Analysis Complete（攻击分析完成）”</p>
+
+<p>攻击最困难的部分是得知<strong>如何利用漏洞</strong>，此处我们得知受害者使用的是<a href="http://info.tiki.org/"><strong>TikiWiki</strong></a>(有PHP漏洞让我们释放代码)。</p>
+
+<p>[<img src="http://baham.co/wp-content/uploads/2012/08/LXF154.feat_hacklinux.hack1_-300x211.jpg" alt="Learn to hack-成为一个黑客" />]</p>
+
+<ol>
+<li><p> 右键单击Metasploitable host（如果不确定哪一个是，可以在Terminal（终端）中输入<em>ifconfig</em>，将返回当前BackTrack的ip，主机会是 192.168.56.1，DHCP会是192.168.56.100，另一个就是Metasploitable server的）</p></li>
+<li><p> 点击Attack > webapp > Tikiwiki_graph_formula_exec，确认LHOST设置成BackTrack的ip</p></li>
+<li><p> 然后点击Launch，注入工具运行之 后，Host图标处将变为红色以示成功</p></li>
+<li><p> 右键单击host地址，点击Shell>interact</p></li>
+</ol>
+
+
+<p>将会打开一个标签，一个最小化的Shell就会运行在被攻击系统上，输入whoami会告诉你被劫持的用户www-date目录，这个shell收到诸多限制，您甚至不能使用cd（Baham注：linux中切换目录的命令），但可以使用通过别的方式获取一些信息，如：</p>
+
+<blockquote><p>ls /home</p></blockquote>
+
+<p>未完待续</p>
+
+<p><a href="http://www.tuxradar.com/content/learn-hack/">英文版原文地址</a></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[I did a fool thing]]></title>
-    <link href="http://baham.co/10_28_i-did-a-fool-thing.html"/>
-    <updated>2013-10-28T07:44:00+00:00</updated>
-    <id>http://baham.co/i-did-a-fool-thing</id>
-    <content type="html"><![CDATA[<p>In octopress/source/_post .I run a command&mdash;</p>
+    <title type="html"><![CDATA[iQQ-开源Java版qq客户端]]></title>
+    <link href="http://baham.co/07_29_251.html"/>
+    <updated>2012-07-29T00:42:26+00:00</updated>
+    <id>http://baham.co/251</id>
+    <content type="html"><![CDATA[<p><img src="https://iqq-java.googlecode.com/files/loginProccess.jpg" alt="iQQ登陆界面" />        用过Linux的都知道，QQForLinux处于长期不更新状态，而且存在很多小bug，并且很多QQ该有的功能都没有。于是乎，许多人开始使用第三方QQ插件，比如<a href="http://libqq-pidgin.googlecode.com/">libqq-pidgin</a>，不得不说pidgin是一款很好的IM软件，但libqq-pidgin和QQforLinux一样，很多小问题没有解决。问题主要原因显然不在软件，而在腾讯方面。</p>
 
-<pre><code>rm *.markdown*
-</code></pre>
+<p>今天无意中，看到了iQQ的介绍，这是一个新项目，距离谷歌Code的项目提交只有几天。看了一些iQQ的截图，至少觉着这个图形界面，要比QQforLinux或者其他第三方客户端要好那么一点。</p>
 
-<p>I want to run</p>
+<p>iQQ是一项<strong>开源项目</strong>，源码托管在google code上，基于腾讯<strong>WebQQ 3.0网络协议</strong>，可以通过JRE运行在任何平台上，作者基于Linux(Ubuntu 12.04)系统，使用IDE NetBeans开发。项目伊始，作者（<em>chengnuo128@gmail.com</em>）将源代码公开，希望寻找爱好者一同开发。</p>
 
-<pre><code>rm *.markdown~
-</code></pre>
+<p>截至目前，iQQ仍处于<strong>Beta测试</strong>阶段，通过项目问题也看到，仍有部分小问题没有解决。</p>
 
-<p>to delete some old autobacked files.</p>
+<!-- more -->
 
-<p>But I typed wrong word and run it immedittely.</p>
 
-<p>So all my markdown files is deleted.and <em>_post</em>is empty.</p>
+<p>iQQ截图：</p>
 
-<p>You know <strong>rm</strong> command do not mv files to trash.</p>
+<p><img src="https://iqq-java.googlecode.com/files/mainFrame.jpg" alt="xfce ubuntu12.04 iqq客户端" /></p>
 
-<p>So I find in trash to find old &ldquo;octopress folder&rdquo;.And I rewrite the newer articles from baham.co by hand.</p>
+<p><img src="https://iqq-java.googlecode.com/files/cap.jpg" alt="" /></p>
 
-<p>It waste my time.</p>
+<p><img src="https://iqq-java.googlecode.com/files/login.jpg" alt="iQQ登陆界面" /></p>
 
-<p>And it is a lesson.<!--more--></p>
+<p><img src="https://iqq-java.googlecode.com/files/1.jpg" alt="iqq使用界面" /></p>
 
-<p>And now I add <strong>_post</strong> to my deja-backup backing floder.</p>
+<p><img src="https://iqq-java.googlecode.com/files/chating.jpg" alt="iqq聊天示例" /></p>
 
-<p>And maybe I need use &ldquo;mv&rdquo; to replace &ldquo;rm&rdquo;.</p>
+<p>总结来讲，我很看好<strong>iQQ项目</strong>，虽然我还不能为其贡献代码，但真心希望有兴趣者积极参加。没有什么别的原因，只是希望Linux的桌面应用能更丰富。</p>
+
+<p><a href="https://code.google.com/p/iqq/">iqq项目地址</a></p>
+
+<p><a href="https://code.google.com/p/iqq/downloads/detail?name=iQQ_beta1.02.zip&amp;can=2&amp;q=">iqqBeta1.02下载地址</a></p>
+
+<p>获取iqq源代码：</p>
+
+<p><code># Non-members may check out a read-only working copy anonymously over HTTP.
+svn checkout http://iqq.googlecode.com/svn/trunk/ iqq-read-only</code></p>
 ]]></content>
   </entry>
   
