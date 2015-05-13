@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | Baham's Blog]]></title>
   <link href="http://baham.co/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-05-13T01:42:16+00:00</updated>
+  <updated>2015-05-13T02:15:50+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -18,29 +18,7 @@
     <link href="http://baham.co/05_11_a.html"/>
     <updated>2015-05-11T12:54:00+00:00</updated>
     <id>http://baham.co/a</id>
-    <content type="html"><![CDATA[<p><html></p>
-
-<script async src="http://baham.co//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-
-<!-- pic1 long -->
-
-
-<p>&lt;ins class=&ldquo;adsbygoogle&rdquo;</p>
-
-<pre><code> style="display:inline-block;width:728px;height:90px"
- data-ad-client="ca-pub-6795880663015971"
- data-ad-slot="5145906445"&gt;&lt;/ins&gt;
-</code></pre>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-<p></html></p>
-
-<p>I just generate my site. But it just generated nothing without errors noticing.
+    <content type="html"><![CDATA[<p>I just generate my site. But it just generated nothing without errors noticing.
 I did not find anything about it online.
 Finally, I solve it.</p>
 
