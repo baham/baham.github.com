@@ -4,7 +4,7 @@
   <title><![CDATA[Baham's Blog]]></title>
   <link href="http://baham.co/atom.xml" rel="self"/>
   <link href="http://baham.co/"/>
-  <updated>2015-05-13T06:08:20+00:00</updated>
+  <updated>2015-05-14T01:30:32+00:00</updated>
   <id>http://baham.co/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -21,6 +21,35 @@
     <content type="html"><![CDATA[<p>I just generate my site. But it just generated nothing without errors noticing.
 I did not find anything about it online.
 Finally, I solve it.</p>
+
+<pre><code>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>google ad</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <script async src="http://baham.co//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- ad1 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-6795880663015971"
+                 data-ad-slot="3753558442"
+                 data-ad-format="auto"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
+</code></pre>
+
 
 <!--more-->
 
