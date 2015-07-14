@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Experience | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/experience/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/experience/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[最近几天面试得到的经验]]></title>
-    <link href="http://baham.co/10_18_zui-jin-ji-tian-mian-shi-de-dao-de-jing-yan.html"/>
+    <link href="http://baham.gthub.io/10_18_zui-jin-ji-tian-mian-shi-de-dao-de-jing-yan.html"/>
     <updated>2013-10-18T23:24:00+00:00</updated>
-    <id>http://baham.co/zui-jin-ji-tian-mian-shi-de-dao-de-jing-yan</id>
+    <id>http://baham.gthub.io/zui-jin-ji-tian-mian-shi-de-dao-de-jing-yan</id>
     <content type="html"><![CDATA[<p> 最近，几天投了不少简历，也参加了几次面试。在此写个总结，纯粹为经验之谈。</p>
 
 <h2>简历投递之后，很多在简历筛选环节就被筛掉了。</h2>

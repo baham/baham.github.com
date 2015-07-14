@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Octopress | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/octopress/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopree plugin popular post]]></title>
-    <link href="http://baham.co/05_11_a.html"/>
+    <link href="http://baham.gthub.io/05_11_a.html"/>
     <updated>2015-05-11T12:54:00+00:00</updated>
-    <id>http://baham.co/a</id>
+    <id>http://baham.gthub.io/a</id>
     <content type="html"><![CDATA[<p>I just generate my site. But it just generated nothing without errors noticing.
 I did not find anything about it online.
 Finally, I solve it.</p>
@@ -33,7 +33,7 @@ and open the template in the editor.
         <title>google ad</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         
-        <script async src="http://baham.co//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script async src="http://baham.gthub.io//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- ad1 -->
             <ins class="adsbygoogle"
                  style="display:block"
@@ -71,9 +71,9 @@ So this process of generation is paused.</p>
   
   <entry>
     <title type="html"><![CDATA[Octopress add Original Link after post Version2]]></title>
-    <link href="http://baham.co/05_08_add-original-link.html"/>
+    <link href="http://baham.gthub.io/05_08_add-original-link.html"/>
     <updated>2014-05-08T10:47:00+00:00</updated>
-    <id>http://baham.co/add-original-link</id>
+    <id>http://baham.gthub.io/add-original-link</id>
     <content type="html"><![CDATA[<p>I alreay use this tool, since I found it online. It is really cool and useful. And does not affect the overall layout of the page.</p>
 
 <p>But when I saw the source code of the orignal link.</p>
@@ -112,9 +112,9 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=#{license
   
   <entry>
     <title type="html"><![CDATA[Add Descritpion and Keywords to octopress site plugin Version 3]]></title>
-    <link href="http://baham.co/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html"/>
+    <link href="http://baham.gthub.io/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html"/>
     <updated>2014-05-08T08:33:00+00:00</updated>
-    <id>http://baham.co/add-descritpion-and-keywords-for-octopress-site-plugin-v3</id>
+    <id>http://baham.gthub.io/add-descritpion-and-keywords-for-octopress-site-plugin-v3</id>
     <content type="html"><![CDATA[<p>In version 2 plugin, the code is :
 <div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description_new.rb)</span> <a href='/files/code/add_keywords_and_description_new.rb'>download</a></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -197,9 +197,9 @@ Disallow: /blog/page/
   
   <entry>
     <title type="html"><![CDATA[Octopress Add Description Keywords Plugin Optimization]]></title>
-    <link href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html"/>
+    <link href="http://baham.gthub.io/05_07_octopress-add-description-keywords-plugin-optimization.html"/>
     <updated>2014-05-07T01:22:00+00:00</updated>
-    <id>http://baham.co/octopress-add-description-keywords-plugin-optimization</id>
+    <id>http://baham.gthub.io/octopress-add-description-keywords-plugin-optimization</id>
     <content type="html"><![CDATA[<p>Yesterday, when I just google my own site. I find the results show like this:</p>
 
 <p><img src="/images/baham/old-descripiton.jpg" alt="The Site's meta description" /></p>
@@ -271,9 +271,9 @@ Disallow: /blog/page/
   
   <entry>
     <title type="html"><![CDATA[Fix a bug to add an original link]]></title>
-    <link href="http://baham.co/05_01_21-24-octopress-orinal-link-bug-fix.html"/>
+    <link href="http://baham.gthub.io/05_01_21-24-octopress-orinal-link-bug-fix.html"/>
     <updated>2014-05-01T13:24:00+00:00</updated>
-    <id>http://baham.co/21-24-octopress-orinal-link-bug-fix</id>
+    <id>http://baham.gthub.io/21-24-octopress-orinal-link-bug-fix</id>
     <content type="html"><![CDATA[<p>When you use the original post footer plugin, some bug will happen, I do not know the bug&rsquo;s detail, but I still find a way to fix it.</p>
 
 <p>Cause when the bug happend, this will show:</p>

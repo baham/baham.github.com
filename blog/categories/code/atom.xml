@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Code | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/code/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/code/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[一元线性回归分析]]></title>
-    <link href="http://baham.co/06_25_%5B%3F%5D-yuan-xian-xing-hui-gui-fen-xi.html"/>
+    <link href="http://baham.gthub.io/06_25_%5B%3F%5D-yuan-xian-xing-hui-gui-fen-xi.html"/>
     <updated>2013-06-25T23:09:00+00:00</updated>
-    <id>http://baham.co/[?]-yuan-xian-xing-hui-gui-fen-xi</id>
+    <id>http://baham.gthub.io/[?]-yuan-xian-xing-hui-gui-fen-xi</id>
     <content type="html"><![CDATA[<p>输入两组数据xi,yi，计算回归方程系数a,b，以及回归平方和U、剩余平方和Q。</p>
 
 <p>采取相关系数检验法和F检验法对线性拟合程度进行检验，随后查表即可得到拟合程度。</p>
@@ -33,7 +33,7 @@
     <head>
         <title>YiYuanXianXingHuiGuiFenXi</title>
         <!--link rel="stylesheet" type="text/css" href="stylesheet.css" /-->
-        <script type="text/javascript" src="http://baham.co/javascripts/line.js"></script>
+        <script type="text/javascript" src="http://baham.gthub.io/javascripts/line.js"></script>
     </head>
     <body>
         <p>
@@ -58,9 +58,9 @@
   
   <entry>
     <title type="html"><![CDATA[重选模拟-重选数学模型]]></title>
-    <link href="http://baham.co/06_25_zhong-xuan-mo-ni-zhong-xuan-shu-xue-mo-xing.html"/>
+    <link href="http://baham.gthub.io/06_25_zhong-xuan-mo-ni-zhong-xuan-shu-xue-mo-xing.html"/>
     <updated>2013-06-25T23:05:00+00:00</updated>
-    <id>http://baham.co/zhong-xuan-mo-ni-zhong-xuan-shu-xue-mo-xing</id>
+    <id>http://baham.gthub.io/zhong-xuan-mo-ni-zhong-xuan-shu-xue-mo-xing</id>
     <content type="html"><![CDATA[<p>给定块煤、末煤的灰分、产率数据，数据所要求产品会分，计算出块煤、末煤产率。</p>
 
 <p>用到“三点插值”，“二分法”，“分配曲线正态分布模型”等知识。</p>
@@ -99,9 +99,9 @@
   
   <entry>
     <title type="html"><![CDATA[呼叫转移系统-源代码-伯乐在线编程挑战赛]]></title>
-    <link href="http://baham.co/06_15_hu-jiao-zhuan-yi-xi-tong-yuan-dai-ma-bo-le-zai-xian-bian-cheng-tiao-zhan-sai.html"/>
+    <link href="http://baham.gthub.io/06_15_hu-jiao-zhuan-yi-xi-tong-yuan-dai-ma-bo-le-zai-xian-bian-cheng-tiao-zhan-sai.html"/>
     <updated>2013-06-15T22:37:00+00:00</updated>
-    <id>http://baham.co/hu-jiao-zhuan-yi-xi-tong-yuan-dai-ma-bo-le-zai-xian-bian-cheng-tiao-zhan-sai</id>
+    <id>http://baham.gthub.io/hu-jiao-zhuan-yi-xi-tong-yuan-dai-ma-bo-le-zai-xian-bian-cheng-tiao-zhan-sai</id>
     <content type="html"><![CDATA[<p>题目要求是，做一个呼叫转移系统，最好是可以避免无限循环（输入数据是避免的，最好加对无限循环的检测）。</p>
 
 <p>示例如图：
@@ -140,9 +140,9 @@
   
   <entry>
     <title type="html"><![CDATA[第一个JavaScript项目-用于矿物粒度分析]]></title>
-    <link href="http://baham.co/05_24_di-%5B%3F%5D-ge-javascriptxiang-mu-yong-yu-kuang-wu-li-du-fen-xi.html"/>
+    <link href="http://baham.gthub.io/05_24_di-%5B%3F%5D-ge-javascriptxiang-mu-yong-yu-kuang-wu-li-du-fen-xi.html"/>
     <updated>2013-05-24T23:48:00+00:00</updated>
-    <id>http://baham.co/di-[?]-ge-javascriptxiang-mu-yong-yu-kuang-wu-li-du-fen-xi</id>
+    <id>http://baham.gthub.io/di-[?]-ge-javascriptxiang-mu-yong-yu-kuang-wu-li-du-fen-xi</id>
     <content type="html"><![CDATA[<h2>原理</h2>
 
 
@@ -225,9 +225,9 @@ and open the template in the editor.
   
   <entry>
     <title type="html"><![CDATA[Tic-Tac-Toe-AI-GUI版本]]></title>
-    <link href="http://baham.co/08_25_456.html"/>
+    <link href="http://baham.gthub.io/08_25_456.html"/>
     <updated>2012-08-25T23:16:22+00:00</updated>
-    <id>http://baham.co/456</id>
+    <id>http://baham.gthub.io/456</id>
     <content type="html"><![CDATA[<p><img src="http://baham.co/wp-content/uploads/2012/08/tttui-300x273.png" alt="Tic-Tac-Toe-AI_Gui-开始" />之前写的一直是NoUI版本，最近基于Java <strong>Swing</strong>写了一个GUI版本，部分代码有了变化，不过整个AI设计并没有变化，还是那个涉及<strong>博弈论</strong>的老问题。</p>
 
 <p>Java最大的特点莫过于面向对象，不过在改写整个程序过程中，发现其实自己刚开始写的NoUI版本的扩展性并不好，很多代码需要修改，而不是只在客户代码中修改、或者通过集成修改子类。</p>

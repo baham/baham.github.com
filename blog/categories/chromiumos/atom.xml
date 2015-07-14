@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: ChromiumOS | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/chromiumos/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/chromiumos/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[试用ChromiumOS]]></title>
-    <link href="http://baham.co/04_17_shi-yong-chromiumos.html"/>
+    <link href="http://baham.gthub.io/04_17_shi-yong-chromiumos.html"/>
     <updated>2013-04-17T16:54:00+00:00</updated>
-    <id>http://baham.co/shi-yong-chromiumos</id>
+    <id>http://baham.gthub.io/shi-yong-chromiumos</id>
     <content type="html"><![CDATA[<p>对于Chromium OS，是一直只闻其声，而为见其形。
 今天，下了一个编译配置好的hexxeh ChromiumOS。</p>
 

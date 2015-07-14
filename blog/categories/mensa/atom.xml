@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Mensa | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/mensa/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/mensa/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Take the mensa test]]></title>
-    <link href="http://baham.co/04_21_18-00-28.html"/>
+    <link href="http://baham.gthub.io/04_21_18-00-28.html"/>
     <updated>2014-04-21T10:00:00+00:00</updated>
-    <id>http://baham.co/18-00-28</id>
+    <id>http://baham.gthub.io/18-00-28</id>
     <content type="html"><![CDATA[<p>About 2 years ago, I wanted to join mensa. Cause in <a href="http://iqtest.dk">iqtest.dk</a>, I have gotten a 130 score.</p>
 
 <p>But you know in 2012, the mensa.org.cn showed the number in 2012 is to achieve the max number. So I waited.</p>

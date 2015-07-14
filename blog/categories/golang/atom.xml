@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: golang | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/golang/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/golang/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[About Golang Article]]></title>
-    <link href="http://baham.co/03_10_11-10-26.html"/>
+    <link href="http://baham.gthub.io/03_10_11-10-26.html"/>
     <updated>2014-03-10T11:10:00+00:00</updated>
-    <id>http://baham.co/11-10-26</id>
+    <id>http://baham.gthub.io/11-10-26</id>
     <content type="html"><![CDATA[<p>In this winter holiday. I nearlly write nothing. I did not achive my goal &ldquo;one day one golang&rdquo;.</p>
 
 <p>I failed.</p>
@@ -37,9 +37,9 @@
   
   <entry>
     <title type="html"><![CDATA[圣诞节主题的聚会]]></title>
-    <link href="http://baham.co/12_21_sheng-dan-jie-zhu-ti-de-ju-hui.html"/>
+    <link href="http://baham.gthub.io/12_21_sheng-dan-jie-zhu-ti-de-ju-hui.html"/>
     <updated>2013-12-21T13:20:00+00:00</updated>
-    <id>http://baham.co/sheng-dan-jie-zhu-ti-de-ju-hui</id>
+    <id>http://baham.gthub.io/sheng-dan-jie-zhu-ti-de-ju-hui</id>
     <content type="html"><![CDATA[<p> 还有几天就是圣诞节，今天兄弟姐妹们提前以圣诞之名聚集在一起，感谢主。另外，Ji弟兄从澳洲回来，给大家做了一个以自己信仰和求学经历的分享。分享很不错，受益匪浅。</p>
 
 <p> 诗歌敬拜之后，是bin哥的分享，随后就是Ji弟兄分享。最让人印象深刻的是Ji弟兄和他GF的情感历程分享，两人同在矿大团契，年级却差了三年，而两人关系确立也是在一个在澳洲、一个在国内。总之，在听两人分享时，很感动，感动两人的历程、更感动于神的大功。</p>
@@ -63,9 +63,9 @@
   
   <entry>
     <title type="html"><![CDATA[Go语言今天的阅读状况]]></title>
-    <link href="http://baham.co/12_17_goyu-yan-jin-tian-de-yue-du-zhuang-kuang.html"/>
+    <link href="http://baham.gthub.io/12_17_goyu-yan-jin-tian-de-yue-du-zhuang-kuang.html"/>
     <updated>2013-12-17T12:13:00+00:00</updated>
-    <id>http://baham.co/goyu-yan-jin-tian-de-yue-du-zhuang-kuang</id>
+    <id>http://baham.gthub.io/goyu-yan-jin-tian-de-yue-du-zhuang-kuang</id>
     <content type="html"><![CDATA[<p>This day, I read some article about <em>Parallel Computing</em> and some about <em>GAE</em>.</p>
 
 <p>It is in 《Go语言云动力》.</p>
@@ -82,9 +82,9 @@
   
   <entry>
     <title type="html"><![CDATA[在Android下运行Go语言程序]]></title>
-    <link href="http://baham.co/12_16_zai-androidxia-yun-xing-goyu-yan-cheng-xu.html"/>
+    <link href="http://baham.gthub.io/12_16_zai-androidxia-yun-xing-goyu-yan-cheng-xu.html"/>
     <updated>2013-12-16T01:15:00+00:00</updated>
-    <id>http://baham.co/zai-androidxia-yun-xing-goyu-yan-cheng-xu</id>
+    <id>http://baham.gthub.io/zai-androidxia-yun-xing-goyu-yan-cheng-xu</id>
     <content type="html"><![CDATA[<p>编译设置如下：</p>
 
 <pre><code>export GOARCH=ARM
@@ -106,9 +106,9 @@ cd /data/local/tmp
   
   <entry>
     <title type="html"><![CDATA[Go语言-playground]]></title>
-    <link href="http://baham.co/12_13_goyu-yan-playground.html"/>
+    <link href="http://baham.gthub.io/12_13_goyu-yan-playground.html"/>
     <updated>2013-12-13T14:11:00+00:00</updated>
-    <id>http://baham.co/goyu-yan-playground</id>
+    <id>http://baham.gthub.io/goyu-yan-playground</id>
     <content type="html"><![CDATA[<p>12日，Andrew Gerrand在Golang Blog更新了一篇文章，是关于Go语言的<em>playground</em>的，实际地讲，读得不是很懂，但还是准备尽力把这篇文章翻译过来，对于翻译完成日期——待定，不过，我会尽力的。</p>
 
 <p>在《Go语言云动力》里也有关于<strong>游乐场</strong>的介绍，可能会参考一下。</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Geek | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/geek/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/geek/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[About the magazine Ma Nong]]></title>
-    <link href="http://baham.co/08_24_about-the-magazine-ma-nong.html"/>
+    <link href="http://baham.gthub.io/08_24_about-the-magazine-ma-nong.html"/>
     <updated>2014-08-24T14:03:00+00:00</updated>
-    <id>http://baham.co/about-the-magazine-ma-nong</id>
+    <id>http://baham.gthub.io/about-the-magazine-ma-nong</id>
     <content type="html"><![CDATA[<p>In the past time, I want to write the articles about the magzine <a href="/blog/categories/geek/">Ma Nong(The Code Maker)</a>, when it posted.</p>
 
 <p>But I found I did not have enough time oto read the magzine and write a post to introduce it.</p>
@@ -37,9 +37,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ituring-new-version]]></title>
-    <link href="http://baham.co/03_30_ituring-new-version.html"/>
+    <link href="http://baham.gthub.io/03_30_ituring-new-version.html"/>
     <updated>2014-03-30T08:09:00+00:00</updated>
-    <id>http://baham.co/ituring-new-version</id>
+    <id>http://baham.gthub.io/ituring-new-version</id>
     <content type="html"><![CDATA[<p>It is a long time not to post the artciel abour Ituring Magzine <em>Manong</em>(means Coder).</p>
 
 <!--more-->
@@ -57,9 +57,9 @@
   
   <entry>
     <title type="html"><![CDATA[I got a cold these days]]></title>
-    <link href="http://baham.co/01_26_i-got-a-cold-these-days.html"/>
+    <link href="http://baham.gthub.io/01_26_i-got-a-cold-these-days.html"/>
     <updated>2014-01-26T09:35:00+00:00</updated>
-    <id>http://baham.co/i-got-a-cold-these-days</id>
+    <id>http://baham.gthub.io/i-got-a-cold-these-days</id>
     <content type="html"><![CDATA[<p>It seems that this is the first article in 2014 {or in China we call it horse year}.</p>
 
 <p>These days I got cold. And I felt week, and I got a fever.</p>
@@ -79,9 +79,9 @@
   
   <entry>
     <title type="html"><![CDATA[码农第九期]]></title>
-    <link href="http://baham.co/12_22_ma-nong-di-jiu-qi.html"/>
+    <link href="http://baham.gthub.io/12_22_ma-nong-di-jiu-qi.html"/>
     <updated>2013-12-22T14:17:00+00:00</updated>
-    <id>http://baham.co/ma-nong-di-jiu-qi</id>
+    <id>http://baham.gthub.io/ma-nong-di-jiu-qi</id>
     <content type="html"><![CDATA[<p>码农第九期出版：</p>
 
 <!--more-->
@@ -95,9 +95,9 @@
   
   <entry>
     <title type="html"><![CDATA[码农第八期-面试]]></title>
-    <link href="http://baham.co/10_26_ma-nong-di-ba-qi-mian-shi.html"/>
+    <link href="http://baham.gthub.io/10_26_ma-nong-di-ba-qi-mian-shi.html"/>
     <updated>2013-10-26T23:36:00+00:00</updated>
-    <id>http://baham.co/ma-nong-di-ba-qi-mian-shi</id>
+    <id>http://baham.gthub.io/ma-nong-di-ba-qi-mian-shi</id>
     <content type="html"><![CDATA[<p><img src="http://baham.co/images/mn8.jpeg" alt="tp" /></p>
 
 <!--more-->

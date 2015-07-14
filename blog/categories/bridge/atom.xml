@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Bridge | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/bridge/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/bridge/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[I Found a Website]]></title>
-    <link href="http://baham.co/10_10_i-found-a-website.html"/>
+    <link href="http://baham.gthub.io/10_10_i-found-a-website.html"/>
     <updated>2013-10-10T23:17:00+00:00</updated>
-    <id>http://baham.co/i-found-a-website</id>
+    <id>http://baham.gthub.io/i-found-a-website</id>
     <content type="html"><![CDATA[<p>Yesterday, I search “桥牌”, and I found this site–桥牌园地(<a href="http://www.sxyx.gov.cn/web/qpyd/qpdzs.htm">http://www.sxyx.gov.cn/web/qpyd/qpdzs.htm</a>)</p>
 
 <p>But it is very strange, because it is on a goverment website.</p>

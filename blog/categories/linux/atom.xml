@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Linux | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/linux/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Upgrade Linux mint16 to Linux mint 17 Qiana]]></title>
-    <link href="http://baham.co/06_01_upgrade-linux-mint16-to-linux-mint-17-qiana.html"/>
+    <link href="http://baham.gthub.io/06_01_upgrade-linux-mint16-to-linux-mint-17-qiana.html"/>
     <updated>2014-06-01T00:48:00+00:00</updated>
-    <id>http://baham.co/upgrade-linux-mint16-to-linux-mint-17-qiana</id>
+    <id>http://baham.gthub.io/upgrade-linux-mint16-to-linux-mint-17-qiana</id>
     <content type="html"><![CDATA[<p><img src="http://www.linuxmint.com/pictures/screenshots/qiana/thumb_cinnamon.png" alt="mint 17" /></p>
 
 <p>Linux mint 17 -Qiana released with Cinnamon or Mate Desktop Environment.</p>
@@ -60,9 +60,9 @@ $ sudo apt-get upgrade
   
   <entry>
     <title type="html"><![CDATA[Do you remember that game on linux]]></title>
-    <link href="http://baham.co/05_11_do-you-remember-that-game-on-linux.html"/>
+    <link href="http://baham.gthub.io/05_11_do-you-remember-that-game-on-linux.html"/>
     <updated>2014-05-11T08:40:00+00:00</updated>
-    <id>http://baham.co/do-you-remember-that-game-on-linux</id>
+    <id>http://baham.gthub.io/do-you-remember-that-game-on-linux</id>
     <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="https://en.wikipedia.org/wiki/Linux_gaming">list</a>.</p>
 
 <h2>Tetris&mdash;<a href="https://help.gnome.org/users/quadrapassel/stable/index.html.en">Quadrapassel</a></h2>
@@ -100,9 +100,9 @@ $ sudo apt-get upgrade
   
   <entry>
     <title type="html"><![CDATA[Use Linux Mint 16]]></title>
-    <link href="http://baham.co/03_20_use-linuxmint16.html"/>
+    <link href="http://baham.gthub.io/03_20_use-linuxmint16.html"/>
     <updated>2014-03-20T11:09:00+00:00</updated>
-    <id>http://baham.co/use-linuxmint16</id>
+    <id>http://baham.gthub.io/use-linuxmint16</id>
     <content type="html"><![CDATA[<p>Now I change my OS from ubuntu GNOME 13.10  to Linux Mint 16 with Cannamon.</p>
 
 <p>Why do this. CAose Gnome3 is really slow.</p>
@@ -117,9 +117,9 @@ $ sudo apt-get upgrade
   
   <entry>
     <title type="html"><![CDATA[Gnome3 hide window or always maxsize window]]></title>
-    <link href="http://baham.co/03_10_10-43-12.html"/>
+    <link href="http://baham.gthub.io/03_10_10-43-12.html"/>
     <updated>2014-03-10T10:43:00+00:00</updated>
-    <id>http://baham.co/10-43-12</id>
+    <id>http://baham.gthub.io/10-43-12</id>
     <content type="html"><![CDATA[<p>Gnome3 is pretty cool.
 Though a lot of men do not like it.</p>
 
@@ -157,9 +157,9 @@ Though a lot of men do not like it.</p>
   
   <entry>
     <title type="html"><![CDATA[I did a fool thing]]></title>
-    <link href="http://baham.co/10_28_i-did-a-fool-thing.html"/>
+    <link href="http://baham.gthub.io/10_28_i-did-a-fool-thing.html"/>
     <updated>2013-10-28T07:44:00+00:00</updated>
-    <id>http://baham.co/i-did-a-fool-thing</id>
+    <id>http://baham.gthub.io/i-did-a-fool-thing</id>
     <content type="html"><![CDATA[<p>In octopress/source/_post .I run a command&mdash;</p>
 
 <pre><code>rm *.markdown*

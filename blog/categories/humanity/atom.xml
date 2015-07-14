@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Humanity | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/humanity/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/humanity/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[塔利班招募的5个步骤-Ted视频]]></title>
-    <link href="http://baham.co/05_08_ta-li-ban-zhao-mu-de-5ge-bu-zou-tedshi-pin.html"/>
+    <link href="http://baham.gthub.io/05_08_ta-li-ban-zhao-mu-de-5ge-bu-zou-tedshi-pin.html"/>
     <updated>2013-05-08T17:14:00+00:00</updated>
-    <id>http://baham.co/ta-li-ban-zhao-mu-de-5ge-bu-zou-tedshi-pin</id>
+    <id>http://baham.gthub.io/ta-li-ban-zhao-mu-de-5ge-bu-zou-tedshi-pin</id>
     <content type="html"><![CDATA[<p><embed src="http://player.youku.com/player.php/sid/XNDMxNjc4NjAw/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
 
 <p>演讲者：夏明·欧白德·奇诺</p>

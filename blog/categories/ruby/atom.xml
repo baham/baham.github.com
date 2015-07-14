@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Ruby | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/ruby/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ruby Multidimensional Arrays]]></title>
-    <link href="http://baham.co/05_06_ruby-multidimensional-arrays.html"/>
+    <link href="http://baham.gthub.io/05_06_ruby-multidimensional-arrays.html"/>
     <updated>2014-05-06T06:19:00+00:00</updated>
-    <id>http://baham.co/ruby-multidimensional-arrays</id>
+    <id>http://baham.gthub.io/ruby-multidimensional-arrays</id>
     <content type="html"><![CDATA[<p>Today, when I use Two-dimensional array with ruby.</p>
 
 <p>Like:</p>
@@ -98,9 +98,9 @@ Array.new(3, Array.new(3,0)).each{|i|p i.object_id}
   
   <entry>
     <title type="html"><![CDATA[The ruby community]]></title>
-    <link href="http://baham.co/04_28_the-ruby-community.html"/>
+    <link href="http://baham.gthub.io/04_28_the-ruby-community.html"/>
     <updated>2014-04-28T09:50:00+00:00</updated>
-    <id>http://baham.co/the-ruby-community</id>
+    <id>http://baham.gthub.io/the-ruby-community</id>
     <content type="html"><![CDATA[<p>In these days, I read a book about ruby.</p>
 
 <p>And there are some ruby communities and blogs.</p>
@@ -158,9 +158,9 @@ https://groups.google.com/forum/#!forum/comp.lang.ruby
   
   <entry>
     <title type="html"><![CDATA[Ruby's Multiline]]></title>
-    <link href="http://baham.co/04_28_ruby-multi-line.html"/>
+    <link href="http://baham.gthub.io/04_28_ruby-multi-line.html"/>
     <updated>2014-04-28T01:11:00+00:00</updated>
-    <id>http://baham.co/ruby-multi-line</id>
+    <id>http://baham.gthub.io/ruby-multi-line</id>
     <content type="html"><![CDATA[<p>How to show<em> mutilines</em> in <em>Ruby&rsquo;s code</em></p>
 
 <p>In summary, there are 2 ways:</p>

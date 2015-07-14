@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Github | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/github/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/github/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopress使用Disqus留言系统]]></title>
-    <link href="http://baham.co/01_16_octopressshi-yong-disqusliu-yan-xi-tong.html"/>
+    <link href="http://baham.gthub.io/01_16_octopressshi-yong-disqusliu-yan-xi-tong.html"/>
     <updated>2013-01-16T13:10:00+00:00</updated>
-    <id>http://baham.co/octopressshi-yong-disqusliu-yan-xi-tong</id>
+    <id>http://baham.gthub.io/octopressshi-yong-disqusliu-yan-xi-tong</id>
     <content type="html"><![CDATA[<p>Octopress没有默认的留言系统，不过，可以使用Disqus。</p>
 
 <p>开启也Disqus留言系统也很简单，</p>
@@ -39,9 +39,9 @@
   
   <entry>
     <title type="html"><![CDATA[Github绑定域名]]></title>
-    <link href="http://baham.co/01_10_githubbang-ding-yu-ming.html"/>
+    <link href="http://baham.gthub.io/01_10_githubbang-ding-yu-ming.html"/>
     <updated>2013-01-10T22:35:00+00:00</updated>
-    <id>http://baham.co/githubbang-ding-yu-ming</id>
+    <id>http://baham.gthub.io/githubbang-ding-yu-ming</id>
     <content type="html"><![CDATA[<p>1 创建CNAME在你的repo
 此处CNAME指的是一个文件，文件名即CNAME，在其中，填入你想要绑定的域名。
 比如本站：

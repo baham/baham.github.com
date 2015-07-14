@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Wordpress | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/wordpress/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/wordpress/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,15 +15,15 @@
   
   <entry>
     <title type="html"><![CDATA[从Wordpress转移到Octopress]]></title>
-    <link href="http://baham.co/01_10_cong-wordpresszhuan-yi-dao-octopress.html"/>
+    <link href="http://baham.gthub.io/01_10_cong-wordpresszhuan-yi-dao-octopress.html"/>
     <updated>2013-01-10T15:50:00+00:00</updated>
-    <id>http://baham.co/cong-wordpresszhuan-yi-dao-octopress</id>
+    <id>http://baham.gthub.io/cong-wordpresszhuan-yi-dao-octopress</id>
     <content type="html"><![CDATA[<p>一直在用wordpress，最近Godady的空间即将到期，迁移到了openshift上，结果很悲剧，莫名其妙的出现502错误，之后又是500错误。既然如此，索性就不用WP了。
 但是wordpress上的内容还是想保留的，毕竟辛辛苦苦写半年博客了。
 在谷歌搜索到了相关迁移的文章。</p>
 
 <p>需要使用<a href="https://github.com/thomasf/exitwp.git">exitwp</a>，很好用的脚本，python写的。
-可以参考<a href="http://baham.co/files/Migrating Wordpress blogs to Octopress.pdf">这篇文章</a>。
+可以参考<a href="http://baham.gthub.io/files/Migrating Wordpress blogs to Octopress.pdf">这篇文章</a>。
 当然，一切不会那么顺利。</p>
 
 <p>我上传到新博客后，发现链接全变了。而且，也不是所有内容都转移到了新的地址上。
@@ -55,9 +55,9 @@
   
   <entry>
     <title type="html"><![CDATA[纪念文章-Baham Blog 第一篇通过客户端发布的博文]]></title>
-    <link href="http://baham.co/10_21_651.html"/>
+    <link href="http://baham.gthub.io/10_21_651.html"/>
     <updated>2012-10-21T00:00:59+00:00</updated>
-    <id>http://baham.co/651</id>
+    <id>http://baham.gthub.io/651</id>
     <content type="html"><![CDATA[<p>下载并使用了Wordpress的客户端，不如在浏览器中功能强大，但是也已经很不错了。</p>
 
 <p>支持 <strong>加粗</strong>，<em>斜体</em>，下划线，<del>删除线</del>，<a href="http://baham.co/10_21_651.html">链接</a>，<strong>引用</strong>，<strong>more标签</strong>。如果支持html代码可能会更好用。 另外支持上传照片及视频。 并且可以直接访问dashboard</p>
@@ -66,9 +66,9 @@
   
   <entry>
     <title type="html"><![CDATA[加强Wordpress安全的18条建议]]></title>
-    <link href="http://baham.co/09_14_577.html"/>
+    <link href="http://baham.gthub.io/09_14_577.html"/>
     <updated>2012-09-14T11:45:34+00:00</updated>
-    <id>http://baham.co/577</id>
+    <id>http://baham.gthub.io/577</id>
     <content type="html"><![CDATA[<p>作为最热门的博客系统，Wordpress拥有非常庞大的用户基数，于是也就成为了很多人眼中的香饽饽。所以说，加强博客的安全，势在必行。以下为，收集来的几条建议。详细内容在PDF文档中。</p>
 
 <ol>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Tips | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/tips/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/tips/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[黑客帝国-几点Tips]]></title>
-    <link href="http://baham.co/11_09_hei-ke-di-guo-ji-dian-tips.html"/>
+    <link href="http://baham.gthub.io/11_09_hei-ke-di-guo-ji-dian-tips.html"/>
     <updated>2013-11-09T14:48:00+00:00</updated>
-    <id>http://baham.co/hei-ke-di-guo-ji-dian-tips</id>
+    <id>http://baham.gthub.io/hei-ke-di-guo-ji-dian-tips</id>
     <content type="html"><![CDATA[<p> 貌似很多人在写《黑客帝国》影评、观后感的时候，忽略了一点，就是祭师第一次见Neo时，</p>
 
 <p> 祭师是否否定Neo is the one?</p>
@@ -46,9 +46,9 @@ Sorry,Kid.  You got the gift.   不过，你在等待什么
   
   <entry>
     <title type="html"><![CDATA[如何“下载”百度音乐]]></title>
-    <link href="http://baham.co/06_12_ru-he-xia-zai-bai-du-yin-le.html"/>
+    <link href="http://baham.gthub.io/06_12_ru-he-xia-zai-bai-du-yin-le.html"/>
     <updated>2013-06-12T23:15:00+00:00</updated>
-    <id>http://baham.co/ru-he-xia-zai-bai-du-yin-le</id>
+    <id>http://baham.gthub.io/ru-he-xia-zai-bai-du-yin-le</id>
     <content type="html"><![CDATA[<p>国内过去提供免费音乐下载的很多网站已经开始收费了。这是好事，我支持。
 音乐作为艺术品收多贵的费用我都支持。</p>
 
@@ -100,9 +100,9 @@ Sorry,Kid.  You got the gift.   不过，你在等待什么
   
   <entry>
     <title type="html"><![CDATA[学车记1]]></title>
-    <link href="http://baham.co/06_04_xue-che-ji-1.html"/>
+    <link href="http://baham.gthub.io/06_04_xue-che-ji-1.html"/>
     <updated>2013-06-04T21:21:00+00:00</updated>
-    <id>http://baham.co/xue-che-ji-1</id>
+    <id>http://baham.gthub.io/xue-che-ji-1</id>
     <content type="html"><![CDATA[<p>2012年报的驾校，恰逢新交规出台，于是练车一直等到今年才开始。</p>
 
 <p>新交规出台并开始执行后，网上对其吐槽声一片，很多人编得笑话很搞笑却也很现实，并且潜移默化中帮你记住了新交规。</p>
@@ -167,9 +167,9 @@ Sorry,Kid.  You got the gift.   不过，你在等待什么
   
   <entry>
     <title type="html"><![CDATA[JavaDoc注释详解]]></title>
-    <link href="http://baham.co/08_26_470.html"/>
+    <link href="http://baham.gthub.io/08_26_470.html"/>
     <updated>2012-08-26T23:02:58+00:00</updated>
-    <id>http://baham.co/470</id>
+    <id>http://baham.gthub.io/470</id>
     <content type="html"><![CDATA[<p>在<strong>JavaAPI</strong>中，有完整的Java说明，而如果想生成想JavaAPI一样的说明文件，就需要使用<strong>javadoc工具</strong>，同时需要用到Javadoc格式的注释。</p>
 
 <h1> 1 使用/<em>* 而非/</em>开头</h1>
@@ -257,9 +257,9 @@ public class HelloWorld{
   
   <entry>
     <title type="html"><![CDATA[《Bulding Java Programs》文章索引]]></title>
-    <link href="http://baham.co/08_26_466.html"/>
+    <link href="http://baham.gthub.io/08_26_466.html"/>
     <updated>2012-08-26T22:57:29+00:00</updated>
-    <id>http://baham.co/466</id>
+    <id>http://baham.gthub.io/466</id>
     <content type="html"><![CDATA[<p><img src="http://baham.co/wp-content/uploads/2012/08/51EEKpJ3DwL._SL500_AA300_-150x150.jpg" alt="building-java-programs-封面" />第二版封面</p>
 
 <p><strong>《Bulding Java Programs》</strong>作者<strong>Stuart Reges</strong>，<strong>Marty Stepp</strong>，几经再版，属于Java教材中的经典，假期一直在读这本书，可以说是“<strong>循循善诱 ，由浅入深</strong>”，实在是Java入门必备好书。</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: JavaScript | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/javascript/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/javascript/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[一元线性回归分析]]></title>
-    <link href="http://baham.co/06_25_%5B%3F%5D-yuan-xian-xing-hui-gui-fen-xi.html"/>
+    <link href="http://baham.gthub.io/06_25_%5B%3F%5D-yuan-xian-xing-hui-gui-fen-xi.html"/>
     <updated>2013-06-25T23:09:00+00:00</updated>
-    <id>http://baham.co/[?]-yuan-xian-xing-hui-gui-fen-xi</id>
+    <id>http://baham.gthub.io/[?]-yuan-xian-xing-hui-gui-fen-xi</id>
     <content type="html"><![CDATA[<p>输入两组数据xi,yi，计算回归方程系数a,b，以及回归平方和U、剩余平方和Q。</p>
 
 <p>采取相关系数检验法和F检验法对线性拟合程度进行检验，随后查表即可得到拟合程度。</p>
@@ -33,7 +33,7 @@
     <head>
         <title>YiYuanXianXingHuiGuiFenXi</title>
         <!--link rel="stylesheet" type="text/css" href="stylesheet.css" /-->
-        <script type="text/javascript" src="http://baham.co/javascripts/line.js"></script>
+        <script type="text/javascript" src="http://baham.gthub.io/javascripts/line.js"></script>
     </head>
     <body>
         <p>
@@ -58,9 +58,9 @@
   
   <entry>
     <title type="html"><![CDATA[重选模拟-重选数学模型]]></title>
-    <link href="http://baham.co/06_25_zhong-xuan-mo-ni-zhong-xuan-shu-xue-mo-xing.html"/>
+    <link href="http://baham.gthub.io/06_25_zhong-xuan-mo-ni-zhong-xuan-shu-xue-mo-xing.html"/>
     <updated>2013-06-25T23:05:00+00:00</updated>
-    <id>http://baham.co/zhong-xuan-mo-ni-zhong-xuan-shu-xue-mo-xing</id>
+    <id>http://baham.gthub.io/zhong-xuan-mo-ni-zhong-xuan-shu-xue-mo-xing</id>
     <content type="html"><![CDATA[<p>给定块煤、末煤的灰分、产率数据，数据所要求产品会分，计算出块煤、末煤产率。</p>
 
 <p>用到“三点插值”，“二分法”，“分配曲线正态分布模型”等知识。</p>
@@ -99,9 +99,9 @@
   
   <entry>
     <title type="html"><![CDATA[插值算法-JavaScript实现]]></title>
-    <link href="http://baham.co/06_13_cha-zhi-suan-fa-javascriptshi-xian.html"/>
+    <link href="http://baham.gthub.io/06_13_cha-zhi-suan-fa-javascriptshi-xian.html"/>
     <updated>2013-06-13T22:16:00+00:00</updated>
-    <id>http://baham.co/cha-zhi-suan-fa-javascriptshi-xian</id>
+    <id>http://baham.gthub.io/cha-zhi-suan-fa-javascriptshi-xian</id>
     <content type="html"><![CDATA[<p>之前有一片文章写的是选矿中常用的模拟方法<a href="http://baham.co/05_24_di-%5B%3F%5D-ge-javascriptxiang-mu-yong-yu-kuang-wu-li-du-fen-xi.html">一元非线性转化为线性</a>，这几天，人变懒了，而且休息也不怎么好，<strong>插值</strong>这个写得很慢（抱歉，对自己）。</p>
 
 <p>不过，还好，最终还是写完了。</p>
@@ -170,9 +170,9 @@ and open the template in the editor.
   
   <entry>
     <title type="html"><![CDATA[在CodeCademy上获得的勋章]]></title>
-    <link href="http://baham.co/05_29_zai-codecademyshang-huo-de-de-xun-zhang.html"/>
+    <link href="http://baham.gthub.io/05_29_zai-codecademyshang-huo-de-de-xun-zhang.html"/>
     <updated>2013-05-29T22:37:00+00:00</updated>
-    <id>http://baham.co/zai-codecademyshang-huo-de-de-xun-zhang</id>
+    <id>http://baham.gthub.io/zai-codecademyshang-huo-de-de-xun-zhang</id>
     <content type="html"><![CDATA[<p>炫耀一下</p>
 
 <p><img src="/images/cc.png" alt="codecademy" /></p>
@@ -185,9 +185,9 @@ and open the template in the editor.
   
   <entry>
     <title type="html"><![CDATA[坚定不移地学习和使用JavaScript]]></title>
-    <link href="http://baham.co/05_27_jian-ding-bu-yi-di-xue-xi-he-shi-yong-javascript.html"/>
+    <link href="http://baham.gthub.io/05_27_jian-ding-bu-yi-di-xue-xi-he-shi-yong-javascript.html"/>
     <updated>2013-05-27T19:59:00+00:00</updated>
-    <id>http://baham.co/jian-ding-bu-yi-di-xue-xi-he-shi-yong-javascript</id>
+    <id>http://baham.gthub.io/jian-ding-bu-yi-di-xue-xi-he-shi-yong-javascript</id>
     <content type="html"><![CDATA[<p>本来不想学习什么编程语言了，因为此前学过VB和Java，由于自己专业对编程技术要求很低，自学编程，也无用武之地。</p>
 
 <p>不过，后来看到一篇文章，说人人都应该学编程，不要求太深，但是至少也应该掌握JavaScript这种非程序员的语言。

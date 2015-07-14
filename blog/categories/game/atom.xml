@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Game | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/game/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/game/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Do you remember that game on linux]]></title>
-    <link href="http://baham.co/05_11_do-you-remember-that-game-on-linux.html"/>
+    <link href="http://baham.gthub.io/05_11_do-you-remember-that-game-on-linux.html"/>
     <updated>2014-05-11T08:40:00+00:00</updated>
-    <id>http://baham.co/do-you-remember-that-game-on-linux</id>
+    <id>http://baham.gthub.io/do-you-remember-that-game-on-linux</id>
     <content type="html"><![CDATA[<p>There is a lot of games supporting linux. You can get the <a href="https://en.wikipedia.org/wiki/Linux_gaming">list</a>.</p>
 
 <h2>Tetris&mdash;<a href="https://help.gnome.org/users/quadrapassel/stable/index.html.en">Quadrapassel</a></h2>
@@ -55,9 +55,9 @@
   
   <entry>
     <title type="html"><![CDATA[Game Time Limited in 21 hours a week]]></title>
-    <link href="http://baham.co/11_11_game-time-limited-in-21-hours-a-week.html"/>
+    <link href="http://baham.gthub.io/11_11_game-time-limited-in-21-hours-a-week.html"/>
     <updated>2013-11-11T01:16:00+00:00</updated>
-    <id>http://baham.co/game-time-limited-in-21-hours-a-week</id>
+    <id>http://baham.gthub.io/game-time-limited-in-21-hours-a-week</id>
     <content type="html"><![CDATA[<p><img src="/images/game1.jpeg" alt="gametime" /></p>
 
 <p>Recently, I learned the MOOC &ndash;<em>Video Game and Learning</em>.</p>
@@ -76,9 +76,9 @@
   
   <entry>
     <title type="html"><![CDATA[微软IllumiRoom演示视频，惊现开源游戏SuperTuxKart]]></title>
-    <link href="http://baham.co/01_10_wei-ruan-illumiroomyan-shi-shi-pin-%2Cliang-xian-kai-yuan-you-xi-tuxracer.html"/>
+    <link href="http://baham.gthub.io/01_10_wei-ruan-illumiroomyan-shi-shi-pin-%2Cliang-xian-kai-yuan-you-xi-tuxracer.html"/>
     <updated>2013-01-10T23:38:00+00:00</updated>
-    <id>http://baham.co/wei-ruan-illumiroomyan-shi-shi-pin-,liang-xian-kai-yuan-you-xi-tuxracer</id>
+    <id>http://baham.gthub.io/wei-ruan-illumiroomyan-shi-shi-pin-,liang-xian-kai-yuan-you-xi-tuxracer</id>
     <content type="html"><![CDATA[<p>废话不多说，有图为证。</p>
 
 <p><img class="<a" src="href="http://a.36krcnd.com/photo/044fae751c0966b136ad72ae0191fb8b.png">http://a.36krcnd.com/photo/044fae751c0966b136ad72ae0191fb8b.png</a>" width="360" height="240" title="截图 微软演示视频截图" ></p>
@@ -97,18 +97,18 @@
   
   <entry>
     <title type="html"><![CDATA[骑马与砍杀-骑射教程（视频）]]></title>
-    <link href="http://baham.co/11_01_673.html"/>
+    <link href="http://baham.gthub.io/11_01_673.html"/>
     <updated>2012-11-01T19:40:55+00:00</updated>
-    <id>http://baham.co/673</id>
+    <id>http://baham.gthub.io/673</id>
     <content type="html"><![CDATA[<p><embed src="http://player.youku.com/player.php/sid/XMjY1MjI2MjA4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[骑马与砍杀：战团-各城市产出列表]]></title>
-    <link href="http://baham.co/10_06_626.html"/>
+    <link href="http://baham.gthub.io/10_06_626.html"/>
     <updated>2012-10-06T16:08:09+00:00</updated>
-    <id>http://baham.co/626</id>
+    <id>http://baham.gthub.io/626</id>
     <content type="html"><![CDATA[<p><strong>骑马与砍杀：战团-各城市产出</strong></p>
 
 <h1>维吉亚王国</h1>

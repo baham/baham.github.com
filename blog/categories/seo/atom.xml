@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: SEO | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/seo/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/seo/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopress add Original Link after post Version2]]></title>
-    <link href="http://baham.co/05_08_add-original-link.html"/>
+    <link href="http://baham.gthub.io/05_08_add-original-link.html"/>
     <updated>2014-05-08T10:47:00+00:00</updated>
-    <id>http://baham.co/add-original-link</id>
+    <id>http://baham.gthub.io/add-original-link</id>
     <content type="html"><![CDATA[<p>I alreay use this tool, since I found it online. It is really cool and useful. And does not affect the overall layout of the page.</p>
 
 <p>But when I saw the source code of the orignal link.</p>
@@ -56,9 +56,9 @@ If you want to reprint it, please do under the  <a rel="nofollow" href=#{license
   
   <entry>
     <title type="html"><![CDATA[Add Descritpion and Keywords to octopress site plugin Version 3]]></title>
-    <link href="http://baham.co/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html"/>
+    <link href="http://baham.gthub.io/05_08_add-descritpion-and-keywords-for-octopress-site-plugin-v3.html"/>
     <updated>2014-05-08T08:33:00+00:00</updated>
-    <id>http://baham.co/add-descritpion-and-keywords-for-octopress-site-plugin-v3</id>
+    <id>http://baham.gthub.io/add-descritpion-and-keywords-for-octopress-site-plugin-v3</id>
     <content type="html"><![CDATA[<p>In version 2 plugin, the code is :
 <div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (add_keywords_and_description_new.rb)</span> <a href='/files/code/add_keywords_and_description_new.rb'>download</a></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -141,9 +141,9 @@ Disallow: /blog/page/
   
   <entry>
     <title type="html"><![CDATA[Octopress Add Description Keywords Plugin Optimization]]></title>
-    <link href="http://baham.co/05_07_octopress-add-description-keywords-plugin-optimization.html"/>
+    <link href="http://baham.gthub.io/05_07_octopress-add-description-keywords-plugin-optimization.html"/>
     <updated>2014-05-07T01:22:00+00:00</updated>
-    <id>http://baham.co/octopress-add-description-keywords-plugin-optimization</id>
+    <id>http://baham.gthub.io/octopress-add-description-keywords-plugin-optimization</id>
     <content type="html"><![CDATA[<p>Yesterday, when I just google my own site. I find the results show like this:</p>
 
 <p><img src="/images/baham/old-descripiton.jpg" alt="The Site's meta description" /></p>
@@ -215,9 +215,9 @@ Disallow: /blog/page/
   
   <entry>
     <title type="html"><![CDATA[我秉持的SEO原则]]></title>
-    <link href="http://baham.co/11_10_wo-bing-chi-de-seoyuan-ze.html"/>
+    <link href="http://baham.gthub.io/11_10_wo-bing-chi-de-seoyuan-ze.html"/>
     <updated>2013-11-10T14:09:00+00:00</updated>
-    <id>http://baham.co/wo-bing-chi-de-seoyuan-ze</id>
+    <id>http://baham.gthub.io/wo-bing-chi-de-seoyuan-ze</id>
     <content type="html"><![CDATA[<p>今天，去了同程网的宣讲会，招聘SEO人员，本来不是很想去，毕竟专业不对口，但当我拿起手机百度了一下"Baham"后，我发现，百度不仅恢复了对我网站的收录，而且<strong>Baham</strong>词条，我的排名第一。当然，这没什么值得炫耀，因为，网站核心词汇在搜索引擎中排名第一是正常现象。</p>
 
 <p>（好比，百度中搜索谷歌，如果，百度第一条显示结果不是Google。你不会抱怨谷歌的网站太不起眼，你会抱怨百度搜索技术太差。）</p>
@@ -253,9 +253,9 @@ Disallow: /blog/page/
   
   <entry>
     <title type="html"><![CDATA[昨天才发现我的站点被百度狠狠地惩罚了]]></title>
-    <link href="http://baham.co/05_06_zuo-tian-cai-fa-xian-wo-de-zhan-dian-bei-bai-du-hen-hen-di-cheng-fa-liao.html"/>
+    <link href="http://baham.gthub.io/05_06_zuo-tian-cai-fa-xian-wo-de-zhan-dian-bei-bai-du-hen-hen-di-cheng-fa-liao.html"/>
     <updated>2013-05-06T23:38:00+00:00</updated>
-    <id>http://baham.co/zuo-tian-cai-fa-xian-wo-de-zhan-dian-bei-bai-du-hen-hen-di-cheng-fa-liao</id>
+    <id>http://baham.gthub.io/zuo-tian-cai-fa-xian-wo-de-zhan-dian-bei-bai-du-hen-hen-di-cheng-fa-liao</id>
     <content type="html"><![CDATA[<p>之前犯过一次错误，就是在从wordpress迁移到octopress时，把自己的一个二级目录/javatutorial扔了，也就是说，该二级目录下的内容并没有迁移过来，我知道对于这种情况搜索引擎一定会给电惩罚的，只是不知道这么严重。</p>
 
 <p><img src="/images/bd.png" alt="baidu" /></p>

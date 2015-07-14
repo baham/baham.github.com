@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Blender | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/blender/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/blender/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[I built a Flotation Separator with blender]]></title>
-    <link href="http://baham.co/08_01_i-built-a-floation-separator-with-blender.html"/>
+    <link href="http://baham.gthub.io/08_01_i-built-a-floation-separator-with-blender.html"/>
     <updated>2014-08-01T00:58:00+00:00</updated>
-    <id>http://baham.co/i-built-a-floation-separator-with-blender</id>
+    <id>http://baham.gthub.io/i-built-a-floation-separator-with-blender</id>
     <content type="html"><![CDATA[<p><img src="/images/mineral/flotation1.jpg" alt="Flotation Separator" />
 Boss Xie had talked with us fresh men about the 3D moduling, he thought the studio need men to build 3D module. And I can kind of use <em>Blender</em>, I told him this.</p>
 
@@ -31,9 +31,9 @@ Boss Xie had talked with us fresh men about the 3D moduling, he thought the stud
   
   <entry>
     <title type="html"><![CDATA[Blender新开源短片]]></title>
-    <link href="http://baham.co/12_16_blenderxin-kai-yuan-duan-pian.html"/>
+    <link href="http://baham.gthub.io/12_16_blenderxin-kai-yuan-duan-pian.html"/>
     <updated>2013-12-16T14:58:00+00:00</updated>
-    <id>http://baham.co/blenderxin-kai-yuan-duan-pian</id>
+    <id>http://baham.gthub.io/blenderxin-kai-yuan-duan-pian</id>
     <content type="html"><![CDATA[<p><embed src="http://player.youku.com/player.php/sid/XNjM4NjcxOTQ4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
 
 <p>&mdash;Caminandes- Gran Dillama</p>
@@ -47,9 +47,9 @@ Boss Xie had talked with us fresh men about the 3D moduling, he thought the stud
   
   <entry>
     <title type="html"><![CDATA[使用Blender做3D打印]]></title>
-    <link href="http://baham.co/05_01_shi-yong-blenderzuo-3dda-yin.html"/>
+    <link href="http://baham.gthub.io/05_01_shi-yong-blenderzuo-3dda-yin.html"/>
     <updated>2013-05-01T23:38:00+00:00</updated>
-    <id>http://baham.co/shi-yong-blenderzuo-3dda-yin</id>
+    <id>http://baham.gthub.io/shi-yong-blenderzuo-3dda-yin</id>
     <content type="html"><![CDATA[<p><embed src="http://player.youku.com/player.php/sid/XNTUwNzU5MDg4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
 
 <p>一个讲blender做3d打印的教程，和大家分享一下。</p>
@@ -62,9 +62,9 @@ Boss Xie had talked with us fresh men about the 3D moduling, he thought the stud
   
   <entry>
     <title type="html"><![CDATA[Blender台湾大神－artspacemedia视频教程]]></title>
-    <link href="http://baham.co/04_11_blendertai-wan-da-shen-%5Bnil%5D%16artspacemediashi-pin-jiao-cheng.html"/>
+    <link href="http://baham.gthub.io/04_11_blendertai-wan-da-shen-%5Bnil%5D%16artspacemediashi-pin-jiao-cheng.html"/>
     <updated>2013-04-11T22:42:00+00:00</updated>
-    <id>http://baham.co/blendertai-wan-da-shen-[nil]artspacemediashi-pin-jiao-cheng</id>
+    <id>http://baham.gthub.io/blendertai-wan-da-shen-[nil]artspacemediashi-pin-jiao-cheng</id>
     <content type="html"><![CDATA[<p>之前，看过<a href="http://www.blenderguru.com/">blenderguru</a>的教程。很不错，Andrew Price的视频，讲得很仔细，很认真，虽然不是English-Speaker,但是也能看懂。</p>
 
 <p>后来，听说了，一套台湾大神的视频，也不知道这位大神叫什么？只知道ID是“artspacemedia”。</p>
@@ -92,9 +92,9 @@ Boss Xie had talked with us fresh men about the 3D moduling, he thought the stud
   
   <entry>
     <title type="html"><![CDATA[Blender Wiki PDF文档分享]]></title>
-    <link href="http://baham.co/03_12_blender-wiki-pdfwen-dang-fen-xiang.html"/>
+    <link href="http://baham.gthub.io/03_12_blender-wiki-pdfwen-dang-fen-xiang.html"/>
     <updated>2013-03-12T15:01:00+00:00</updated>
-    <id>http://baham.co/blender-wiki-pdfwen-dang-fen-xiang</id>
+    <id>http://baham.gthub.io/blender-wiki-pdfwen-dang-fen-xiang</id>
     <content type="html"><![CDATA[<p>从网上找到的，Blender Wiki的离线版，毕竟时刻在线看Wiki对于非包月上网用户实在不划算。</p>
 
 <p>找了很久，不过功夫不负有心人，总算找到了。</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Python | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/python/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/python/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[6 Tips to Writing More Beautiful Python Codes(For Beginners)]]></title>
-    <link href="http://baham.co/05_15_6-tips-to-writing-more-beautiful-python-codes.html"/>
+    <link href="http://baham.gthub.io/05_15_6-tips-to-writing-more-beautiful-python-codes.html"/>
     <updated>2014-05-15T06:12:00+00:00</updated>
-    <id>http://baham.co/6-tips-to-writing-more-beautiful-python-codes</id>
+    <id>http://baham.gthub.io/6-tips-to-writing-more-beautiful-python-codes</id>
     <content type="html"><![CDATA[<p>Python is an easy-learning programming language.  Its design philosophy emphasizes code readability. And if you did not know python, you can get the base knowledge on <a href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">Wikipedia</a>.</p>
 
 <h2>1 &ldquo;&rdquo;&ldquo;  use Three quotes</h2>

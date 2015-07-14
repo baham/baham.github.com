@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: UTB | Baham's Blog]]></title>
-  <link href="http://baham.co/blog/categories/utb/atom.xml" rel="self"/>
-  <link href="http://baham.co/"/>
-  <updated>2015-05-14T01:30:32+00:00</updated>
-  <id>http://baham.co/</id>
+  <link href="http://baham.gthub.io/blog/categories/utb/atom.xml" rel="self"/>
+  <link href="http://baham.gthub.io/"/>
+  <updated>2015-07-14T00:38:11+00:00</updated>
+  <id>http://baham.gthub.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[JavaZone视频集锦2-JavaZone四个最受欢迎的演讲视频]]></title>
-    <link href="http://baham.co/08_06_370.html"/>
+    <link href="http://baham.gthub.io/08_06_370.html"/>
     <updated>2012-08-06T00:00:57+00:00</updated>
-    <id>http://baham.co/370</id>
+    <id>http://baham.gthub.io/370</id>
     <content type="html"><![CDATA[<h1><img src="http://baham.co/wp-content/uploads/2012/08/JavaZone-coolcode-300x219.png" alt="JavaZone视频演讲-Coolcode" /></h1>
 
 <h1></h1>
@@ -88,9 +88,9 @@
   
   <entry>
     <title type="html"><![CDATA[Java Zone 视频集锦]]></title>
-    <link href="http://baham.co/07_23_134.html"/>
+    <link href="http://baham.gthub.io/07_23_134.html"/>
     <updated>2012-07-23T19:25:05+00:00</updated>
-    <id>http://baham.co/134</id>
+    <id>http://baham.gthub.io/134</id>
     <content type="html"><![CDATA[<h1>Java大盗(<strong>The Java Heist</strong>)</h1>
 
 <p><embed src="http://player.youku.com/player.php/Type/Folder/Fid/17905217/Ob/1/sid/XNDMwODk5Nzk2/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" allowFullScreen="true" mode="transparent" type="application/x-shockwave-flash"></embed></p>
