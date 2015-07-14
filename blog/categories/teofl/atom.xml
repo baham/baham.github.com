@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Teofl | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/teofl/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/teofl/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Toefl Test I Took.]]></title>
-    <link href="http://baham.gthub.io/07_10_toefl-test-i-took.html"/>
+    <link href="http://baham.github.io/07_10_toefl-test-i-took.html"/>
     <updated>2014-07-10T08:02:00+00:00</updated>
-    <id>http://baham.gthub.io/toefl-test-i-took</id>
+    <id>http://baham.github.io/toefl-test-i-took</id>
     <content type="html"><![CDATA[<p>This is my first time to take Toefl Test. After I graduated and left the camp. I prepared for the toefl test. But I didn&rsquo;t prepared it well. I even not finished the one whole office guide test. It is really a pity. Wahtever, the porpose I take it is just verified my English skill, although the scores did not public, but the I achive the porpose, my English-skill is bad.</p>
 
 <p>What I need do is learning and practicing.</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Mineral Processing | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/mineral-processing/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/mineral-processing/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Dr Gao's report]]></title>
-    <link href="http://baham.gthub.io/10_28_dr-gaos-report.html"/>
+    <link href="http://baham.github.io/10_28_dr-gaos-report.html"/>
     <updated>2014-10-28T13:56:00+00:00</updated>
-    <id>http://baham.gthub.io/dr-gaos-report</id>
+    <id>http://baham.github.io/dr-gaos-report</id>
     <content type="html"><![CDATA[<p>On one Sunday, I was at KFC in Wanda to learn some English lecture about words. Bo called me, told me go back to the company to have a meeting.</p>
 
 <p>When I knew the message, it is after 3 pm, and the meeting have already started. So I run my bicycle fast to come back.</p>
@@ -41,9 +41,9 @@
   
   <entry>
     <title type="html"><![CDATA[I built a Flotation Separator with blender]]></title>
-    <link href="http://baham.gthub.io/08_01_i-built-a-floation-separator-with-blender.html"/>
+    <link href="http://baham.github.io/08_01_i-built-a-floation-separator-with-blender.html"/>
     <updated>2014-08-01T00:58:00+00:00</updated>
-    <id>http://baham.gthub.io/i-built-a-floation-separator-with-blender</id>
+    <id>http://baham.github.io/i-built-a-floation-separator-with-blender</id>
     <content type="html"><![CDATA[<p><img src="/images/mineral/flotation1.jpg" alt="Flotation Separator" />
 Boss Xie had talked with us fresh men about the 3D moduling, he thought the studio need men to build 3D module. And I can kind of use <em>Blender</em>, I told him this.</p>
 
@@ -57,9 +57,9 @@ Boss Xie had talked with us fresh men about the 3D moduling, he thought the stud
   
   <entry>
     <title type="html"><![CDATA[The difference between Coal Preparation and the Metal Preparation]]></title>
-    <link href="http://baham.gthub.io/07_25_the-difference-between-coal-preparation-and-the-metal-preparation.html"/>
+    <link href="http://baham.github.io/07_25_the-difference-between-coal-preparation-and-the-metal-preparation.html"/>
     <updated>2014-07-25T12:51:00+00:00</updated>
-    <id>http://baham.gthub.io/the-difference-between-coal-preparation-and-the-metal-preparation</id>
+    <id>http://baham.github.io/the-difference-between-coal-preparation-and-the-metal-preparation</id>
     <content type="html"><![CDATA[<p>Most of what I learned in university is coal processing, though my major is called mineral processing. And trully, I just learned fewer knowledge about other mineral&rsquo;s processing than coal. But the company&rsquo;s business is more relative about metal. And there was mineral processing training these days. It is about mineral, especially metal. After the company&rsquo;s train and learning in school, I want to talk about the things about the difference between coal and metal. And I want to tell you directly,
 <em>There is no difference originally.</em></p>
 
@@ -86,9 +86,9 @@ Boss Xie had talked with us fresh men about the 3D moduling, he thought the stud
   
   <entry>
     <title type="html"><![CDATA[最近几天面试得到的经验]]></title>
-    <link href="http://baham.gthub.io/10_18_zui-jin-ji-tian-mian-shi-de-dao-de-jing-yan.html"/>
+    <link href="http://baham.github.io/10_18_zui-jin-ji-tian-mian-shi-de-dao-de-jing-yan.html"/>
     <updated>2013-10-18T23:24:00+00:00</updated>
-    <id>http://baham.gthub.io/zui-jin-ji-tian-mian-shi-de-dao-de-jing-yan</id>
+    <id>http://baham.github.io/zui-jin-ji-tian-mian-shi-de-dao-de-jing-yan</id>
     <content type="html"><![CDATA[<p> 最近，几天投了不少简历，也参加了几次面试。在此写个总结，纯粹为经验之谈。</p>
 
 <h2>简历投递之后，很多在简历筛选环节就被筛掉了。</h2>
@@ -131,9 +131,9 @@ Boss Xie had talked with us fresh men about the 3D moduling, he thought the stud
   
   <entry>
     <title type="html"><![CDATA[一元线性回归分析]]></title>
-    <link href="http://baham.gthub.io/06_25_%5B%3F%5D-yuan-xian-xing-hui-gui-fen-xi.html"/>
+    <link href="http://baham.github.io/06_25_%5B%3F%5D-yuan-xian-xing-hui-gui-fen-xi.html"/>
     <updated>2013-06-25T23:09:00+00:00</updated>
-    <id>http://baham.gthub.io/[?]-yuan-xian-xing-hui-gui-fen-xi</id>
+    <id>http://baham.github.io/[?]-yuan-xian-xing-hui-gui-fen-xi</id>
     <content type="html"><![CDATA[<p>输入两组数据xi,yi，计算回归方程系数a,b，以及回归平方和U、剩余平方和Q。</p>
 
 <p>采取相关系数检验法和F检验法对线性拟合程度进行检验，随后查表即可得到拟合程度。</p>
@@ -149,7 +149,7 @@ Boss Xie had talked with us fresh men about the 3D moduling, he thought the stud
     <head>
         <title>YiYuanXianXingHuiGuiFenXi</title>
         <!--link rel="stylesheet" type="text/css" href="stylesheet.css" /-->
-        <script type="text/javascript" src="http://baham.gthub.io/javascripts/line.js"></script>
+        <script type="text/javascript" src="http://baham.github.io/javascripts/line.js"></script>
     </head>
     <body>
         <p>

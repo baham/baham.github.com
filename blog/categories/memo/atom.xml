@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Memo | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/memo/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/memo/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Cross]]></title>
-    <link href="http://baham.gthub.io/11_23_the-cross.html"/>
+    <link href="http://baham.github.io/11_23_the-cross.html"/>
     <updated>2014-11-23T05:01:00+00:00</updated>
-    <id>http://baham.gthub.io/the-cross</id>
+    <id>http://baham.github.io/the-cross</id>
     <content type="html"><![CDATA[<p>I bought a silver cross from taobao, at Novermber 11.</p>
 
 <p>Before I went for the business trip.</p>
@@ -30,9 +30,9 @@
   
   <entry>
     <title type="html"><![CDATA[Catching Crabs]]></title>
-    <link href="http://baham.gthub.io/09_30_catching-crabs.html"/>
+    <link href="http://baham.github.io/09_30_catching-crabs.html"/>
     <updated>2014-09-30T13:05:00+00:00</updated>
-    <id>http://baham.gthub.io/catching-crabs</id>
+    <id>http://baham.github.io/catching-crabs</id>
     <content type="html"><![CDATA[<p>Days ago, 2 roommates and I went to the China&rsquo;s side of Yalu River to catch the crabs in the evnening.</p>
 
 <!--more-->
@@ -46,9 +46,9 @@
   
   <entry>
     <title type="html"><![CDATA[A Bad Word]]></title>
-    <link href="http://baham.gthub.io/09_18_a-bad-word.html"/>
+    <link href="http://baham.github.io/09_18_a-bad-word.html"/>
     <updated>2014-09-18T13:48:00+00:00</updated>
-    <id>http://baham.gthub.io/a-bad-word</id>
+    <id>http://baham.github.io/a-bad-word</id>
     <content type="html"><![CDATA[<p>These days, I got cold. Today is the third day. And I say a wrong word. Orginally, I just want to say a joke. But I found it is bad a bad even evil word. Because I spoke so lordly that someone turn back to see my position.</p>
 
 <!--more-->
@@ -70,9 +70,9 @@
   
   <entry>
     <title type="html"><![CDATA[Driving]]></title>
-    <link href="http://baham.gthub.io/07_10_driving.html"/>
+    <link href="http://baham.github.io/07_10_driving.html"/>
     <updated>2014-07-10T08:47:00+00:00</updated>
-    <id>http://baham.gthub.io/driving</id>
+    <id>http://baham.github.io/driving</id>
     <content type="html"><![CDATA[<p>After I get the driving license, I neally ever drive.</p>
 
 <p>But there is a chance for me to drive.</p>
@@ -94,9 +94,9 @@
   
   <entry>
     <title type="html"><![CDATA[Smartphone]]></title>
-    <link href="http://baham.gthub.io/07_01_smart-phone.html"/>
+    <link href="http://baham.github.io/07_01_smart-phone.html"/>
     <updated>2014-07-01T08:59:00+00:00</updated>
-    <id>http://baham.gthub.io/smart-phone</id>
+    <id>http://baham.github.io/smart-phone</id>
     <content type="html"><![CDATA[<p>My old android phone is broken, it can not start up. I did not know why? Because when I pluged in its battery on the night. It still could work. But when I wake up, it could not start up.</p>
 
 <p>So I just found out my old Windows Mobile phone, my first smart phone with 64Mhz cpu and 64M ram, but it rum more smoothly than most cheap android phones.</p>

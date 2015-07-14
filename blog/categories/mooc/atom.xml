@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: MOOC | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/mooc/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/mooc/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Model Thinking on coursera]]></title>
-    <link href="http://baham.gthub.io/11_01_model-thinking-on-coursera.html"/>
+    <link href="http://baham.github.io/11_01_model-thinking-on-coursera.html"/>
     <updated>2014-11-01T12:45:00+00:00</updated>
-    <id>http://baham.gthub.io/model-thinking-on-coursera</id>
+    <id>http://baham.github.io/model-thinking-on-coursera</id>
     <content type="html"><![CDATA[<p>Though I always delay on the quiz test date. But I still finish the third quizs.</p>
 
 <p>Before this course, I only finished one mooc course.</p>
@@ -33,9 +33,9 @@
   
   <entry>
     <title type="html"><![CDATA[Notes 1 of Model Thinking -Universoty of Michigan]]></title>
-    <link href="http://baham.gthub.io/10_09_model-thinking-universoty-of-michigan.html"/>
+    <link href="http://baham.github.io/10_09_model-thinking-universoty-of-michigan.html"/>
     <updated>2014-10-09T13:25:00+00:00</updated>
-    <id>http://baham.gthub.io/model-thinking-universoty-of-michigan</id>
+    <id>http://baham.github.io/model-thinking-universoty-of-michigan</id>
     <content type="html"><![CDATA[<p>I join this lecture.</p>
 
 <p>And listen some video courses.</p>
@@ -66,9 +66,9 @@ crutch          拐杖</p>
   
   <entry>
     <title type="html"><![CDATA[Some MOOC Website]]></title>
-    <link href="http://baham.gthub.io/10_27_some-mooc-website.html"/>
+    <link href="http://baham.github.io/10_27_some-mooc-website.html"/>
     <updated>2013-10-27T23:38:00+00:00</updated>
-    <id>http://baham.gthub.io/some-mooc-website</id>
+    <id>http://baham.github.io/some-mooc-website</id>
     <content type="html"><![CDATA[<h1>MOOC List-几大MOOC列表</h1>
 
 
@@ -174,9 +174,9 @@ crutch          拐杖</p>
   
   <entry>
     <title type="html"><![CDATA[中國古代歷史與人物－－秦始皇]]></title>
-    <link href="http://baham.gthub.io/10_05_zhong-guo-gu-dai-li-shi-yu-ren-wu-%5Bnil%5D%5Bnil%5Dqin-shi-huang.html"/>
+    <link href="http://baham.github.io/10_05_zhong-guo-gu-dai-li-shi-yu-ren-wu-%5Bnil%5D%5Bnil%5Dqin-shi-huang.html"/>
     <updated>2013-10-05T23:11:00+00:00</updated>
-    <id>http://baham.gthub.io/zhong-guo-gu-dai-li-shi-yu-ren-wu-[nil][nil]qin-shi-huang</id>
+    <id>http://baham.github.io/zhong-guo-gu-dai-li-shi-yu-ren-wu-[nil][nil]qin-shi-huang</id>
     <content type="html"><![CDATA[<p> 最近一直在 听Prof. 呂世浩 Shih-Hao Lu 的公开课，觉得很不错，分享一下，第一篇——开宗名义</p>
 
 <p>下为视频，同时也测试一下HTML5的video标签。</p>
@@ -187,9 +187,9 @@ crutch          拐杖</p>
   
   <entry>
     <title type="html"><![CDATA[清华大学在线课程-电路原理-第一讲-edx]]></title>
-    <link href="http://baham.gthub.io/10_05_qing-hua-da-xue-zai-xian-ke-cheng-dian-lu-yuan-li-di-%5B%3F%5D-jiang-edx.html"/>
+    <link href="http://baham.github.io/10_05_qing-hua-da-xue-zai-xian-ke-cheng-dian-lu-yuan-li-di-%5B%3F%5D-jiang-edx.html"/>
     <updated>2013-10-05T23:08:00+00:00</updated>
-    <id>http://baham.gthub.io/qing-hua-da-xue-zai-xian-ke-cheng-dian-lu-yuan-li-di-[?]-jiang-edx</id>
+    <id>http://baham.github.io/qing-hua-da-xue-zai-xian-ke-cheng-dian-lu-yuan-li-di-[?]-jiang-edx</id>
     <content type="html"><![CDATA[<p>May be there is a bug.</p>
 
 <p>See the video. 清华大学edx公开课-电路原理：</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Technology | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/technology/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/technology/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[China's Transgenic Calibration]]></title>
-    <link href="http://baham.gthub.io/10_28_chinas-transgenic-calibration.html"/>
+    <link href="http://baham.github.io/10_28_chinas-transgenic-calibration.html"/>
     <updated>2014-10-28T13:53:00+00:00</updated>
-    <id>http://baham.gthub.io/chinas-transgenic-calibration</id>
+    <id>http://baham.github.io/chinas-transgenic-calibration</id>
     <content type="html"><![CDATA[<p>Maybe a few people care about China&rsquo;s trangenic calibration.</p>
 
 <h2>Before, China&rsquo;s transgenic food was qualitatively calibrated.</h2>
@@ -39,9 +39,9 @@ I do not care how much transgenic part a food have, I just care whether it has o
   
   <entry>
     <title type="html"><![CDATA[Backyard Brains-赛博蟑螂-RoboRoach#12]]></title>
-    <link href="http://baham.gthub.io/10_09_backyard-brains-sai-bo-zhang-lang-roboroach-number-12.html"/>
+    <link href="http://baham.github.io/10_09_backyard-brains-sai-bo-zhang-lang-roboroach-number-12.html"/>
     <updated>2013-10-09T23:15:00+00:00</updated>
-    <id>http://baham.gthub.io/backyard-brains-sai-bo-zhang-lang-roboroach-number-12</id>
+    <id>http://baham.github.io/backyard-brains-sai-bo-zhang-lang-roboroach-number-12</id>
     <content type="html"><![CDATA[<p>See Video:</p>
 
 <p><embed width="480" align="middle" height="400" type="application/x-shockwave-flash" allowscriptaccess="always" quality="high" allowfullscreen="true" src="http://player.youku.com/player.php/sid/XNjE4OTc5MjY0/v.swf"></p>

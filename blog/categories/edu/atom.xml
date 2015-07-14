@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: EDU | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/edu/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/edu/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[大师风范]]></title>
-    <link href="http://baham.gthub.io/06_25_da-shi-feng-fan.html"/>
+    <link href="http://baham.github.io/06_25_da-shi-feng-fan.html"/>
     <updated>2013-06-25T02:08:00+00:00</updated>
-    <id>http://baham.gthub.io/da-shi-feng-fan</id>
+    <id>http://baham.github.io/da-shi-feng-fan</id>
     <content type="html"><![CDATA[<p>今天，参加了美国犹他大学 Melor教授的演讲，全名记不清了，演讲题目也记不清了，总之是关于浮选和X射线在选矿中的应用，听得不是很认真，抱歉。</p>
 
 <p>不过，从演讲中却得到了些许感悟。</p>
@@ -40,9 +40,9 @@
   
   <entry>
     <title type="html"><![CDATA[新交规经验分享]]></title>
-    <link href="http://baham.gthub.io/06_02_xin-jiao-gui-jing-yan-fen-xiang.html"/>
+    <link href="http://baham.github.io/06_02_xin-jiao-gui-jing-yan-fen-xiang.html"/>
     <updated>2013-06-02T18:29:00+00:00</updated>
-    <id>http://baham.gthub.io/xin-jiao-gui-jing-yan-fen-xiang</id>
+    <id>http://baham.github.io/xin-jiao-gui-jing-yan-fen-xiang</id>
     <content type="html"><![CDATA[<p>2013年，新交规执行以来，对其吐槽此起彼伏，尤其是考试，难度提高岂知一点半点。</p>
 
 <ol>
@@ -61,9 +61,9 @@
   
   <entry>
     <title type="html"><![CDATA[跳汰过程物料分层经过]]></title>
-    <link href="http://baham.gthub.io/01_03_782.html"/>
+    <link href="http://baham.github.io/01_03_782.html"/>
     <updated>2013-01-03T16:25:00+00:00</updated>
-    <id>http://baham.gthub.io/782</id>
+    <id>http://baham.github.io/782</id>
     <content type="html"><![CDATA[<p>被选物料给入跳汰机内落到筛板上，便形成一个密集的物料展。在给料的同时，从跳汰机下部周期性的给入上下交变的水流，垂直变速水流透过筛孔进入床层，物料就是在这种水流中经受跳汰的分选过程。</p>
 
 <p>1）当水流上升时，床层被冲起，呈现松散及悬浮的状态。此时，床层中的矿粒，按其自身的特性（密度、粒度和形状），彼此作相对运动，开始进行分层。</p>
@@ -78,9 +78,9 @@
   
   <entry>
     <title type="html"><![CDATA[想学脚本-就学python，想学python-必看这20本免费python电子书]]></title>
-    <link href="http://baham.gthub.io/12_30_771.html"/>
+    <link href="http://baham.github.io/12_30_771.html"/>
     <updated>2012-12-30T23:49:05+00:00</updated>
-    <id>http://baham.gthub.io/771</id>
+    <id>http://baham.github.io/771</id>
     <content type="html"><![CDATA[<p>Think Python（貌似很多think系列都很贵）</p>
 
 <p>Invent Your Own Computer Games with Python</p>
@@ -104,9 +104,9 @@
   
   <entry>
     <title type="html"><![CDATA[什么是泥炭化作用？]]></title>
-    <link href="http://baham.gthub.io/12_10_748.html"/>
+    <link href="http://baham.github.io/12_10_748.html"/>
     <updated>2012-12-10T23:37:20+00:00</updated>
-    <id>http://baham.gthub.io/748</id>
+    <id>http://baham.github.io/748</id>
     <content type="html"><![CDATA[<p>泥炭化作用定义：植物物质经受生物化学分解及合成的复杂的过程且最终形成泥炭的作用</p>
 
 <p>条件:发生于覆水地区的水位以下，即与大气局部沟通的状态下。泥炭化作用的直接产物除了泥炭以外，分解出的气态产物有二氧化碳、水、沼气和少量氮。</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Video | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/video/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/video/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Teach children to prevent sexual assault]]></title>
-    <link href="http://baham.gthub.io/05_30_teach-children-to-prevent-sexual-assault.html"/>
+    <link href="http://baham.github.io/05_30_teach-children-to-prevent-sexual-assault.html"/>
     <updated>2014-05-30T13:54:00+00:00</updated>
-    <id>http://baham.gthub.io/teach-children-to-prevent-sexual-assault</id>
+    <id>http://baham.github.io/teach-children-to-prevent-sexual-assault</id>
     <content type="html"><![CDATA[<p>Although I was not a parent, but I think this video from King of fairy tales Zheng Yuanjie is very meaningful.</p>
 
 <p>Mr Zheng use Vampire and Pipilu to teach children to prevent sexual assault.</p>
@@ -34,9 +34,9 @@
   
   <entry>
     <title type="html"><![CDATA[电影推荐-坏未来]]></title>
-    <link href="http://baham.gthub.io/12_04_dian-ying-tui-jian-pi-wei-lai.html"/>
+    <link href="http://baham.github.io/12_04_dian-ying-tui-jian-pi-wei-lai.html"/>
     <updated>2013-12-04T06:37:00+00:00</updated>
-    <id>http://baham.gthub.io/dian-ying-tui-jian-pi-wei-lai</id>
+    <id>http://baham.github.io/dian-ying-tui-jian-pi-wei-lai</id>
     <content type="html"><![CDATA[<p><embed src="http://player.youku.com/player.php/sid/XNTAwOTI5NTI0/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
 
 <p>个人评价：</p>
@@ -50,9 +50,9 @@
   
   <entry>
     <title type="html"><![CDATA[Backyard Brains-赛博蟑螂-RoboRoach#12]]></title>
-    <link href="http://baham.gthub.io/10_09_backyard-brains-sai-bo-zhang-lang-roboroach-number-12.html"/>
+    <link href="http://baham.github.io/10_09_backyard-brains-sai-bo-zhang-lang-roboroach-number-12.html"/>
     <updated>2013-10-09T23:15:00+00:00</updated>
-    <id>http://baham.gthub.io/backyard-brains-sai-bo-zhang-lang-roboroach-number-12</id>
+    <id>http://baham.github.io/backyard-brains-sai-bo-zhang-lang-roboroach-number-12</id>
     <content type="html"><![CDATA[<p>See Video:</p>
 
 <p><embed width="480" align="middle" height="400" type="application/x-shockwave-flash" allowscriptaccess="always" quality="high" allowfullscreen="true" src="http://player.youku.com/player.php/sid/XNjE4OTc5MjY0/v.swf"></p>
@@ -61,9 +61,9 @@
   
   <entry>
     <title type="html"><![CDATA[塔利班招募的5个步骤-Ted视频]]></title>
-    <link href="http://baham.gthub.io/05_08_ta-li-ban-zhao-mu-de-5ge-bu-zou-tedshi-pin.html"/>
+    <link href="http://baham.github.io/05_08_ta-li-ban-zhao-mu-de-5ge-bu-zou-tedshi-pin.html"/>
     <updated>2013-05-08T17:14:00+00:00</updated>
-    <id>http://baham.gthub.io/ta-li-ban-zhao-mu-de-5ge-bu-zou-tedshi-pin</id>
+    <id>http://baham.github.io/ta-li-ban-zhao-mu-de-5ge-bu-zou-tedshi-pin</id>
     <content type="html"><![CDATA[<p><embed src="http://player.youku.com/player.php/sid/XNDMxNjc4NjAw/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
 
 <p>演讲者：夏明·欧白德·奇诺</p>
@@ -109,9 +109,9 @@
   
   <entry>
     <title type="html"><![CDATA[骑马与砍杀-骑射教程（视频）]]></title>
-    <link href="http://baham.gthub.io/11_01_673.html"/>
+    <link href="http://baham.github.io/11_01_673.html"/>
     <updated>2012-11-01T19:40:55+00:00</updated>
-    <id>http://baham.gthub.io/673</id>
+    <id>http://baham.github.io/673</id>
     <content type="html"><![CDATA[<p><embed src="http://player.youku.com/player.php/sid/XMjY1MjI2MjA4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
 ]]></content>
   </entry>

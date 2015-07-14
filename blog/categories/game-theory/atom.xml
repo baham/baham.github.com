@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Game Theory | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/game-theory/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/game-theory/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[博弈论--三个枪手的枪战]]></title>
-    <link href="http://baham.gthub.io/10_19_bo-yi-lun-san-ge-qiang-shou-de-qiang-zhan.html"/>
+    <link href="http://baham.github.io/10_19_bo-yi-lun-san-ge-qiang-shou-de-qiang-zhan.html"/>
     <updated>2013-10-19T23:30:00+00:00</updated>
-    <id>http://baham.gthub.io/bo-yi-lun-san-ge-qiang-shou-de-qiang-zhan</id>
+    <id>http://baham.github.io/bo-yi-lun-san-ge-qiang-shou-de-qiang-zhan</id>
     <content type="html"><![CDATA[<p> Ａ枪手，命中率0.3</p>
 
 <p>B 0.8</p>
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[详解Tic-Tac-Toe人工智能实现]]></title>
-    <link href="http://baham.gthub.io/08_02_328.html"/>
+    <link href="http://baham.github.io/08_02_328.html"/>
     <updated>2012-08-02T21:12:39+00:00</updated>
-    <id>http://baham.gthub.io/328</id>
+    <id>http://baham.github.io/328</id>
     <content type="html"><![CDATA[<p><img src="/wp-content/uploads/2012/08/%E6%97%A0%E6%A0%87%E9%A2%98-%E7%94%BB%E5%9B%BE_2012-08-02_18-53-21.png" alt="井字棋棋盘 tic-tac-toe 棋盘" /> 井字棋棋盘</p>
 
 <p><strong>Tic-Tac-Toe</strong>又称<strong>井字棋</strong>，即在3X3的棋盘上，双方轮流落子，先将3枚棋子连成一线的一方获得胜利。</p>

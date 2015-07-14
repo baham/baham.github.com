@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Management | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/management/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/management/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[2011-2012矿大-管理学试题参考答案]]></title>
-    <link href="http://baham.gthub.io/10_28_2011-2012kuang-da-guan-li-xue-shi-ti-can-kao-da-an.html"/>
+    <link href="http://baham.github.io/10_28_2011-2012kuang-da-guan-li-xue-shi-ti-can-kao-da-an.html"/>
     <updated>2013-10-28T11:05:00+00:00</updated>
-    <id>http://baham.gthub.io/2011-2012kuang-da-guan-li-xue-shi-ti-can-kao-da-an</id>
+    <id>http://baham.github.io/2011-2012kuang-da-guan-li-xue-shi-ti-can-kao-da-an</id>
     <content type="html"><![CDATA[<p> <p><b>中国矿业大学2010-2011学年第1学期</b></p></p>
 
 <p> <p><b>《管理学（概论）》参考答案</b></p></p>
@@ -253,9 +253,9 @@
   
   <entry>
     <title type="html"><![CDATA[2011-2012矿大10月份管理学试题]]></title>
-    <link href="http://baham.gthub.io/10_28_2011-2012-kuang-da-guan-li-xue-shi-juan.html"/>
+    <link href="http://baham.github.io/10_28_2011-2012-kuang-da-guan-li-xue-shi-juan.html"/>
     <updated>2013-10-28T11:01:00+00:00</updated>
-    <id>http://baham.gthub.io/2011-2012-kuang-da-guan-li-xue-shi-juan</id>
+    <id>http://baham.github.io/2011-2012-kuang-da-guan-li-xue-shi-juan</id>
     <content type="html"><![CDATA[<p>本试卷，属于非管理类试卷。</p>
 
 <p><b>中国矿业大学2011～2012学年第1学期</b></p>

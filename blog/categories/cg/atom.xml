@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: CG | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/cg/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/cg/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Blender快捷键汇总]]></title>
-    <link href="http://baham.gthub.io/09_15_601.html"/>
+    <link href="http://baham.github.io/09_15_601.html"/>
     <updated>2012-09-15T00:25:49+00:00</updated>
-    <id>http://baham.gthub.io/601</id>
+    <id>http://baham.github.io/601</id>
     <content type="html"><![CDATA[<ul>
 <li><p>shift+a添加</p></li>
 <li><p>shift+d复制</p></li>

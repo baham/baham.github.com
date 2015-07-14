@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Share | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/share/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/share/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Game Time Limited in 21 hours a week]]></title>
-    <link href="http://baham.gthub.io/11_11_game-time-limited-in-21-hours-a-week.html"/>
+    <link href="http://baham.github.io/11_11_game-time-limited-in-21-hours-a-week.html"/>
     <updated>2013-11-11T01:16:00+00:00</updated>
-    <id>http://baham.gthub.io/game-time-limited-in-21-hours-a-week</id>
+    <id>http://baham.github.io/game-time-limited-in-21-hours-a-week</id>
     <content type="html"><![CDATA[<p><img src="/images/game1.jpeg" alt="gametime" /></p>
 
 <p>Recently, I learned the MOOC &ndash;<em>Video Game and Learning</em>.</p>

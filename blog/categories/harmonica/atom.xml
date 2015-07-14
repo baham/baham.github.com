@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Harmonica | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/harmonica/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/harmonica/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Fix a harmonica tab's bugs]]></title>
-    <link href="http://baham.gthub.io/06_13_fix-a-harmonica-tabs-bugs.html"/>
+    <link href="http://baham.github.io/06_13_fix-a-harmonica-tabs-bugs.html"/>
     <updated>2014-06-13T15:35:00+00:00</updated>
-    <id>http://baham.gthub.io/fix-a-harmonica-tabs-bugs</id>
+    <id>http://baham.github.io/fix-a-harmonica-tabs-bugs</id>
     <content type="html"><![CDATA[<p>Skeeter&rsquo;s song <em>The end of the world</em> is a beautiful song. I want to play is with my harmonica. So I find id by startpage.</p>
 
 <p>And there is a tab on harptabs.</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Sagemath | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/sagemath/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/sagemath/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[What An Amazing Software]]></title>
-    <link href="http://baham.gthub.io/05_06_what-an-amazing-software.html"/>
+    <link href="http://baham.github.io/05_06_what-an-amazing-software.html"/>
     <updated>2014-05-06T11:06:00+00:00</updated>
-    <id>http://baham.gthub.io/what-an-amazing-software</id>
+    <id>http://baham.github.io/what-an-amazing-software</id>
     <content type="html"><![CDATA[<p><strong>Sage</strong> I knew this software about 2 years ago. When I was on a cryptology calss. And the reacher notice this amazing math software. He showed it with virtual mechine. Cause he use windows as his os. But you know that time, I already started to use linux.</p>
 
 <p>And after that class, I installed sage, but nearlly not use it.</p>

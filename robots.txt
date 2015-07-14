@@ -5,4 +5,4 @@ Disallow: /assets
 Disallow: /blog/page/
 Disallow: /public/
 
-Sitemap: http://baham.gthub.io/sitemap.xml 
+Sitemap: http://baham.github.io/sitemap.xml 

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Google | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/google/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/google/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[google in china 2014]]></title>
-    <link href="http://baham.gthub.io/06_10_google-in-china-2014.html"/>
+    <link href="http://baham.github.io/06_10_google-in-china-2014.html"/>
     <updated>2014-06-10T14:06:00+00:00</updated>
-    <id>http://baham.gthub.io/google-in-china-2014</id>
+    <id>http://baham.github.io/google-in-china-2014</id>
     <content type="html"><![CDATA[<p>These days, google is blocked by firewall in China.</p>
 
 <p>You can not use gmail, access goagent, although this a new leader, but the range of block is more and more varient.</p>
@@ -46,9 +46,9 @@ google <a href="https:">https:</a> <a href="http://www.williamlong.info/archives
   
   <entry>
     <title type="html"><![CDATA[试用ChromiumOS]]></title>
-    <link href="http://baham.gthub.io/04_17_shi-yong-chromiumos.html"/>
+    <link href="http://baham.github.io/04_17_shi-yong-chromiumos.html"/>
     <updated>2013-04-17T16:54:00+00:00</updated>
-    <id>http://baham.gthub.io/shi-yong-chromiumos</id>
+    <id>http://baham.github.io/shi-yong-chromiumos</id>
     <content type="html"><![CDATA[<p>对于Chromium OS，是一直只闻其声，而为见其形。
 今天，下了一个编译配置好的hexxeh ChromiumOS。</p>
 

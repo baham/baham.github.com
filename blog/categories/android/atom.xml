@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Android | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/android/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/android/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[在Android下运行Go语言程序]]></title>
-    <link href="http://baham.gthub.io/12_16_zai-androidxia-yun-xing-goyu-yan-cheng-xu.html"/>
+    <link href="http://baham.github.io/12_16_zai-androidxia-yun-xing-goyu-yan-cheng-xu.html"/>
     <updated>2013-12-16T01:15:00+00:00</updated>
-    <id>http://baham.gthub.io/zai-androidxia-yun-xing-goyu-yan-cheng-xu</id>
+    <id>http://baham.github.io/zai-androidxia-yun-xing-goyu-yan-cheng-xu</id>
     <content type="html"><![CDATA[<p>编译设置如下：</p>
 
 <pre><code>export GOARCH=ARM
@@ -39,9 +39,9 @@ cd /data/local/tmp
   
   <entry>
     <title type="html"><![CDATA[Android开发的四款IDE]]></title>
-    <link href="http://baham.gthub.io/11_11_androidkai-fa-de-si-kuan-ide.html"/>
+    <link href="http://baham.github.io/11_11_androidkai-fa-de-si-kuan-ide.html"/>
     <updated>2013-11-11T13:27:00+00:00</updated>
-    <id>http://baham.gthub.io/androidkai-fa-de-si-kuan-ide</id>
+    <id>http://baham.github.io/androidkai-fa-de-si-kuan-ide</id>
     <content type="html"><![CDATA[<!--more-->
 
 
@@ -65,9 +65,9 @@ cd /data/local/tmp
   
   <entry>
     <title type="html"><![CDATA[The Best Bible App I Found]]></title>
-    <link href="http://baham.gthub.io/10_13_the-best-bible-app-i-found.html"/>
+    <link href="http://baham.github.io/10_13_the-best-bible-app-i-found.html"/>
     <updated>2013-10-13T23:20:00+00:00</updated>
-    <id>http://baham.gthub.io/the-best-bible-app-i-found</id>
+    <id>http://baham.github.io/the-best-bible-app-i-found</id>
     <content type="html"><![CDATA[<p>I usually use this bible <a href="http://pan.baidu.com/share/home?uk=3573655618&amp;view=share#category/type=0">app</a>. Yesterday, in my fellowship, Ms Zhang recommand me <a href="http://god.wyapp.net/">another one</a>.</p>
 
 <p>And when I download it, I found this bible app is very powerful and userful.</p>

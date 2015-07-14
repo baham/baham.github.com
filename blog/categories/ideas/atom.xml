@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Ideas | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/ideas/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/ideas/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[毕业生求职-校园招聘信息集合]]></title>
-    <link href="http://baham.gthub.io/10_31_bi-ye-sheng-qiu-zhi-xiao-yuan-zhao-pin-xin-xi-ji-he.html"/>
+    <link href="http://baham.github.io/10_31_bi-ye-sheng-qiu-zhi-xiao-yuan-zhao-pin-xin-xi-ji-he.html"/>
     <updated>2013-10-31T15:29:00+00:00</updated>
-    <id>http://baham.gthub.io/bi-ye-sheng-qiu-zhi-xiao-yuan-zhao-pin-xin-xi-ji-he</id>
+    <id>http://baham.github.io/bi-ye-sheng-qiu-zhi-xiao-yuan-zhao-pin-xin-xi-ji-he</id>
     <content type="html"><![CDATA[<p>  国内很多网站，像51job、chinahr，都提供就业信息给注册用户，但是使用过的人都知道，这些网站用户体验都很差，而且很多信息已经失效，甚至有些公司通过此种途径获取他人信息。</p>
 
 <p>  仔细想想，关键问题在于——这些网站都是为了各用人单位设计的，而不是为了求职者、在校学生。</p>
@@ -48,9 +48,9 @@
   
   <entry>
     <title type="html"><![CDATA[防脱落小包纸巾设计]]></title>
-    <link href="http://baham.gthub.io/10_24_fang-tuo-luo-xiao-bao-zhi-jin-she-ji.html"/>
+    <link href="http://baham.github.io/10_24_fang-tuo-luo-xiao-bao-zhi-jin-she-ji.html"/>
     <updated>2013-10-24T23:34:00+00:00</updated>
-    <id>http://baham.gthub.io/fang-tuo-luo-xiao-bao-zhi-jin-she-ji</id>
+    <id>http://baham.github.io/fang-tuo-luo-xiao-bao-zhi-jin-she-ji</id>
     <content type="html"><![CDATA[<p> 走在路上，时常看见有人兜里揣的这种小包纸巾掉落，包括自己，也经常发生这种事，不是说承担不起，掉落的风险，只是这不利于环保、也不利于美观。
 <img src="/images/zj.jpeg" alt="zhi" /></p>
 
@@ -91,18 +91,18 @@
   
   <entry>
     <title type="html"><![CDATA[准备共享一些自己的突发奇想]]></title>
-    <link href="http://baham.gthub.io/09_25_zhun-bei-gong-xiang-%5B%3F%5D-xie-zi-ji-de-tu-fa-qi-xiang.html"/>
+    <link href="http://baham.github.io/09_25_zhun-bei-gong-xiang-%5B%3F%5D-xie-zi-ji-de-tu-fa-qi-xiang.html"/>
     <updated>2013-09-25T22:59:00+00:00</updated>
-    <id>http://baham.gthub.io/zhun-bei-gong-xiang-[?]-xie-zi-ji-de-tu-fa-qi-xiang</id>
+    <id>http://baham.github.io/zhun-bei-gong-xiang-[?]-xie-zi-ji-de-tu-fa-qi-xiang</id>
     <content type="html"><![CDATA[<p>平时偶尔会从某些细微出冒出些想法，想共享给大家。</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[防走光自行车座椅]]></title>
-    <link href="http://baham.gthub.io/06_27_fang-zou-guang-zi-xing-che-zuo-yi.html"/>
+    <link href="http://baham.github.io/06_27_fang-zou-guang-zi-xing-che-zuo-yi.html"/>
     <updated>2013-06-27T15:03:00+00:00</updated>
-    <id>http://baham.gthub.io/fang-zou-guang-zi-xing-che-zuo-yi</id>
+    <id>http://baham.github.io/fang-zou-guang-zi-xing-che-zuo-yi</id>
     <content type="html"><![CDATA[<p>今天中午，在从图书馆会宿舍的路上，突然看到一位MM骑着一辆斜跨自行车，从身边而过，注意到，她一直是用单手把车把，另一个手按着自己的裙子，意图再明显不过，她害怕车速达到一定程度后，裙子随风而起，而当众走光。主观上来讲，单手把车把的安全系数比双手要低，于是为什么不能设计一个自行车座椅能在穿裙子的女性上车时，自动夹紧、压住裙子，而下车时自动松开呢、或者是通过一个轻便的附加装置实现，不知道是否有人用这个想法申请专利，不过，我倒是确实认为这个点子不错。</p>
 ]]></content>
   </entry>

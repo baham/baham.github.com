@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Hack | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/hack/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/hack/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Tor真的匿名和安全吗?]]></title>
-    <link href="http://baham.gthub.io/04_03_torzhen-de-ni-ming-he-an-quan-ma-%3F.html"/>
+    <link href="http://baham.github.io/04_03_torzhen-de-ni-ming-he-an-quan-ma-%3F.html"/>
     <updated>2013-04-03T16:11:00+00:00</updated>
-    <id>http://baham.gthub.io/torzhen-de-ni-ming-he-an-quan-ma-?</id>
+    <id>http://baham.github.io/torzhen-de-ni-ming-he-an-quan-ma-?</id>
     <content type="html"><![CDATA[<p><img src="/images/cctv.jpg" alt="CCTV TOR" /></p>
 
 <p>  很多人相信<strong>Tor</strong>是完全匿名，隐私，安全的，是能够完全杜绝别人的监控和跟踪的上网方式。
@@ -117,9 +117,9 @@ Bundle上浏览HTML网页，那么你计算机上的并非为隐藏IP设计的�
   
   <entry>
     <title type="html"><![CDATA[Learn to hack-如何成为一个黑客]]></title>
-    <link href="http://baham.gthub.io/08_02_318.html"/>
+    <link href="http://baham.github.io/08_02_318.html"/>
     <updated>2012-08-02T12:19:34+00:00</updated>
-    <id>http://baham.gthub.io/318</id>
+    <id>http://baham.github.io/318</id>
     <content type="html"><![CDATA[<p><strong><a href="http://baham.co/wp-content/uploads/2012/08/security.png"><img src="http://baham.co/wp-content/uploads/2012/08/security.png" alt="安全-learn to hack-如何成为黑客" /></a>攻击服务器</strong>、<strong>爆破密码</strong>、<strong>利用漏洞</strong>、<strong>破解加密</strong>，和所有一切保护你图里邪恶的东西。</p>
 
 <p>安全的计算机需要两种规则可以实现，</p>

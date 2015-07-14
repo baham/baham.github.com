@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Announcement | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/announcement/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/announcement/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Domain On Sale]]></title>
-    <link href="http://baham.gthub.io/04_07_domain-on-sale.html"/>
+    <link href="http://baham.github.io/04_07_domain-on-sale.html"/>
     <updated>2015-04-07T12:56:00+00:00</updated>
-    <id>http://baham.gthub.io/domain-on-sale</id>
+    <id>http://baham.github.io/domain-on-sale</id>
     <content type="html"><![CDATA[<p>Last post is months ago. And after I graduated and worked, I have less time to keep my blog updating immediately.</p>
 
 <p>So I decide to sell my domain.</p>
@@ -37,9 +37,9 @@
   
   <entry>
     <title type="html"><![CDATA[Use CloudFlare as the site's CDN again]]></title>
-    <link href="http://baham.gthub.io/11_01_use-cloudflare-as-the-sites-cdn-again.html"/>
+    <link href="http://baham.github.io/11_01_use-cloudflare-as-the-sites-cdn-again.html"/>
     <updated>2014-11-01T07:38:00+00:00</updated>
-    <id>http://baham.gthub.io/use-cloudflare-as-the-sites-cdn-again</id>
+    <id>http://baham.github.io/use-cloudflare-as-the-sites-cdn-again</id>
     <content type="html"><![CDATA[<p><a href="http://baham.co/05_25_kai-shi-shi-yong-an-quan-bao-cdnfu-wu-liao.html">Anquanbao</a> CDN is a CDN provider. And there is the CDN point in HK.</p>
 
 <p>But today, I change the CDN provider to cloudflare like before. For I found the cloudflare is supportting free ssl.</p>
@@ -55,9 +55,9 @@
   
   <entry>
     <title type="html"><![CDATA[About the Translation Category]]></title>
-    <link href="http://baham.gthub.io/05_14_about-the-translation-category.html"/>
+    <link href="http://baham.github.io/05_14_about-the-translation-category.html"/>
     <updated>2014-05-14T06:02:00+00:00</updated>
-    <id>http://baham.gthub.io/about-the-translation-category</id>
+    <id>http://baham.github.io/about-the-translation-category</id>
     <content type="html"><![CDATA[<p>After I move the language on this site from Chinese to English.</p>
 
 <p>I decide to make a subpage or subdomian to include some Chinese translations from English.</p>
@@ -73,9 +73,9 @@
   
   <entry>
     <title type="html"><![CDATA[Use English to Write Articles]]></title>
-    <link href="http://baham.gthub.io/04_24_use-english-to-write-articles.html"/>
+    <link href="http://baham.github.io/04_24_use-english-to-write-articles.html"/>
     <updated>2014-04-24T03:02:00+00:00</updated>
-    <id>http://baham.gthub.io/use-english-to-write-articles</id>
+    <id>http://baham.github.io/use-english-to-write-articles</id>
     <content type="html"><![CDATA[<p>For learning English writing, I decide to use English to write articles.</p>
 
 <p>Before this day, I had used English to write some articles.</p>
@@ -99,9 +99,9 @@
   
   <entry>
     <title type="html"><![CDATA[Remove the Qrcode in Lower Right Area]]></title>
-    <link href="http://baham.gthub.io/10_22_remove-the-qrcode-in-lower-right-area.html"/>
+    <link href="http://baham.github.io/10_22_remove-the-qrcode-in-lower-right-area.html"/>
     <updated>2013-10-22T23:33:00+00:00</updated>
-    <id>http://baham.gthub.io/remove-the-qrcode-in-lower-right-area</id>
+    <id>http://baham.github.io/remove-the-qrcode-in-lower-right-area</id>
     <content type="html"><![CDATA[<p>This plugin used google apis.</p>
 
 <p>It is like this:</p>

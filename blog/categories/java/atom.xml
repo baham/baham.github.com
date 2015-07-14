@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Java | Baham's Blog]]></title>
-  <link href="http://baham.gthub.io/blog/categories/java/atom.xml" rel="self"/>
-  <link href="http://baham.gthub.io/"/>
-  <updated>2015-07-14T00:38:11+00:00</updated>
-  <id>http://baham.gthub.io/</id>
+  <link href="http://baham.github.io/blog/categories/java/atom.xml" rel="self"/>
+  <link href="http://baham.github.io/"/>
+  <updated>2015-07-14T01:13:13+00:00</updated>
+  <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[码农第二期-图灵社区出品]]></title>
-    <link href="http://baham.gthub.io/11_29_734.html"/>
+    <link href="http://baham.github.io/11_29_734.html"/>
     <updated>2012-11-29T11:19:36+00:00</updated>
-    <id>http://baham.gthub.io/734</id>
+    <id>http://baham.github.io/734</id>
     <content type="html"><![CDATA[<p>主讲内容：</p>
 
 <blockquote><p><strong>• 本期专题:JavaScript</strong>
@@ -75,9 +75,9 @@
   
   <entry>
     <title type="html"><![CDATA[Tic-Tac-Toe-AI-GUI版本]]></title>
-    <link href="http://baham.gthub.io/08_25_456.html"/>
+    <link href="http://baham.github.io/08_25_456.html"/>
     <updated>2012-08-25T23:16:22+00:00</updated>
-    <id>http://baham.gthub.io/456</id>
+    <id>http://baham.github.io/456</id>
     <content type="html"><![CDATA[<p><img src="http://baham.co/wp-content/uploads/2012/08/tttui-300x273.png" alt="Tic-Tac-Toe-AI_Gui-开始" />之前写的一直是NoUI版本，最近基于Java <strong>Swing</strong>写了一个GUI版本，部分代码有了变化，不过整个AI设计并没有变化，还是那个涉及<strong>博弈论</strong>的老问题。</p>
 
 <p>Java最大的特点莫过于面向对象，不过在改写整个程序过程中，发现其实自己刚开始写的NoUI版本的扩展性并不好，很多代码需要修改，而不是只在客户代码中修改、或者通过集成修改子类。</p>
@@ -239,9 +239,9 @@ public class TTTUI extends MouseInputAdapter{
   
   <entry>
     <title type="html"><![CDATA[编程练习-八皇后问题]]></title>
-    <link href="http://baham.gthub.io/08_09_415.html"/>
+    <link href="http://baham.github.io/08_09_415.html"/>
     <updated>2012-08-09T22:51:41+00:00</updated>
-    <id>http://baham.gthub.io/415</id>
+    <id>http://baham.github.io/415</id>
     <content type="html"><![CDATA[<p><img src="http://baham.co/wp-content/uploads/2012/08/IMG_20120809_224205_%E5%89%AF%E6%9C%AC-225x300.jpg" alt="Baham-八皇后问题一个解决方法" /></p>
 
 <p>在国际象棋棋盘上（8X8）</p>
@@ -256,9 +256,9 @@ public class TTTUI extends MouseInputAdapter{
   
   <entry>
     <title type="html"><![CDATA[汉诺塔-印度人的智慧]]></title>
-    <link href="http://baham.gthub.io/08_09_410.html"/>
+    <link href="http://baham.github.io/08_09_410.html"/>
     <updated>2012-08-09T22:37:27+00:00</updated>
-    <id>http://baham.gthub.io/410</id>
+    <id>http://baham.github.io/410</id>
     <content type="html"><![CDATA[<p><a href="https://zh.wikipedia.org/wiki/%E6%B1%89%E8%AF%BA%E5%A1%94#.E4.BB.BB.E6.84.8F.E5.88.9D.E5.A7.8B.E7.B5.90.E6.A7.8B.EF.BC.88arbitrary_initial_configuration.EF.BC.89.E7.9A.84.E8.A7.A3.E6.B3.95">汉诺塔</a>，指在三个不同的塔之间移动盘子<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Tower_of_Hanoi.jpeg/220px-Tower_of_Hanoi.jpeg" alt="汉诺塔" />。三个塔中一个上面有一定数目的盘子，盘子<strong>直径递减</strong>，最上面的最小，如图（图为8层）。</p>
 
 <p><strong>汉诺塔</strong>的目的是把所有盘子从一个塔移动到另一个，第三个塔用来过渡。</p>
@@ -271,9 +271,9 @@ public class TTTUI extends MouseInputAdapter{
   
   <entry>
     <title type="html"><![CDATA[编程练习-递归-野蛮人与传教士]]></title>
-    <link href="http://baham.gthub.io/08_09_408.html"/>
+    <link href="http://baham.github.io/08_09_408.html"/>
     <updated>2012-08-09T22:29:25+00:00</updated>
-    <id>http://baham.gthub.io/408</id>
+    <id>http://baham.github.io/408</id>
     <content type="html"><![CDATA[<p>三个传教士与三个野蛮人同时来到河边，发现只有一条可以同时搭载两人 的小船。而如果任何一边的野蛮人数多于传教士，传教士就会死掉。编写程序，解决<strong>传教士和野蛮人</strong>的过河问题。</p>
 ]]></content>
   </entry>
