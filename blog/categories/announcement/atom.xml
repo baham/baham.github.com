@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Announcement | Baham's Blog]]></title>
   <link href="http://baham.github.io/blog/categories/announcement/atom.xml" rel="self"/>
   <link href="http://baham.github.io/"/>
-  <updated>2015-07-14T01:20:34+00:00</updated>
+  <updated>2015-08-11T02:43:18+00:00</updated>
   <id>http://baham.github.io/</id>
   <author>
     <name><![CDATA[Baham]]></name>
@@ -12,28 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Domain On Sale]]></title>
-    <link href="http://baham.github.io/04_07_domain-on-sale.html"/>
-    <updated>2015-04-07T12:56:00+00:00</updated>
-    <id>http://baham.github.io/domain-on-sale</id>
-    <content type="html"><![CDATA[<p>Last post is months ago. And after I graduated and worked, I have less time to keep my blog updating immediately.</p>
-
-<p>So I decide to sell my domain.</p>
-
-<p>And contents of blog is not on sale. So every visitors can visit the <a href="http://baham.github.io">baham</a> to get the old posts and pages.</p>
-
-<p>After all, octopress was updated to vesion 3. I and my site call for changes too.</p>
-
-<p>More information is at <a href="/sale">domain on sale</a></p>
-
-<!--more-->
-
-
-<p>And ocasionally, I found some blogs link to my posts. It is very meaningful for me. For this said this blog I kept for nearlly 3 year is helpful for someone. This is enough.</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Use CloudFlare as the site's CDN again]]></title>
@@ -112,6 +90,18 @@
 <p>And it is not very userful.</p>
 
 <p>So I am ready to remove it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[开始使用安全宝CDN服务了]]></title>
+    <link href="http://baham.github.io/05_25_kai-shi-shi-yong-an-quan-bao-cdnfu-wu-liao.html"/>
+    <updated>2013-05-25T18:14:00+00:00</updated>
+    <id>http://baham.github.io/kai-shi-shi-yong-an-quan-bao-cdnfu-wu-liao</id>
+    <content type="html"><![CDATA[<p>之前一直使用CloudFalre的CDN服务，不过发现最近出现有些时间无法访问。
+虽然我觉得GithubPage，不用CDN访问速度也不错，不过还是用个CDN 吧，反正免费。</p>
+
+<p>现在是，香港节点，Ping值，比CloudFlare略快。</p>
 ]]></content>
   </entry>
   

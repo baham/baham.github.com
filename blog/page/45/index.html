@@ -79,14 +79,13 @@
 </form>
   
 <ul class="main-navigation">
+  <li><a href="/">Home</a></li>
   <li><a href="/blog/archives">Archives</a></li>
   <li><a href="/blog/categories/golang/">Golang</a></li>
   <li><a href="/blog/categories/ideas">Ideas</a></li>
   <li><a href="/blog/categories/thinking">Thingking</a></li>
-  <li><a href="http://translation.baham.co" rel="subdomain">翻译</a></li>
   <li><a href="/blog/categories/faith">+Grace+</a></li>
   <li><a href="/contactme-en">About</a></li>
-  <li><a href="/sale">DomainOnSale</a></li>
 </ul>
 
 </nav>
@@ -94,81 +93,6 @@
     <div id="content">
       <div class="blog-index">
   
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/03_12_ma-nong-di-si-qi-%2Ctu-ling-she-qu-chu-pin.html">码农第四期，图灵社区出品</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-03-12T17:37:00+00:00" pubdate data-updated="true">Mar 12<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="/images/manong4.png" alt="码农第四期" /></p>
-
-<p>这次更新有点晚，比图灵社区发布要晚很久，不过迟到总比不到好。</p>
-
-<h3>本期目录：</h3>
-
-<p><strong>专题:活的信息</strong></p>
-
-<p>1   信息是神马——论信息的消失与重生</p>
-
-<p>10  信息可视化的科学</p>
-
-<p>17  用编程工具实现数据可视化的几个选择</p>
-
-<p>32  用 R 语言处理大数据:课程 101</p>
-
-<p>44  iGraph——图挖掘助力社会网络分析</p>
-
-<p>59  量化分析:用数据、指标、信息讲述的故事</p>
-
-<p><strong>人物</strong></p>
-
-<p>67  冯大辉:信息真正的意义</p>
-
-<p><strong>践行</strong></p>
-
-<p>82  三天准备,迎战千倍用户</p>
-
-<p><strong>九卦</strong></p>
-
-<p>90  码农餐厅(一)</p>
-
-<p><strong>鲜阅</strong></p>
-
-<p>97  宇宙一种:程序员创造的虚拟宇宙</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/03_12_ma-nong-di-si-qi-%2Ctu-ling-she-qu-chu-pin.html">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
   
   
     <article>
@@ -405,6 +329,107 @@ md5: <code>a5ab5c4a373d2e8000e5f6cb5af4c365</code></p>
 
     </article>
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/01_30_opensuseshi-yong-tumbleweedyuan-%2Cshi-xian-gun-dong-geng-xin.html">openSUSE使用Tumbleweed源，实现滚动更新</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-30T16:32:00+00:00" pubdate data-updated="true">Jan 30<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>openSUSE很早就支持，通过Tumbleweed源，实现滚动更新。
+官方Wiki很早就给出了，如何配置，以及注意事项。不过，这段时间使用openSUSE的经历，告诉我，Wiki不是总是对的。
+至少，我已经发现两处，一是，openSUSE Wiki中关于使用Tumbleweed源的问题，一个是在Tumbleweed如何安装Virtualbox。配置Virtualbox，以后再说，今天，先讲讲Tumbleweed源的配置。</p>
+
+<p><img src="/images/tumbleweed_en.png" alt="tumbleweed英文Wiki" /></p>
+
+<p><img src="/images/tumbleweed_zh.png" alt="tumbleweed中文维基" /></p>
+
+<p><strong>在官方Wiki英文版中，写着要添加4个源。
+而中文的，却写着5个。</strong></p>
+
+<p>后来，我才知道，适用Tumbleweed的关键不是源的多少，像中文wiki中写的,non-oss-current-os源，是后来添加的。但是openSuse英文Wiki并没有添加进去。就像没有维基教程将packman和为Virtualbox准备的虚拟化相关的源添加进去一样。</p>
+
+<p>这些源都是，在Google后openSUSE论坛中找到的。</p>
+
+<p>所以，像我之前所说的，不要一切靠Wiki。</p>
+
+<p>现在，Tumbleweed有以下7个源。
+(<a href="http://download.opensuse.org/repositories/openSUSE:/Tumbleweed/standard/">http://download.opensuse.org/repositories/openSUSE:/Tumbleweed/standard/</a>)Tumpleweed最主要的一个源，国内镜像站，均未提供镜像，不过，官方的速度也不慢。</p>
+
+<p>(<a href="http://mirrors.sohu.com/opensuse/distribution/openSUSE-current/repo/oss/">http://mirrors.sohu.com/opensuse/distribution/openSUSE-current/repo/oss/</a>)</p>
+
+<p>(<a href="http://mirrors.sohu.com/opensuse/distribution/openSUSE-current/repo/non-oss/">http://mirrors.sohu.com/opensuse/distribution/openSUSE-current/repo/non-oss/</a>)</p>
+
+<p>(<a href="http://mirrors.sohu.com/opensuse/update/openSUSE-current/">http://mirrors.sohu.com/opensuse/update/openSUSE-current/</a>) 搜狐提供的3个CurrentOs源，速度较快</p>
+
+<p>(<a href="http://mirrors.ustc.edu.cn/opensuse/update/openSUSE-non-oss-current/">http://mirrors.ustc.edu.cn/opensuse/update/openSUSE-non-oss-current/</a>) 中科大的non-oss更新源</p>
+
+<p>(<a href="http://packman.inode.at/suse/openSUSE_Tumbleweed">http://packman.inode.at/suse/openSUSE_Tumbleweed</a>) packman的Tumbleweed源</p>
+
+<p>(<a href="http://download.opensuse.org/repositories/Virtualization:/VirtualBox_Tumbleweed/openSUSE_Tumbleweed/">http://download.opensuse.org/repositories/Virtualization:/VirtualBox_Tumbleweed/openSUSE_Tumbleweed/</a>)虚拟化的源</p>
+
+<p>zypper更新到Tumbleweed时，需要这七个源，其中，后两个是非必须的。</p>
+
+<p>其实，第一次，升Tumbleweed并非因为源的问题，而是因为Wiki中，少写了一步，就是，升级你的软件为当前opensuse版本的最新版，不用补丁最新，只需要软件均为最新。</p>
+
+<p>然后，才可以安全的</p>
+
+<p><code>sudo zypper dup --from Tumbleweed</code>更新到tumbleweed</p>
+
+<p>总结Tumbleweed更新步骤：</p>
+
+<h2>1 更新所有软件为当前版本最新</h2>
+
+<h2>2 移出所有当前版本的openSUSE源</h2>
+
+<h2>3 添加以上七个Tumbleweed需要的源</h2>
+
+<h2>4 zypper duo &mdash;from Tumbleweed</h2>
+
+<p>对于，配置Virtualbox以后再讲。</p>
+
+<p> <p class='post-footer' style="font-size:70%;" ></p>
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<p>The Original Link: <a href="/01_30_opensuseshi-yong-tumbleweedyuan-%2Cshi-xian-gun-dong-geng-xin.html">http://baham.github.io/01_30_opensuseshi-yong-tumbleweedyuan-%2Cshi-xian-gun-dong-geng-xin.html</a><br/>
+If you want to reprint it, please do under the  <a rel="nofollow" href=/license>CC BY-NC-SA 4.0</a>
+</p></p>
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/46/">&larr; Older</a>
@@ -434,7 +459,7 @@ md5: <code>a5ab5c4a373d2e8000e5f6cb5af4c365</code></p>
     <h2 class="panel-title">Category Cloud</h2>
   </div>
 <div id="recent_posts" class="list-group">
-	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 124.0%'>Announcement(12)</a> <a href='/blog/categories/baham' style='font-size: 128.0%'>Baham(14)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 114.0%'>Blender(7)</a> <a href='/blog/categories/book' style='font-size: 114.0%'>Book(7)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 114.0%'>CUMT(7)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 148.0%'>Faith(24)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 134.0%'>Geek(17)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 104.0%'>Google(2)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/harmonica' style='font-size: 102.0%'>Harmonica(1)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 124.0%'>Job(12)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 130.0%'>Memo(15)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 118.0%'>Mineral Processing(9)</a> <a href='/blog/categories/mooc' style='font-size: 110.0%'>MOOC(5)</a> <a href='/blog/categories/movie' style='font-size: 112.0%'>Movie(6)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 130.0%'>Octopress(15)</a> <a href='/blog/categories/python' style='font-size: 102.0%'>Python(1)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 106.0%'>Software(3)</a> <a href='/blog/categories/technology' style='font-size: 104.0%'>Technology(2)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/teofl' style='font-size: 102.0%'>Teofl(1)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 128.0%'>Travel(14)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 112.0%'>Video(6)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
+	<span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 106.0%'>Android(3)</a> <a href='/blog/categories/announcement' style='font-size: 122.0%'>Announcement(11)</a> <a href='/blog/categories/baham' style='font-size: 128.0%'>Baham(14)</a> <a href='/blog/categories/baham-studio' style='font-size: 110.0%'>Baham Studio(5)</a> <a href='/blog/categories/bible' style='font-size: 108.0%'>Bible(4)</a> <a href='/blog/categories/blender' style='font-size: 114.0%'>Blender(7)</a> <a href='/blog/categories/book' style='font-size: 114.0%'>Book(7)</a> <a href='/blog/categories/bridge' style='font-size: 102.0%'>Bridge(1)</a> <a href='/blog/categories/cg' style='font-size: 102.0%'>CG(1)</a> <a href='/blog/categories/chromiumos' style='font-size: 102.0%'>ChromiumOS(1)</a> <a href='/blog/categories/coal' style='font-size: 110.0%'>Coal(5)</a> <a href='/blog/categories/code' style='font-size: 116.0%'>Code(8)</a> <a href='/blog/categories/cumt' style='font-size: 114.0%'>CUMT(7)</a> <a href='/blog/categories/driving' style='font-size: 104.0%'>Driving(2)</a> <a href='/blog/categories/edu' style='font-size: 120.0%'>EDU(10)</a> <a href='/blog/categories/experience' style='font-size: 102.0%'>Experience(1)</a> <a href='/blog/categories/faith' style='font-size: 148.0%'>Faith(24)</a> <a href='/blog/categories/firewall' style='font-size: 102.0%'>Firewall(1)</a> <a href='/blog/categories/football-game' style='font-size: 104.0%'>Football Game(2)</a> <a href='/blog/categories/game' style='font-size: 116.0%'>Game(8)</a> <a href='/blog/categories/game-theory' style='font-size: 104.0%'>Game Theory(2)</a> <a href='/blog/categories/geek' style='font-size: 134.0%'>Geek(17)</a> <a href='/blog/categories/github' style='font-size: 104.0%'>Github(2)</a> <a href='/blog/categories/golang' style='font-size: 160.0%'>golang(30)</a> <a href='/blog/categories/google' style='font-size: 104.0%'>Google(2)</a> <a href='/blog/categories/hack' style='font-size: 104.0%'>Hack(2)</a> <a href='/blog/categories/harmonica' style='font-size: 102.0%'>Harmonica(1)</a> <a href='/blog/categories/history' style='font-size: 102.0%'>History(1)</a> <a href='/blog/categories/humanity' style='font-size: 102.0%'>Humanity(1)</a> <a href='/blog/categories/ideas' style='font-size: 108.0%'>Ideas(4)</a> <a href='/blog/categories/internship' style='font-size: 138.0%'>Internship(19)</a> <a href='/blog/categories/java' style='font-size: 128.0%'>Java(14)</a> <a href='/blog/categories/java-zone' style='font-size: 102.0%'>Java Zone(1)</a> <a href='/blog/categories/javascript' style='font-size: 114.0%'>JavaScript(7)</a> <a href='/blog/categories/job' style='font-size: 124.0%'>Job(12)</a> <a href='/blog/categories/linux' style='font-size: 156.0%'>Linux(28)</a> <a href='/blog/categories/management' style='font-size: 104.0%'>Management(2)</a> <a href='/blog/categories/memo' style='font-size: 130.0%'>Memo(15)</a> <a href='/blog/categories/mensa' style='font-size: 102.0%'>Mensa(1)</a> <a href='/blog/categories/mineral-processing' style='font-size: 118.0%'>Mineral Processing(9)</a> <a href='/blog/categories/mooc' style='font-size: 110.0%'>MOOC(5)</a> <a href='/blog/categories/movie' style='font-size: 112.0%'>Movie(6)</a> <a href='/blog/categories/ms' style='font-size: 102.0%'>MS(1)</a> <a href='/blog/categories/octopress' style='font-size: 130.0%'>Octopress(15)</a> <a href='/blog/categories/python' style='font-size: 102.0%'>Python(1)</a> <a href='/blog/categories/ruby' style='font-size: 106.0%'>Ruby(3)</a> <a href='/blog/categories/sagemath' style='font-size: 102.0%'>Sagemath(1)</a> <a href='/blog/categories/secure' style='font-size: 102.0%'>Secure(1)</a> <a href='/blog/categories/seo' style='font-size: 116.0%'>SEO(8)</a> <a href='/blog/categories/share' style='font-size: 102.0%'>Share(1)</a> <a href='/blog/categories/software' style='font-size: 106.0%'>Software(3)</a> <a href='/blog/categories/technology' style='font-size: 104.0%'>Technology(2)</a> <a href='/blog/categories/ted' style='font-size: 104.0%'>TED(2)</a> <a href='/blog/categories/teofl' style='font-size: 102.0%'>Teofl(1)</a> <a href='/blog/categories/thinking' style='font-size: 122.0%'>Thinking(11)</a> <a href='/blog/categories/tips' style='font-size: 138.0%'>Tips(19)</a> <a href='/blog/categories/translation' style='font-size: 110.0%'>Translation(5)</a> <a href='/blog/categories/travel' style='font-size: 128.0%'>Travel(14)</a> <a href='/blog/categories/tv' style='font-size: 106.0%'>TV(3)</a> <a href='/blog/categories/utb' style='font-size: 104.0%'>UTB(2)</a> <a href='/blog/categories/video' style='font-size: 112.0%'>Video(6)</a> <a href='/blog/categories/wordpress' style='font-size: 106.0%'>Wordpress(3)</a> </span>
 </div>
 </section><section>
   <h2>Recent Posts</h2>
@@ -442,10 +467,6 @@ md5: <code>a5ab5c4a373d2e8000e5f6cb5af4c365</code></p>
     
       <li class="post">
         <a href="/05_11_a.html">Octopree plugin popular post</a>
-      </li>
-    
-      <li class="post">
-        <a href="/04_07_domain-on-sale.html">Domain On Sale</a>
       </li>
     
       <li class="post">
@@ -518,6 +539,10 @@ md5: <code>a5ab5c4a373d2e8000e5f6cb5af4c365</code></p>
     
       <li class="post">
         <a href="/09_03_the-second-business-trip.html">The Second Business Trip</a>
+      </li>
+    
+      <li class="post">
+        <a href="/08_24_about-the-magazine-ma-nong.html">About the magazine Ma Nong</a>
       </li>
     
   </ul>
